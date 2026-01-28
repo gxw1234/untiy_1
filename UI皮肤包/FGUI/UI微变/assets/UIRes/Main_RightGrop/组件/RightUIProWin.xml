@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="63,63" scroll="both">
+  <displayList>
+    <component id="qjj47" name="RightUiPromoteBtn" src="k02tn1ux" fileName="Main_RightGrop/组件/RightUiPromoteBtn.xml" xy="0,0" size="63,63">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+  <transition name="select" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Alpha" target="qjj47" value="1"/>
+    <item time="6" type="Alpha" target="qjj47" value="0.9"/>
+    <item time="12" type="Alpha" target="qjj47" value="0.8"/>
+    <item time="18" type="Alpha" target="qjj47" value="0.7"/>
+    <item time="24" type="Alpha" target="qjj47" value="0.6"/>
+    <item time="30" type="Alpha" target="qjj47" value="0.5"/>
+    <item time="36" type="Alpha" target="qjj47" value="0.4"/>
+    <item time="42" type="Alpha" target="qjj47" value="0.3"/>
+    <item time="48" type="Alpha" target="qjj47" value="0.2"/>
+    <item time="54" type="Alpha" target="qjj47" value="0.1"/>
+  </transition>
+</component>

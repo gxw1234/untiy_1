@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="926,593" opaque="false" scroll="both">
+  <controller name="CPages" exported="true" pages="0,page1,1,page2,2,page3,3,page4,4,page5" selected="0"/>
+  <displayList>
+    <image id="m0240" name="WinGuildUI" src="kn5z16d" fileName="WinGuild/Data/OMG_MobileMini.Pak/WinGuild_00413.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="1ss56" name="frame" src="kn5z179" fileName="WinGuild/组件/frame.xml" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="b6jc1" name="ImgGuild" src="kn5z16e" fileName="WinGuild/Data/OMG_MobileMini.Pak/WinGuild_00404.png" pkg="jk0io98j" xy="54,12" size="53,29"/>
+    <component id="f66t4" name="BtnClose" src="kn5z17a" fileName="WinGuild/组件/BtnClose.xml" pkg="jk0io98j" xy="887,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="sr67r" name="TabBtnLog" src="kn5z17f" fileName="WinGuild/组件/TabBtnLog.xml" pkg="jk0io98j" xy="887,376" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="4"/>
+    </component>
+    <component id="1v183" name="TabBtnApply" src="kn5z17e" fileName="WinGuild/组件/TabBtnApply.xml" pkg="jk0io98j" xy="887,299">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="3"/>
+    </component>
+    <component id="6tr63" name="TabBtnDiplomacy" src="kn5z17d" fileName="WinGuild/组件/TabBtnDiplomacy.xml" pkg="jk0io98j" xy="887,221">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="2"/>
+    </component>
+    <component id="70wiq" name="TabBtnMember" src="kn5z17c" fileName="WinGuild/组件/TabBtnMember.xml" pkg="jk0io98j" xy="887,144">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="1"/>
+    </component>
+    <component id="6q5wt" name="TabBtnGuild" src="kn5z17b" fileName="WinGuild/组件/TabBtnGuild.xml" pkg="jk0io98j" xy="887,65">
+      <relation target="" sidePair=""/>
+      <Button checked="true" sound="ui://b3xl678aui26b" controller="CPages" page="0"/>
+    </component>
+    <graph id="a706t" name="ModalLayer" xy="0,0" size="2,2" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="7ojaf" name="DA2EPage1" src="kn5z17m" fileName="WinGuild/组件/DA2EPage1.xml" pkg="jk0io98j" xy="0,-2">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component id="42qqk" name="DA2EPage2" src="kn5z17p" fileName="WinGuild/组件/DA2EPage2.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component id="2g8t2" name="DA2EPage3" src="kn5z17t" fileName="WinGuild/组件/DA2EPage3.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <component id="r1dy1" name="DA2EPage4" src="kn5z185" fileName="WinGuild/组件/DA2EPage4.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="3"/>
+    </component>
+    <component id="u0ui7" name="DA2EPage5" src="kn5z188" fileName="WinGuild/组件/DA2EPage5.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="4"/>
+    </component>
+  </displayList>
+</component>

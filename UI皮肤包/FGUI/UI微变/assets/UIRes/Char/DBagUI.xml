@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="394,324" scroll="both">
+  <displayList>
+    <image id="x452c" src="j3e21k0" fileName="00308.PNG" xy="0,0" name="DBagUI">
+      <relation sidePair=""/>
+    </image>
+    <list id="43878" name="DBagGrid" xy="17,16" size="354,283" treeView="false" layout="flow_hz" overflow="scroll" scrollBarFlags="128" align="center" vAlign="middle" lineGap="7" colGap="3" lineItemCount="4" lineItemCount2="0" defaultItem="ui://jk0io98jj3e21ks"/>
+  </displayList>
+</component>

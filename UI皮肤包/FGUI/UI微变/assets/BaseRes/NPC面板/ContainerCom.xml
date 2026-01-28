@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" overflow="scroll" scroll="both">
+  <displayList>
+    <graph id="n0_9kp7" name="Stroke" xy="-1,-1" size="102,102" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff336600" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

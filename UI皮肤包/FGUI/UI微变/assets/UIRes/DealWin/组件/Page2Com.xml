@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="639,435">
+  <displayList>
+    <image id="n0_js02" name="n0" src="hr3gn1xk" fileName="Data/00280.PNG" xy="0,0" size="637,44"/>
+    <image id="n11_js02" name="n11" src="hr3gn1yd" fileName="Data/00914.png" xy="360,14"/>
+    <image id="n12_js02" name="n12" src="hr3gn1yd" fileName="Data/00914.png" xy="480,14"/>
+    <list id="n2_js02" name="MoneyGrids" xy="0,46" size="635,346" overflow="scroll" defaultItem="ui://jk0io98jj3e21bv" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n3_js02" name="TGNameTxt" xy="3,4" size="124,32" font="Microsoft YaHei" fontSize="18" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="商品名称"/>
+    <text id="n4_js02" name="TGroleTxt" xy="144,4" size="124,32" font="Microsoft YaHei" fontSize="18" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="寄售人"/>
+    <text id="n8_js02" name="TGPlayTxt" xy="526,4" size="110,32" font="Microsoft YaHei" fontSize="18" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="操作"/>
+    <richtext id="n9_js02" name="TGNumTxt" xy="284,4" size="107,32" font="Microsoft YaHei" fontSize="18" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="数量"/>
+    <richtext id="n10_js02" name="TGPriceTxt" xy="403,4" size="110,32" font="Microsoft YaHei" fontSize="18" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="价格"/>
+  </displayList>
+</component>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="383,540" scroll="both">
+  <displayList>
+    <image id="011d6" src="hr3gn1w1" fileName="00347.PNG" xy="19,86" size="314,434" name="DA2EIMAGE2" alpha="1.0"/>
+    <list id="53s4b" name="DRecoverItemList" xy="19,202" size="165,315" treeView="false" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="5" lineItemCount2="5" defaultItem="ui://jk0io98jj3e21jw">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text name="TitleTextEdit" id="15hte" xy="190,202" size="139,315" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="外显时装" color="#FFFFFF" align="center" vAlign="middle" ubb="true" anchor="false"/>
+    <component name="TopLoad" id="17kc4" src="j3e21ju" fileName="TopLoad.xml" xy="32,98">
+      <relation target="" sidePair=""/>
+    </component>
+    <text name="TopName" id="x5kce" xy="109,108" size="161,31" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="外显时装" color="#FFFFFF" vAlign="middle" ubb="true" anchor="false"/>
+  </displayList>
+</component>

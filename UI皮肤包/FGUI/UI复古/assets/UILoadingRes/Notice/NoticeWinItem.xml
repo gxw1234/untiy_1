@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="526,36" scroll="both">
+  <displayList>
+    <richtext name="ItemShowInfo" id="gw3g1" xy="0,0" size="526,36" font="Microsoft YaHei" fontSize="18" leading="8" autoSize="height" text="" color="#B9A590" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <relation target="gw3g1" sidePair="width-width,height-height"/>
+</component>

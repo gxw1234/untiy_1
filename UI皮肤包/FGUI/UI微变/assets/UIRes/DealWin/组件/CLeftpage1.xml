@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="839,535">
+  <controller name="c1" pages="0,rbtn1,1,rbtn2,3,rbtn3,4,rbtn4" selected="0"/>
+  <displayList>
+    <image id="n6_js02" name="divisionbg" src="hr3gn1xl" fileName="DealWin/Data/DealWin_00267.png" xy="194,0" size="6,519"/>
+    <image id="n10_js02" name="n10" src="hr3gn1y9" fileName="DealWin/Data/DealWin_00915.png" xy="202,438"/>
+    <component id="n2_js02" name="RoleBtn1" src="j3e21bm" fileName="DealWin/组件/Button1.xml" xy="11,7">
+      <Button checked="true" controller="c1" page="0"/>
+    </component>
+    <component id="n3_js02" name="MoneyBtn2" src="j3e21bn" fileName="DealWin/组件/Button2.xml" xy="12,64">
+      <Button controller="c1" page="1"/>
+    </component>
+    <component id="n20_tnfx" name="RoleToMe" src="tnfxgvn2z7" fileName="DealWin/组件/Button5.xml" xy="10,181">
+      <Button controller="c1" page="4"/>
+    </component>
+    <component id="n21_tnfx" name="MoneyToMe" src="tnfxgvn2z6" fileName="DealWin/组件/Button4.xml" xy="10,123">
+      <Button controller="c1" page="3"/>
+    </component>
+    <component id="n7_js02" name="Page1Com" src="j3e21bq" fileName="DealWin/组件/Page1Com.xml" xy="200,0" size="639,435">
+      <gearDisplay controller="c1" pages="0,3"/>
+    </component>
+    <component id="n8_js02" name="Page2Com" src="j3e21bu" fileName="DealWin/组件/Page2Com.xml" xy="200,0">
+      <gearDisplay controller="c1" pages="1,4"/>
+    </component>
+    <component id="n11_js02" name="DealExplainBtn" src="j3e21bw" fileName="DealWin/组件/wenhao1.xml" xy="223,462"/>
+    <component id="n12_js02" name="TakeMoenBtn" src="j3e21bx" fileName="DealWin/组件/tixianbtn.xml" xy="676,458"/>
+    <text id="n13_js02" name="n13" xy="348,467" size="102,32" font="Microsoft YaHei" fontSize="16" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="我的交易币："/>
+    <text id="n14_js02" name="MoneyJYBText" xy="452,467" size="137,32" font="Microsoft YaHei" fontSize="16" color="#f7f0dd" vAlign="middle" autoSize="none" autoClearText="true" text="99999"/>
+    <image id="n17_qmby" name="footerBg" src="hr3gn1zn" fileName="DealWin/Data/DealWin_00003.png" xy="414,404"/>
+    <component id="n15_gwvq" name="DealBtnPageUp" src="gcp1n1ps" fileName="DealWin/组件/DealBtnPageUp.xml" xy="382,406"/>
+    <component id="n16_gwvq" name="DealBtnPageDown" src="gcp1n1pt" fileName="DealWin/组件/DealBtnPageDown.xml" xy="535,406"/>
+    <text id="n18_qmby" name="FooterNums" xy="419,407" size="111,28" font="Microsoft YaHei" fontSize="16" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="1/7"/>
+  </displayList>
+</component>

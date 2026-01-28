@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <graph size="700,470" id="4n8vs" name="bg" xy="290,91" lineSize="1" type="rect" fillColor="#7fffffff" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="Title" id="4reji" xy="292,49" size="97,35" font="Microsoft YaHei" fontSize="25" leading="0" autoSize="none" text="容器:" color="#FFFFFF" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <graph size="700,55" id="w11o5" name="WilBg" xy="290,90" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="WilTxt" id="631vl" xy="300,102" size="98,32" font="Microsoft YaHei" fontSize="22" leading="0" text="输入框ID:" color="#FFFFFF" anchor="false"/>
+    <text name="Input1" id="tmq5s" xy="403,97" size="563,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <graph size="700,55" id="usy3q" name="ImgBg" xy="291,147" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="ImgTxt" id="krw1s" xy="301,159" size="58,32" font="Microsoft YaHei" fontSize="22" leading="0" text="X坐标:" color="#FFFFFF" anchor="false"/>
+    <text name="Input2" id="hf631" xy="370,154" size="240,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <graph size="700,55" id="0xbn3" name="HintBg" xy="290,318" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component name="CancelBtn" id="60d6c" src="qgn27t" fileName="CancelBtn.xml" xy="517,476">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="ConfirmBtn" id="de2h3" src="qgn27u" fileName="ConfirmBtn.xml" xy="696,476">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <graph size="700,55" id="872hg" name="SortBg" xy="290,204" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="ImgTxt4" id="7e74w" xy="300,214" size="58,32" font="Microsoft YaHei" fontSize="22" leading="0" text="宽度:" color="#FFFFFF" anchor="false"/>
+    <text name="Input4" id="0dh74" xy="368,211" size="242,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <graph size="700,55" id="iw32j" name="TitleBg" xy="291,261" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="HintTxt" id="2qc8h" xy="300,274" size="94,32" font="Microsoft YaHei" fontSize="22" leading="0" text="背景颜色:" color="#FFFFFF" anchor="false"/>
+    <text name="Input6" id="2j42g" xy="401,268" size="572,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <text name="ImgTxt2" id="7p1j7" xy="629,159" size="58,32" font="Microsoft YaHei" fontSize="22" leading="0" text="Y坐标:" color="#FFFFFF" anchor="false"/>
+    <text name="Input3" id="hyvw1" xy="700,154" size="276,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <text name="FLinkTxt" id="rm055" xy="300,329" size="229,32" font="Microsoft YaHei" fontSize="22" leading="0" text="是否弹性(0=否 1=是):" color="#FFFFFF" anchor="false"/>
+    <text name="Input7" id="74e7i" xy="532,324" size="425,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <graph size="700,55" id="x1bsi" name="FLinkBg8" xy="290,376" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="Input8" id="fts84" xy="871,382" size="114,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <text name="FLinkTxt8" id="67kd4" xy="300,388" size="565,32" font="Microsoft YaHei" fontSize="22" leading="0" text="0=不可拖动1=上下拖动2=左右拖动3=根据内容自由拖动:" color="#FFFFFF" anchor="false"/>
+    <text name="ImgTxt5" id="0ftu7" xy="629,213" size="58,32" font="Microsoft YaHei" fontSize="22" leading="0" text="高度:" color="#FFFFFF" anchor="false"/>
+    <text name="Input5" id="61573" xy="700,208" size="273,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="use7blkk">
+  <resources>
+    <component id="r7r80" name="CusBtn.xml" path="/自定义按钮/" exported="true"/>
+    <component id="r7r81" name="ScnButtomUI.xml" path="/自定义按钮/" exported="true"/>
+    <image id="r7r83o" name="00560.PNG" path="/断线重连/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="r7r83p" name="00561.PNG" path="/断线重连/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="r7r83q" name="00562.PNG" path="/断线重连/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="r7r83r" name="00563.PNG" path="/断线重连/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="r7r83s" name="00564.PNG" path="/断线重连/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="r7r83t" name="00565.PNG" path="/断线重连/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="r7r83u" name="00566.PNG" path="/断线重连/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="r7r83v" name="00567.PNG" path="/断线重连/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <component id="r7r83w" name="BreakLineUI.xml" path="/断线重连/" exported="true"/>
+    <image id="r7r83x" name="00598.PNG" path="/指引和小红点/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <component id="r7r83y" name="txtComLeft.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r83z" name="txtComRight.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r840" name="c0.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r841" name="c1.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r842" name="c2.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r843" name="c3.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r844" name="c4.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r845" name="c5.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r846" name="c6.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r847" name="c7.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r848" name="c8.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r849" name="txtComLeftAnis.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r84a" name="txtComHides.xml" path="/指引和小红点/组件/" exported="true"/>
+    <component id="r7r84b" name="GuideLayer.xml" path="/指引和小红点/" exported="true"/>
+    <component id="r7r84c" name="RedNoteUI.xml" path="/指引和小红点/" exported="true"/>
+    <image id="qgn264" name="Npc_00190.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn265" name="Npc_00000.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn266" name="Npc_00001.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn267" name="Npc_00188.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn268" name="Npc_00003.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn269" name="Npc_00006.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn26a" name="Npc_00007.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn26b" name="Npc_00004.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn26c" name="Npc_00005.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn26d" name="Npc_00010.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn26e" name="Npc_00011.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn26f" name="Npc_00187.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn26g" name="Npc_00186.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn26h" name="Npc_00859.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn26i" name="Npc_00176.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="qgn26j" name="Npc_00177.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <component id="qgn26k" name="frame.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26l" name="closeButton.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26m" name="ImgMulRoot.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26n" name="BtnClose1.xml" path="/NPC面板/组件/" exported="true"/>
+    <component id="qgn26o" name="BtnPageUp.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26p" name="BtnPageDown.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26q" name="BtnOk1.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26r" name="BtnOk2.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26s" name="BtnColose2.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26t" name="GameItemCell1.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26u" name="Btn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26v" name="DBtnCommonHitUIClose.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26w" name="NewNpcDCloseBtn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26x" name="SignOutBtn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26y" name="SwitchBtn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn26z" name="DelBtn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn270" name="ExpBtn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn271" name="LoadBtn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn272" name="ClearBtn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn273" name="DA2ESimpleButton1.xml" path="/NPC面板/组件/"/>
+    <component id="qgn274" name="DA2ESimpleButton2.xml" path="/NPC面板/组件/"/>
+    <component id="qgn275" name="DA2ESimpleButton3.xml" path="/NPC面板/组件/"/>
+    <component id="qgn276" name="BigNPC.xml" path="/NPC面板/组件/"/>
+    <component id="qgn277" name="DA2ESimpleButton4.xml" path="/NPC面板/组件/"/>
+    <component id="qgn278" name="DA2ESimpleButton5.xml" path="/NPC面板/组件/"/>
+    <component id="qgn279" name="DA2ESimpleButton6.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27a" name="DA2ESimpleButton7.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27b" name="DA2ESimpleButton8.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27c" name="DA2ESimpleButton9.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27d" name="DA2ESimpleButton10.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27e" name="FileID.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27f" name="ImgID.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27g" name="CanMove.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27h" name="ShowPos.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27i" name="MX.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27j" name="MY.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27k" name="ShowCloseButton.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27l" name="CloseX.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27m" name="CloseY.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27n" name="CurMerchant.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27o" name="Stretch.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27p" name="CloseScale.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27q" name="IsContainer.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27r" name="Panel.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27s" name="SelAllBtn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27t" name="CancelBtn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27u" name="ConfirmBtn.xml" path="/NPC面板/组件/"/>
+    <component id="qgn27v" name="CancelBtn(1).xml" path="/NPC面板/组件/"/>
+    <component id="qgn27w" name="ConfirmBtn(1).xml" path="/NPC面板/组件/"/>
+    <component id="qgn27x" name="CancelBtn(2).xml" path="/NPC面板/组件/"/>
+    <component id="qgn27y" name="ConfirmBtn(2).xml" path="/NPC面板/组件/"/>
+    <component id="qgn27z" name="CancelBtn(3).xml" path="/NPC面板/组件/"/>
+    <component id="qgn280" name="ConfirmBtn(3).xml" path="/NPC面板/组件/"/>
+    <component id="qgn281" name="CancelBtn(4).xml" path="/NPC面板/组件/"/>
+    <component id="qgn282" name="ConfirmBtn(4).xml" path="/NPC面板/组件/"/>
+    <component id="qgn283" name="CancelBtn(5).xml" path="/NPC面板/组件/"/>
+    <component id="qgn284" name="ConfirmBtn(5).xml" path="/NPC面板/组件/"/>
+    <component id="qgn285" name="CancelBtn(6).xml" path="/NPC面板/组件/"/>
+    <component id="qgn286" name="ConfirmBtn(6).xml" path="/NPC面板/组件/"/>
+    <component id="qgn287" name="CancelBtn(7).xml" path="/NPC面板/组件/"/>
+    <component id="qgn288" name="ConfirmBtn(7).xml" path="/NPC面板/组件/"/>
+    <component id="qgn289" name="Detail.xml" path="/NPC面板/组件/"/>
+    <component id="qgn28a" name="ConfirmBtn(8).xml" path="/NPC面板/组件/"/>
+    <component id="qgn28b" name="CancelBtn(8).xml" path="/NPC面板/组件/"/>
+    <component id="qgn28c" name="CancelBtn(9).xml" path="/NPC面板/组件/"/>
+    <component id="qgn28d" name="ConfirmBtn(9).xml" path="/NPC面板/组件/"/>
+    <component id="qgn28e" name="Btn.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28f" name="ClickSize.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28g" name="ClickSizeEditor.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28h" name="ContainerCom.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28i" name="ContainerEditor.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28j" name="CustomNpcDlg.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28k" name="DA2EWindow1.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28l" name="DA2EWindow2.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28m" name="DNpcDlg.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28n" name="EquipCell.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28o" name="GameItemGrid.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28p" name="GridItem.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28q" name="Img.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28r" name="ImgEditor.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28s" name="ImgEx.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28t" name="ImgExEditor.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28u" name="ImgNum.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28v" name="Input.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28w" name="InputEditor.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28x" name="ItemBox.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28y" name="ItemBoxEditor.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn28z" name="ItemCell.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn290" name="ItemShow.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn291" name="ItemShowEditor.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn292" name="NPCMode.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn293" name="NewNpcDlg.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn294" name="PlayImg.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn295" name="PlayImgEditor.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn296" name="PlayImgEx.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn297" name="PlayImgExEditor.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn298" name="ProgressBar.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn299" name="TextEditor.xml" path="/NPC面板/" exported="true"/>
+    <component id="qgn29a" name="Txt.xml" path="/NPC面板/" exported="true"/>
+    <image id="sv8r9b" name="Npc_000047.png" path="/NPC面板/Data/bg/" exported="true"/>
+    <image id="sv8r9c" name="Npc_820.png" path="/NPC面板/Data/Effect/" exported="true"/>
+    <image id="sv8r9d" name="Npc_821.png" path="/NPC面板/Data/Effect/" exported="true"/>
+    <image id="sv8r9e" name="Npc_822.png" path="/NPC面板/Data/Effect/" exported="true"/>
+    <image id="sv8r9f" name="Npc_823.png" path="/NPC面板/Data/Effect/" exported="true"/>
+    <image id="sv8r9g" name="Npc_824.png" path="/NPC面板/Data/Effect/" exported="true"/>
+    <image id="sv8r9h" name="Npc_825.png" path="/NPC面板/Data/Effect/" exported="true"/>
+    <image id="sv8r9i" name="Npc_00000.png" path="/NPC面板/Data/gbdiy.Pak/" exported="true"/>
+    <image id="sv8r9j" name="Npc_00020.png" path="/NPC面板/Data/gbdiy.Pak/" exported="true"/>
+    <image id="sv8r9k" name="Npc_00244.png" path="/NPC面板/Data/gbdiy.Pak/" exported="true"/>
+    <image id="sv8r9l" name="Npc_00246.png" path="/NPC面板/Data/gbdiy.Pak/" exported="true"/>
+    <image id="sv8r9m" name="Npc_1270.png" path="/NPC面板/Data/Num/" exported="true"/>
+    <image id="sv8r9n" name="Npc_1271.png" path="/NPC面板/Data/Num/" exported="true"/>
+    <image id="sv8r9o" name="Npc_1272.png" path="/NPC面板/Data/Num/" exported="true"/>
+    <image id="sv8r9p" name="Npc_1273.png" path="/NPC面板/Data/Num/" exported="true"/>
+    <image id="sv8r9q" name="Npc_1274.png" path="/NPC面板/Data/Num/" exported="true"/>
+    <image id="sv8r9r" name="Npc_1275.png" path="/NPC面板/Data/Num/" exported="true"/>
+    <image id="sv8r9s" name="Npc_1276.png" path="/NPC面板/Data/Num/" exported="true"/>
+    <image id="sv8r9t" name="Npc_1277.png" path="/NPC面板/Data/Num/" exported="true"/>
+    <image id="sv8r9u" name="Npc_1278.png" path="/NPC面板/Data/Num/" exported="true"/>
+    <image id="sv8r9v" name="Npc_1279.png" path="/NPC面板/Data/Num/" exported="true"/>
+    <component id="lfwa9w" name="DA2ESimpleButton11.xml" path="/NPC面板/组件/"/>
+    <component id="lfwa9x" name="EquipCellEditor.xml" path="/NPC面板/" exported="true"/>
+    <image id="y2cl9y" name="Npc_00012.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2cl9z" name="Npc_00013.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2cla0" name="Npc_00014.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2cla1" name="Npc_00015.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2cla2" name="Npc_00016.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2cla3" name="Npc_00017.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2cla4" name="Npc_00018.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2cla5" name="Npc_00019.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <component id="y2cla8" name="StoreWindow.xml" path="/NPC面板/" exported="true"/>
+    <component id="y2cla9" name="StoreWindowSelect.xml" path="/NPC面板/" exported="true"/>
+    <component id="y2claa" name="PageDown.xml" path="/NPC面板/组件/" exported="true"/>
+    <component id="y2clab" name="PageUp.xml" path="/NPC面板/组件/" exported="true"/>
+    <component id="y2clad" name="BtnBuy.xml" path="/NPC面板/组件/" exported="true"/>
+    <component id="y2clae" name="buyButton.xml" path="/NPC面板/组件/" exported="true"/>
+    <image id="y2clgvn2wt" name="Npc_00020.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2clgvn2wu" name="Npc_00021.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2clgvn2wv" name="Npc_00022.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2clgvn2ww" name="Npc_00023.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2clgvn2wx" name="Npc_00024.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2clgvn2wy" name="Npc_00025.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="y2clgvn2wz" name="Npc_00026.png" path="/NPC面板/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <component id="y2clgvn2x4" name="ConfirmBtn1.xml" path="/NPC面板/组件/" exported="true"/>
+    <component id="y2clgvn2x5" name="ItemCeil1.xml" path="/NPC面板/组件/" exported="true"/>
+    <component id="y2clgvn2x6" name="LeftTurnBtn1.xml" path="/NPC面板/组件/" exported="true"/>
+    <component id="y2clgvn2x7" name="RightTurnBtn1.xml" path="/NPC面板/组件/" exported="true"/>
+  </resources>
+  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+</packageDescription>

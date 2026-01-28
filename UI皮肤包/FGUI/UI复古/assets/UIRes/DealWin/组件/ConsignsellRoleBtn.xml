@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,52" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_t0m7" name="n0" src="hr3gn1xm" fileName="Data/00265.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_t0m7" name="n1" src="hr3gn1xn" fileName="Data/00266.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_t0m7" name="n2" src="hr3gn1xm" fileName="Data/00265.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_t0m7" name="n3" src="hr3gn1xn" fileName="Data/00266.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_t0m7" name="title" xy="9,8" size="123,32" font="Microsoft YaHei" fontSize="18" color="#dfdabc" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="寄售角色"/>
+  </displayList>
+  <Button/>
+</component>

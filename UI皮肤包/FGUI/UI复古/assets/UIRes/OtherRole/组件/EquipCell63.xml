@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,55" scroll="both">
+  <displayList>
+    <loader id="6s8qn" name="Eff21" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="f3101" name="Eff11" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="1h3hy" name="item" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="4771n" name="title" xy="5,32" size="53,22" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="right" leading="0" autoSize="none" autoClearText="true" text=""/>
+    <loader id="81x7j" name="Eff22" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="0s7db" name="Eff12" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="1x66h" name="Eff23" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="mku4x" name="Eff13" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="6l70l" name="bagsLod" xy="59,54" pivot="1,1" anchor="true" size="18,18" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n0_tj03" name="IconXY" xy="0,0" size="357,32" visible="false" fontSize="22" color="#ffffff" autoClearText="true" text="对应PC的图标偏移 修改上面位置X,Y"/>
+  </displayList>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="45,87" scroll="both" extention="Button">
+  <displayList>
+    <image id="421js" src="ldxan2ad" fileName="00885.PNG" xy="0,0" name="Img8856p7">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="88x5a" src="ldxan2ae" fileName="00884.PNG" xy="0,0" name="Img884mbv">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text name="Text" id="eh76s" xy="7,6" size="30,76" font="Microsoft YaHei" fontSize="18" leading="10" autoSize="none" text="道术" color="#DACAAD" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DACAAD|#837155|#DACAAD" default="#837155"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

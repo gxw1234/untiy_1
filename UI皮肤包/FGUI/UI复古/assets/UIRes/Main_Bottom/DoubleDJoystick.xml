@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,316" opaque="false" scroll="both">
+  <displayList>
+    <image id="k4341" name="joystick_center_2" src="ldxan274" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00343.png" xy="185,50" size="160,158">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="k04ap" name="direct_2" src="ldxan275" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00344.png" xy="265,124" pivot="0.5,1" anchor="true" size="152,96" visible="false"/>
+    <component id="n1_v9q4" name="joystick_2" src="gcp1n1ph" fileName="Main_Bottom/组件/joystick_2.xml" xy="230,94"/>
+    <graph id="1p232" name="joystick_touch_2" xy="11,11" size="375,296" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+    <image id="n2_v9q4" name="joystick_center_1" src="ldxan274" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00343.png" xy="42,154" size="120,118" visible="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_v9q4" name="direct_1" src="ldxan275" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00344.png" xy="103,209" pivot="0.5,1" anchor="true" size="114,72" visible="false"/>
+    <component id="n4_v9q4" name="joystick_1" src="gcp1n1pg" fileName="Main_Bottom/组件/joystick_1.xml" xy="68,178" visible="false"/>
+    <graph id="n5_v9q4" name="joystick_touch_1" xy="0,144" size="198,164" visible="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+  </displayList>
+</component>

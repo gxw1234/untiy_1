@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="162,298" scroll="both">
+  <controller name="CRadios" exported="true" selected="0" pages="0,Radio1,1,Radio2,2,Radio3,3,Radio4,4,Radio5,5,Radio6,6,Radio7,7,Radio8"/>
+  <displayList>
+    <component name="DModelMenuItem0" id="w1ndn" src="v9b1fm" fileName="DModelMenuItem0.xml" xy="0,0">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="0" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DModelMenuItem1" id="op57c" src="v9b1fn" fileName="DModelMenuItem1.xml" xy="0,38">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="1" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DModelMenuItem2" id="6wl3p" src="v9b1fo" fileName="DModelMenuItem2.xml" xy="0,76">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="2" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DModelMenuItem3" id="3a4ix" src="v9b1fp" fileName="DModelMenuItem3.xml" xy="0,114">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="3" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DModelMenuItem4" id="60ukb" src="v9b1fq" fileName="DModelMenuItem4.xml" xy="0,152">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="4" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DModelMenuItem5" id="q8fjw" src="v9b1fr" fileName="DModelMenuItem5.xml" xy="0,191">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="5" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DModelMenuItem6" id="d2h75" src="v9b1fs" fileName="DModelMenuItem6.xml" xy="0,228">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="6" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DModelMenuItem7" id="jbogs" src="v9b1ft" fileName="DModelMenuItem7.xml" xy="0,266">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="7" sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

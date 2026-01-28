@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="629,497" opaque="false" scroll="both">
+  <displayList>
+    <image id="5676c" name="StorageUI" src="ldxan2nh" fileName="Storage/Data/OMG_MobileMini.Pak/Storage_00008.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="0m11v" name="frame" src="kn5z142" fileName="Storage/组件/frame.xml" pkg="jk0io98j" xy="0,0"/>
+    <component id="a8788" name="DA2EWindow1" src="kn5z143" fileName="Storage/组件/DA2EWindow1.xml" pkg="jk0io98j" xy="260,454"/>
+    <component id="e2xw5" name="BtnStorageUIClose" src="kn5z144" fileName="Storage/组件/BtnStorageUIClose.xml" pkg="jk0io98j" xy="598,0">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <list id="k432e" name="StorageGrid" xy="15,14" size="568,426" layout="pagination" overflow="hidden" scroll="both" lineGap="3" colGap="3" lineItemCount="8" lineItemCount2="6" defaultItem="ui://jk0io98jkn5z147">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="35qd8" name="BtnPageUp" src="kn5z145" fileName="Storage/组件/BtnPageUp.xml" pkg="jk0io98j" xy="227,454">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="j516o" name="BtnPageDown" src="kn5z146" fileName="Storage/组件/BtnPageDown.xml" pkg="jk0io98j" xy="384,454">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="84jeq" name="DText3" xy="12,451" size="187,35" font="Microsoft YaHei" fontSize="18" color="#008000" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="双击/拖拽可快速存储"/>
+    <text id="opuak" name="DText" xy="530,450" size="50,40" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="0/48"/>
+    <text id="0t40a" name="DText2" xy="263,456" size="115,30" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="0/48"/>
+  </displayList>
+</component>

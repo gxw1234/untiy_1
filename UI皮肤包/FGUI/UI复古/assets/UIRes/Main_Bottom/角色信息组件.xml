@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,168" pivot="0.5,0.5" scroll="both">
+  <displayList>
+    <image id="t31lx" name="血条背景原件" src="ldxan23d" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/血条背景原件.png" xy="406,26" size="84,84">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n7_iwgo" name="魔力量元件" src="iwgogvn2yf" fileName="Main_Bottom/魔力量元件.xml" xy="450,26">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n6_iwgo" name="血量元件" src="iwgogvn2ye" fileName="Main_Bottom/血量元件.xml" xy="426,110" pivot="0.5,1" anchor="true" size="42,84">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <image id="717k8" name="DA2EIMAGE2" src="ldxan23g" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00134.png" xy="308,2" size="666,136">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="01lio" name="DA2EIMAGE1" src="ldxan23h" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00133.png" xy="0,137" size="1280,32">
+      <relation target="" sidePair="rightext-right,leftext-left"/>
+    </image>
+    <text id="3jh2l" name="timerHour" xy="1188,141" size="27,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="18">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <list id="taae3" name="DChatWindow" xy="549,68" size="352,69" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jv9b1g2">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <list id="ykvee" name="快捷物品栏列表" xy="548,2" size="360,60" layout="row" overflow="hidden" scroll="both" defaultItem="ui://jk0io98jv9b1g8">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="h853p" name="DModel" xy="355,93" size="38,38" url="ui://jk0io98jldxan23i" clearOnPublish="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="3b200" name="wifi" xy="14,136" size="40,34" url="ui://jk0io98jldxan23k"/>
+    <component id="p8e40" name="battery" src="v9b11c" fileName="Main_Bottom/组件/battery.xml" xy="105,140">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="833fe" name="DLevel" src="v9b11d" fileName="Main_Bottom/组件/DLevel.xml" xy="294,140" touchable="false"/>
+    <component id="67eo3" name="DWetBar" src="v9b11e" fileName="Main_Bottom/组件/DWetBar.xml" xy="517,143">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="a3p00" name="DExpBar" src="v9b11f" fileName="Main_Bottom/组件/DExpBar.xml" xy="778,143">
+      <ProgressBar max="100"/>
+    </component>
+    <image id="2d418" name="DExpIcon" src="ldxan23s" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00097.png" xy="760,139" size="29,29"/>
+    <image id="783fa" name="DWetIcon" src="ldxan23w" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00098.png" xy="498,139" size="29,29"/>
+    <component id="n60j3" name="BottMailWin" src="v9b11l" fileName="Main_Bottom/组件/BottMailWin.xml" xy="420,-130">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="1ga7c" name="BottGroupWin" src="v9b11n" fileName="Main_Bottom/组件/BottGroupWin.xml" xy="600,-130" visible="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <text id="257ho" name="timerMinute" xy="1220,141" size="27,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="18">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <text id="m6vok" name="timeSecond" xy="1252,141" size="27,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="18">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <text id="a3516" name="TimeIinterval1" xy="1212,141" size="10,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text=":">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <text id="ev0m7" name="TimeIinterval2" xy="1244,141" size="10,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text=":">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <component id="sp75g" name="BottGuildWin" src="v9b11p" fileName="Main_Bottom/组件/BottGuildWin.xml" xy="480,-130">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="vt7fs" name="BottFriendWin" src="v9b11r" fileName="Main_Bottom/组件/BottFriendWin.xml" xy="540,-130">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="73607" name="BottomRankBtn" src="v9b11t" fileName="Main_Bottom/组件/BottomRankBtn.xml" xy="505,93">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n2_iefv" name="buttonVolume" src="iefvgvn2x4" fileName="Main_Bottom/Buttom_volume.xml" xy="1065,139">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <text id="n3_iefv" name="textVolume" xy="1091,140" size="67,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text="100%">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <loader id="n4_i1fr" name="DRun" xy="4,55" size="91,79" url="ui://jk0io98jldxan23j"/>
+    <component id="n8_s8gp" name="Pet" src="s8gpgvn317" fileName="Main_Bottom/组件/Pet.xml" xy="947,112" size="29,29" aspect="true">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n9_s8gp" name="PET" src="s8gpgvn318" fileName="Main_Bottom/PET.xml" xy="310,100">
+      <relation target="" sidePair="center-center"/>
+    </component>
+  </displayList>
+</component>

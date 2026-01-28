@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="549,349" scroll="both">
+  <displayList>
+    <image id="8j2p0" name="DA2EWindow5" src="kn5z162" fileName="Data/OMG_MobileMini.Pak/00261.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="r64y4" name="ChatEdit25" xy="156,3" size="233,39" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="编辑公告"/>
+    <component id="j3t2t" name="BtnNoticeSave" src="kn5z175" fileName="组件/BtnNoticeSave.xml" xy="265,281" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="e57m6" name="BtnNoticeCancle" src="kn5z176" fileName="组件/BtnNoticeCancle.xml" xy="403,281" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="t087k" name="EditNoticeTxt" xy="19,44" size="509,229" font="Microsoft YaHei" fontSize="16" color="#ffffff" leading="0" autoSize="none" strokeColor="#000000" text="" input="true"/>
+  </displayList>
+</component>

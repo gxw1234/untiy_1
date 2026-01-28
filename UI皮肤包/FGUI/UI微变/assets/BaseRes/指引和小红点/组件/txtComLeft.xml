@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="192,49" scroll="both">
+  <displayList>
+    <loader id="p68a8" name="n12" size="42,46" touchable="false" xy="147,2"/>
+    <loader id="8oi8h" name="n0" size="122,49" xy="0,0"/>
+    <text name="sNameTxt" id="6p363" xy="0,9" size="120,32" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <relation target="7467a" sidePair="middle-middle,left-left"/>
+</component>

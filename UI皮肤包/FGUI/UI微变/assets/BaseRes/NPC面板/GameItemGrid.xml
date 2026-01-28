@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" scroll="both">
+  <displayList>
+    <list id="y3w5u" name="NpcitemGrids" xy="0,0" size="80,80" treeView="false" layout="pagination" overflow="hidden" scroll="both" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="2" lineItemCount2="2" defaultItem="ui://use7blkkr7r82q">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="y3w5u" sidePair="width-width,height-height"/>
+</component>

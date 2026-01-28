@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,36" opaque="false" scroll="both">
+  <displayList>
+    <text id="301yw" name="msg" xy="0,0" size="10,36" font="ui://t1h1280lvns0d" fontSize="26" color="#ffffff" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" autoClearText="true" text=""/>
+  </displayList>
+  <relation target="301yw" sidePair="width-width,height-height"/>
+</component>

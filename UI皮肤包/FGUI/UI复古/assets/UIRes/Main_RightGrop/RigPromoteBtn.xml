@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,52" scroll="both" extention="Button">
+  <displayList>
+    <image id="a33cb" src="ldxan22s" fileName="00497.PNG" xy="0,0" name="Img497216">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="3u4td" src="ldxan22t" fileName="00498.PNG" xy="0,0" name="Img49840s">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text name="title" id="nmii4" xy="9,7" size="142,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="装备强星" color="#DFCFB4" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#837155|#DFCFB4|#837155" default="#DFCFB4"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

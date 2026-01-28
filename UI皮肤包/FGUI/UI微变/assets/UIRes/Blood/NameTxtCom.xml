@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,200" scroll="both">
+  <displayList>
+    <text name="HeadEdit" id="fj0b8" xy="0,0" size="200,200" font="Microsoft YaHei" fontSize="32" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <graph size="200,200" id="w8815" name="n3" xy="0,0" lineSize="0" fillColor="" lineColor=""/>
+  </displayList>
+</component>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="933,602" scroll="both">
+  <displayList>
+    <list id="dr5v0" name="DMyFriendsList" xy="195,97" size="666,376" treeView="false" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://jk0io98jkn5z15u">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="DMyFriendsTitle" id="1v1uu" src="kn5z14z" fileName="DMyFriendsTitle.xml" xy="192,54">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="DA2ESimpleButton8" id="06gi6" src="kn5z150" fileName="DA2ESimpleButton8.xml" xy="712,512">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text name="DMyFriendMsg" id="08658" xy="192,520" size="223,41" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

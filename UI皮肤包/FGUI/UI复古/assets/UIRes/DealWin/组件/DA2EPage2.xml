@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="384,538" opaque="false" scroll="both">
+  <displayList>
+    <component id="0y8u2" name="RoleStateWUI" src="j3e21ew" fileName="组件/RoleStateWUI.xml" xy="19,87">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+</component>

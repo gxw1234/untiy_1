@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <graph id="5300n" name="bg" xy="303,45" size="700,631" type="rect" fillColor="#7fffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="ul705" name="Title" xy="303,3" size="123,35" font="Microsoft YaHei" fontSize="25" color="#ffffff" leading="0" text="EquipCell:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="77e37" name="WilBg" xy="303,46" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="43n72" name="WilTxt" xy="313,58" size="143,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" text=" WIL文件序号:"/>
+    <text id="3f04w" name="Input3" xy="470,53" size="512,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="2fg3p" name="ImgBg" xy="303,103" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="472t1" name="ImgTxt" xy="314,115" size="273,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" text="背景为文件中的第几个图片:"/>
+    <text id="8h7d4" name="Input4" xy="598,110" size="382,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="3fi1u" name="ImgBg5" xy="303,159" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="b7v6c" name="ImgTxt5" xy="314,172" size="333,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" text="角色类型(0:自己 1:英雄 2:其他人):"/>
+    <text id="x107w" name="Input5" xy="660,167" size="320,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n0_gesk" name="ImgBg6" xy="303,216" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n1_gesk" name="ImgTxt6" xy="312,230" size="173,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" text="装备位置(0~70) :"/>
+    <text id="n2_gesk" name="Input6" xy="497,222" size="481,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n5_gesk" name="ImgBg7" xy="303,274" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n6_gesk" name="ImgTxt7" xy="306,272" size="294,60" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" autoSize="none" text=" 绘制模式 (0 背包图标绘制 1 人物身上格子绘制)"/>
+    <text id="n7_gesk" name="Input7" xy="609,280" size="369,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="gqm02" name="HintBg8" xy="303,331" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="tocc8" name="HintTxt" xy="313,343" size="259,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" text="0,1  参与排版 不参与排版:"/>
+    <text id="b87a7" name="Input8" xy="585,338" size="394,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n8_lfwa" name="HintBg9" xy="303,388" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n9_lfwa" name="HintTxt9" xy="313,400" size="66,32" grayed="true" font="Microsoft YaHei" fontSize="22" color="#ff99ff" leading="0" text="参数9:"/>
+    <text id="n10_lfwa" name="Input9" xy="389,395" size="273,42" touchable="false" grayed="true" font="Microsoft YaHei" fontSize="22" color="#ff99ff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="0" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n11_lfwa" name="HintTxt10" xy="684,400" size="222,32" grayed="true" font="Microsoft YaHei" fontSize="22" color="#ff99ff" leading="0" autoSize="none" text="参数9:"/>
+    <text id="n12_lfwa" name="Input10" xy="760,395" size="238,42" touchable="false" grayed="true" font="Microsoft YaHei" fontSize="22" color="#ff99ff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="0" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n13_lfwa" name="HintBg11" xy="303,445" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n14_lfwa" name="HintTxt11" xy="313,457" size="79,32" grayed="true" font="Microsoft YaHei" fontSize="22" color="#ff99ff" leading="0" text="参数11:"/>
+    <text id="n15_lfwa" name="Input11" xy="394,452" size="273,42" touchable="false" grayed="true" font="Microsoft YaHei" fontSize="22" color="#ff99ff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="0" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n16_lfwa" name="HintTxt12" xy="684,457" size="222,32" grayed="true" font="Microsoft YaHei" fontSize="22" color="#ff99ff" leading="0" autoSize="none" text="参数12:"/>
+    <text id="n17_lfwa" name="Input12" xy="760,452" size="238,42" touchable="false" grayed="true" font="Microsoft YaHei" fontSize="22" color="#ff99ff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="0" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n18_lfwa" name="FLinkBg13" xy="303,503" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n19_lfwa" name="FLinkTxt13" xy="314,514" size="507,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" text="允许取下（0=允许取下装备，1=不允许取下装备）:"/>
+    <text id="n20_lfwa" name="Input13" xy="835,509" size="162,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="4x32d" name="FLinkBg" xy="303,561" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="4oj1g" name="FLinkTxt" xy="314,572" size="97,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" text="备注信息:"/>
+    <text id="c4hh3" name="Input14" xy="423,567" size="572,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n21_lfwa" name="ScaleBg" xy="303,621" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n22_lfwa" name="FormIDTxt" xy="303,633" size="87,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" text="FormID:"/>
+    <text id="n23_lfwa" name="FormID" xy="397,628" size="91,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n24_lfwa" name="ScaleTxt" xy="492,633" size="89,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" text="缩放X轴:"/>
+    <text id="n25_lfwa" name="FScaleX" xy="590,628" size="155,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n26_lfwa" name="ScaleYTxt" xy="754,634" size="88,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" leading="0" text="缩放Y轴:"/>
+    <text id="n27_lfwa" name="FScaleY" xy="852,628" size="146,42" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" singleLine="true" autoClearText="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="c605c" name="CancelBtn" src="qgn27t" fileName="NPC面板/组件/CancelBtn.xml" xy="780,679">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="0412p" name="ConfirmBtn" src="qgn27u" fileName="NPC面板/组件/ConfirmBtn.xml" xy="908,679">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <graph id="3131v" name="bg" xy="0,0" size="1280,720" type="rect" lineSize="0" fillColor="#7fffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="7675r" name="SignOutBtn" src="r7r81r" fileName="NPC面板/组件/SignOutBtn.xml" xy="1119,17">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="kly5g" name="SwitchBtn" src="r7r81s" fileName="NPC面板/组件/SwitchBtn.xml" xy="972,18">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="n0_9kp7" name="SelAllBtn" src="r7r81s" fileName="NPC面板/组件/SwitchBtn.xml" xy="800,18">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button title="全选组件" titleColor="#e2c502" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="hmmpn" name="Panel" src="r7r821" fileName="NPC面板/组件/Panel.xml" xy="768,74">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <text id="n1_jr7a" name="Left" xy="56,616" size="65,32" font="Microsoft YaHei" fontSize="22" autoSize="none" bold="true" italic="true" text="Left：">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n2_jr7a" name="Top" xy="54,659" size="69,32" font="Microsoft YaHei" fontSize="22" autoSize="none" bold="true" italic="true" text="Top：">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n3_jr7a" name="LeftInput" xy="130,615" size="116,32" font="Microsoft YaHei" fontSize="22" autoSize="none" singleLine="true" text="" input="true" keyboardType="4">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n4_jr7a" name="TopInput" xy="130,659" size="120,32" font="Microsoft YaHei" fontSize="22" autoSize="none" singleLine="true" text="" input="true" keyboardType="4">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

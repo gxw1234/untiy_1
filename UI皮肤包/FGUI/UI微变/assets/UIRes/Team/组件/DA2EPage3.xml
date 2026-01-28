@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="933,601" opaque="false" scroll="both">
+  <displayList>
+    <list id="q42bh" name="DFDRequestItem" xy="194,97" size="666,398" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jkn5zun" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="1718o" name="DA2EWindow6" src="kn5zti" fileName="组件/DA2EWindow6.xml" xy="192,54">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="22y5w" name="DA2ESimpleButton4" src="kn5ztj" fileName="组件/DA2ESimpleButton4.xml" xy="712,512" size="87,36">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

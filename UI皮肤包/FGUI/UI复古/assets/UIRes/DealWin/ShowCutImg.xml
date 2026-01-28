@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <loader id="n0_lq6f" name="CutImgLoader" xy="640,360" pivot="0.5,0.5" anchor="true" size="50,50" skew="0,0.5" align="center" vAlign="middle" autoSize="true"/>
+  </displayList>
+</component>

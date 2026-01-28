@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="147,166" scroll="both" extention="Button">
+  <displayList>
+    <image id="2l2pi" src="ldxan20s" fileName="00604.PNG" xy="0,0" name="Img604082"/>
+    <image id="2100w" src="ldxan20r" fileName="00639.PNG" xy="0,0" name="Img63942c">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <component name="FaHzCom" id="2w5cf" src="kn5z19g" fileName="FaHzCom.xml" xy="8,5"/>
+    <image id="uxi00" src="ldxan20t" fileName="00605.PNG" xy="0,0" size="60,55" name="SelectLoader" alpha="1.0"/>
+    <loader id="22572" name="icon" size="133,100" align="center" vAlign="middle" fill="scale" xy="7,45"/>
+    <image id="xr6h4" src="ldxan20u" fileName="00640.PNG" xy="7,131" size="133,28" name="SelectImg2" alpha="1.0"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

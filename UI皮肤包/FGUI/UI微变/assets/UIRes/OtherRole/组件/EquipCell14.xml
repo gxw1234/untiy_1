@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,55" scroll="both">
+  <displayList>
+    <image id="6j837" name="bg" src="hr3gn1vr" fileName="OtherRole/Data/OMG_MobileMini.Pak/OtherRole_00223.png" xy="2,-2" size="60,60"/>
+    <loader id="60643" name="Eff21" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="335ex" name="Eff11" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="7or36" name="item" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="8n84d" name="title" xy="8,32" size="53,22" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="right" leading="0" autoSize="none" autoClearText="true" text=""/>
+    <loader id="nx2db" name="Eff22" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="5x2b5" name="Eff12" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="103gb" name="Eff23" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="ty3an" name="Eff13" xy="32,28" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="hg762" name="bagsLod" xy="59,54" pivot="1,1" anchor="true" size="18,18" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n2_gq4l" name="IconXY" xy="0,0" size="357,32" visible="false" fontSize="22" color="#ffffff" autoClearText="true" text="对应PC的图标偏移 修改上面位置X,Y"/>
+    <text id="n3_gq4l" name="EffectXY" xy="0,0" size="357,32" visible="false" fontSize="22" color="#ffffff" autoSize="none" autoClearText="true" text="对应PC的特效偏移 修改上面位置X,Y"/>
+    <text id="n4_gq4l" name="StarLevel" xy="2,24" size="61,32" font="ui://t1h1280lz6xw16" fontSize="14" color="#ffffff" autoSize="none" autoClearText="true" text=""/>
+  </displayList>
+</component>

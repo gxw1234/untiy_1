@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="934,593" opaque="false" scroll="both">
+  <displayList>
+    <image id="ag877" name="DA2EIMAGE5" src="kn5z16u" fileName="Data/OMG_MobileMini.Pak/00242.PNG" xy="23,54" size="840,44"/>
+    <list id="i67u0" name="DA2EGrid1" xy="24,96" size="837,401" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jkn5z18d" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="703x5" name="ChatEdit31" xy="24,55" size="206,37" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="行会名字"/>
+    <text id="t44k3" name="ChatEdit32" xy="234,55" size="200,37" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="会长名字"/>
+    <text id="171q5" name="ChatEdit33" xy="438,55" size="165,37" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="人数"/>
+    <text id="rr7k4" name="ChatEdit34" xy="607,55" size="255,37" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="操作"/>
+    <component id="1ovdl" name="BtnDelectPlay" src="kn5z17q" fileName="组件/BtnDelectPlay.xml" xy="721,513" size="123,51">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="aqjvm" name="BtnDisComPos" src="kn5z17r" fileName="组件/BtnDisComPos.xml" xy="588,513" size="123,51">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="ur8c5" name="EditDisGuild" xy="80,525" size="155,41" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="允许行会结盟"/>
+    <component id="6qeir" name="CheckBAllow" src="kn5z17s" fileName="组件/CheckBAllow.xml" xy="41,524">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

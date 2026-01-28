@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,160" scroll="both">
+  <displayList>
+    <loader id="n0_pqv8" name="RRoleModerLoader" xy="7,-44" size="50,50" url="ui://jk0io98jkn5zzf"/>
+    <component id="orp1l" name="EquipCell0" src="kn5zzl" fileName="组件/EquipCell0.xml" xy="66,25">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="10105" name="EquipCell4" src="kn5zzn" fileName="组件/EquipCell4.xml" xy="84,-11" size="18,17">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="j22g8" name="EquipCell13" src="kn5zzo" fileName="组件/EquipCell13.xml" xy="78,-32" size="33,11">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="5l1cv" name="EquipCell1" src="kn5zzm" fileName="组件/EquipCell1.xml" xy="13,-5" size="47,116">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="ac65b" name="EquipCell16" src="kn5zzp" fileName="组件/EquipCell16.xml" xy="120,34" size="49,77">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,400" scroll="both">
+  <displayList>
+    <image id="37hrx" name="LoginUI" src="r7r819" fileName="Data/OMG_MobileMini.Pak/00368.PNG" xy="0,0" pkg="us2ut3jf">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="ajfq0" name="DEditPasswd" xy="156,199" size="211,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="" input="true" maxLength="15" restrict="[a-z]|[A-Z]|[0-9]" password="true"/>
+    <text id="610p5" name="DEditAccount" xy="156,142" size="211,32" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="" input="true" maxLength="21"/>
+    <component id="55iji" name="DBtnLoginUIClose" src="r7r81z" fileName="组件/DBtnLoginUIClose.xml" xy="379,55" pkg="us2ut3jf">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="0nshp" name="DBtnLoginOK" src="r7r820" fileName="组件/DBtnLoginOK.xml" xy="264,238" pkg="us2ut3jf">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="o7rwf" name="DBtnNewUser" src="r7r821" fileName="组件/DBtnNewUser.xml" xy="50,303" pkg="us2ut3jf">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="25j80" name="DBtnChangPasswd" src="r7r822" fileName="组件/DBtnChangPasswd.xml" xy="210,303" pkg="us2ut3jf">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="465,569" scroll="both">
+  <controller name="CRadios" exported="true" selected="0" pages="0,Radio1,1,Radio2,2,Radio3,3,Radio4"/>
+  <displayList>
+    <image id="xq0dx" src="0tl3r" fileName="00180.PNG" xy="0,0" name="DA2EWindow1" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="13rxa" src="317f4" fileName="frame.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="BtnMainTask" id="w5hlq" src="6hm33" fileName="BtnMainTask.xml" xy="29,56" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="0" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="BtnBranch" id="qwg5j" src="7yw4l" fileName="BtnBranch.xml" xy="116,56" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="1" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="BtnGuide" id="37d3n" src="ehx10" fileName="BtnGuide.xml" xy="203,56" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="2" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="BtnFate" id="60b8k" src="xa7ql" fileName="BtnFate.xml" xy="290,56" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button controller="CRadios" page="3" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="BtnClose" id="7084q" src="4bv6r" fileName="BtnClose.xml" xy="351,516" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <richtext name="ItemShowInfo" id="185sb" xy="27,331" size="401,26" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" ubb="true" autoClearText="true" anchor="false"/>
+    <list id="fsb6j" name="DA2EGrid3" xy="28,95" size="399,203" treeView="true" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://jk0io98jk52b8">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="DMissionDesc" id="t37r2" src="17n61" fileName="DMissionDesc.xml" xy="27,330" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="50n17" src="bv5px" fileName="00552.PNG" xy="13,14" size="102,30" name="TaskFontImg" alpha="1.0" pkg="jk0io98j"/>
+  </displayList>
+</component>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,168" pivot="0.5,0.5" anchor="true" scroll="both">
+  <displayList>
+    <image id="n0_ogwr" name="bg" src="v9b1a6" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00135.png" xy="440,39">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="5t381" name="DHPBall" src="v9b19m" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00138.png" xy="445,41" size="42,84" fillMethod="vt" fillOrigin="1">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="5um1v" name="DMPBall" src="v9b19n" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00137.png" xy="475,44" size="42,84" visible="false" fillMethod="vt" fillOrigin="1">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <component id="n1_k77n" name="MpWin1" src="v9b11a" fileName="Main_Bottom/组件/MPAni.xml" xy="472,45" visible="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n2_s9gi" name="HpWin1" src="v9b11b" fileName="Main_Bottom/组件/HPAni.xml" xy="441,44" visible="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <image id="x3728" name="DA2EIMAGE2" src="v9b19o" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00134.png" xy="308,2">
+      <relation target="" sidePair="center-center"/>
+    </image>
+    <image id="d214v" name="DA2EIMAGE1" src="v9b19p" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00133.png" xy="0,137" size="1280,32">
+      <relation target="" sidePair="rightext-right,leftext-left"/>
+    </image>
+    <text id="82y45" name="timerHour" xy="1188,141" size="27,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="18">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <list id="f7f2d" name="DChatWindow" xy="551,67" size="352,69" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jv9b1g2">
+      <relation target="" sidePair="center-center"/>
+    </list>
+    <list id="bhmaa" name="bagItemCell" xy="548,2" size="360,60" layout="row" overflow="hidden" scroll="both" defaultItem="ui://jk0io98jv9b1g8">
+      <relation target="" sidePair="center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="7ffv3" name="DModel" xy="380,99" size="38,38" url="ui://jk0io98jv9b19q" clearOnPublish="true">
+      <relation target="" sidePair="center-center"/>
+    </loader>
+    <loader id="7aqwr" name="DRun" xy="4,55" size="91,79" url="ui://jk0io98jv9b19r" clearOnPublish="true">
+      <relation target="d214v" sidePair="left-left,bottom-bottom"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </loader>
+    <loader id="lb5a6" name="wifi" xy="14,137" size="40,34" url="ui://jk0io98jv9b19s"/>
+    <component id="36gj3" name="battery" src="v9b11c" fileName="Main_Bottom/组件/battery.xml" xy="105,141">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="164c2" name="DLevel" src="v9b11d" fileName="Main_Bottom/组件/DLevel.xml" xy="294,141" touchable="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="asio8" name="DWetBar" src="v9b11e" fileName="Main_Bottom/组件/DWetBar.xml" xy="517,144">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="yn0l7" name="DExpBar" src="v9b11f" fileName="Main_Bottom/组件/DExpBar.xml" xy="778,144">
+      <ProgressBar max="100"/>
+    </component>
+    <image id="03e8r" name="DExpIcon" src="v9b1a0" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00097.png" xy="760,141" size="29,29"/>
+    <component id="d40w0" name="AutoFight" src="v9b11g" fileName="Main_Bottom/组件/AutoFight.xml" xy="540,-74">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="0m5t7" name="AutoWay" src="v9b11i" fileName="Main_Bottom/组件/AutoWay.xml" xy="540,-74">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="mhw26" name="BtnNpc" src="v9b11k" fileName="Main_Bottom/组件/BtnNpc.xml" xy="775,-80" customData="1">
+      <relation target="" sidePair="center-center"/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <image id="4gevc" name="DWetIcon" src="v9b1a4" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00098.png" xy="498,141" size="29,29"/>
+    <component id="veu26" name="BottMailWin" src="v9b11l" fileName="Main_Bottom/组件/BottMailWin.xml" xy="420,-130">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="8v207" name="BottGroupWin" src="v9b11n" fileName="Main_Bottom/组件/BottGroupWin.xml" xy="600,-130" visible="false">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <text id="66n22" name="timerMinute" xy="1220,141" size="27,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="18">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <text id="651om" name="timeSecond" xy="1252,141" size="27,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" autoClearText="true" text="18">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <text id="f725g" name="TimeIinterval1" xy="1212,141" size="10,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text=":">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <text id="ucyvs" name="TimeIinterval2" xy="1244,141" size="10,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text=":">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <component id="omc58" name="BottGuildWin" src="v9b11p" fileName="Main_Bottom/组件/BottGuildWin.xml" xy="480,-130">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="3jlsr" name="BottFriendWin" src="v9b11r" fileName="Main_Bottom/组件/BottFriendWin.xml" xy="540,-130">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="gxk81" name="BottomRankBtn" src="v9b11t" fileName="Main_Bottom/组件/BottomRankBtn.xml" xy="508,99">
+      <relation target="" sidePair="center-center"/>
+    </component>
+    <component id="n23_zw59" name="DiyComNode" src="zw59gvn32z" fileName="Main_Bottom/组件/DiyComNode.xml" xy="163,138" visible="false">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component id="n24_hhf8" name="buttonVolume" src="hhf80" fileName="Main_Bottom/Buttom_volume.xml" xy="1065,139">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <text id="n25_hhf8" name="textVolume" xy="1091,140" size="67,27" fontSize="18" color="#ffffff" vAlign="middle" autoSize="none" text="100%">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

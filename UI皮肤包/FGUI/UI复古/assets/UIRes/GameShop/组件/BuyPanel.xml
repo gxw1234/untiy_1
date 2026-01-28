@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="808,320">
+  <displayList>
+    <image id="n0_wfya" name="bg" src="m9og12" fileName="GameShop/Data/gs_buy_line.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="n1_wfya" name="ListView" xy="0,47" size="808,268" overflow="scroll" scrollBarFlags="160" scrollBar="hidden" lineGap="4" defaultItem="ui://jk0io98jm9og13" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n5_wfya" name="serchTxt" xy="26,358" size="76,26" fontSize="18" color="#ffffff" text="搜索类别"/>
+    <text id="n10_wfya" name="ss" xy="26,325" size="62,26" fontSize="18" color="#ffffff" letterSpacing="2" text="关键字"/>
+    <text id="n15_wfya" name="priceTxt" xy="26,423" size="76,26" fontSize="18" color="#ffffff" text="价格范围"/>
+    <text id="n8_wfya" name="GoldTxt" xy="26,391" size="76,26" fontSize="18" color="#ffffff" text="货币类型"/>
+    <component id="n9_wfya" name="huobi" src="m9og15" fileName="GameShop/下拉框/Gategory2.xml" xy="107,388">
+      <ComboBox title="不限" titleColor="#ffffff" visibleItemCount="10">
+        <item title="不限"/>
+        <item title="元宝"/>
+      </ComboBox>
+    </component>
+    <component id="n7_wfya" name="leibie" src="m9og15" fileName="GameShop/下拉框/Gategory2.xml" xy="107,355">
+      <ComboBox title="所有" titleColor="#ffffff" visibleItemCount="10">
+        <item title="所有"/>
+        <item title="装饰"/>
+        <item title="补给"/>
+        <item title="强化"/>
+        <item title="好友"/>
+        <item title="限量"/>
+        <item title="奇珍"/>
+      </ComboBox>
+    </component>
+    <component id="n13_wfya" name="SearchButton" src="m9ogf" fileName="GameShop/组件/SearchButton.xml" xy="305,321">
+      <Button title="搜索" titleColor="#e1db39" titleFontSize="20" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="n11_wfya" name="input_bg" src="m9oge" fileName="GameShop/Data/gs_di.png" xy="107,322"/>
+    <image id="n14_wfya" name="price2_bg" src="m9og19" fileName="GameShop/Data/gs_price2.png" xy="107,422"/>
+    <text id="n12_wfya" name="input_search" xy="110,325" size="184,28" fontSize="18" color="#ffffff" vAlign="middle" autoSize="none" autoClearText="true" text="是是是三生三世" input="true" maxLength="10"/>
+    <text id="n16_wfya" name="price1" xy="110,426" size="71,26" fontSize="18" color="#ffffff" autoSize="none" text="0" input="true" maxLength="10" restrict="[0-9]" keyboardType="4"/>
+    <text id="n17_wfya" name="price2" xy="213,425" size="71,26" fontSize="18" color="#ffffff" autoSize="none" text="0" input="true" maxLength="10" restrict="[0-9]" keyboardType="4"/>
+    <component id="n18_wfya" name="LeftButton" src="m9ogl" fileName="GameShop/组件/LeftButton.xml" xy="611,324">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n19_wfya" name="RightButton" src="m9ogo" fileName="GameShop/组件/RightButton.xml" xy="714,324">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n20_wfya" name="EndButton" src="m9ogr" fileName="GameShop/组件/EndButton.xml" xy="755,324">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n21_wfya" name="StartButton" src="m9ogu" fileName="GameShop/组件/StartButton.xml" xy="557,324">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="n22_wfya" name="page_bg" src="m9ogx" fileName="GameShop/Data/gs_page_bg.png" xy="650,324"/>
+    <text id="n23_wfya" name="pageNum" xy="654,327" size="51,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="1/3"/>
+    <component id="n24_wfya" name="FirstButton" src="m9ogy" fileName="GameShop/组件/FirstButton.xml" xy="448,321">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n25_wfya" name="Sort_L" src="m9og1a" fileName="GameShop/下拉框/Gateroty3.xml" xy="247,356">
+      <ComboBox title="价格从低到高" titleColor="#ffffff" visibleItemCount="10">
+        <item title="价格从低到高"/>
+        <item title="价格从高到低"/>
+      </ComboBox>
+    </component>
+    <text id="n26_wfya" name="sortTxt" xy="199,359" size="40,26" fontSize="18" color="#ffffff" text="排序"/>
+    <text id="n27_okop" name="ShopName" xy="137,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="店铺名称"/>
+    <text id="n28_okop" name="PriceName" xy="293,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="销售价格"/>
+    <text id="n29_okop" name="HostShopName" xy="434,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="所在店铺"/>
+    <text id="n30_okop" name="HostName" xy="551,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="店主名称"/>
+    <text id="n31_okop" name="LeiName" xy="666,12" size="40,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="类别"/>
+    <text id="n32_okop" name="BuyTxt" xy="749,12" size="40,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="购买"/>
+  </displayList>
+</component>

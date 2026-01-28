@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="559,305" overflow="hidden">
+  <displayList>
+    <image id="n2_s2h3" name="n2" src="kn5zup" fileName="Set/Data/OMG_MobileMini.Pak/Set_00415.png" xy="4,0" size="529,302" alpha="0.8"/>
+    <component id="n6_s2h3" name="DTextHelpCom" src="kqbg4" fileName="Set/组件/DTextHelpCom.xml" xy="18,24" size="493,263"/>
+    <component id="n4_s2h3" name="DBtnClose" src="kn5zxs" fileName="Set/组件/DBtnStateColse.xml" xy="527,4"/>
+  </displayList>
+</component>

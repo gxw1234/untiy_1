@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="838,75" pivot="4,0" scroll="both" extention="Button">
+  <displayList>
+    <image id="d5ied" src="ldxan2bj" fileName="00629.PNG" xy="0,0" name="Img629t8u">
+      <gearDisplay controller="button" pages="0,2,1"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <text name="AuctionGoodsNames" id="1ix33" xy="71,18" size="133,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="物品名字七个字" color="#FFFFFF" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="AuctionGoodTimes" id="73gfr" xy="210,18" size="113,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="99:59:59" color="#00FF00" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit28" id="3uv1j" xy="431,0" size="147,35" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="你目前竞价最高" color="#FF0000" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <loader id="iqpky" name="DA2ELoader11" size="36,30" url="ui://jk0io98jldxan2b8" align="center" vAlign="middle" xy="466,40"/>
+    <loader id="wlan0" name="DA2ELoader12" size="36,30" url="ui://jk0io98jldxan2b7" align="center" vAlign="middle" xy="698,40"/>
+    <component name="DA2ESimpleButton3" id="pj0ha" src="kn5z126" fileName="DA2ESimpleButton3.xml" xy="503,36">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ESimpleButton4" id="1y5f1" src="kn5z127" fileName="DA2ESimpleButton4.xml" xy="735,36">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="AuctionGoodsWin" id="ii3c7" src="kn5z128" fileName="AuctionGoodsWin.xml" xy="5,6"/>
+    <component name="DA2EWindow5" id="e3vt6" src="kn5z129" fileName="DA2EWindow5.xml" xy="382,41"/>
+    <component name="DA2EWindow7" id="3xbty" src="kn5z12a" fileName="DA2EWindow7.xml" xy="615,40"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

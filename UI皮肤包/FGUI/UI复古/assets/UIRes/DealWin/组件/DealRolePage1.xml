@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="825,443">
+  <displayList>
+    <text id="n0_js02" name="n0" xy="13,3" size="94,33" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" vAlign="middle" autoSize="none" text="寄售角色:"/>
+    <text id="n1_js02" name="RoleNameTxt" xy="111,3" size="692,33" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" vAlign="middle" autoSize="none" autoClearText="true" text="寄售角色:"/>
+    <text id="n2_js02" name="n2" xy="111,38" size="220,29" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" vAlign="middle" autoSize="none" text="寄售后的角色将无法登录"/>
+    <text id="n3_js02" name="n3" xy="11,75" size="94,33" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" vAlign="middle" autoSize="none" text="出售总价:"/>
+    <image id="n10_js02" name="n10" src="hr3gn1y3" fileName="DealWin/Data/DealWin_00909.png" xy="110,80"/>
+    <text id="n6_js02" name="RoleTallTxt" xy="113,79" size="272,24" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" vAlign="middle" autoSize="none" autoClearText="true" text="" input="true" prompt="[i][color=#666666]出售金额不能低于10[/color][/I]" restrict="[0-9]"/>
+    <text id="n8_js02" name="ServerchargeTxt" xy="390,74" size="127,33" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" vAlign="middle" autoSize="none" text="手续费:10%"/>
+    <text id="n12_js02" name="n12" xy="13,221" size="72,24" font="Microsoft YaHei" fontSize="14" color="#ffffff" vAlign="middle" autoSize="none" text="步骤1:"/>
+    <text id="n13_js02" name="n13" xy="293,221" size="72,24" font="Microsoft YaHei" fontSize="14" color="#ffffff" vAlign="middle" autoSize="none" text="步骤2:"/>
+    <text id="n14_js02" name="n14" xy="566,221" size="72,24" font="Microsoft YaHei" fontSize="14" color="#ffffff" vAlign="middle" autoSize="none" text="步骤3:"/>
+    <text id="n15_js02" name="n15" xy="13,245" size="108,22" font="Microsoft YaHei" fontSize="14" color="#00ff00" vAlign="middle" autoSize="none" text="点击生成图片"/>
+    <text id="n16_js02" name="n16" xy="293,245" size="186,22" font="Microsoft YaHei" fontSize="14" color="#00ff00" vAlign="middle" text="静待三秒将自动截取角色信息"/>
+    <text id="n17_js02" name="n17" xy="566,245" size="88,22" font="Microsoft YaHei" fontSize="14" color="#00ff00" vAlign="middle" text="点击出售角色"/>
+    <image id="n18_js02" name="n18" src="hr3gn1yf" fileName="DealWin/Data/DealWin_00924.png" xy="11,273"/>
+    <image id="n19_js02" name="n19" src="hr3gn1yf" fileName="DealWin/Data/DealWin_00924.png" xy="293,273"/>
+    <image id="n20_js02" name="n20" src="hr3gn1yf" fileName="DealWin/Data/DealWin_00924.png" xy="566,273"/>
+    <component id="n11_js02" name="CreatImgBtn" src="j3e21c5" fileName="DealWin/组件/CreatImgBtn.xml" xy="311,383"/>
+    <text id="n25_tnfx" name="T_assign_title" xy="11,133" size="120,33" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" vAlign="middle" autoSize="none" text="指定购买人:"/>
+    <image id="n26_tnfx" name="n26" src="hr3gn1y3" fileName="DealWin/Data/DealWin_00909.png" xy="110,138"/>
+    <text id="n27_tnfx" name="RoleAssignTxt" xy="113,137" size="272,24" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" vAlign="middle" autoSize="none" autoClearText="true" text="" input="true" prompt="[i][color=#666666]输入指定玩家手机号，账号，角色名[/color][/I]"/>
+    <text id="n28_tnfx" name="T_assign_desc" xy="113,171" size="580,24" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" vAlign="middle" text="如果指定售卖，需输入对方的游戏账号，输入前请多次确认，一旦售出概不负责。"/>
+  </displayList>
+</component>

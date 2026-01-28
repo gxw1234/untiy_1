@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="310,63" scroll="both">
+  <displayList>
+    <image id="n4_res8" name="DSkillItemBg" src="hr3gn1ze" fileName="Data/00229.PNG" xy="6,0"/>
+    <loader id="8l1ut" name="DSkillIconLoader" xy="11,5" size="62,54"/>
+    <text id="qj081" name="ChatEdit41" xy="83,2" size="85,29" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <image id="n2_t0m7" name="DA2EIMAGE23" src="hr3gn1z5" fileName="Data/00203.PNG" xy="94,41"/>
+    <text id="klj58" name="ChatEdit42" xy="129,34" size="100,29" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <image id="n3_t0m7" name="DA2EIMAGE24" src="hr3gn1z6" fileName="Data/00208.PNG" xy="179,10"/>
+    <text id="36x23" name="ChatEdit43" xy="207,2" size="100,29" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="n1_smb8" name="DSkillKey" xy="10,35" size="64,24" font="Microsoft YaHei" fontSize="16" color="#00ff00" align="right" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+  </displayList>
+</component>

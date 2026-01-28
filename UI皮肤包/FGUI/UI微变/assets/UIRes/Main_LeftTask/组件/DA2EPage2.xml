@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="262,210" overflow="scroll">
+  <displayList>
+    <list id="y00ji" name="DA2EGrid1" xy="3,0" size="255,180" overflow="scroll" lineGap="-7" defaultItem="ui://jk0io98jv9b197"/>
+    <component id="40q31" name="BottLTeamCreTeamBtn" src="td9gg" fileName="Main_LeftTask/组件/BottLTeamCreTeamBtn.xml" xy="70,45">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="0jos7" name="BottLTeamAreaTeamBtn" src="td9gh" fileName="Main_LeftTask/组件/BottLTeamAreaTeamBtn.xml" xy="70,125">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n2_ijsc" name="inviteBtn" src="ijscgvn2xb" fileName="Main_LeftTask/组件/CommonBtn.xml" xy="0,181">
+      <Button title="邀请队员"/>
+    </component>
+    <component id="n3_ijsc" name="nearBtn" src="ijscgvn2xb" fileName="Main_LeftTask/组件/CommonBtn.xml" xy="131,181">
+      <Button title=" 队伍列表({Num=0}/{maxNum=0})"/>
+    </component>
+  </displayList>
+</component>

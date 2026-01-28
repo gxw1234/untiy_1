@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="698,38" extention="ProgressBar">
+  <ProgressBar titleType="percent"/>
+  <displayList>
+    <image id="0i6y8" src="r7r81" fileName="00417.PNG" xy="0,0" name="n0"/>
+    <image id="0s401" src="r7r82" fileName="00418.PNG" xy="4,6" name="bar" fillMethod="hz"/>
+    <text id="hqtqu" name="title" xy="0,0" size="698,38" autoSize="none" align="center" vAlign="middle" fontSize="14" color="#ffffff"/>
+  </displayList>
+</component>

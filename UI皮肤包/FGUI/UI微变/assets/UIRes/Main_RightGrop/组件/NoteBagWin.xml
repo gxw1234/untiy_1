@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,74" scroll="both">
+  <displayList>
+    <image id="4j347" src="k02tn1tu" fileName="00467.PNG" xy="0,0" size="120,74" name="TipsBG" alpha="1.0">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </image>
+    <text name="ChatEdit19" id="cww60" xy="0,5" size="120,33" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="背包已满" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="NoteBagBtn" id="54v12" src="k02tn1uu" fileName="NoteBagBtn.xml" xy="0,5">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

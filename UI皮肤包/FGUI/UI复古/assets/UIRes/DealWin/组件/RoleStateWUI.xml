@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="311,433" overflow="scroll">
+  <displayList>
+    <text id="8868i" name="RoleStateAttribEdit" xy="45,4" size="139,332" font="SimHei" fontSize="18" color="#ffffff" leading="-4" vars="true" strokeColor="#000000" text="职    业:{JobDesc=0}&#xA;&#xA;等    级:{RELEVEL=0}转{Level=0}级&#xA;&#xA;当前经验:{Exp=0}&#xA;&#xA;升级经验:{MaxExp=0}&#xA;&#xA;生 命 值:{HP=0}/{MaxHP=0}&#xA;&#xA;魔 法 值:{MP=0}/{MaxMP=0}&#xA;&#xA;金 刚 石:{GAMEDIAMOND=0}&#xA;&#xA;灵    符:{GAMEGIRD=0}&#xA;&#xA;游 戏 币:{GAMEGOLD=0}&#xA;&#xA;荣 耀 点:{GAMEGLORY=0}"/>
+  </displayList>
+</component>

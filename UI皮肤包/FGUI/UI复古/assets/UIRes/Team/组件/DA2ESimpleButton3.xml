@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,52" scroll="both" extention="Button">
+  <displayList>
+    <image id="penb1" src="10awvn2r7" fileName="00265.PNG" xy="0,0" name="Img265312">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="fw74m" src="10awvn2r8" fileName="00266.PNG" xy="0,0" name="Img266btx">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text name="ChatEdit47" id="hlc54" xy="8,9" size="128,34" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="发送位置" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#837155|#DFCFB4|#837155" default="#DFCFB4"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

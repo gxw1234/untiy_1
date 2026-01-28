@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="797,254" opaque="false" scroll="both">
+  <displayList>
+    <component id="ssi24" name="DBottomLeftPanel" src="j3e21nf" fileName="组件/DBottomLeftPanel.xml" xy="0,2">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="08qiw" name="DBottomRightPanel" src="j3e21nv" fileName="组件/DBottomRightPanel.xml" xy="598,2">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="51357" name="DBottomBelts" src="j3e21nw" fileName="组件/DBottomBelts.xml" xy="179,44">
+      <relation target="" sidePair="center-center"/>
+      <relation target="t8xq1" sidePair="top-top"/>
+    </component>
+    <component id="t8xq1" name="DBottomMemo" src="j3e21ok" fileName="组件/DBottomMemo.xml" xy="188,98" size="419,157">
+      <relation target="n0_r9if" sidePair="topext-bottom"/>
+      <relation target="" sidePair="width-width"/>
+    </component>
+    <component id="n0_r9if" name="DMidleComp" src="j3e21oq" fileName="组件/Component1.xml" xy="197,107" size="428,14">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="389,481" scroll="both">
+  <displayList>
+    <image id="76xu7" src="ldxan2oo" fileName="00174.PNG" xy="0,0" name="Stallwind" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="yrta6" src="j3e21gf" fileName="frame.xml" xy="0,0" pkg="jk0io98j"/>
+    <text name="EditItems" id="670am" xy="19,15" size="319,36" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" vAlign="middle" anchor="false"/>
+    <text name="EditName" id="7quq4" xy="124,327" size="196,29" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="EditPrice" id="t744r" xy="124,371" size="196,29" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="BtnStall" id="p2478" src="j3e21gg" fileName="BtnStall.xml" xy="33,416" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnStallCancle" id="58050" src="j3e21gh" fileName="BtnStallCancle.xml" xy="217,416" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <list id="86afe" name="DBagGrid" xy="19,57" size="325,262" treeView="false" layout="pagination" overflow="hidden" scroll="both" scrollBarFlags="128" lineGap="3" colGap="3" lineItemCount="5" lineItemCount2="4" defaultItem="ui://jk0io98jj3e21gk">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="BtnColose1" id="r56a7" src="j3e21gi" fileName="BtnColose1.xml" xy="359,0" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

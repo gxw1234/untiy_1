@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="55,39" opaque="false" scroll="both">
+  <displayList>
+    <image id="24nlu" name="LiteMsgSysBg" src="r7r838" fileName="Data/OMG_MobileMini.Pak/00886.PNG" xy="0,0" size="55,39">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="w45ik" name="msg" xy="22,5" size="10,29" font="ui://t1h1280lvns0d" fontSize="20" color="#ffffff" vAlign="middle" leading="0" ubb="true" autoClearText="true" text=""/>
+  </displayList>
+  <relation target="w45ik" sidePair="width-width,height-height"/>
+</component>

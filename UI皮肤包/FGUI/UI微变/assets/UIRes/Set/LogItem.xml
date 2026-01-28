@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="840,47" pivot="4,0" scroll="both">
+  <displayList>
+    <text name="EditLogTxt" id="7qdbr" xy="20,1" size="105,47" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="服装类" color="#FFFFFF" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2ESimpleButton7" id="1jt56" src="kn5zxw" fileName="DA2ESimpleButton7.xml" xy="712,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DA2ECheckBox30" id="4pob1" src="kn5zxx" fileName="DA2ECheckBox30.xml" xy="283,4">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DA2ECheckBox31" id="ec3m5" src="kn5zxy" fileName="DA2ECheckBox31.xml" xy="514,4">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="199,84" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_sxci" name="n0" src="j3e21ow" fileName="Recharge/Data/Recharge_00928.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_sxci" name="n1" src="j3e21ow" fileName="Recharge/Data/Recharge_00928.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_sxci" name="n2" src="j3e21ow" fileName="Recharge/Data/Recharge_00928.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_sxci" name="n3" src="j3e21ow" fileName="Recharge/Data/Recharge_00928.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_sxci" name="n4" src="j3e21p0" fileName="Recharge/Data/Recharge_00932.png" xy="-3,-3">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <loader id="n5_sxci" name="MoneyLoader" xy="7,8" size="63,68" align="center" vAlign="middle"/>
+    <text id="n6_sxci" name="MoneyName" xy="78,9" size="36,24" font="Microsoft YaHei" fontSize="16" color="#dc9836" align="center" autoClearText="true" text="灵符">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n7_sxci" name="MoneyRatio" xy="75,49" size="44,24" font="Microsoft YaHei" fontSize="16" color="#dc9836" align="center" autoClearText="true" text="1:500">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n8_dy56" name="MoneyInput" xy="73,30" size="44,24" visible="false" font="Microsoft YaHei" fontSize="16" color="#dc9836" align="center" autoClearText="true" text="1:500">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

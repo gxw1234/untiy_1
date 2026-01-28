@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="42,84" scroll="both">
+  <displayList>
+    <loader id="167hp" name="DHPBall" xy="0,0" size="42,84" fillMethod="vt" fillOrigin="1"/>
+  </displayList>
+  <transition name="select" autoPlay="true">
+    <item time="0" type="Icon" target="167hp" value="ui://jk0io98juxwigvn2xe"/>
+  </transition>
+</component>

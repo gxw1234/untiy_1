@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1214,616" opaque="false" scroll="both">
+  <displayList>
+    <image id="b6a75" name="RankListWin" src="kn5zyz" fileName="Data/OMG_MobileMini.Pak/00863.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <graph id="hao77" name="ModalLayer" xy="0,0" size="2,2" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="75err" name="BtnStorageUIClose" src="kn5zzg" fileName="组件/BtnStorageUIClose.xml" xy="1071,77" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="30f0n" name="DA2ERadioButton1" src="kn5zzh" fileName="组件/DA2ERadioButton1.xml" xy="47,35" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="7y1j6" name="DA2ERadioButton2" src="kn5zzi" fileName="组件/DA2ERadioButton2.xml" xy="47,126" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="p4sri" name="DA2ERadioButton3" src="kn5zzj" fileName="组件/DA2ERadioButton3.xml" xy="47,217" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="8md17" name="DA2ERadioButton4" src="kn5zzk" fileName="组件/DA2ERadioButton4.xml" xy="47,308" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <list id="50x47" name="RankListGrid1" xy="119,93" size="574,457" overflow="scroll" scrollBarFlags="128" lineGap="4" defaultItem="ui://jk0io98jkn5z100"/>
+    <text id="l68gu" name="ChatEdit3" xy="215,560" size="82,25" font="Microsoft YaHei" fontSize="18" color="#2fe100" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="我的排名:"/>
+    <text id="bu3no" name="RankOnselfText" xy="296,560" size="130,25" font="Microsoft YaHei" fontSize="18" color="#2fe100" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="我的排名:"/>
+    <text id="e6i8l" name="ChatEdit5" xy="459,560" size="82,25" font="Microsoft YaHei" fontSize="18" color="#2fe100" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="所属行会:"/>
+    <text id="42s55" name="RankGuildText" xy="540,560" size="130,25" font="Microsoft YaHei" fontSize="18" color="#2fe100" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="我的排名:"/>
+    <component id="x5128" name="role" src="kn5zzq" fileName="组件/role.xml" xy="782,249" size="184,160" touchable="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="k4f2x" name="RankLookRoleBtn" src="kn5zzr" fileName="组件/RankLookRoleBtn.xml" xy="826,500" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="55n8c" name="RankTipsBtn" src="kn5zzs" fileName="组件/RankTipsBtn.xml" xy="952,43" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="mvkf6" name="DA2ERadioButton5" src="kn5zzt" fileName="组件/DA2ERadioButton5.xml" xy="3,401" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="00b5d" name="DA2ERadioButton6" src="kn5zzu" fileName="组件/DA2ERadioButton6.xml" xy="20,407" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="m5c72" name="DA2ERadioButton7" src="kn5zzv" fileName="组件/DA2ERadioButton7.xml" xy="46,413" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="4i2kx" name="DA2ERadioButton8" src="kn5zzw" fileName="组件/DA2ERadioButton8.xml" xy="71,419" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="4u83l" name="DA2ERadioButton9" src="kn5zzx" fileName="组件/DA2ERadioButton9.xml" xy="3,513" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="v622b" name="DA2ERadioButton10" src="kn5zzy" fileName="组件/DA2ERadioButton10.xml" xy="38,512" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="29,29" scroll="both">
+  <displayList>
+    <loader id="hpn72" name="d2" size="29,29" touchable="false" xy="0,0"/>
+  </displayList>
+  <relation target="3npk6" sidePair="right-right,top-top"/>
+</component>

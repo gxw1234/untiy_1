@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="314,432" overflow="scroll">
+  <displayList>
+    <text id="118ic" name="RoleAttribBasEdit" xy="45,4" size="139,944" font="SimHei" fontSize="18" color="#ffffff" leading="-4" vars="true" strokeColor="#000000" text="生 命 值:{HP=0}/{MaxHP=0}&#xA;&#xA;魔 法 值:{MP=0}/{MaxMP=0}&#xA;&#xA;攻    击:{DC=0}-{MaxDC=0}&#xA;&#xA;魔    法:{MC=0}-{MaxMC=0}&#xA;&#xA;道    术:{SC=0}-{MaxSC=0}&#xA;&#xA;防    御:{AC=0}-{MaxAC=0}&#xA;&#xA;魔    御:{MAC=0}-{MaxMAC=0}&#xA;&#xA;罪 恶 值:{PKPOINT=0}&#xA;&#xA;背包重量:{Weight=0}/{MaxWeight=0}&#xA;&#xA;腕    力:{HandWeight=0}/{MaxHandWeight=0}&#xA;&#xA;穿戴重量:{WearWeight=0}/{MaxWearWeight=0}&#xA;&#xA;魔法躲避:{AntiMagic=0}&#xA;&#xA;毒物躲避:{AntiPoison=0}&#xA;&#xA;体力恢复:{wHealthRecover=0}&#xA;&#xA;魔法恢复:{wSpellRecover=0}&#xA;&#xA;攻击速度:{nHitSpeed=0}&#xA;&#xA;精 确 度:{wHitPoint=0}&#xA;&#xA;敏 捷 度:{wSpeedPoint=0}&#xA;&#xA;中毒恢复:{wPoisonRecover=0}&#xA;&#xA;暴击几率增加:{VALUE1=0}%&#xA;&#xA;攻击伤害增加:{VALUE2=0}%&#xA;&#xA;物理伤害减少:{VALUE3=0}%&#xA;&#xA;魔法伤害减少:{VALUE4=0}%&#xA;&#xA;忽视目标防御:{VALUE5=0}%&#xA;&#xA;所有伤害反弹:{VALUE6=0}%&#xA;&#xA;目标爆率增加:{VALUE7=0}%&#xA;&#xA;人物体力增加:{VALUE8=0}%&#xA;&#xA;人物魔力增加:{VALUE9=0}%"/>
+  </displayList>
+</component>

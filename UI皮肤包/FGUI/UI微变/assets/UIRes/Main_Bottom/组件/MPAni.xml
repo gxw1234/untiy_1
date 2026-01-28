@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,84">
+  <displayList>
+    <loader id="n0_k77n" name="DMPBall" xy="0,0" size="50,84" align="center" vAlign="middle" fill="scaleFree" fillMethod="vt" fillOrigin="1"/>
+  </displayList>
+  <transition name="select" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Icon" target="n0_k77n" value="ui://jk0io98jdcprgvn35p"/>
+  </transition>
+</component>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="885,596" scroll="both">
+  <controller name="CRadios" exported="true" selected="0" pages="0,Radio1,1,Radio2,2,Radio3,3,Radio4,4,Radio5"/>
+  <displayList>
+    <image id="85n55" src="ldxan29y" fileName="00185.PNG" xy="0,0" name="DShop" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="438bt" src="kn5zro" fileName="frame.xml" xy="0,0" pkg="jk0io98j"/>
+    <richtext name="ItemShowInfo" id="812vo" xy="24,341" size="192,226" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" ubb="true" autoClearText="true" anchor="false"/>
+    <component name="ItemCell1" id="4g3xf" src="kn5zrp" fileName="ItemCell1.xml" xy="227,104" pkg="jk0io98j"/>
+    <component name="ItemCell2" id="ost7a" src="kn5zrq" fileName="ItemCell2.xml" xy="451,104" pkg="jk0io98j"/>
+    <component name="ItemCell3" id="x4vk3" src="kn5zrr" fileName="ItemCell3.xml" xy="227,180" pkg="jk0io98j"/>
+    <component name="ItemCell4" id="0277j" src="kn5zrs" fileName="ItemCell4.xml" xy="451,180" pkg="jk0io98j"/>
+    <component name="ItemCell5" id="nn221" src="kn5zrt" fileName="ItemCell5.xml" xy="227,256" pkg="jk0io98j"/>
+    <component name="ItemCell6" id="1knjr" src="kn5zru" fileName="ItemCell6.xml" xy="451,256" pkg="jk0io98j"/>
+    <component name="ItemCell7" id="x6j4f" src="kn5zrv" fileName="ItemCell7.xml" xy="227,333" pkg="jk0io98j"/>
+    <component name="ItemCell8" id="cq4ij" src="kn5zrw" fileName="ItemCell8.xml" xy="451,333" pkg="jk0io98j"/>
+    <component name="ItemCell9" id="v26sd" src="kn5zrx" fileName="ItemCell9.xml" xy="227,410" pkg="jk0io98j"/>
+    <component name="ItemCell10" id="0fykf" src="kn5zry" fileName="ItemCell10.xml" xy="451,410" pkg="jk0io98j"/>
+    <component name="BtnBuy" id="mfu06" src="kn5zrz" fileName="BtnBuy.xml" xy="375,530" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnPresent" id="325cj" src="kn5zs0" fileName="BtnPresent.xml" xy="477,530" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="ItemCell11" id="00688" src="kn5zs1" fileName="ItemCell11.xml" xy="681,94" pkg="jk0io98j"/>
+    <component name="ItemCell12" id="0v78m" src="kn5zs2" fileName="ItemCell12.xml" xy="681,189" pkg="jk0io98j"/>
+    <component name="ItemCell13" id="3ce0j" src="kn5zs3" fileName="ItemCell13.xml" xy="681,284" pkg="jk0io98j"/>
+    <component name="ItemCell14" id="y2e47" src="kn5zs4" fileName="ItemCell14.xml" xy="681,379" pkg="jk0io98j"/>
+    <component name="ItemCell15" id="b1vn0" src="kn5zs5" fileName="ItemCell15.xml" xy="681,473" pkg="jk0io98j"/>
+    <component name="BtnClose" id="48n8y" src="kn5zs6" fileName="BtnClose.xml" xy="578,530" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnPageUp" id="16b38" src="kn5zs7" fileName="BtnPageUp.xml" xy="346,487" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnPageDown" id="t6n5s" src="kn5zs8" fileName="BtnPageDown.xml" xy="523,487" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnStorageUIClose" id="8ryly" src="kn5zs9" fileName="BtnStorageUIClose.xml" xy="854,0" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="1kd6m" src="ldxan2a7" fileName="00003.PNG" xy="390,485" size="120,34" name="PageBackground" alpha="1.0" pkg="jk0io98j"/>
+    <text name="ChatEdit1" id="f8473" xy="394,488" size="113,28" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="0/48" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2ERadioButton1" id="13by1" src="kn5zsa" fileName="DA2ERadioButton1.xml" xy="227,56" pkg="jk0io98j">
+      <Button controller="CRadios" page="0" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton2" id="6eht4" src="kn5zsb" fileName="DA2ERadioButton2.xml" xy="315,56" pkg="jk0io98j">
+      <Button controller="CRadios" page="1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton3" id="03o0a" src="kn5zsc" fileName="DA2ERadioButton3.xml" xy="403,56" pkg="jk0io98j">
+      <Button controller="CRadios" page="2" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton4" id="n1021" src="kn5zsd" fileName="DA2ERadioButton4.xml" xy="491,56" pkg="jk0io98j">
+      <Button controller="CRadios" page="3" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton5" id="n18og" src="kn5zse" fileName="DA2ERadioButton5.xml" xy="579,56" pkg="jk0io98j">
+      <Button controller="CRadios" page="4" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="78k0g" src="ldxan2a8" fileName="00553.PNG" xy="16,13" size="102,30" name="ShopFontImg" alpha="1.0" pkg="jk0io98j"/>
+    <graph size="2,2" id="373k8" name="ModalLayer" xy="0,0" lineSize="0" touchable="false" type="rect" fillColor="#00ffffff" lineColor=""/>
+  </displayList>
+</component>

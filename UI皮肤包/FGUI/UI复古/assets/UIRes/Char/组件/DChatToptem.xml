@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="378,38" scroll="both">
+  <displayList>
+    <graph size="377,38" id="cu6g0" name="background" xy="0,-1" lineSize="0" fillColor="" lineColor=""/>
+    <graph size="382,36" id="07fp3" name="ChatWindowBG1" xy="-3,-4" lineSize="0" fillColor="" lineColor="">
+      <relation target="fqe85" sidePair="width-width,height-height"/>
+    </graph>
+    <richtext name="ChatWindowText1" id="fqe85" xy="0,0" size="376,29" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="height" text="" color="#FFFFFF" ubb="true" anchor="false"/>
+  </displayList>
+</component>

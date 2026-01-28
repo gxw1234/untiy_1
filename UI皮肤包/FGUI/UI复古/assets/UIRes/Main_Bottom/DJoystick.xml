@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,316" opaque="false" scroll="both">
+  <displayList>
+    <image id="k4341" name="joystick_center_1" src="ldxan274" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00343.png" xy="185,50" size="160,158">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="k04ap" name="direct_1" src="ldxan275" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00344.png" xy="265,130" pivot="0.5,1" anchor="true" size="152,96" visible="false"/>
+    <component id="n0_lpl2" name="joystick_1" src="v9b1fl" fileName="Main_Bottom/组件/joystick.xml" xy="230,94"/>
+    <graph id="1p232" name="joystick_touch_1" xy="0,11" size="396,277" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width"/>
+    </graph>
+  </displayList>
+</component>

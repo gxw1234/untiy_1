@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="694,75" pivot="4,0" scroll="both" extention="Button">
+  <displayList>
+    <image id="2gjqr" src="ldxan2ba" fileName="00614.PNG" xy="0,0" name="Img614qed">
+      <gearDisplay controller="button" pages="0,2,1"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <text name="EditGoodsName" id="aqv1w" xy="111,18" size="130,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="物品名字七个字" color="#FFFFFF" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="Page1BuyTimeEdit" id="686i0" xy="253,18" size="131,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="99:59:59" color="#00FF00" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="Page1BuyGoodsWin" id="071y5" src="kn5z11u" fileName="Page1BuyGoodsWin.xml" xy="15,6"/>
+    <loader id="xf7qi" name="DA2ELoader2" size="36,30" url="ui://jk0io98jldxan2b8" align="center" vAlign="middle" xy="488,2"/>
+    <loader id="40i32" name="DA2ELoader3" size="36,30" url="ui://jk0io98jldxan2b7" align="center" vAlign="middle" xy="627,2"/>
+    <component name="Page1Rebtn" id="34x8o" src="kn5z11v" fileName="Page1Rebtn.xml" xy="428,35">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="Page1Buybtn" id="60p2u" src="kn5z11w" fileName="Page1Buybtn.xml" xy="566,35">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2EWindow1" id="l2w4h" src="kn5z11x" fileName="DA2EWindow1.xml" xy="400,0"/>
+    <component name="DA2EWindow2" id="34pt8" src="kn5z11y" fileName="DA2EWindow2.xml" xy="539,0"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

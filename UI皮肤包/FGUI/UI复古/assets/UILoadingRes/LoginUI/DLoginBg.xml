@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <image id="6o62l" name="DLoginBg" src="vmwk4c" fileName="LoginUI/Data/OMG_MobileMini.Pak/Login_00012.png" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="4022q" name="DWinOpendAn" src="r7r81p" fileName="LoginUI/组件/DWinOpendAn.xml" xy="330,135"/>
+    <component id="n2_n17f" name="n2" src="r7r82e" fileName="登录/登录_LoginUI.xml" pkg="up3anxyr" xy="640,360" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_n17f" name="n3" src="r7r828" fileName="登录/创建账户_CreateAccountUI.xml" pkg="up3anxyr" xy="640,360" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_n17f" name="n5" src="r7r829" fileName="登录/修改密码_DChangePasswordUI.xml" pkg="up3anxyr" xy="640,360" pivot="0.5,0.5" anchor="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

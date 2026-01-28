@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="918,670" scroll="both">
+  <displayList>
+    <image id="82smn" name="CreateAccountUI" src="r7r85" fileName="Data/OMG_MobileMini.Pak/00047.PNG" xy="0,0" pkg="us2ut3jf">
+      <relation target="" sidePair=""/>
+    </image>
+    <richtext id="2ej0x" name="FGUIBaseCom14" xy="514,119" size="310,436" font="Microsoft YaHei" fontSize="18" color="#ffffff" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text=""/>
+    <text id="511f3" name="FGUIBaseCom1" xy="191,123" size="183,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="" input="true" maxLength="21"/>
+    <text id="1jt2s" name="FGUIBaseCom2" xy="191,178" size="183,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="" input="true" maxLength="15" restrict="[a-z]|[A-Z]|[0-9]" password="true"/>
+    <text id="18vk0" name="FGUIBaseCom3" xy="190,229" size="187,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="" input="true" maxLength="15" restrict="[a-z]|[A-Z]|[0-9]" password="true"/>
+    <text id="k5rog" name="FGUIBaseCom4" xy="191,302" size="186,29" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="" input="true"/>
+    <text id="3886j" name="FGUIBaseCom5" xy="191,358" size="244,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="" input="true"/>
+    <text id="e2y34" name="FGUIBaseCom6" xy="192,414" size="243,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="" input="true"/>
+    <text id="b5mky" name="FGUIBaseCom7" xy="192,467" size="243,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="" input="true"/>
+    <text id="quj06" name="FGUIBaseCom8" xy="192,523" size="243,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" autoClearText="true" text="" input="true"/>
+    <component id="82007" name="DBtnOK" src="r7r81i" fileName="组件/DBtnOK.xml" xy="164,584" pkg="us2ut3jf">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="3o36a" name="DBtnFaill" src="r7r81j" fileName="组件/DBtnFaill.xml" xy="665,579" pkg="us2ut3jf">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

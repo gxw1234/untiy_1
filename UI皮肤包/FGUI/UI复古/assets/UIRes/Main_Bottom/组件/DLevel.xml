@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="126,29" scroll="both">
+  <displayList>
+    <image id="jjdoq" src="ldxan23n" fileName="00101.PNG" xy="0,0" name="DLevel">
+      <relation sidePair=""/>
+    </image>
+    <text name="DLevelText" id="a7uch" xy="27,5" size="78,17" font="Microsoft YaHei" fontSize="14" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" anchor="false"/>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="433,585" scroll="both">
+  <displayList>
+    <image id="k21k1" src="kn5z18w" fileName="00058.PNG" xy="0,0" name="DNoticeOKBox" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="DBtnOK" id="8335r" src="kn5z18z" fileName="DBtnOK.xml" xy="126,484" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <richtext name="DNoticeOKBoxText" id="s684t" xy="20,20" size="384,445" font="ui://t1h1280lvns0d" faceDilate="1" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

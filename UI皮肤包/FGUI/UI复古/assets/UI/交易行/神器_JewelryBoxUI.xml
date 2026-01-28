@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="264,272" opaque="false" scroll="both">
+  <displayList>
+    <component id="622l1" name="frame" src="j3e21fa" fileName="组件/frame1.xml" xy="50,0" size="211,272" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="n0_t0m7" name="JewelryBoxUIBG" src="hr3gn1zc" fileName="Data/00209.PNG" xy="0,0" pkg="jk0io98j"/>
+    <component id="jb502" name="EquipCell30" src="j3e21fb" fileName="组件/EquipCell30.xml" xy="282,48" size="33,33" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="o37pu" name="EquipCell31" src="j3e21fc" fileName="组件/EquipCell31.xml" xy="90,48" size="33,33" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="8s4hj" name="EquipCell32" src="j3e21fd" fileName="组件/EquipCell32.xml" xy="298,144" size="33,33" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="46515" name="EquipCell33" src="j3e21fe" fileName="组件/EquipCell33.xml" xy="186,48" size="33,33" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="j2116" name="EquipCell34" src="j3e21ff" fileName="组件/EquipCell34.xml" xy="80,198" size="33,33" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="xqt2t" name="EquipCell35" src="j3e21fg" fileName="组件/EquipCell35.xml" xy="199,216" size="33,33" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="8e8p2" name="EquipCell36" src="j3e21fh" fileName="组件/EquipCell36.xml" xy="139,96" size="33,33" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="d7c5w" name="EquipCell37" src="j3e21fi" fileName="组件/EquipCell37.xml" xy="259,102" size="33,33" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="i07hb" name="EquipCell38" src="j3e21fj" fileName="组件/EquipCell38.xml" xy="34,175" size="33,33" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="6h3a3" name="EquipCell39" src="j3e21fk" fileName="组件/EquipCell39.xml" xy="90,143" size="33,33" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="7kwgh" name="EquipCell40" src="j3e21fl" fileName="组件/EquipCell40.xml" xy="254,175" size="33,33" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="c1uk4" name="EquipCell41" src="j3e21fm" fileName="组件/EquipCell41.xml" xy="186,144" size="33,33" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="v3d4a" name="DBtnBoxClose" src="j3e21fn" fileName="组件/DBtnBoxClose.xml" xy="262,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

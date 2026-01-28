@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="71,71" scroll="both" extention="Button" initName="joystick_2">
+  <displayList>
+    <image id="101m0" name="thumb2" src="v9b1dg" fileName="Data/OMG_MobileMini.Pak/00062.PNG" xy="0,0" size="71,71">
+      <relation target="" sidePair=""/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

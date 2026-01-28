@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <image id="2j284" src="r7r8j" fileName="00012.PNG" xy="0,0" name="DLoginBg">
+      <relation sidePair=""/>
+    </image>
+    <component name="DWinOpendAn" id="tfw65" src="r7r81p" fileName="DWinOpendAn.xml" xy="330,135">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+</component>

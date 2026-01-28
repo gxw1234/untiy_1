@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="808,64">
+  <displayList>
+    <graph id="n1_wfya" name="n1" xy="18,2" size="60,60" type="rect" lineColor="#ff669900" fillColor="#ff000000" corner="5"/>
+    <loader id="n0_wfya" name="item" xy="47,32" pivot="0.5,0.5" anchor="true" size="60,60" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n2_wfya" name="ItemName" xy="95,20" size="150,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="物品名称七个字"/>
+    <text id="n3_wfya" name="Price" xy="248,20" size="168,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="10000000金刚石"/>
+    <text id="n4_wfya" name="shop" xy="405,20" size="136,26" fontSize="18" color="#3adb3a" align="center" vAlign="middle" autoSize="none" bold="true" autoClearText="true" text="6666店铺8888"/>
+    <text id="n5_wfya" name="shopName" xy="540,2" size="102,60" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="店主名字多个字"/>
+    <text id="n6_wfya" name="leibie" xy="648,16" size="77,34" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="装饰试"/>
+    <component id="n8_takl" name="BuyButton" src="m9og14" fileName="GameShop/组件/BuyButton.xml" xy="735,14"/>
+  </displayList>
+</component>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="1214,616" scroll="both">
+  <displayList>
+    <image id="43mh4" src="ldxan2aa" fileName="00863.PNG" xy="0,0" name="RankListWin" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <graph size="2,2" id="frc26" name="ModalLayer" xy="0,0" lineSize="0" touchable="false" type="rect" fillColor="#00ffffff" lineColor=""/>
+    <component name="BtnStorageUIClose" id="wnpg7" src="kn5zzg" fileName="BtnStorageUIClose.xml" xy="1071,77" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton1" id="63781" src="kn5zzh" fileName="DA2ERadioButton1.xml" xy="47,35" pkg="jk0io98j">
+      <Button controller="CRadios" page="-1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton2" id="u2j8n" src="kn5zzi" fileName="DA2ERadioButton2.xml" xy="47,126" pkg="jk0io98j">
+      <Button controller="CRadios" page="-1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton3" id="w368j" src="kn5zzj" fileName="DA2ERadioButton3.xml" xy="47,217" pkg="jk0io98j">
+      <Button controller="CRadios" page="-1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton4" id="455lf" src="kn5zzk" fileName="DA2ERadioButton4.xml" xy="47,308" pkg="jk0io98j">
+      <Button controller="CRadios" page="-1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <list id="6t343" name="RankListGrid1" xy="119,93" size="574,457" treeView="false" overflow="scroll" scrollBarFlags="128" lineGap="4" colGap="0" lineItemCount="1" lineItemCount2="0" defaultItem="ui://jk0io98jkn5z100">
+      <relation target="" sidePair=""/>
+    </list>
+    <text name="ChatEdit3" id="j0n2y" xy="215,560" size="82,25" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="我的排名:" color="#2FE100" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="RankOnselfText" id="2gmnn" xy="296,560" size="130,25" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="我的排名:" color="#2FE100" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit5" id="5y7oc" xy="459,560" size="82,25" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="所属行会:" color="#2FE100" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="RankGuildText" id="4ytry" xy="540,560" size="130,25" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="我的排名:" color="#2FE100" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="role" id="ne324" scale="1,1" src="kn5zzq" fileName="role.xml" touchable="false" xy="782,249" pkg="jk0io98j"/>
+    <component name="RankLookRoleBtn" id="u8n00" src="kn5zzr" fileName="RankLookRoleBtn.xml" xy="826,500" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <component name="RankTipsBtn" id="bx273" src="kn5zzs" fileName="RankTipsBtn.xml" xy="952,43" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton5" id="olp41" src="kn5zzt" fileName="DA2ERadioButton5.xml" visible="false" xy="3,401" pkg="jk0io98j">
+      <Button controller="CRadios" page="-1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton6" id="w6e2j" src="kn5zzu" fileName="DA2ERadioButton6.xml" visible="false" xy="20,407" pkg="jk0io98j">
+      <Button controller="CRadios" page="-1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton7" id="0244h" src="kn5zzv" fileName="DA2ERadioButton7.xml" visible="false" xy="46,413" pkg="jk0io98j">
+      <Button controller="CRadios" page="-1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton8" id="a4cu1" src="kn5zzw" fileName="DA2ERadioButton8.xml" visible="false" xy="71,419" pkg="jk0io98j">
+      <Button controller="CRadios" page="-1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton9" id="7o08v" src="kn5zzx" fileName="DA2ERadioButton9.xml" visible="false" xy="3,513" pkg="jk0io98j">
+      <Button controller="CRadios" page="-1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ERadioButton10" id="id4mv" src="kn5zzy" fileName="DA2ERadioButton10.xml" visible="false" xy="38,512" pkg="jk0io98j">
+      <Button controller="CRadios" page="-1" sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

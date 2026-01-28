@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="926,593" opaque="false" scroll="both">
+  <controller name="CPages" exported="true" pages="0,page1,1,page2,2,page3,3,page4,4,page5" selected="0"/>
+  <displayList>
+    <image id="021vy" name="DState" src="ldxan2cn" fileName="Set/Data/OMG_MobileMini.Pak/Set_00413.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="kbotu" name="frame" src="kn5zxo" fileName="Set/组件/frame.xml" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="tsee1" name="DA2ETabButton5" src="kn5zxt" fileName="Set/组件/DA2ETabButton4.xml" pkg="jk0io98j" xy="887,475">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i" controller="CPages" page="4"/>
+    </component>
+    <component id="0w42k" name="DA2ETabButton4" src="kn5zxr" fileName="Set/组件/DA2ETabButton3.xml" pkg="jk0io98j" xy="887,369">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i" controller="CPages" page="3"/>
+    </component>
+    <component id="n1_mua5" name="DA2ETabButton3" src="s46aa" fileName="Set/组件/DA2ETabButton5.xml" pkg="jk0io98j" xy="886,263">
+      <Button controller="CPages" page="2"/>
+    </component>
+    <component id="u0v00" name="DA2ETabButton2" src="kn5zxq" fileName="Set/组件/DA2ETabButton2.xml" pkg="jk0io98j" xy="887,157">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i" controller="CPages" page="1"/>
+    </component>
+    <component id="v3g20" name="DA2ETabButton1" src="kn5zxp" fileName="Set/组件/DA2ETabButton1.xml" pkg="jk0io98j" xy="887,51">
+      <relation target="" sidePair=""/>
+      <Button checked="true" sound="ui://a1qeklvh3272i" controller="CPages" page="0"/>
+    </component>
+    <component id="31qa1" name="DBtnStateColse" src="kn5zxs" fileName="Set/组件/DBtnStateColse.xml" pkg="jk0io98j" xy="886,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="n1e71" name="DA2EIMAGE9" src="ldxan2cw" fileName="Set/Data/OMG_MobileMini.Pak/Set_00300.png" pkg="jk0io98j" xy="54,12" size="53,29"/>
+    <graph id="0e70y" name="ModalLayer" xy="8,8" size="2,2" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="w60mh" name="DA2EPage1" src="s46an" fileName="Set/组件/DA2EPage7.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component id="n2_mua5" name="DA2EPage2" src="s46a12" fileName="Set/组件/DA2EPage5.xml" pkg="jk0io98j" xy="24,56">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component id="n3_q184" name="DA2EPage3" src="heq7gvn2v6" fileName="Set/组件/DA2EPage6.xml" pkg="jk0io98j" xy="24,56" size="837,503">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <component id="c6ys0" name="DA2EPage4" src="kn5zxn" fileName="Set/组件/DA2EPage3.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="3"/>
+    </component>
+    <component id="0cdk2" name="DA2EPage5" src="kn5zyq" fileName="Set/组件/DA2EPage4.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="4"/>
+    </component>
+    <component id="n4_s2h3" name="DBtnHelp" src="s2h3gvn2x6" fileName="Set/组件/DBtnHelp.xml" pkg="jk0io98j" xy="817,55"/>
+  </displayList>
+</component>

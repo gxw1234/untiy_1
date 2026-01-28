@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,44" scroll="both">
+  <displayList>
+    <image id="38bno" src="kn5z14c" fileName="00280.PNG" xy="0,0" name="DMyFriendsTitle">
+      <relation sidePair=""/>
+    </image>
+    <text name="DMyFriendName" id="k4gtb" xy="1,1" size="153,38" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="DMyFriendGuild" id="n0ej2" xy="405,1" size="153,38" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="行会" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="DMyFriendLevel" id="fh47q" xy="158,1" size="114,38" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="DMyFriendJob" id="0n8w0" xy="278,1" size="121,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="职业" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="DMyFriendState" id="386ht" xy="563,1" size="104,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="状态" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

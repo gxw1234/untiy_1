@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="808,320">
+  <displayList>
+    <image id="n0_wfya" name="bg" src="wfyagvn2zm" fileName="GameShop/Data/gs_allLine.png" xy="0,0"/>
+    <list id="n1_wfya" name="ListView" xy="0,46" size="808,269" overflow="scroll" scrollBarFlags="160" scrollBar="hidden" defaultItem="ui://jk0io98jwfyagvn2zq" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n2_wfya" name="ShopName" xy="32,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="店铺名称"/>
+    <text id="n3_wfya" name="HostName" xy="176,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="店主名称"/>
+    <text id="n4_wfya" name="Time" xy="338,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="开业时间"/>
+    <text id="n5_wfya" name="NumTitle" xy="476,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="物品数量"/>
+    <text id="n6_wfya" name="Total" xy="562,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="销售总数"/>
+    <text id="n7_wfya" name="State" xy="665,12" size="40,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="状态"/>
+    <text id="n8_wfya" name="Du" xy="739,12" size="58,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" strokeColor="#000000" text="关注度"/>
+    <text id="n15_wfya" name="ss" xy="26,325" size="62,26" fontSize="18" color="#ffffff" letterSpacing="2" text="关键字"/>
+    <image id="n16_wfya" name="input_bg" src="wfyagvn2zr" fileName="GameShop/Data/gs_di.png" xy="107,322"/>
+    <text id="n17_wfya" name="input_search" xy="110,325" size="184,28" fontSize="18" color="#ffffff" vAlign="middle" autoSize="none" autoClearText="true" text="是是是三生三世" input="true" maxLength="10"/>
+    <component id="n18_wfya" name="SearchButton" src="wfyagvn2zu" fileName="GameShop/组件/SearchButton.xml" xy="305,321">
+      <Button title="搜索" titleColor="#e1db39" titleFontSize="20" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n11_wfya" name="Gategory" src="wfyagvn30t" fileName="GameShop/下拉框/Gategory.xml" xy="107,355">
+      <ComboBox titleColor="#ffffff" visibleItemCount="10">
+        <item title="店铺名称"/>
+        <item title="店主名称"/>
+      </ComboBox>
+    </component>
+    <text id="n12_wfya" name="sertxt" xy="26,358" size="76,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" text="搜索类别"/>
+    <component id="n13_wfya" name="Sort" src="wfyagvn30t" fileName="GameShop/下拉框/Gategory.xml" xy="107,388">
+      <ComboBox titleColor="#ffffff" visibleItemCount="10">
+        <item title="物品总数从高到低"/>
+        <item title="物品总数从低到高"/>
+        <item title="销量从高到底"/>
+        <item title="销量从低到高"/>
+        <item title="关注度从高到低"/>
+        <item title="关注地从低到高"/>
+      </ComboBox>
+    </component>
+    <text id="n14_wfya" name="SortTxt" xy="26,391" size="40,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" text="排序"/>
+    <component id="n19_wfya" name="LeftButton" src="wfyagvn316" fileName="GameShop/组件/LeftButton.xml" xy="611,324">
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n20_wfya" name="RightButton" src="wfyagvn317" fileName="GameShop/组件/RightButton.xml" xy="714,324">
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n21_wfya" name="EndButton" src="wfyagvn311" fileName="GameShop/组件/EndButton.xml" xy="755,324">
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n22_wfya" name="StartButton" src="wfyagvn310" fileName="GameShop/组件/StartButton.xml" xy="557,324">
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <image id="n23_wfya" name="page_bg" src="wfyagvn318" fileName="GameShop/Data/gs_page_bg.png" xy="650,324"/>
+    <text id="n24_wfya" name="pageNum" xy="654,327" size="51,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="1/3"/>
+    <component id="n25_wfya" name="FirstButton" src="wfyagvn31b" fileName="GameShop/组件/FirstButton.xml" xy="448,321">
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,252" scroll="both">
+  <displayList>
+    <image id="f05t0" name="DBottomLeftPanel" src="j3e21lb" fileName="data/OMG_NewopUI.wil/00000.PNG" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="0s528" name="ChatEdit2" xy="9,212" size="76,19" font="Microsoft YaHei" fontSize="12" color="#ffffff" align="right" vAlign="middle" leading="0" vars="true" autoSize="none" text="{HP=0}/{MaxHP=0}"/>
+    <text id="q37a8" name="ChatEdit3" xy="87,212" size="82,19" font="Microsoft YaHei" fontSize="12" color="#ffffff" vAlign="middle" leading="0" vars="true" autoSize="none" text="{MP=0}/{MaxMP=0}"/>
+    <text id="0ihnu" name="ChatEdit4" xy="11,232" size="154,19" font="Microsoft YaHei" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" vars="true" autoSize="none" text="{Map=} {X=0}:{Y=0}"/>
+    <image id="f136w" name="DHPBall" src="j3e21l7" fileName="Data/OMG_MobileMini.Pak/00138.PNG" xy="37,90" size="45,97" fillMethod="vt" fillOrigin="1"/>
+    <image id="n7a2m" name="DMPBall" src="j3e21l8" fileName="Data/OMG_MobileMini.Pak/00137.PNG" xy="87,90" size="45,97" fillMethod="vt" fillOrigin="1"/>
+  </displayList>
+</component>

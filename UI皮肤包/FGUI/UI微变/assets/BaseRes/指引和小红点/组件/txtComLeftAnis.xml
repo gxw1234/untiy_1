@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="122,49" scroll="both">
+  <displayList>
+    <loader id="pdl4r" name="DA2ELoader4" size="122,49" xy="0,0"/>
+    <text name="ChatEdit1" id="es156" xy="0,9" size="120,32" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

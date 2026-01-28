@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="68,68" scroll="both" extention="Button">
+  <displayList>
+    <image id="wer72" src="kn5zw4" fileName="00789.PNG" xy="0,0" name="Img789h8a">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="6165c" src="kn5zw4" fileName="00789.PNG" xy="0,0" name="Img7897wn">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <loader id="0618j" name="Eff21" size="64,64" fill="scale" pivot="0.5,0.5" anchor="true" xy="34,34"/>
+    <loader id="35a8v" name="Eff11" size="64,64" fill="scale" pivot="0.5,0.5" anchor="true" xy="34,34"/>
+    <loader id="mn6b3" name="icon" size="64,64" align="center" vAlign="middle" fill="scale" pivot="0.5,0.5" anchor="true" xy="34,34"/>
+    <text name="ChatEdit58" id="53586" xy="2,46" size="64,19" font="Microsoft YaHei" fontSize="14" leading="0" autoSize="none" text="" color="#FFFFFF" align="right" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <loader id="tgng6" name="Eff22" size="64,64" fill="scale" pivot="0.5,0.5" anchor="true" xy="34,34"/>
+    <loader id="jkre1" name="Eff12" size="64,64" fill="scale" pivot="0.5,0.5" anchor="true" xy="34,34"/>
+    <loader id="070d5" name="Eff23" size="64,64" fill="scale" pivot="0.5,0.5" anchor="true" xy="34,34"/>
+    <loader id="3yym1" name="Eff13" size="64,64" fill="scale" pivot="0.5,0.5" anchor="true" xy="34,34"/>
+    <loader id="34f0x" name="bagsLod" size="35,35" fill="scale" pivot="1,1" anchor="true" xy="64,64"/>
+    <loader id="u7gy8" name="bagsLods" size="35,35" fill="scale" pivot="1,1" anchor="true" xy="64,64"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

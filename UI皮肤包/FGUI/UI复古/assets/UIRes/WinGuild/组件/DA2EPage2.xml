@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="934,593" scroll="both">
+  <displayList>
+    <image id="8bfr7" src="ldxan2lk" fileName="00243.PNG" xy="24,54" size="840,44" name="DA2EIMAGE3" alpha="1.0"/>
+    <text name="ChatEdit10" id="e67gw" xy="23,54" size="210,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="玩家名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit11" id="hwo3h" xy="235,54" size="131,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit12" id="wah43" xy="370,54" size="131,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="职业" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit13" id="00bad" xy="505,53" size="167,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="职位" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit14" id="og441" xy="675,53" size="188,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="状态" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <list id="o1063" name="DA2EGrid3" xy="24,96" size="837,417" treeView="false" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://jk0io98jkn5z18g">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="BtnComPlayPos" id="f4548" src="kn5z17n" fileName="BtnComPlayPos.xml" xy="650,528">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnDelePlay" id="k3m3a" src="kn5z17o" fileName="BtnDelePlay.xml" xy="760,528">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="EditGuildPlay" id="44527" xy="29,526" size="335,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="行会人数" color="#FFFFFF" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

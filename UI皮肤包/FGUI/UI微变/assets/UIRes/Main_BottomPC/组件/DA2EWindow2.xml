@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="14,96" scroll="both" extention="Slider">
+  <displayList>
+    <image id="gj0a1" src="j3e21lr" fileName="00020.PNG" xy="0,0" size="14,96" name="n0" alpha="1.0">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </image>
+    <image id="320wp" src="j3e21lr" fileName="00020.PNG" xy="0,0" size="14,96" name="bar_v" alpha="1.0"/>
+    <component name="grip" id="6f0rn" src="j3e21og" fileName="grip.xml" target="320wp" xy="-1,86">
+      <relation target="" sidePair=""/>
+      <relation sidePair="top-bottom"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+  </displayList>
+  <Slider titleType="valueAndmax"/>
+</component>

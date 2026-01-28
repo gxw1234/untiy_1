@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="858,594" designImageAlpha="97">
+  <displayList>
+    <image id="n0_wfya" name="BG" src="ceyqgvn2w3" fileName="Common/common_bg.png" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n39_wfya" name="frame" src="m9og2" fileName="GameShop/组件/frame.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n1_wfya" name="CloseButton" src="np3ugvn2w2" fileName="Common/CloseButton.xml" xy="857,0" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="n3_wfya" name="bg_line" src="m9og1v" fileName="GameShop/Data/gs_fw_line.png" xy="23,114" pkg="jk0io98j"/>
+    <image id="n5_wfya" name="input_bg" src="m9oge" fileName="GameShop/Data/gs_di.png" xy="131,436" pkg="jk0io98j"/>
+    <image id="n13_wfya" name="price2_bg" src="m9og19" fileName="GameShop/Data/gs_price2.png" xy="131,536" pkg="jk0io98j"/>
+    <component id="n7_wfya" name="SearchButton" src="m9ogf" fileName="GameShop/组件/SearchButton.xml" xy="329,435" pkg="jk0io98j">
+      <Button title="搜索" titleColor="#e1db39" titleFontSize="20" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n11_wfya" name="huobi" src="m9og15" fileName="GameShop/下拉框/Gategory2.xml" xy="131,502" pkg="jk0io98j">
+      <ComboBox title="不限" titleColor="#ffffff" visibleItemCount="10">
+        <item title="不限"/>
+        <item title="元宝"/>
+      </ComboBox>
+    </component>
+    <component id="n12_wfya" name="leibie" src="m9og15" fileName="GameShop/下拉框/Gategory2.xml" xy="131,469" pkg="jk0io98j">
+      <ComboBox title="所有" titleColor="#ffffff" visibleItemCount="10">
+        <item title="所有"/>
+        <item title="装饰"/>
+        <item title="补给"/>
+        <item title="强化"/>
+        <item title="好友"/>
+        <item title="限量"/>
+        <item title="奇珍"/>
+      </ComboBox>
+    </component>
+    <component id="n17_wfya" name="Sort_L" src="m9og1a" fileName="GameShop/下拉框/Gateroty3.xml" xy="271,471" pkg="jk0io98j">
+      <ComboBox title="价格从低到高" titleColor="#ffffff" visibleItemCount="10">
+        <item title="价格从低到高"/>
+        <item title="价格从高到低"/>
+      </ComboBox>
+    </component>
+    <component id="n18_wfya" name="LeftButton" src="m9ogl" fileName="GameShop/组件/LeftButton.xml" xy="635,438" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n19_wfya" name="RightButton" src="m9ogo" fileName="GameShop/组件/RightButton.xml" xy="738,438" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n20_wfya" name="EndButton" src="m9ogr" fileName="GameShop/组件/EndButton.xml" xy="779,438" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n21_wfya" name="StartButton" src="m9ogu" fileName="GameShop/组件/StartButton.xml" xy="581,438" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="n22_wfya" name="page_bg" src="m9ogx" fileName="GameShop/Data/gs_page_bg.png" xy="674,438" pkg="jk0io98j"/>
+    <component id="n24_wfya" name="FirstButton" src="m9ogy" fileName="GameShop/组件/FirstButton.xml" xy="469,437" visible="false" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n26_wfya" name="BackButton" src="m9og1w" fileName="GameShop/组件/BackButton.xml" xy="510,437" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="n6_wfya" name="input_search" xy="134,438" size="184,28" fontSize="18" color="#ffffff" vAlign="middle" autoSize="none" autoClearText="true" text="是是是三生三世" input="true" maxLength="10"/>
+    <text id="n14_wfya" name="price1" xy="134,540" size="71,26" fontSize="18" color="#ffffff" autoSize="none" text="0" input="true" maxLength="10" restrict="[0-9]" keyboardType="4"/>
+    <text id="n15_wfya" name="price2" xy="237,539" size="71,26" fontSize="18" color="#ffffff" autoSize="none" text="0" input="true" maxLength="10" restrict="[0-9]" keyboardType="4"/>
+    <text id="n23_wfya" name="pageNum" xy="678,441" size="51,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="1/3"/>
+    <text id="n2_wfya" name="Title" xy="35,14" size="82,26" fontSize="18" color="#fbf3d3" align="center" letterSpacing="2" bold="true" strokeColor="#000000" text="访问店铺"/>
+    <text id="n4_wfya" name="ss" xy="50,439" size="62,26" fontSize="18" color="#ffffff" letterSpacing="2" text="关键字"/>
+    <text id="n8_wfya" name="serchTxt" xy="50,472" size="76,26" fontSize="18" color="#ffffff" text="搜索类别"/>
+    <text id="n9_wfya" name="priceTxt" xy="50,537" size="76,26" fontSize="18" color="#ffffff" text="价格范围"/>
+    <text id="n16_wfya" name="sortTxt" xy="223,473" size="40,26" fontSize="18" color="#ffffff" text="排序"/>
+    <text id="n10_wfya" name="GoldTxt" xy="50,505" size="76,26" fontSize="18" color="#ffffff" text="货币类型"/>
+    <text id="n27_wfya" name="Txt1" xy="40,69" size="234,26" fontSize="18" color="#f7b656" letterSpacing="2" autoSize="none" bold="true" strokeColor="#000000" text="访问好好看的店铺"/>
+    <text id="n28_wfya" name="Txt2" xy="276,69" size="201,26" fontSize="18" color="#f7b656" letterSpacing="2" autoSize="none" bold="true" strokeColor="#000000" text="当前状态：离线"/>
+    <text id="n29_wfya" name="Txt3" xy="499,69" size="172,26" fontSize="18" color="#f7b656" letterSpacing="2" autoSize="none" bold="true" strokeColor="#000000" text="店铺物品数：2"/>
+    <text id="n30_wfya" name="Txt4" xy="679,69" size="132,26" fontSize="18" color="#f7b656" letterSpacing="2" autoSize="none" bold="true" strokeColor="#000000" text="页数：1/2"/>
+    <text id="n32_wfya" name="shopName" xy="28,124" size="82,26" fontSize="18" color="#fbf3d3" letterSpacing="2" strokeColor="#000000" text="店铺名称"/>
+    <text id="n33_wfya" name="Ite" xy="153,124" size="82,26" fontSize="18" color="#fbf3d3" letterSpacing="2" strokeColor="#000000" text="物品名称"/>
+    <text id="n34_wfya" name="Ite2" xy="312,124" size="82,26" fontSize="18" color="#fbf3d3" letterSpacing="2" strokeColor="#000000" text="出售价格"/>
+    <text id="n35_wfya" name="Ite3" xy="476,124" size="42,26" fontSize="18" color="#fbf3d3" letterSpacing="2" strokeColor="#000000" text="类别"/>
+    <text id="n36_wfya" name="Ite4" xy="618,124" size="82,26" fontSize="18" color="#fbf3d3" letterSpacing="2" strokeColor="#000000" text="添加日期"/>
+    <text id="n37_wfya" name="Ite5" xy="774,124" size="42,26" fontSize="18" color="#fbf3d3" letterSpacing="2" strokeColor="#000000" text="购买"/>
+    <list id="n38_wfya" name="ListView" xy="24,161" size="808,265" overflow="scroll" scrollBarFlags="160" scrollBar="hidden" lineGap="3" defaultItem="ui://jk0io98jm9og1z" autoClearItems="true">
+      <item/>
+    </list>
+  </displayList>
+</component>

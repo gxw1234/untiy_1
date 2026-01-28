@@ -1,0 +1,123 @@
+/** This is an automatically generated class by FairyGUI. Please do not modify it. **/
+
+using FairyGUI;
+
+namespace BaseRes
+{
+    public class BaseResBinder
+    {
+        public static void BindAll()
+        {
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton11.URL, typeof(DA2ESimpleButton11));
+            UIObjectFactory.SetPackageItemExtension(EquipCellEditor.URL, typeof(EquipCellEditor));
+            UIObjectFactory.SetPackageItemExtension(frame.URL, typeof(frame));
+            UIObjectFactory.SetPackageItemExtension(closeButton.URL, typeof(closeButton));
+            UIObjectFactory.SetPackageItemExtension(ImgMulRoot.URL, typeof(ImgMulRoot));
+            UIObjectFactory.SetPackageItemExtension(BtnClose1.URL, typeof(BtnClose1));
+            UIObjectFactory.SetPackageItemExtension(BtnPageUp.URL, typeof(BtnPageUp));
+            UIObjectFactory.SetPackageItemExtension(BtnPageDown.URL, typeof(BtnPageDown));
+            UIObjectFactory.SetPackageItemExtension(BtnOk1.URL, typeof(BtnOk1));
+            UIObjectFactory.SetPackageItemExtension(BtnOk2.URL, typeof(BtnOk2));
+            UIObjectFactory.SetPackageItemExtension(BtnColose2.URL, typeof(BtnColose2));
+            UIObjectFactory.SetPackageItemExtension(GameItemCell1.URL, typeof(GameItemCell1));
+            UIObjectFactory.SetPackageItemExtension(DBtnCommonHitUIClose.URL, typeof(DBtnCommonHitUIClose));
+            UIObjectFactory.SetPackageItemExtension(NewNpcDCloseBtn.URL, typeof(NewNpcDCloseBtn));
+            UIObjectFactory.SetPackageItemExtension(SignOutBtn.URL, typeof(SignOutBtn));
+            UIObjectFactory.SetPackageItemExtension(SwitchBtn.URL, typeof(SwitchBtn));
+            UIObjectFactory.SetPackageItemExtension(DelBtn.URL, typeof(DelBtn));
+            UIObjectFactory.SetPackageItemExtension(ExpBtn.URL, typeof(ExpBtn));
+            UIObjectFactory.SetPackageItemExtension(LoadBtn.URL, typeof(LoadBtn));
+            UIObjectFactory.SetPackageItemExtension(ClearBtn.URL, typeof(ClearBtn));
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton1.URL, typeof(DA2ESimpleButton1));
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton2.URL, typeof(DA2ESimpleButton2));
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton3.URL, typeof(DA2ESimpleButton3));
+            UIObjectFactory.SetPackageItemExtension(BigNPC.URL, typeof(BigNPC));
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton4.URL, typeof(DA2ESimpleButton4));
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton5.URL, typeof(DA2ESimpleButton5));
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton6.URL, typeof(DA2ESimpleButton6));
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton7.URL, typeof(DA2ESimpleButton7));
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton8.URL, typeof(DA2ESimpleButton8));
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton9.URL, typeof(DA2ESimpleButton9));
+            UIObjectFactory.SetPackageItemExtension(DA2ESimpleButton10.URL, typeof(DA2ESimpleButton10));
+            UIObjectFactory.SetPackageItemExtension(FileID.URL, typeof(FileID));
+            UIObjectFactory.SetPackageItemExtension(ImgID.URL, typeof(ImgID));
+            UIObjectFactory.SetPackageItemExtension(CanMove.URL, typeof(CanMove));
+            UIObjectFactory.SetPackageItemExtension(ShowPos.URL, typeof(ShowPos));
+            UIObjectFactory.SetPackageItemExtension(MX.URL, typeof(MX));
+            UIObjectFactory.SetPackageItemExtension(MY.URL, typeof(MY));
+            UIObjectFactory.SetPackageItemExtension(ShowCloseButton.URL, typeof(ShowCloseButton));
+            UIObjectFactory.SetPackageItemExtension(CloseX.URL, typeof(CloseX));
+            UIObjectFactory.SetPackageItemExtension(CloseY.URL, typeof(CloseY));
+            UIObjectFactory.SetPackageItemExtension(CurMerchant.URL, typeof(CurMerchant));
+            UIObjectFactory.SetPackageItemExtension(Stretch.URL, typeof(Stretch));
+            UIObjectFactory.SetPackageItemExtension(CloseScale.URL, typeof(CloseScale));
+            UIObjectFactory.SetPackageItemExtension(IsContainer.URL, typeof(IsContainer));
+            UIObjectFactory.SetPackageItemExtension(Panel.URL, typeof(Panel));
+            UIObjectFactory.SetPackageItemExtension(SelAllBtn.URL, typeof(SelAllBtn));
+            UIObjectFactory.SetPackageItemExtension(CancelBtn.URL, typeof(CancelBtn));
+            UIObjectFactory.SetPackageItemExtension(ConfirmBtn.URL, typeof(ConfirmBtn));
+            UIObjectFactory.SetPackageItemExtension(Detail.URL, typeof(Detail));
+            UIObjectFactory.SetPackageItemExtension(Btn.URL, typeof(Btn));
+            UIObjectFactory.SetPackageItemExtension(ClickSize.URL, typeof(ClickSize));
+            UIObjectFactory.SetPackageItemExtension(ClickSizeEditor.URL, typeof(ClickSizeEditor));
+            UIObjectFactory.SetPackageItemExtension(ContainerCom.URL, typeof(ContainerCom));
+            UIObjectFactory.SetPackageItemExtension(ContainerEditor.URL, typeof(ContainerEditor));
+            UIObjectFactory.SetPackageItemExtension(CustomNpcDlg.URL, typeof(CustomNpcDlg));
+            UIObjectFactory.SetPackageItemExtension(DA2EWindow1.URL, typeof(DA2EWindow1));
+            UIObjectFactory.SetPackageItemExtension(DA2EWindow2.URL, typeof(DA2EWindow2));
+            UIObjectFactory.SetPackageItemExtension(DNpcDlg.URL, typeof(DNpcDlg));
+            UIObjectFactory.SetPackageItemExtension(EquipCell.URL, typeof(EquipCell));
+            UIObjectFactory.SetPackageItemExtension(GameItemGrid.URL, typeof(GameItemGrid));
+            UIObjectFactory.SetPackageItemExtension(GridItem.URL, typeof(GridItem));
+            UIObjectFactory.SetPackageItemExtension(Img.URL, typeof(Img));
+            UIObjectFactory.SetPackageItemExtension(ImgEditor.URL, typeof(ImgEditor));
+            UIObjectFactory.SetPackageItemExtension(ImgEx.URL, typeof(ImgEx));
+            UIObjectFactory.SetPackageItemExtension(ImgExEditor.URL, typeof(ImgExEditor));
+            UIObjectFactory.SetPackageItemExtension(ImgNum.URL, typeof(ImgNum));
+            UIObjectFactory.SetPackageItemExtension(Input.URL, typeof(Input));
+            UIObjectFactory.SetPackageItemExtension(InputEditor.URL, typeof(InputEditor));
+            UIObjectFactory.SetPackageItemExtension(ItemBox.URL, typeof(ItemBox));
+            UIObjectFactory.SetPackageItemExtension(ItemBoxEditor.URL, typeof(ItemBoxEditor));
+            UIObjectFactory.SetPackageItemExtension(ItemCell.URL, typeof(ItemCell));
+            UIObjectFactory.SetPackageItemExtension(ItemShow.URL, typeof(ItemShow));
+            UIObjectFactory.SetPackageItemExtension(ItemShowEditor.URL, typeof(ItemShowEditor));
+            UIObjectFactory.SetPackageItemExtension(NPCMode.URL, typeof(NPCMode));
+            UIObjectFactory.SetPackageItemExtension(NewNpcDlg.URL, typeof(NewNpcDlg));
+            UIObjectFactory.SetPackageItemExtension(PlayImg.URL, typeof(PlayImg));
+            UIObjectFactory.SetPackageItemExtension(PlayImgEditor.URL, typeof(PlayImgEditor));
+            UIObjectFactory.SetPackageItemExtension(PlayImgEx.URL, typeof(PlayImgEx));
+            UIObjectFactory.SetPackageItemExtension(PlayImgExEditor.URL, typeof(PlayImgExEditor));
+            UIObjectFactory.SetPackageItemExtension(ProgressBar.URL, typeof(ProgressBar));
+            UIObjectFactory.SetPackageItemExtension(TextEditor.URL, typeof(TextEditor));
+            UIObjectFactory.SetPackageItemExtension(Txt.URL, typeof(Txt));
+            UIObjectFactory.SetPackageItemExtension(CusBtn.URL, typeof(CusBtn));
+            UIObjectFactory.SetPackageItemExtension(ScnButtomUI.URL, typeof(ScnButtomUI));
+            UIObjectFactory.SetPackageItemExtension(BreakLineUI.URL, typeof(BreakLineUI));
+            UIObjectFactory.SetPackageItemExtension(txtComLeft.URL, typeof(txtComLeft));
+            UIObjectFactory.SetPackageItemExtension(txtComRight.URL, typeof(txtComRight));
+            UIObjectFactory.SetPackageItemExtension(c0.URL, typeof(c0));
+            UIObjectFactory.SetPackageItemExtension(c1.URL, typeof(c1));
+            UIObjectFactory.SetPackageItemExtension(c2.URL, typeof(c2));
+            UIObjectFactory.SetPackageItemExtension(c3.URL, typeof(c3));
+            UIObjectFactory.SetPackageItemExtension(c4.URL, typeof(c4));
+            UIObjectFactory.SetPackageItemExtension(c5.URL, typeof(c5));
+            UIObjectFactory.SetPackageItemExtension(c6.URL, typeof(c6));
+            UIObjectFactory.SetPackageItemExtension(c7.URL, typeof(c7));
+            UIObjectFactory.SetPackageItemExtension(c8.URL, typeof(c8));
+            UIObjectFactory.SetPackageItemExtension(txtComLeftAnis.URL, typeof(txtComLeftAnis));
+            UIObjectFactory.SetPackageItemExtension(txtComHides.URL, typeof(txtComHides));
+            UIObjectFactory.SetPackageItemExtension(GuideLayer.URL, typeof(GuideLayer));
+            UIObjectFactory.SetPackageItemExtension(RedNoteUI.URL, typeof(RedNoteUI));
+            UIObjectFactory.SetPackageItemExtension(StoreWindow.URL, typeof(StoreWindow));
+            UIObjectFactory.SetPackageItemExtension(StoreWindowSelect.URL, typeof(StoreWindowSelect));
+            UIObjectFactory.SetPackageItemExtension(PageDown.URL, typeof(PageDown));
+            UIObjectFactory.SetPackageItemExtension(PageUp.URL, typeof(PageUp));
+            UIObjectFactory.SetPackageItemExtension(BtnBuy.URL, typeof(BtnBuy));
+            UIObjectFactory.SetPackageItemExtension(buyButton.URL, typeof(buyButton));
+            UIObjectFactory.SetPackageItemExtension(ConfirmBtn1.URL, typeof(ConfirmBtn1));
+            UIObjectFactory.SetPackageItemExtension(ItemCeil1.URL, typeof(ItemCeil1));
+            UIObjectFactory.SetPackageItemExtension(LeftTurnBtn1.URL, typeof(LeftTurnBtn1));
+            UIObjectFactory.SetPackageItemExtension(RightTurnBtn1.URL, typeof(RightTurnBtn1));
+        }
+    }
+}

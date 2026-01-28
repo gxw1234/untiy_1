@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="168,40">
+  <controller name="c1" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n5_gpd0" name="bg" src="s336z" fileName="Main_Bottom/Data/OMG_MobileMini.Pak/Bottom_00886.png" xy="0,0" size="168,230">
+      <relation target="n4_gpd0" sidePair="bottomext-bottom"/>
+    </image>
+    <text id="n1_gpd0" name="tips" xy="3,43" size="165,50" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="附近无可攻击目标"/>
+    <component id="n2_gpd0" name="HumBtn" src="s33610" fileName="Main_Bottom/组件/DActorBtn.xml" xy="2,4">
+      <Button checked="true" title="人物" controller="c1" page="0"/>
+    </component>
+    <component id="n3_gpd0" name="MonBtn" src="s33610" fileName="Main_Bottom/组件/DActorBtn.xml" xy="85,4">
+      <Button title="怪物" controller="c1" page="1"/>
+    </component>
+    <list id="n4_gpd0" name="ActorList" xy="1,42" size="168,188" overflow="scroll" lineGap="1" defaultItem="ui://jk0io98js33613">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="n5_gpd0" sidePair="width-width,height-height"/>
+</component>

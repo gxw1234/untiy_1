@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="29,77" scroll="both">
+  <displayList>
+    <loader id="cmapa" name="d5" size="29,77" touchable="false" xy="0,0"/>
+  </displayList>
+  <relation target="3npk6" sidePair="middle-middle,right-right"/>
+</component>

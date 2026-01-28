@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="a1qeklvh">
+  <resources>
+    <sound id="3272i" name="103.wav" path="/" exported="true"/>
+    <sound id="g2d28" name="104.wav" path="/" exported="true"/>
+    <sound id="w0d00" name="105.wav" path="/" exported="true"/>
+  </resources>
+  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+</packageDescription>

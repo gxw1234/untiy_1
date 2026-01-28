@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="343,432" remark="{&#xD;&#xA;&#xD;&#xA;&quot;Enable&quot;:0,&#xD;&#xA;&#xD;&#xA;&quot;Center&quot;:0,&#xD;&#xA;&#xD;&#xA;&quot;OX&quot;:1,&#xD;&#xA;&#xD;&#xA;&quot;OY&quot;:2&#xD;&#xA;&#xD;&#xA;}" scroll="both">
+  <displayList>
+    <image id="c4dfm" src="ldxan28j" fileName="00038.PNG" xy="0,0" name="DCharSelect" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="DJobList" id="qmob7" src="wk1u1" fileName="DJobList.xml" xy="4,150" pkg="jk0io98j"/>
+    <component name="DSexList" id="52171" src="j43ts" fileName="DSexList.xml" xy="4,285" pkg="jk0io98j"/>
+    <component name="DCharSelectClose" id="jycj2" src="st764" fileName="DCharSelectClose.xml" xy="280,27" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnSubmit" id="5btfd" src="0ci26" fileName="BtnSubmit.xml" xy="98,375" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="DEditNickName" id="uc5yf" xy="80,80" size="150,24" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" singleLine="true" anchor="false" maxLength="21" strokeSize="1" strokeColor="#000000"/>
+    <component name="BtnRandomNickName" id="g4pp8" src="ys021" fileName="BtnRandomNickName.xml" xy="204,69" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

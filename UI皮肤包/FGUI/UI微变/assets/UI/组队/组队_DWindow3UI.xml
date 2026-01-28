@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="407,177" opaque="false" scroll="both">
+  <displayList>
+    <image id="cym0i" name="DWindow3" src="kn5zt0" fileName="Data/OMG_MobileMini.Pak/00299.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="753e4" name="DA2ESimpleButton2" src="kn5zu2" fileName="组件/DA2ESimpleButton2.xml" xy="36,94" size="125,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="77g73" name="DPlayName" xy="104,10" size="170,41" font="Microsoft YaHei" fontSize="18" color="#e4cb45" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字七个字"/>
+    <component id="04g6g" name="DA2ESimpleButton3" src="kn5zu3" fileName="组件/DA2ESimpleButton3.xml" xy="218,94" size="125,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="r2y66" name="DCloseBtn" src="kn5ztv" fileName="组件/DCloseBtn.xml" xy="377,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

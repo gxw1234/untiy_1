@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="407,278" scroll="both">
+  <displayList>
+    <image id="x34o0" src="10awvn2rp" fileName="00275.PNG" xy="0,0" name="DWindow2" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <text name="ChatEdit8" id="424m1" xy="102,9" size="170,41" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="添加好友" color="#DCDCDB" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2ESimpleButton18" id="4gu50" src="kn5ztx" fileName="DA2ESimpleButton18.xml" xy="26,98" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ESimpleButton19" id="iv13d" src="kn5zty" fileName="DA2ESimpleButton19.xml" xy="208,98" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ESimpleButton20" id="u751m" src="kn5ztz" fileName="DA2ESimpleButton20.xml" xy="26,181" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ESimpleButton21" id="rsbp1" src="kn5zu0" fileName="DA2ESimpleButton21.xml" xy="208,181" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DCloseBtn" id="r6b27" src="kn5ztv" fileName="DCloseBtn.xml" xy="377,0" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

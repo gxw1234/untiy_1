@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="78,79" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="h2mq7" name="Img23736d" src="kn5zmm" fileName="Data/OMG_MobileMini.Pak/00237.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="2055p" name="Img238y61" src="kn5zmn" fileName="Data/OMG_MobileMini.Pak/00238.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="n0_l9nh" name="ChatEdit1" xy="0,58" size="78,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="回城石"/>
+  </displayList>
+  <Button/>
+</component>

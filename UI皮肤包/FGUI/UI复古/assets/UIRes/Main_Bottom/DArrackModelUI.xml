@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,356" opaque="false" scroll="both">
+  <displayList>
+    <graph id="4561v" name="n0" xy="84,75" size="276,281" lineSize="0" lineColor="#00000000" fillColor="#00000000"/>
+    <component id="7xwyi" name="DBtnAttack2" src="v9b1fa" fileName="Main_Bottom/组件/DBtnAttack2.xml" xy="93,169"/>
+    <component id="4ff5d" name="DBtnSelMonster" src="v9b1fb" fileName="Main_Bottom/组件/DBtnSelMonster.xml" xy="162,272" scale="1.3,1.3">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="d2isn" name="DBtnSelPlay" src="v9b1fc" fileName="Main_Bottom/组件/DBtnSelPlay.xml" xy="276,155" aspect="true" scale="1.3,1.3">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="ex7l6" name="DBtnAttack0" src="v9b1fd" fileName="Main_Bottom/组件/DBtnAttack0.xml" xy="186,181"/>
+    <component id="a6mjt" name="DBtnAttack1" src="v9b1fe" fileName="Main_Bottom/组件/DBtnAttack1.xml" xy="76,262"/>
+    <component id="36y7b" name="DBtnAttack3" src="v9b1ff" fileName="Main_Bottom/组件/DBtnAttack3.xml" xy="151,97"/>
+    <component id="0oqxq" name="DBtnAttack4" src="v9b1fg" fileName="Main_Bottom/组件/DBtnAttack4.xml" xy="251,65"/>
+    <component id="0jq20" name="DBtnAttack5" src="v9b1fh" fileName="Main_Bottom/组件/DBtnAttack5.xml" xy="1,208"/>
+    <component id="00umm" name="DBtnAttack6" src="v9b1fi" fileName="Main_Bottom/组件/DBtnAttack6.xml" xy="20,115"/>
+    <component id="ud80a" name="DBtnAttack7" src="v9b1fj" fileName="Main_Bottom/组件/DBtnAttack7.xml" xy="84,34"/>
+    <component id="2jd63" name="DBtnAttack8" src="v9b1fk" fileName="Main_Bottom/组件/DBtnAttack8.xml" xy="182,5"/>
+    <component id="n0_py91" name="DTargetBtn" src="s336v" fileName="Main_Bottom/组件/DTargetBtn.xml" xy="13,43" visible="false"/>
+    <component id="n2_gpd0" name="TargetCom" src="s336y" fileName="Main_Bottom/组件/TargetCom.xml" xy="-171,-2" visible="false"/>
+    <component id="n3_wjqw" name="TargetListItem0" src="s33613" fileName="Main_Bottom/组件/TargetListItem.xml" xy="-63,-30" visible="false"/>
+    <component id="n4_wjqw" name="TargetListItem1" src="s33613" fileName="Main_Bottom/组件/TargetListItem.xml" xy="-149,65" visible="false"/>
+    <component id="n5_wjqw" name="TargetListItem2" src="s33613" fileName="Main_Bottom/组件/TargetListItem.xml" xy="-225,145" visible="false"/>
+    <component id="n6_n5e1" name="DBtnStorm" src="n5e1gvn2x2" fileName="Main_Bottom/组件/DBtnStorm.xml" xy="303,299"/>
+    <component id="n15_j67u" name="DBtnAttack9" src="j67ugvn2z5" fileName="Main_Bottom/组件/DBtnAttack9.xml" xy="76,462"/>
+    <component id="n16_j67u" name="DBtnAttack10" src="j67ugvn2z6" fileName="Main_Bottom/组件/DBtnAttack10.xml" xy="76,462"/>
+    <component id="n17_j67u" name="DBtnAttack11" src="j67ugvn2z7" fileName="Main_Bottom/组件/DBtnAttack11.xml" xy="76,462"/>
+    <component id="n18_j67u" name="DBtnAttack12" src="j67ugvn2z8" fileName="Main_Bottom/组件/DBtnAttack12.xml" xy="76,462"/>
+    <component id="n19_j67u" name="DBtnAttack13" src="j67ugvn2z9" fileName="Main_Bottom/组件/DBtnAttack13.xml" xy="374,5"/>
+    <component id="n20_j67u" name="DBtnAttack14" src="j67ugvn2za" fileName="Main_Bottom/组件/DBtnAttack14.xml" xy="374,5"/>
+    <component id="n21_j67u" name="DBtnAttack15" src="j67ugvn2zb" fileName="Main_Bottom/组件/DBtnAttack15.xml" xy="374,5"/>
+    <component id="n22_j67u" name="DBtnAttack16" src="j67ugvn2zc" fileName="Main_Bottom/组件/DBtnAttack16.xml" xy="374,5"/>
+    <component id="n23_os0x" name="ChangeSkill" src="os0xgvn2zf" fileName="Main_Bottom/组件/ChangeSkill.xml" xy="294,2"/>
+    <component id="n24_sr8q" name="n24" src="pnb5gvn30c" fileName="Main_RightGrop/组件/Fish.xml" xy="465,156"/>
+    <component id="n25_sr8q" name="n25" src="pnb5gvn308" fileName="Main_RightGrop/组件/Meet.xml" xy="465,445"/>
+    <component id="n26_sr8q" name="n26" src="pnb5gvn309" fileName="Main_RightGrop/组件/Ore.xml" xy="162,445"/>
+    <component id="n28_q4s1" name="ChangeSKILL" src="q4s1gvn312" fileName="Main_RightGrop/组件/ChangeSKILL.xml" xy="-2,5"/>
+  </displayList>
+  <transition name="GO">
+    <item time="0" type="XY" target="00umm" tween="true" startValue="20,115" endValue="606,115" duration="12"/>
+    <item time="0" type="XY" target="0jq20" tween="true" startValue="1,208" endValue="587,208" duration="12"/>
+    <item time="0" type="XY" target="0oqxq" tween="true" startValue="251,65" endValue="837,65" duration="12"/>
+    <item time="0" type="XY" target="2jd63" tween="true" startValue="182,5" endValue="768,5" duration="12"/>
+    <item time="0" type="XY" target="36y7b" tween="true" startValue="151,97" endValue="737,97" duration="12"/>
+    <item time="0" type="XY" target="4561v" tween="true" startValue="84,75" endValue="670,75" duration="12"/>
+    <item time="0" type="XY" target="4ff5d" tween="true" startValue="162,272" endValue="748,268" duration="12"/>
+    <item time="0" type="XY" target="7xwyi" tween="true" startValue="93,169" endValue="679,169" duration="12"/>
+    <item time="0" type="XY" target="a6mjt" tween="true" startValue="76,262" endValue="662,262" duration="12"/>
+    <item time="0" type="XY" target="d2isn" tween="true" startValue="276,155" endValue="855,155" duration="12"/>
+    <item time="0" type="XY" target="ex7l6" tween="true" startValue="186,181" endValue="772,181" duration="12"/>
+    <item time="0" type="XY" target="n0_py91" tween="true" startValue="13,43" endValue="599,43" duration="12"/>
+    <item time="0" type="XY" target="n15_j67u" tween="true" startValue="76,462" endValue="662,462" duration="12"/>
+    <item time="0" type="XY" target="n16_j67u" tween="true" startValue="76,462" endValue="662,462" duration="12"/>
+    <item time="0" type="XY" target="n17_j67u" tween="true" startValue="76,462" endValue="662,462" duration="12"/>
+    <item time="0" type="XY" target="n18_j67u" tween="true" startValue="76,462" endValue="662,462" duration="12"/>
+    <item time="0" type="XY" target="n19_j67u" tween="true" startValue="374,5" endValue="960,5" duration="12"/>
+    <item time="0" type="XY" target="n20_j67u" tween="true" startValue="374,5" endValue="960,5" duration="12"/>
+    <item time="0" type="XY" target="n21_j67u" tween="true" startValue="374,5" endValue="960,5" duration="12"/>
+    <item time="0" type="XY" target="n22_j67u" tween="true" startValue="374,5" endValue="960,5" duration="12"/>
+    <item time="0" type="XY" target="n23_os0x" tween="true" startValue="294,2" endValue="883,1" duration="12"/>
+    <item time="0" type="XY" target="n24_sr8q" tween="true" startValue="509,150" endValue="881,150" duration="12"/>
+    <item time="0" type="XY" target="n25_sr8q" tween="true" startValue="465,445" endValue="881,445" duration="12"/>
+    <item time="0" type="XY" target="n26_sr8q" tween="true" startValue="162,445" endValue="747,445" duration="12"/>
+    <item time="0" type="XY" target="n28_q4s1" tween="true" startValue="-2,5" endValue="590,5" duration="12"/>
+    <item time="0" type="XY" target="n2_gpd0" tween="true" startValue="-171,-2" endValue="415,-2" duration="12"/>
+    <item time="0" type="XY" target="n3_wjqw" tween="true" startValue="-63,-30" endValue="523,-30" duration="12"/>
+    <item time="0" type="XY" target="n4_wjqw" tween="true" startValue="-149,65" endValue="437,65" duration="12"/>
+    <item time="0" type="XY" target="n5_wjqw" tween="true" startValue="-225,145" endValue="361,145" duration="12"/>
+    <item time="0" type="XY" target="n6_n5e1" tween="true" startValue="302,297" endValue="884,289" duration="12"/>
+    <item time="0" type="XY" target="ud80a" tween="true" startValue="84,34" endValue="670,34" duration="12"/>
+  </transition>
+  <transition name="ChangeSkill">
+    <item time="0" type="XY" target="00umm" tween="true" startValue="20,115" endValue="1,208" duration="3"/>
+    <item time="0" type="XY" target="0jq20" tween="true" startValue="1,208" endValue="1,462" duration="3"/>
+    <item time="0" type="XY" target="0oqxq" tween="true" startValue="251,65" endValue="374,65" duration="3"/>
+    <item time="0" type="XY" target="2jd63" tween="true" startValue="182,5" endValue="84,34" duration="3"/>
+    <item time="0" type="XY" target="36y7b" tween="true" startValue="151,97" endValue="251,65" duration="3"/>
+    <item time="0" type="XY" target="7xwyi" tween="true" startValue="93,169" endValue="151,97" duration="3"/>
+    <item time="0" type="XY" target="a6mjt" tween="true" startValue="76,262" endValue="93,169" duration="3"/>
+    <item time="0" type="XY" target="n15_j67u" tween="true" startValue="76,462" endValue="76,262" duration="3"/>
+    <item time="0" type="XY" target="n16_j67u" tween="true" startValue="76,462" endValue="76,462" duration="3"/>
+    <item time="0" type="XY" target="n17_j67u" tween="true" startValue="76,462" endValue="76,462" duration="3"/>
+    <item time="0" type="XY" target="n18_j67u" tween="true" startValue="76,462" endValue="76,462" duration="3"/>
+    <item time="0" type="XY" target="n19_j67u" tween="true" startValue="374,5" endValue="182,5" duration="3"/>
+    <item time="0" type="XY" target="n20_j67u" tween="true" startValue="374,5" endValue="374,5" duration="3"/>
+    <item time="0" type="XY" target="n21_j67u" tween="true" startValue="374,5" endValue="374,5" duration="3"/>
+    <item time="0" type="XY" target="n22_j67u" tween="true" startValue="374,5" endValue="374,5" duration="3"/>
+    <item time="0" type="XY" target="ud80a" tween="true" startValue="84,34" endValue="20,115" duration="3"/>
+    <item time="3" type="XY" target="00umm" tween="true" startValue="1,208" endValue="1,462" duration="3"/>
+    <item time="3" type="XY" target="2jd63" tween="true" startValue="84,34" endValue="20,115" duration="3"/>
+    <item time="3" type="XY" target="36y7b" tween="true" startValue="251,65" endValue="374,65" duration="3"/>
+    <item time="3" type="XY" target="7xwyi" tween="true" startValue="151,97" endValue="251,65" duration="3"/>
+    <item time="3" type="XY" target="a6mjt" tween="true" startValue="93,169" endValue="151,97" duration="3"/>
+    <item time="3" type="XY" target="n15_j67u" tween="true" startValue="76,262" endValue="93,169" duration="3"/>
+    <item time="3" type="XY" target="n16_j67u" tween="true" startValue="76,462" endValue="76,262" duration="3"/>
+    <item time="3" type="XY" target="n17_j67u" tween="true" startValue="76,462" endValue="76,462" duration="3"/>
+    <item time="3" type="XY" target="n18_j67u" tween="true" startValue="76,462" endValue="76,462" duration="3"/>
+    <item time="3" type="XY" target="n19_j67u" tween="true" startValue="182,5" endValue="84,34" duration="3"/>
+    <item time="3" type="XY" target="n20_j67u" tween="true" startValue="374,5" endValue="182,5" duration="3"/>
+    <item time="3" type="XY" target="n21_j67u" tween="true" startValue="374,5" endValue="374,5" duration="3"/>
+    <item time="3" type="XY" target="n22_j67u" tween="true" startValue="374,5" endValue="374,5" duration="3"/>
+    <item time="3" type="XY" target="ud80a" tween="true" startValue="20,115" endValue="1,208" duration="3"/>
+    <item time="6" type="XY" target="2jd63" tween="true" startValue="20,115" endValue="1,208" duration="3"/>
+    <item time="6" type="XY" target="7xwyi" tween="true" startValue="251,65" endValue="374,65" duration="3"/>
+    <item time="6" type="XY" target="a6mjt" tween="true" startValue="151,97" endValue="251,65" duration="3"/>
+    <item time="6" type="XY" target="n15_j67u" tween="true" startValue="93,169" endValue="151,97" duration="3"/>
+    <item time="6" type="XY" target="n16_j67u" tween="true" startValue="76,262" endValue="93,169" duration="3"/>
+    <item time="6" type="XY" target="n17_j67u" tween="true" startValue="76,462" endValue="76,262" duration="3"/>
+    <item time="6" type="XY" target="n18_j67u" tween="true" startValue="76,462" endValue="76,462" duration="3"/>
+    <item time="6" type="XY" target="n19_j67u" tween="true" startValue="84,34" endValue="20,115" duration="3"/>
+    <item time="6" type="XY" target="n20_j67u" tween="true" startValue="182,5" endValue="84,34" duration="3"/>
+    <item time="6" type="XY" target="n21_j67u" tween="true" startValue="374,5" endValue="182,5" duration="3"/>
+    <item time="6" type="XY" target="n22_j67u" tween="true" startValue="374,5" endValue="374,5" duration="3"/>
+    <item time="6" type="XY" target="ud80a" tween="true" startValue="1,208" endValue="1,462" duration="3"/>
+    <item time="9" type="XY" target="2jd63" tween="true" startValue="1,208" endValue="1,462" duration="3"/>
+    <item time="9" type="XY" target="a6mjt" tween="true" startValue="251,65" endValue="374,65" duration="3"/>
+    <item time="9" type="XY" target="n15_j67u" tween="true" startValue="151,97" endValue="251,65" duration="3"/>
+    <item time="9" type="XY" target="n16_j67u" tween="true" startValue="93,169" endValue="151,97" duration="3"/>
+    <item time="9" type="XY" target="n17_j67u" tween="true" startValue="76,262" endValue="93,169" duration="3"/>
+    <item time="9" type="XY" target="n18_j67u" tween="true" startValue="76,462" endValue="76,262" duration="3"/>
+    <item time="9" type="XY" target="n19_j67u" tween="true" startValue="20,115" endValue="1,208" duration="3"/>
+    <item time="9" type="XY" target="n20_j67u" tween="true" startValue="84,34" endValue="20,115" duration="3"/>
+    <item time="9" type="XY" target="n21_j67u" tween="true" startValue="182,5" endValue="84,34" duration="3"/>
+    <item time="9" type="XY" target="n22_j67u" tween="true" startValue="374,5" endValue="182,5" duration="3"/>
+  </transition>
+  <transition name="ChangeSKILL">
+    <item time="0" type="XY" target="4ff5d" tween="true" startValue="162,272" endValue="162,445" duration="12"/>
+    <item time="0" type="XY" target="d2isn" tween="true" startValue="276,155" endValue="465,155" duration="12"/>
+    <item time="0" type="XY" target="n24_sr8q" tween="true" startValue="465,156" endValue="295,156" duration="12"/>
+    <item time="0" type="XY" target="n25_sr8q" tween="true" startValue="465,445" endValue="294,292" duration="12"/>
+    <item time="0" type="XY" target="n26_sr8q" tween="true" startValue="162,445" endValue="162,292" duration="12"/>
+    <item time="0" type="XY" target="n6_n5e1" tween="true" startValue="303,299" endValue="470,450" duration="12"/>
+  </transition>
+</component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="389,478" scroll="both">
+  <displayList>
+    <image id="gvh00" src="j3e21fy" fileName="00174.PNG" xy="0,0" name="BuyWind" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="4c204" src="j3e21g7" fileName="frame1.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <text name="BuyEdit" id="l0315" xy="19,15" size="319,36" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" vAlign="middle" anchor="false"/>
+    <text name="BuyEditname" id="2sg26" xy="124,327" size="196,29" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="EditBuyPrice" id="41pv8" xy="124,371" size="196,29" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="BtnBuy" id="wu371" src="j3e21g8" fileName="BtnBuy.xml" xy="217,416" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <list id="8r7nm" name="GridBuy" xy="19,57" size="325,262" treeView="false" layout="pagination" overflow="hidden" scroll="both" scrollBarFlags="128" lineGap="3" colGap="3" lineItemCount="5" lineItemCount2="4" defaultItem="ui://jk0io98jj3e21gl">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="BtnBuyClose" id="610tr" src="j3e21g9" fileName="BtnBuyClose.xml" xy="359,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

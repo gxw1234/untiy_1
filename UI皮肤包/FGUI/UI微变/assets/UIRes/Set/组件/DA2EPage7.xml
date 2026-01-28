@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="933,593" opaque="false" scroll="both">
+  <displayList>
+    <component id="k7l2c" name="DA2EWindow1" src="kn5zwa" fileName="Set/组件/DA2EWindow1.xml" xy="22,389">
+      <relation target="" sidePair=""/>
+    </component>
+    <list id="n2_ka7v" name="SetList" xy="34,70" size="822,308" layout="flow_hz" selectionMode="multipleSingleClick" overflow="scroll" margin="0,0,8,0" lineGap="25" colGap="30" lineItemCount="4" defaultItem="ui://jk0io98jmua5gvn2xf"/>
+  </displayList>
+</component>

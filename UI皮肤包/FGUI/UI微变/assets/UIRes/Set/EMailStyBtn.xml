@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="261,94" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="h2uw5" name="Img836jl3" src="kn5zw0" fileName="Set/Data/OMG_MobileMini.Pak/Set_00836.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="f38vo" name="Img835a33" src="kn5zw1" fileName="Set/Data/OMG_MobileMini.Pak/Set_00835.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="1wyk6" name="SysEdit1" xy="16,11" size="36,24" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" text="邮件"/>
+    <text id="s5k30" name="ReadEdit2" xy="215,9" size="36,24" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" text="邮件"/>
+    <text id="05w6y" name="WhereEdit1" xy="20,48" size="36,24" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" strokeColor="#000000" text="邮件"/>
+    <loader id="5i752" name="LoaderRSty1" xy="171,6" size="79,80" url="ui://jk0io98jkn5zw2"/>
+    <loader id="3floo" name="LoaderRSty2" xy="171,6" size="79,80" url="ui://jk0io98jkn5zw3"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

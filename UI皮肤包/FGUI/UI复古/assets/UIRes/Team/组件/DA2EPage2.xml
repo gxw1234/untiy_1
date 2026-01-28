@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="933,602" scroll="both">
+  <displayList>
+    <list id="62y7e" name="DFDRequestItem" xy="194,97" size="666,382" treeView="false" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://jk0io98jkn5zum">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="DA2EWindow7" id="2i0kq" src="kn5ztc" fileName="DA2EWindow7.xml" xy="192,54"/>
+    <component name="DA2ESimpleButton5" id="jahc0" src="kn5ztd" fileName="DA2ESimpleButton5.xml" xy="712,512">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ECheckBox5" id="470n2" src="kn5zte" fileName="DA2ECheckBox5.xml" xy="280,516">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="ChatEdit20" id="660df" xy="194,520" size="83,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="允许组队:" color="#008000" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2ESimpleButton12" id="emy55" src="kn5ztf" fileName="DA2ESimpleButton12.xml" xy="561,512">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ESimpleButton22" id="621c8" src="kn5ztg" fileName="DA2ESimpleButton22.xml" xy="712,512">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

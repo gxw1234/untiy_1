@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both" remark="{&#xA;&quot;SourcePath&quot;:&quot;data\\ChrSel.wil&quot;,&#xA;&quot;EffectBegin&quot;:4,&#xA;&quot;EffectEnd&quot;:17,&#xA;&quot;EffectOffsetX&quot;:-32,&#xA;&quot;EffectOffsetY&quot;:9,&#xA;&quot;IsUseMagic&quot;:1,&#xA;&quot;IsShowModel&quot;:1,&#xA;&quot;Job&quot;:[&#xA;{&quot;Sex&quot;:[&#xA;{&#xA;&#x9;&#x9;&#x9;&quot;StandBegin&quot;:40,&#xA;&#x9;&#x9;&#x9;&quot;StandEnd&quot;:55,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectBegin&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectEnd&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeBegin&quot;:60,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeEnd&quot;:72,&#xA;&#x9;&#x9;&#x9;&quot;StoneBegin&quot;:60,&#xA;&#x9;&#x9;&#x9;&quot;StoneEnd&quot;:60,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetX&quot;:-58,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetY&quot;:5,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectOffsetX&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectOffsetY&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetX&quot;:-58,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetY&quot;:5,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetX&quot;:-58,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetY&quot;:5&#xA;&#x9;&#x9;},&#xA;&#x9;&#x9;{&#xA;&#x9;&#x9;&#x9;&quot;StandBegin&quot;:160,&#xA;&#x9;&#x9;&#x9;&quot;StandEnd&quot;:175,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectBegin&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectEnd&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeBegin&quot;:180,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeEnd&quot;:192,&#xA;&#x9;&#x9;&#x9;&quot;StoneBegin&quot;:180,&#xA;&#x9;&#x9;&#x9;&quot;StoneEnd&quot;:180,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetX&quot;:-58,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetY&quot;:16,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectOffsetX&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectOffsetY&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetX&quot;:-58,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetY&quot;:16,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetX&quot;:-58,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetY&quot;:16&#xA;&#x9;&#x9;}&#xA;]&#xA;},&#xA;{&#xA;&quot;Sex&quot;:[&#xA;{&#xA;&#x9;&#x9;&#x9;&quot;StandBegin&quot;:80,&#xA;&#x9;&#x9;&#x9;&quot;StandEnd&quot;:95,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectBegin&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectEnd&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeBegin&quot;:100,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeEnd&quot;:112,&#xA;&#x9;&#x9;&#x9;&quot;StoneBegin&quot;:100,&#xA;&#x9;&#x9;&#x9;&quot;StoneEnd&quot;:100,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetX&quot;:-58,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetY&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectOffsetX&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectOffsetY&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetX&quot;:-58,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetY&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetX&quot;:-58,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetY&quot;:0&#xA;&#x9;&#x9;},&#xA;&#x9;&#x9;{&#xA;&#x9;&#x9;&#x9;&quot;StandBegin&quot;:200,&#xA;&#x9;&#x9;&#x9;&quot;StandEnd&quot;:215,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectBegin&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectEnd&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeBegin&quot;:220,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeEnd&quot;:232,&#xA;&#x9;&#x9;&#x9;&quot;StoneBegin&quot;:220,&#xA;&#x9;&#x9;&#x9;&quot;StoneEnd&quot;:220,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetX&quot;:7,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetY&quot;:44,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectOffsetX&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectOffsetY&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetX&quot;:37,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetY&quot;:58,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetX&quot;:37,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetY&quot;:58&#xA;&#x9;&#x9;}&#xA;]&#xA;},&#xA;{&#xA;&quot;Sex&quot;:[&#xA;{&#xA;&#x9;&#x9;&#x9;&quot;StandBegin&quot;:120,&#xA;&#x9;&#x9;&#x9;&quot;StandEnd&quot;:135,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectBegin&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectEnd&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeBegin&quot;:140,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeEnd&quot;:152,&#xA;&#x9;&#x9;&#x9;&quot;StoneBegin&quot;:140,&#xA;&#x9;&#x9;&#x9;&quot;StoneEnd&quot;:140,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetX&quot;:-44,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetY&quot;:23,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectBegin&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectEnd&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetX&quot;:-44,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetY&quot;:23,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetX&quot;:-44,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetY&quot;:23&#xA;&#x9;&#x9;},&#xA;&#x9;&#x9;{&#xA;&#x9;&#x9;&#x9;&quot;StandBegin&quot;:240,&#xA;&#x9;&#x9;&#x9;&quot;StandEnd&quot;:255,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectBegin&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectEnd&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeBegin&quot;:260,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeEnd&quot;:272,&#xA;&#x9;&#x9;&#x9;&quot;StoneBegin&quot;:260,&#xA;&#x9;&#x9;&#x9;&quot;StoneEnd&quot;:260,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetX&quot;:8,&#xA;&#x9;&#x9;&#x9;&quot;StandOffsetY&quot;:47,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectBegin&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;StandEffectEnd&quot;:0,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetX&quot;:31,&#xA;&#x9;&#x9;&#x9;&quot;UnfreezeOffsetY&quot;:67,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetX&quot;:31,&#xA;&#x9;&#x9;&#x9;&quot;StoneOffsetY&quot;:67&#xA;&#x9;&#x9;}]}]}">
+  <displayList>
+    <image id="bv6da" name="CharSelectUI" src="wsda2" fileName="CharSelect/Data/OMG_MobileMini.Pak/CharSelect_00013.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <loader id="w1ra4" name="DModel1" xy="240,62" size="347,407"/>
+    <loader id="15526" name="DModel2" xy="659,62" size="347,407"/>
+    <component id="ts428" name="DBtnSel1" src="8403o" fileName="CharSelect/组件/DBtnSel1.xml" pkg="jk0io98j" xy="296,543">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="mspbp" name="DBtnSel2" src="58fxg" fileName="CharSelect/组件/DBtnSel2.xml" pkg="jk0io98j" xy="953,543">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="gs7r7" name="DStart" src="1dhl7" fileName="CharSelect/组件/DStart.xml" pkg="jk0io98j" xy="560,543">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="rd17r" name="DCreate" src="7ynym" fileName="CharSelect/组件/DCreate.xml" pkg="jk0io98j" xy="452,594">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="ay7d8" name="DDelete" src="201jx" fileName="CharSelect/组件/DDelete.xml" pkg="jk0io98j" xy="657,594">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="bl36g" name="DRecover" src="7whv0" fileName="CharSelect/组件/DRecover.xml" pkg="jk0io98j" xy="452,647">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="8183x" name="DBack" src="63uu0" fileName="CharSelect/组件/DBack.xml" pkg="jk0io98j" xy="657,647">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="2c8dx" name="DServerName" xy="531,13" size="189,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="2t34u" name="DLevel1" xy="287,629" size="81,25" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="pn24g" name="DName1" xy="286,595" size="126,25" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="5sbk8" name="DJob1" xy="286,663" size="112,25" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="xl0ke" name="DName2" xy="944,594" size="126,25" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="2ss3p" name="DLevel2" xy="945,629" size="83,25" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="x4m1o" name="DJob2" xy="944,663" size="112,25" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <component id="275q0" name="Role1" src="7w435" fileName="CharSelect/组件/Role1.xml" pkg="jk0io98j" xy="304,134">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="8oo7w" name="Role2" src="w6774" fileName="CharSelect/组件/Role2.xml" pkg="jk0io98j" xy="693,134">
+      <relation target="" sidePair=""/>
+    </component>
+    <text id="2h858" name="RolesName" xy="542,482" size="150,26" visible="false" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text=""/>
+    <component id="n0_stlb" name="BackRoleBtn1" src="gcp1n1q8" fileName="CharSelect/组件/BackRoleBtn.xml" pkg="jk0io98j" xy="337,290" visible="false"/>
+    <component id="n1_stlb" name="BackRoleBtn2" src="gcp1n1q8" fileName="CharSelect/组件/BackRoleBtn.xml" pkg="jk0io98j" xy="751,290" visible="false"/>
+  </displayList>
+</component>

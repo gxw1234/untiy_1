@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="63,63" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="85e54" name="Img95ft4" src="ldxan22q" fileName="Main_RightGrop/Data/OMG_MobileMini.Pak/RightGrop_00095.png" xy="0,0" size="63,63">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="6kju0" name="Img96ur1" src="ldxan22r" fileName="Main_RightGrop/Data/OMG_MobileMini.Pak/RightGrop_00096.png" xy="0,0" size="63,63">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <loader id="r64ut" name="AutoAni" xy="0,0" size="63,63" align="center" vAlign="middle"/>
+  </displayList>
+  <Button mode="Radio"/>
+  <transition name="select" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Icon" target="r64ut" value="ui://jk0io98jldxan22u"/>
+    <item time="6" type="Icon" target="r64ut" value="ui://jk0io98jldxan22v"/>
+    <item time="12" type="Icon" target="r64ut" value="ui://jk0io98jldxan22w"/>
+    <item time="18" type="Icon" target="r64ut" value="ui://jk0io98jldxan22x"/>
+    <item time="24" type="Icon" target="r64ut" value="ui://jk0io98jldxan22y"/>
+    <item time="30" type="Icon" target="r64ut" value="ui://jk0io98jldxan22z"/>
+    <item time="36" type="Icon" target="r64ut" value="ui://jk0io98jldxan230"/>
+    <item time="42" type="Icon" target="r64ut" value="ui://jk0io98jldxan231"/>
+    <item time="48" type="Icon" target="r64ut" value="ui://jk0io98jldxan232"/>
+    <item time="54" type="Icon" target="r64ut" value="ui://jk0io98jldxan233"/>
+  </transition>
+</component>

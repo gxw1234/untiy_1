@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="841,517" overflow="scroll" opaque="false">
+  <displayList>
+    <component id="m118n" name="title1" src="kn5zwr" fileName="Set/组件/DA2EWindow12.xml" xy="-1,-2">
+      <relation target="" sidePair=""/>
+      <Label title="智能战斗："/>
+    </component>
+    <list id="n3_mua5" name="SkillList" xy="7,43" size="833,240" layout="flow_hz" selectionMode="multipleSingleClick" overflow="hidden" margin="0,0,20,0" lineGap="20" colGap="25" defaultItem="ui://jk0io98jj4ky0" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n6_7bma" name="title2" src="kn5zwr" fileName="Set/组件/DA2EWindow12.xml" xy="-1,283">
+      <relation target="" sidePair=""/>
+      <Label title="战斗辅助："/>
+    </component>
+    <component id="n7_tba3" name="AdvancedCombatCom" src="s336gvn2wf" fileName="Set/组件/AdvancedCombatCom.xml" xy="3,328" size="833,117"/>
+    <component id="n8_qu4p" name="title3" src="kn5zwr" fileName="Set/组件/DA2EWindow12.xml" xy="-1,450">
+      <relation target="" sidePair=""/>
+      <Label title="挂机优先级："/>
+    </component>
+    <list id="n9_qu4p" name="SkillSetList" xy="6,495" size="833,213" layout="flow_hz" selectionMode="multipleSingleClick" overflow="hidden" lineGap="10" defaultItem="ui://jk0io98jqu4p0" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n10_bhoi" name="btnReset" src="s336gvn2wg" fileName="Set/组件/Button7.xml" xy="665,452" size="117,41">
+      <Button title="还原默认"/>
+    </component>
+  </displayList>
+</component>

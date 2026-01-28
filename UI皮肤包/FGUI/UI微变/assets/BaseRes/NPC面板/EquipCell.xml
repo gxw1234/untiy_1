@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="42,42" scroll="both">
+  <displayList>
+    <loader id="4400g" name="bg" xy="0,0" size="42,42" touchable="false" align="center" vAlign="middle"/>
+    <loader id="8k0hh" name="Eff21" xy="21,21" pivot="0.5,0.5" anchor="true" size="42,42" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n87h8" name="Eff11" xy="21,21" pivot="0.5,0.5" anchor="true" size="42,42" touchable="false" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="4jkhd" name="item" xy="21,21" pivot="0.5,0.5" anchor="true" size="42,42" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="3e78x" name="title" xy="32,23" size="10,19" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" align="right" vAlign="bottom" leading="0" strokeColor="#000000" faceDilate="1" autoClearText="true" text="">
+      <relation target="4400g" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <loader id="8538e" name="Eff22" xy="21,21" pivot="0.5,0.5" anchor="true" size="42,42" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="35520" name="Eff12" xy="21,21" pivot="0.5,0.5" anchor="true" size="42,42" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="tc1wb" name="Eff23" xy="21,21" pivot="0.5,0.5" anchor="true" size="42,42" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="48hhl" name="Eff13" xy="21,21" pivot="0.5,0.5" anchor="true" size="42,42" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="y61eg" name="bagsLod" xy="42,42" pivot="1,1" anchor="true" size="18,18" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n1_vz1v" name="StarLevel" xy="4,11" size="35,22" font="ui://t1h1280lz6xw16" fontSize="14" color="#ffffff" autoSize="none" strokeColor="#000000" autoClearText="true" text="+1"/>
+    <graph id="n2_iduu" name="Stroke" xy="-1,-1" size="44,44" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff663300" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <relation target="4400g" sidePair="width-width,height-height"/>
+</component>

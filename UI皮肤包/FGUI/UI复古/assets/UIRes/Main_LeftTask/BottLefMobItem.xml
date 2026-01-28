@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="255,51" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="65223" name="Img8582ui" src="ldxan219" fileName="Main_LeftTask/Data/OMG_MobileMini.Pak/LeftTask_00858.png" xy="19,2" size="218,46">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n75hn" name="DA2EIMAGE2" src="ldxan21a" fileName="Main_LeftTask/Data/OMG_MobileMini.Pak/LeftTask_00070.png" xy="20,3" size="215,44"/>
+    <loader id="m5vs5" name="BottLTeamloodsIcons" xy="22,4" size="39,42" url="ui://jk0io98jldxan21f"/>
+    <text id="3q32l" name="BottLTeamNames" xy="72,3" size="157,25" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="玩家的名字七个字"/>
+    <component id="1343e" name="BottLTeamloods" src="v9b195" fileName="Main_LeftTask/组件/BottLTeamloods.xml" xy="66,28">
+      <ProgressBar max="100"/>
+    </component>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

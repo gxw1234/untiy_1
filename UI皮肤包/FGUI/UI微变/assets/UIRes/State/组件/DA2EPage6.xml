@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="384,537" opaque="false" scroll="both">
+  <displayList>
+    <image id="pw00y" name="DA2EIMAGE22" src="hr3gn1xa" fileName="State/Data/OMG_MobileMini.Pak/State_00230.png" xy="19,467" size="313,53"/>
+    <component id="y4g0s" name="DA2ESimpleButton1" src="875qq" fileName="State/组件/DA2ESimpleButton1.xml" xy="114,473">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <list id="l525i" name="DSkillGrid" xy="18,88" size="311,373" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98j2j7cm" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n0_rgmu" name="SkillWinLJ" src="rgmun220" fileName="State/组件/SkillWinLJ.xml" xy="33,127"/>
+  </displayList>
+</component>

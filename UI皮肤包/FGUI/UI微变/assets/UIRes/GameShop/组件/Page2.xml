@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="811,458" initName="Page2">
+  <displayList>
+    <image id="n6_takl" name="bg" src="taklgvn32k" fileName="GameShop/Data/gs_chushou.png" xy="0,0"/>
+    <text id="n1_wfya" name="Txt1" xy="120,12" size="76,26" fontSize="18" color="#fbf3d3" strokeColor="#000000" text="物品名称"/>
+    <text id="n2_wfya" name="Txt2" xy="265,12" size="76,26" fontSize="18" color="#fbf3d3" strokeColor="#000000" text="用户名称"/>
+    <text id="n3_wfya" name="Txt3" xy="419,12" size="76,26" fontSize="18" color="#fbf3d3" strokeColor="#000000" text="销售价格"/>
+    <text id="n4_wfya" name="Txt4" xy="607,12" size="76,26" fontSize="18" color="#fbf3d3" strokeColor="#000000" text="出售时间"/>
+    <list id="n5_wfya" name="ListView" xy="0,48" size="812,199" overflow="scroll" scrollBarFlags="160" scrollBar="hidden" lineGap="4" defaultItem="ui://jk0io98jwfyagvn329" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

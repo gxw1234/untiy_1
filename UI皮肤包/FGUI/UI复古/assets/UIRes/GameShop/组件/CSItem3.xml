@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="808,64">
+  <displayList>
+    <graph id="n1_wfya" name="n1" xy="13,2" size="60,60" type="rect" lineColor="#ff669900" fillColor="#ff000000" corner="5"/>
+    <loader id="n0_wfya" name="item" xy="42,32" pivot="0.5,0.5" anchor="true" size="60,60" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n2_wfya" name="ItemName" xy="82,20" size="150,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="物品名称七个字"/>
+    <text id="n3_wfya" name="Price" xy="235,20" size="159,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="10000000金刚石"/>
+    <text id="n4_wfya" name="leibie" xy="398,20" size="50,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" bold="true" autoClearText="true" text="装饰"/>
+    <text id="n6_wfya" name="time" xy="450,16" size="195,34" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="2022-12-14 16:45:56"/>
+    <component id="n13_takl" name="BackStorage" src="m9og1j" fileName="GameShop/组件/BackStorage.xml" xy="651,16"/>
+    <component id="n10_takl" name="BuyButton" src="m9og14" fileName="GameShop/组件/BuyButton.xml" xy="739,16"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="135,100" scroll="both">
+  <displayList>
+    <loader id="lm38w" name="load" xy="0,0" size="135,100" clearOnPublish="true"/>
+    <richtext id="n0_ansv" name="title" xy="0,0" size="10,19" touchable="false" font="ui://5615522tw56a8" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text=""/>
+    <graph id="58784" name="Stroke" xy="-1,-1" size="137,102" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff663300" fillColor="#00ffffff"/>
+  </displayList>
+  <relation target="lm38w" sidePair="width-width,height-height"/>
+</component>

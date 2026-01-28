@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="770,500" scroll="both">
+  <displayList>
+    <image id="10h8v" src="hr3gn1w9" fileName="00201.PNG" xy="0,0" name="DSkillConfig" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="783wa" src="3d8a4" fileName="frame2.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skillset0" id="i3b76" src="j76bk" fileName="skillset0.xml" xy="591,310" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <text name="ChatEdit45" id="23iea" xy="374,432" size="316,31" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="左侧拖动,右侧放入,即可设置,双击取消" color="#00FF00" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="skill0" id="bj85o" src="b3l4p" fileName="skill0.xml" xy="26,93" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skill1" id="alo6y" src="k86ww" fileName="skill1.xml" xy="127,93" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skill2" id="4u858" src="7e1xu" fileName="skill2.xml" xy="228,93" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skill3" id="0dd0m" src="3t342" fileName="skill3.xml" xy="26,208" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skill4" id="0b4tn" src="870h1" fileName="skill4.xml" xy="127,208" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skill5" id="et822" src="8v0t8" fileName="skill5.xml" xy="228,208" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skill6" id="qv8rl" src="q77rt" fileName="skill6.xml" xy="26,323" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skill7" id="63c5a" src="wieq5" fileName="skill7.xml" xy="127,323" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skill8" id="6y3j0" src="04cr7" fileName="skill8.xml" xy="228,323" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skillset1" id="w7e77" src="4o7ww" fileName="skillset1.xml" xy="467,351" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skillset2" id="81p80" src="oisxx" fileName="skillset2.xml" xy="475,268" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skillset3" id="20jxq" src="6g5cc" fileName="skillset3.xml" xy="539,204" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skillset4" id="e0o3v" src="t45q8" fileName="skillset4.xml" xy="625,204" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skillset5" id="23r76" src="vv8k0" fileName="skillset5.xml" xy="403,316" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skillset6" id="4bd2k" src="g0tk7" fileName="skillset6.xml" xy="411,204" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skillset7" id="0rg5t" src="350ck" fileName="skillset7.xml" xy="488,141" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="skillset8" id="00wpv" src="es240" fileName="skillset8.xml" xy="603,119" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="closeButton" id="es6i3" src="0y6j3" fileName="closeButton.xml" xy="740,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="BtnPageDown" id="156b2" src="y8637" fileName="BtnPageDown.xml" xy="236,441" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="BtnPageUp" id="6ffq0" src="8n4yw" fileName="BtnPageUp.xml" xy="87,442" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text name="page" id="s1302" xy="127,441" size="100,31" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="0/48" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

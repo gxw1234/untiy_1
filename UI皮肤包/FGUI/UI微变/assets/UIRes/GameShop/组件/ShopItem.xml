@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="808,34">
+  <displayList>
+    <component id="n7_okop" name="ShopNameButton" src="okopgvn32h" fileName="GameShop/组件/ShopNameButton.xml" xy="1,-4"/>
+    <text id="n1_wfya" name="host" xy="137,-2" size="142,38" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="店主名字七个字"/>
+    <text id="n2_wfya" name="time" xy="280,-2" size="191,38" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="2022-12-10 13:10:55"/>
+    <text id="n3_wfya" name="num" xy="479,-2" size="75,38" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="10"/>
+    <text id="n4_wfya" name="total" xy="562,-2" size="75,38" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="10"/>
+    <text id="n5_wfya" name="state" xy="646,-2" size="75,38" fontSize="18" color="#ffffff" align="center" vAlign="middle" ubb="true" autoSize="none" autoClearText="true" text="离线"/>
+    <text id="n6_wfya" name="du" xy="729,-2" size="75,38" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="10"/>
+  </displayList>
+</component>

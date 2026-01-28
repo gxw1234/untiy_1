@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="42,42" scroll="both">
+  <displayList>
+    <loader id="34q5s" name="bg" size="42,42" touchable="false" align="center" vAlign="middle" xy="0,0"/>
+    <loader id="kv1g6" name="Eff21" size="42,42" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" pivot="0.5,0.5" anchor="true" xy="21,21"/>
+    <loader id="001o5" name="Eff11" size="42,42" clearOnPublish="true" fill="scaleFree" pivot="0.5,0.5" anchor="true" xy="21,21"/>
+    <loader id="fy7vj" name="item" size="42,42" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" pivot="0.5,0.5" anchor="true" xy="21,21"/>
+    <text name="title" id="20cvc" xy="32,23" size="10,19" font="ui://5615522tw56a8" faceDilate="1" fontSize="12" leading="0" text="" color="#FFFFFF" align="right" vAlign="bottom" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000">
+      <relation target="34q5s" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <loader id="2043u" name="Eff22" size="42,42" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" pivot="0.5,0.5" anchor="true" xy="21,21"/>
+    <loader id="vi5uu" name="Eff12" size="42,42" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" pivot="0.5,0.5" anchor="true" xy="21,21"/>
+    <loader id="01n61" name="Eff23" size="42,42" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" pivot="0.5,0.5" anchor="true" xy="21,21"/>
+    <loader id="173k2" name="Eff13" size="42,42" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" pivot="0.5,0.5" anchor="true" xy="21,21"/>
+    <loader id="8qf6f" name="bagsLod" size="18,18" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" pivot="1,1" anchor="true" xy="42,42"/>
+  </displayList>
+  <relation target="34q5s" sidePair="width-width,height-height"/>
+</component>

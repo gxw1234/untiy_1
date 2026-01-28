@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="350,321" scroll="both">
+  <displayList>
+    <image id="5kd73" name="TipsBG" src="vmwk5i" fileName="Tips/Data/OMG_MobileMini.Pak/Tips_00467.png" xy="0,0" size="349,320">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n0_i7tn" name="ItemName" xy="15,21" size="300,62" touchable="false" font="ui://5615522tw56a8" fontSize="20" color="#ffffff" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text=""/>
+    <richtext id="t7vt3" name="TipsMsg" xy="15,152" size="10,29" touchable="false" font="ui://5615522tw56a8" fontSize="20" color="#ffffff" leading="1" ubb="true" strokeColor="#000000" autoClearText="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </richtext>
+    <component id="n4_lc1w" name="ContainerItem" src="r7r83b" fileName="Tips/ContainerItem.xml" xy="12,21"/>
+    <component id="n2_i7tn" name="ContainerTips" src="r7r83c" fileName="Tips/ContainerTips.xml" xy="12,152" size="330,150"/>
+    <richtext id="pguxo" name="msg" xy="100,59" size="10,29" touchable="false" font="ui://5615522tw56a8" fontSize="20" color="#ffffff" leading="0" ubb="true" strokeColor="#000000" autoClearText="true" text=""/>
+    <text id="a64ko" name="currentEquip" xy="200,16" size="10,29" font="ui://5615522tw56a8" fontSize="20" color="#ffffff" leading="0" ubb="true" strokeColor="#000000" autoClearText="true" text="">
+      <relation target="5kd73" sidePair="left-right,top-top"/>
+    </text>
+    <component id="r511i" name="DressBtn" src="r7r839" fileName="Tips/组件/DressBtn.xml" xy="266,8">
+      <relation target="" sidePair=""/>
+      <relation target="5kd73" sidePair="right-right,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="evdjd" name="SplitBtn" src="r7r83a" fileName="Tips/组件/SplitBtn.xml" xy="266,8">
+      <relation target="" sidePair=""/>
+      <relation target="5kd73" sidePair="right-right,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n6_dy56" name="UseBtn1" src="u5b64" fileName="Tips/组件/UseBtn.xml" xy="265,52"/>
+    <component id="n7_dy56" name="UseBtn2" src="u5b64" fileName="Tips/组件/UseBtn.xml" xy="267,7" customData="[]"/>
+  </displayList>
+</component>

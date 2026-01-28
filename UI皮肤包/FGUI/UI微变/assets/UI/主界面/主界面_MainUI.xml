@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" opaque="false">
+  <displayList>
+    <component id="n3_td9g" name="DMinMapUI" src="td9g16" fileName="Main_MinMap/DMinMapUI.xml" pkg="jk0io98j" xy="1030,0">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n7_v9b1" name="DStateWindow" src="v9b16t" fileName="Main_Top/DStateWindow.xml" pkg="jk0io98j" xy="1,3">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n8_v9b1" name="DMonsterBlood" src="v9b16s" fileName="Main_Top/DMonsterBlood.xml" pkg="jk0io98j" xy="420,1">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n5_td9g" name="TaskAndRanksPanel" src="td9ga" fileName="Main_LeftTask/TaskAndRanksPanel.xml" pkg="jk0io98j" xy="2,69">
+      <relation target="" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n13_lv0g" name="DFunBtms" src="k02tn1v2" fileName="Main_RightGrop/DFunBtms.xml" pkg="jk0io98j" xy="890,166">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n6_v9b1" name="BottomUI" src="v9b119" fileName="Main_Bottom/BottomUI.xml" pkg="jk0io98j" xy="640,636" size="1280,168">
+      <relation target="" sidePair="bottom-bottom,bottom-middle,rightext-right,leftext-left"/>
+    </component>
+    <component id="n9_v9b1" name="DJoystick" src="v9b1g3" fileName="Main_Bottom/DJoystick.xml" pkg="jk0io98j" xy="-1,316">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n10_v9b1" name="DArrackModelUI" src="v9b1g0" fileName="Main_Bottom/DArrackModelUI.xml" pkg="jk0io98j" xy="919,313" pivot="1,0">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n11_j3e2" name="BottomPCUI" src="j3e21or" fileName="Main_BottomPC/DBottom.xml" pkg="jk0io98j" xy="0,466" size="1280,254" visible="false">
+      <relation target="" sidePair="bottom-bottom,rightext-right,leftext-left"/>
+    </component>
+    <component id="n12_gcp1" name="DoubleDJoystick" src="gcp1n1pi" fileName="Main_Bottom/DoubleDJoystick.xml" pkg="jk0io98j" xy="-2,317"/>
+    <component id="n14_mebx" name="BoxGiftBtn" src="mebxgvn2vz" fileName="Main_RightGrop/组件/BoxGiftBtn.xml" pkg="jk0io98j" xy="1026,133">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+</component>

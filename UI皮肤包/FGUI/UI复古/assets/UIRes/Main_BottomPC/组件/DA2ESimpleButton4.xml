@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="23,22" scroll="both" extention="Button">
+  <displayList>
+    <image id="08t2w" src="ldxan2p4" fileName="00011.PNG" xy="0,0" name="Img110kd">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

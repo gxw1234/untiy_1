@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,210" scroll="both">
+  <controller name="CPages" exported="true" pages="0,page1,1,page2,4,page3,5,page4" selected="0"/>
+  <displayList>
+    <image id="f18xv" name="n1" src="ldxan20x" fileName="Main_LeftTask/Data/OMG_MobileMini.Pak/LeftTask_00351.png" xy="38,0" size="262,210"/>
+    <component id="0v867" name="DA2ESimpleButton1" src="td9gb" fileName="Main_LeftTask/组件/DA2ESimpleButton1.xml" xy="319,104">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n1_ijsc" name="DTabBtnHums" src="s46ac" fileName="Main_LeftTask/组件/DTabBtnHums.xml" xy="2,0">
+      <Button controller="CPages" page="4"/>
+    </component>
+    <component id="n2_ijsc" name="DTabBtnMobs" src="s46af" fileName="Main_LeftTask/组件/DTabBtnMob.xml" xy="2,124">
+      <Button controller="CPages" page="5"/>
+    </component>
+    <component id="hjf67" name="DTabBtnTaks" src="td9gc" fileName="Main_LeftTask/组件/DTabBtnTaks.xml" xy="2,0" size="34,84">
+      <relation target="" sidePair=""/>
+      <Button checked="true" controller="CPages" page="0"/>
+    </component>
+    <component id="j8454" name="DTabBtnRanks" src="td9gd" fileName="Main_LeftTask/组件/DTabBtnRanks.xml" xy="2,124" size="34,84">
+      <relation target="" sidePair=""/>
+      <Button controller="CPages" page="1"/>
+    </component>
+    <component id="2g0u8" name="DA2EPage1" src="td9ge" fileName="Main_LeftTask/组件/DA2EPage1.xml" xy="38,0">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component id="1pai1" name="DA2EPage2" src="td9gf" fileName="Main_LeftTask/组件/DA2EPage2.xml" xy="38,0">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component id="n3_ijsc" name="DA2EPage3" src="s46a1a" fileName="Main_LeftTask/组件/DA2EPage3.xml" xy="38,0">
+      <gearDisplay controller="CPages" pages="4"/>
+    </component>
+    <component id="n4_ijsc" name="DA2EPage4" src="s46a1d" fileName="Main_LeftTask/组件/DA2EPage4.xml" xy="38,0">
+      <gearDisplay controller="CPages" pages="5"/>
+    </component>
+    <component id="n0_ijsc" name="RefreshBtn" src="s46a1e" fileName="Main_LeftTask/组件/RefreshBtn.xml" xy="0,83"/>
+  </displayList>
+  <transition name="go">
+    <item time="0" type="XY" target="0v867" tween="true" startValue="319,104" endValue="11,104" duration="12"/>
+    <item time="0" type="XY" target="1pai1" tween="true" startValue="38,0" endValue="-270,0" duration="12"/>
+    <item time="0" type="XY" target="2g0u8" tween="true" startValue="38,0" endValue="-270,0" duration="12"/>
+    <item time="0" type="XY" target="f18xv" tween="true" startValue="38,0" endValue="-270,0" duration="12"/>
+    <item time="0" type="XY" target="hjf67" tween="true" startValue="2,0" endValue="-306,0" duration="12"/>
+    <item time="0" type="XY" target="j8454" tween="true" startValue="2,124" endValue="-306,124" duration="12"/>
+    <item time="0" type="XY" target="n0_ijsc" tween="true" startValue="0,83" endValue="-308,83" duration="12"/>
+    <item time="0" type="XY" target="n1_ijsc" tween="true" startValue="2,0" endValue="-306,0" duration="12"/>
+    <item time="0" type="XY" target="n2_ijsc" tween="true" startValue="2,124" endValue="-306,124" duration="12"/>
+    <item time="0" type="XY" target="n3_ijsc" tween="true" startValue="38,0" endValue="-270,0" duration="12"/>
+    <item time="0" type="XY" target="n4_ijsc" tween="true" startValue="38,0" endValue="-270,0" duration="12"/>
+  </transition>
+</component>

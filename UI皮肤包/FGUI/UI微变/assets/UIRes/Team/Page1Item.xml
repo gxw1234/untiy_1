@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,40" pivot="4,0" scroll="both" extention="Button">
+  <displayList>
+    <image id="53i0j" src="kn5zt2" fileName="00273.PNG" xy="0,0" name="Img27340r"/>
+    <image id="348h2" src="kn5zt1" fileName="00303.PNG" xy="0,0" name="Img303qym">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <component name="DBtnRefuse" id="01di0" src="kn5zuc" fileName="DBtnRefuse.xml" xy="474,3">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DBtnAgree" id="q6cke" src="kn5zud" fileName="DBtnAgree.xml" xy="569,3">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text name="Dfdname" id="c5tqr" xy="-2,0" size="152,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="Dfdlevel" id="gs1mi" xy="156,0" size="115,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="Dfdguild" id="p04t2" xy="275,0" size="183,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="行会" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

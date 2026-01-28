@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="551,413" opaque="false" scroll="both">
+  <displayList>
+    <image id="p0w66" name="InfoPage" src="kn5zvj" fileName="Set/Data/OMG_MobileMini.Pak/Set_00431.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="do8c4" name="frame" src="kn5zxu" fileName="Set/组件/frame1.xml" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <list id="4bjrs" name="DA2EGrid1" xy="4,49" size="513,361" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jkn5zyy">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="fo536" name="DA2ESimpleButton8" src="kn5zxv" fileName="Set/组件/DA2ESimpleButton8.xml" pkg="jk0io98j" xy="521,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="3kv43" name="EditText" xy="9,6" size="105,37" font="Microsoft YaHei" fontSize="18" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="物品名称"/>
+    <text id="5bx32" name="EditText" xy="209,7" size="105,37" font="Microsoft YaHei" fontSize="18" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="掉落显示"/>
+    <text id="5u24g" name="EditText" xy="409,7" size="105,37" font="Microsoft YaHei" fontSize="18" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="自动拾取"/>
+    <graph id="n0_sc7i" name="searchBG" xy="16,422" size="492,40" type="rect" lineColor="#ffffffff" fillColor="#ff333333"/>
+    <text id="n3_sc7i" name="searchText" xy="16,422" size="492,40" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="shrink" text="" input="true" prompt="[color=#999999][i]请输入要搜索的物品[/i][/color]"/>
+  </displayList>
+</component>

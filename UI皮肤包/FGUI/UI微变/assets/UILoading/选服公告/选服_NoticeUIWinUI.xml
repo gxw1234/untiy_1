@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="769,430" scroll="both">
+  <displayList>
+    <image id="oqk08" name="NoticeUIWin" src="42l6o" fileName="Data/OMG_MobileMini.Pak/00496.PNG" xy="0,0" pkg="us2ut3jf">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="r3683" name="ConfirmBtn" src="gi240" fileName="组件/ConfirmBtn.xml" xy="379,346" pkg="us2ut3jf">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <list id="w4qm8" name="DA2EGrid1" xy="14,15" size="161,400" overflow="scroll" defaultItem="ui://us2ut3jfi7jd3"/>
+    <list id="c0762" name="DA2EGrid2" xy="204,48" size="526,300" overflow="scroll" defaultItem="ui://us2ut3jfh14wg"/>
+    <text id="n0_o529" name="TitleName" xy="272,12" size="386,32" font="Microsoft YaHei" fontSize="20" color="#00ff00" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="合服公告"/>
+  </displayList>
+</component>

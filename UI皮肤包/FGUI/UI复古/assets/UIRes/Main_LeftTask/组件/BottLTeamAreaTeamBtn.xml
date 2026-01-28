@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="119,40" scroll="both" extention="Button">
+  <displayList>
+    <image id="7el7f" src="ldxan216" fileName="00578.PNG" xy="0,0" name="Img578uni">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="tbfvl" src="ldxan217" fileName="00579.PNG" xy="0,0" name="Img57934d">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text name="EditText" id="155s0" xy="6,5" size="107,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="附近队伍" color="#FFFFFF" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="885,596" opaque="false" scroll="both">
+  <controller name="CRadios" exported="true" pages="0,Radio1,1,Radio2,2,Radio3,3,Radio4,4,Radio5" selected="0"/>
+  <displayList>
+    <image id="p5422" name="DShop" src="kn5zrd" fileName="Data/OMG_MobileMini.Pak/00185.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="e2ffk" name="frame" src="kn5zro" fileName="组件/frame.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <richtext id="qgv4h" name="ItemShowInfo" xy="24,341" size="192,226" font="Microsoft YaHei" fontSize="18" color="#ffffff" leading="0" ubb="true" autoSize="none" autoClearText="true" text=""/>
+    <component id="g0136" name="ItemCell1" src="kn5zrp" fileName="组件/ItemCell1.xml" xy="227,104" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="o52es" name="ItemCell2" src="kn5zrq" fileName="组件/ItemCell2.xml" xy="451,104" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="53m73" name="ItemCell3" src="kn5zrr" fileName="组件/ItemCell3.xml" xy="227,180" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="31728" name="ItemCell4" src="kn5zrs" fileName="组件/ItemCell4.xml" xy="451,180" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="3t54e" name="ItemCell5" src="kn5zrt" fileName="组件/ItemCell5.xml" xy="227,256" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="7d5c4" name="ItemCell6" src="kn5zru" fileName="组件/ItemCell6.xml" xy="451,256" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="8m24w" name="ItemCell7" src="kn5zrv" fileName="组件/ItemCell7.xml" xy="227,333" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="f451e" name="ItemCell8" src="kn5zrw" fileName="组件/ItemCell8.xml" xy="451,333" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="wkw00" name="ItemCell9" src="kn5zrx" fileName="组件/ItemCell9.xml" xy="227,410" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="8l77b" name="ItemCell10" src="kn5zry" fileName="组件/ItemCell10.xml" xy="451,410" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="4o7hc" name="BtnBuy" src="kn5zrz" fileName="组件/BtnBuy.xml" xy="375,530" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="44d0r" name="BtnPresent" src="kn5zs0" fileName="组件/BtnPresent.xml" xy="477,530" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="1lw20" name="ItemCell11" src="kn5zs1" fileName="组件/ItemCell11.xml" xy="681,94" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="3pe0h" name="ItemCell12" src="kn5zs2" fileName="组件/ItemCell12.xml" xy="681,189" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="irg1j" name="ItemCell13" src="kn5zs3" fileName="组件/ItemCell13.xml" xy="681,284" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="ce2d7" name="ItemCell14" src="kn5zs4" fileName="组件/ItemCell14.xml" xy="681,379" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="tdnq0" name="ItemCell15" src="kn5zs5" fileName="组件/ItemCell15.xml" xy="681,473" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="3d8u5" name="BtnClose" src="kn5zs6" fileName="组件/BtnClose.xml" xy="578,530" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="hxpel" name="BtnPageUp" src="kn5zs7" fileName="组件/BtnPageUp.xml" xy="346,487" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="5ik1d" name="BtnPageDown" src="kn5zs8" fileName="组件/BtnPageDown.xml" xy="523,487" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="m3r41" name="BtnStorageUIClose" src="kn5zs9" fileName="组件/BtnStorageUIClose.xml" xy="854,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <image id="yo1qn" name="PageBackground" src="kn5zrm" fileName="Data/OMG_MobileMini.Pak/00003.PNG" xy="390,485" size="120,34" pkg="jk0io98j"/>
+    <text id="06ta6" name="ChatEdit1" xy="394,488" size="113,28" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="0/48"/>
+    <component id="780n0" name="DA2ERadioButton1" src="kn5zsa" fileName="组件/DA2ERadioButton1.xml" xy="227,56" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button checked="true" sound="ui://b3xl678aui26b" controller="CRadios" page="0"/>
+    </component>
+    <component id="127lb" name="DA2ERadioButton2" src="kn5zsb" fileName="组件/DA2ERadioButton2.xml" xy="315,56" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="1"/>
+    </component>
+    <component id="641ou" name="DA2ERadioButton3" src="kn5zsc" fileName="组件/DA2ERadioButton3.xml" xy="403,56" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="2"/>
+    </component>
+    <component id="840sk" name="DA2ERadioButton4" src="kn5zsd" fileName="组件/DA2ERadioButton4.xml" xy="491,56" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="3"/>
+    </component>
+    <component id="w668o" name="DA2ERadioButton5" src="kn5zse" fileName="组件/DA2ERadioButton5.xml" xy="579,56" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="4"/>
+    </component>
+    <image id="p5fc5" name="ShopFontImg" src="kn5zrn" fileName="Data/OMG_MobileMini.Pak/00553.PNG" xy="28,11" size="102,30" pkg="jk0io98j"/>
+    <graph id="7wk87" name="ModalLayer" xy="0,0" size="2,2" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+  </displayList>
+</component>

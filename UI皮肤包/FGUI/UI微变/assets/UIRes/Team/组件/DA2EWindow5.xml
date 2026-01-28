@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,44" scroll="both">
+  <displayList>
+    <image id="8x1rj" src="kn5zsg" fileName="00288.PNG" xy="0,0" name="DA2EWindow5">
+      <relation sidePair=""/>
+    </image>
+    <text name="ChatEdit1" id="ga1fj" xy="0,0" size="154,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit2" id="5p605" xy="158,0" size="115,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit3" id="q87cf" xy="277,0" size="183,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="行会" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit4" id="m336v" xy="464,0" size="203,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="操作" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

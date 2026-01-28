@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="838,55">
+  <displayList>
+    <text id="n0_js02" name="GStext1" xy="3,13" size="201,29" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" align="center" autoSize="none" autoClearText="true" text="角色名字七个字"/>
+    <text id="n1_js02" name="GStext2" xy="228,13" size="112,29" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" align="center" autoSize="none" autoClearText="true" text="角色名字七个字"/>
+    <text id="n2_js02" name="GStext3" xy="364,13" size="110,29" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" align="center" autoSize="none" autoClearText="true" text="角色名字七个字"/>
+    <text id="n3_js02" name="GStext4" xy="493,13" size="110,29" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" align="center" autoSize="none" autoClearText="true" text="角色名字七个字"/>
+    <component id="n4_js02" name="TakeJYBBtn" src="j3e21cg" fileName="组件/TakeJYBBtn.xml" xy="664,9"/>
+    <component id="n5_js02" name="OutOfGBtn" src="j3e21ch" fileName="组件/OutOfGBtn.xml" xy="664,9"/>
+  </displayList>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" scroll="both">
+  <displayList>
+    <loader id="41ykq" name="role" xy="7,-44" size="50,50" touchable="false" url="ui://jk0io98jldxan2em"/>
+    <component id="n0_emz9" name="EquipCell17" src="xn1gs" fileName="组件/EquipCell17.xml" xy="45,1" size="90,147">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+</component>

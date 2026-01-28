@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="933,593" opaque="false" scroll="both">
+  <displayList>
+    <component id="53m2r" name="DA2ECheckBox1" src="kn5zw5" fileName="Set/组件/DA2ECheckBox1.xml" xy="44,74">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="k7l2c" name="DA2EWindow1" src="kn5zwa" fileName="Set/组件/DA2EWindow1.xml" xy="22,389">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="3m3br" name="DA2ECheckBox2" src="kn5zwb" fileName="Set/组件/DA2ECheckBox2.xml" xy="249,75">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="73ex6" name="ChatEdit2" xy="294,80" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="人名显名"/>
+    <text id="3cya6" name="ChatEdit1" xy="89,80" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="显示封号"/>
+    <component id="qca7i" name="DA2ECheckBox3" src="kn5zwc" fileName="Set/组件/DA2ECheckBox3.xml" xy="466,74">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="0oa22" name="ChatEdit3" xy="511,80" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="数字显血"/>
+    <component id="41khb" name="DA2ECheckBox4" src="kn5zwd" fileName="Set/组件/DA2ECheckBox4.xml" xy="683,74">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="s3nsf" name="ChatEdit4" xy="729,80" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="职业等级"/>
+    <component id="3vf73" name="DA2ECheckBox5" src="kn5zwe" fileName="Set/组件/DA2ECheckBox5.xml" xy="44,141">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="gf312" name="ChatEdit5" xy="89,147" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="显示血条"/>
+    <component id="6ww0e" name="DA2ECheckBox6" src="kn5zwf" fileName="Set/组件/DA2ECheckBox6.xml" xy="249,142">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="8ojc3" name="ChatEdit6" xy="294,147" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="禁止交易"/>
+    <component id="p3v4x" name="DA2ECheckBox8" src="kn5zwg" fileName="Set/组件/DA2ECheckBox8.xml" xy="683,141">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="6r1ng" name="ChatEdit8" xy="729,147" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="高帧模式"/>
+    <component id="e6cun" name="DA2ECheckBox7" src="kn5zwh" fileName="Set/组件/DA2ECheckBox7.xml" xy="466,142">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="740h1" name="ChatEdit7" xy="511,147" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="隐藏顶戴称号"/>
+    <text id="b1go3" name="ChatEdit10" xy="294,214" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="屏蔽召唤物"/>
+    <text id="q5384" name="ChatEdit9" xy="89,214" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="屏蔽特效"/>
+    <text id="823qg" name="ChatEdit11" xy="511,214" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="屏蔽玩家"/>
+    <text id="58wj8" name="ChatEdit12" xy="729,214" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="屏蔽怪物"/>
+    <text id="3u71s" name="ChatEdit13" xy="89,281" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="怪物简装"/>
+    <text id="viqa8" name="ChatEdit14" xy="294,281" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="人物简装"/>
+    <text id="486vh" name="ChatEdit16" xy="729,281" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="隐藏尸体"/>
+    <text id="8aqvs" name="ChatEdit15" xy="511,281" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="声音开关"/>
+    <component id="180w5" name="DA2ECheckBox9" src="kn5zwi" fileName="Set/组件/DA2ECheckBox9.xml" xy="44,208">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="0sn44" name="DA2ECheckBox10" src="kn5zwj" fileName="Set/组件/DA2ECheckBox10.xml" xy="249,209">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="37go7" name="DA2ECheckBox11" src="kn5zwk" fileName="Set/组件/DA2ECheckBox11.xml" xy="466,208">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="7pd6v" name="DA2ECheckBox12" src="kn5zwl" fileName="Set/组件/DA2ECheckBox12.xml" xy="683,208">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="s8lah" name="DA2ECheckBox13" src="kn5zwm" fileName="Set/组件/DA2ECheckBox13.xml" xy="44,275">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="qpc35" name="DA2ECheckBox14" src="kn5zwn" fileName="Set/组件/DA2ECheckBox14.xml" xy="249,276">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="57tj8" name="DA2ECheckBox16" src="kn5zwo" fileName="Set/组件/DA2ECheckBox16.xml" xy="683,275">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="wgl5s" name="DA2ECheckBox15" src="kn5zwp" fileName="Set/组件/DA2ECheckBox15.xml" xy="466,276">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="n0_d4v9" name="ChatEdit17" xy="90,338" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="显示双摇杆"/>
+    <component id="n1_d4v9" name="DA2ECheckBox17" src="kn5zwo" fileName="Set/组件/DA2ECheckBox16.xml" xy="44,332">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="n3_idx7" name="ChatEdit18" xy="294,338" size="130,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="装备对比"/>
+    <component id="n4_idx7" name="DA2ECheckBox18" src="kn5zwo" fileName="Set/组件/DA2ECheckBox16.xml" xy="248,332">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,42" extention="ProgressBar">
+  <displayList>
+    <graph id="n0_uecu" name="n0" xy="0,0" size="120,42" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#00f0f0f0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_uecu" name="bar" xy="0,0" size="120,42" type="rect" lineSize="0" fillColor="#7f000000"/>
+  </displayList>
+  <ProgressBar reverse="true"/>
+</component>

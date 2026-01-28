@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="575,692" scroll="both">
+  <controller name="CRadios" exported="true" pages="0,Radio1,1,Radio2,2,Radio3,3,Radio4,4,Radio5,5,Radio6,6,Radio7" selected="0"/>
+  <displayList>
+    <image id="qn0jp" name="DCharUI" src="j3e21k1" fileName="Char/Data/OMG_MobileMini.Pak/Char_00309.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="hguf1" name="DBtnSend" src="j3e21ke" fileName="Char/组件/DBtnSend.xml" pkg="jk0io98j" xy="441,635">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="tve4w" name="DBtn" src="j3e21kf" fileName="Char/组件/DBtn.xml" pkg="jk0io98j" xy="535,295">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="ti5e2" name="DRBIntegrated" src="j3e21kg" fileName="Char/组件/DRBIntegrated.xml" pkg="jk0io98j" xy="13,16">
+      <relation target="" sidePair=""/>
+      <Button checked="true" sound="ui://b3xl678aui26b" controller="CRadios" page="0"/>
+    </component>
+    <component id="73n42" name="DRBSystem" src="j3e21kh" fileName="Char/组件/DRBSystem.xml" pkg="jk0io98j" xy="13,76">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="1"/>
+    </component>
+    <component id="h4w6a" name="DRBWorld" src="j3e21ki" fileName="Char/组件/DRBWorld.xml" pkg="jk0io98j" xy="13,136">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="2"/>
+    </component>
+    <component id="1dev1" name="DRBWhisper" src="j3e21kj" fileName="Char/组件/DRBWhisper.xml" pkg="jk0io98j" xy="13,196">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="3"/>
+    </component>
+    <component id="oeee0" name="DRBGuild" src="j3e21kk" fileName="Char/组件/DRBGuild.xml" pkg="jk0io98j" xy="13,256">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="4"/>
+    </component>
+    <component id="51lkg" name="DRBGroup" src="j3e21kl" fileName="Char/组件/DRBGroup.xml" pkg="jk0io98j" xy="13,316">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="5"/>
+    </component>
+    <component id="7ryk7" name="DRBHear" src="j3e21km" fileName="Char/组件/DRBHear.xml" pkg="jk0io98j" xy="13,376">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="6"/>
+    </component>
+    <list id="7i0fn" name="DChatWindow" xy="146,16" size="378,585" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jj3e21kw"/>
+    <text id="ng6k8" name="DEditChar" xy="10,636" size="416,40" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text="" input="true"/>
+    <component id="3x3j3" name="DBtnEmoticon" src="j3e21kn" fileName="Char/组件/DBtnEmoticon.xml" pkg="jk0io98j" xy="290,630">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="stbro" name="DBtnBag" src="j3e21ko" fileName="Char/组件/DBtnBag.xml" pkg="jk0io98j" xy="338,630">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="05272" name="DBtnPosition" src="j3e21kp" fileName="Char/组件/DBtnPosition.xml" pkg="jk0io98j" xy="386,630">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="6541p" name="DChatToptem" src="j3e21kq" fileName="Char/组件/DChatToptem.xml" pkg="jk0io98j" xy="147,18" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n3_p2q8" name="DBtnAutoSendClose" src="p2q8gvn35h" fileName="Char/组件/DRAutoSendClose.xml" pkg="jk0io98j" xy="14,571"/>
+    <component id="n4_p2q8" name="DBtnAutoSendOpen" src="p2q8gvn35e" fileName="Char/组件/DRAutoSendOpen.xml" pkg="jk0io98j" xy="15,571"/>
+  </displayList>
+</component>

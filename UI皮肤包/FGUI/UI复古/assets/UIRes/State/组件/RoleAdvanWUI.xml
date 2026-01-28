@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="157,432" overflow="scroll">
+  <displayList>
+    <text name="RoleAttribAdvanEdit" id="dthnv" xy="8,3" size="90,29" font="SimHei" fontSize="15" leading="-6" text="暴击几率增加:{DIYVALUE10=0}%&#xD;&#xA;&#xD;&#xA;攻击伤害增加:{DIYVALUE1=0}%&#xD;&#xA;&#xD;&#xA;伤害吸收增加:{DIYVALUE2=0}%&#xD;&#xA;&#xD;&#xA;护甲穿透增加:{DIYVALUE11=0}%&#xD;&#xA;&#xD;&#xA;忽视目标防御:{DIYVALUE17=0}%&#xD;&#xA;&#xD;&#xA;生命偷取增加:{wPoisonRecover=0}%&#xD;&#xA;&#xD;&#xA;人物体质增加:{S%人物体力增加Z=0}%&#xD;&#xA;&#xD;&#xA;打怪伤害增加:{DIYVALUE16=0}&#xD;&#xA;&#xD;&#xA;切割倍数增加:{N%增加切割倍率=0}%&#xD;&#xA;&#xD;&#xA;刀刀切割增加:{N%全局切割数值=0}&#xD;&#xA;&#xD;&#xA;攻击倍数增加:{N%攻击倍率统计显示=0}%&#xD;&#xA;&#xD;&#xA;技能伤害增加:{DIYVALUE15=0}%&#xD;&#xA;&#xD;&#xA;技能抵抗增加:{DIYVALUE60=0}%&#xD;&#xA;&#xD;&#xA;烈火伤害增加:{DIYVALUE61=0}%&#xD;&#xA;&#xD;&#xA;莲月伤害增加:{DIYVALUE62=0}%&#xD;&#xA;&#xD;&#xA;刺杀伤害增加:{DIYVALUE63=0}%&#xD;&#xA;&#xD;&#xA;逐日伤害增加:{DIYVALUE64=0}%&#xD;&#xA;&#xD;&#xA;半月伤害增加:{DIYVALUE65=0}%&#xD;&#xA;&#xD;&#xA;开天伤害增加:{DIYVALUE66=0}%" color="#FFFFFF" visible="false" vars="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

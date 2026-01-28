@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="558,515" scroll="both">
+  <displayList>
+    <image id="a0pf2" name="MailWinStay1" src="kn5zvn" fileName="Set/Data/OMG_MobileMini.Pak/Set_00832.png" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <list id="m7ux5" name="AppendGrids" xy="55,320" size="478,68" layout="row" overflow="scroll" scroll="horizontal" scrollBarFlags="128" colGap="3" defaultItem="ui://jk0io98jkn5zyr" autoClearItems="true"/>
+    <component id="4p710" name="JinBiWin" src="kn5zy4" fileName="Set/组件/JinBiWin.xml" xy="23,397" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="3bvel" name="JinGangShiWin" src="kn5zy6" fileName="Set/组件/JinGangShiWin.xml" xy="23,397" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="11370" name="JinPiaoWin" src="kn5zy8" fileName="Set/组件/JinPiaoWin.xml" xy="23,397">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="213q3" name="LingFuWin" src="kn5zya" fileName="Set/组件/LingFuWin.xml" xy="23,397" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="d4ire" name="RongYuWin" src="kn5zyc" fileName="Set/组件/RongYuWin.xml" xy="23,397" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="4v245" name="ShengWangWin" src="kn5zye" fileName="Set/组件/ShengWangWin.xml" xy="23,397" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="ys1d1" name="XinYouXiDianWin" src="kn5zyg" fileName="Set/组件/XinYouXiDianWin.xml" xy="23,397" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="d3hba" name="YouXiDianWin" src="kn5zyi" fileName="Set/组件/YouXiDianWin.xml" xy="23,397" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="fo832" name="YuanBaoWin" src="kn5zyk" fileName="Set/组件/YuanBaoWin.xml" xy="23,397">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="b452o" name="DA2EIMAGE10" src="kn5zvx" fileName="Set/Data/OMG_MobileMini.Pak/Set_00839.png" xy="251,341" size="59,28"/>
+  </displayList>
+</component>

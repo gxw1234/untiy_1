@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="297,52">
+  <displayList>
+    <component id="n0_lvh9" name="DemoRoleInfo" src="gcp1n1pu" fileName="组件/DemoRoleInfo.xml" xy="0,0"/>
+    <component id="n2_lvh9" name="DemoReturnBox" src="gcp1n1pv" fileName="组件/DemoReturnBox.xml" xy="154,0"/>
+  </displayList>
+</component>

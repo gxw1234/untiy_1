@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="63,63" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_l712" name="n0" src="ldxan234" fileName="Main_RightGrop/Data/OMG_MobileMini.Pak/RightGrop_00894.png" xy="0,0" size="63,63">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n1_l712" name="n1" src="ldxan235" fileName="Main_RightGrop/Data/OMG_MobileMini.Pak/RightGrop_00895.png" xy="0,0" size="63,63">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

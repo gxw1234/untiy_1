@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="934,593" scroll="both">
+  <displayList>
+    <list id="54j7o" name="DA2EGrid3" xy="32,54" size="261,459" treeView="false" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="0" lineItemCount2="0" defaultItem="ui://jk0io98jkn5zyv"/>
+    <component name="MailWinStay2" id="6hdac" src="kn5zy2" fileName="MailWinStay2.xml" xy="304,55">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="MailWinStay1" id="3t4pc" src="kn5zyl" fileName="MailWinStay1.xml" xy="304,55">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="DBtnAllDeletRead" id="348v7" src="kn5zym" fileName="DBtnAllDeletRead.xml" xy="173,517">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnAllExtract" id="rnt86" src="kn5zyn" fileName="DBtnAllExtract.xml" xy="30,517">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="MailDeleteBtn" id="r13gr" src="kn5zyo" fileName="MailDeleteBtn.xml" xy="736,512">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="EditText" id="8xu62" xy="324,521" size="73,31" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="邮件数量:" color="#FFFFFF" touchable="false" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="MailCountText" id="ixfl3" xy="397,521" size="90,31" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="2/50" color="#FFFFFF" touchable="false" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <component name="AllExtractBtn" id="oan4b" src="kn5zyp" fileName="AllExtractBtn.xml" xy="736,512">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="MailContentTexts" id="67j80" xy="327,196" size="512,167" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="装 扮" color="#FFFFFF" touchable="false" ubb="true" autoClearText="true" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="MailTimeText" id="n4vk6" xy="323,156" size="518,26" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="系统" color="#FFFFFF" touchable="false" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="MailTitleText" id="bb440" xy="323,72" size="518,26" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="主题" color="#FFFFFF" touchable="false" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="MailWhereText" id="rsi0h" xy="323,113" size="518,26" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="系统" color="#FFFFFF" touchable="false" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+  </displayList>
+</component>

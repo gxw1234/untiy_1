@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="729,37" scroll="both" extention="Slider">
+  <displayList>
+    <image id="1nf35" name="DA2ELoader5" src="ldxan2cj" fileName="Data/OMG_MobileMini.Pak/00420.PNG" xy="3,3" size="698,28">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="03dvq" name="bar" src="ldxan2ck" fileName="Data/OMG_MobileMini.Pak/00421.PNG" xy="7,8" size="690,16"/>
+    <component id="33xtq" name="grip" src="kn5zxf" fileName="组件/grip2.xml" xy="684,-9">
+      <relation target="03dvq" sidePair="right-right"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>

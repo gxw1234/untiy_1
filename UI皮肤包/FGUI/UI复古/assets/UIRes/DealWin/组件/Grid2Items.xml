@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="635,40">
+  <displayList>
+    <text id="n0_js02" name="GNamesTxt" xy="6,4" size="106,32" font="Microsoft YaHei" fontSize="16" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="元宝"/>
+    <text id="n1_js02" name="GRoleTxt" xy="136,4" size="131,32" font="Microsoft YaHei" fontSize="16" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="英雄点"/>
+    <text id="n2_js02" name="GnumTxt" xy="281,4" size="103,32" font="Microsoft YaHei" fontSize="16" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="英雄点"/>
+    <text id="n3_js02" name="GpriceTxt" xy="400,4" size="119,32" font="Microsoft YaHei" fontSize="16" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="英雄点"/>
+    <component id="n5_js02" name="MoneyBuyBtn" src="j3e21bt" fileName="组件/caozuo2.xml" xy="540,3"/>
+  </displayList>
+</component>

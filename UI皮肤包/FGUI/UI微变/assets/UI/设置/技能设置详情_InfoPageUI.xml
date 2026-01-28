@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="551,413" opaque="false" scroll="both">
+  <displayList>
+    <image id="n4_y1gn" name="InfoPage" src="y1gngvn356" fileName="Set/Data/OMG_MobileMini.Pak/Set_00907.png" pkg="jk0io98j" xy="0,0"/>
+    <component id="do8c4" name="frame" src="kn5zxu" fileName="Set/组件/frame1.xml" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <list id="4bjrs" name="DA2EGrid1" xy="4,49" size="513,361" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jy1gngvn355">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="fo536" name="DA2ESimpleButton8" src="kn5zxv" fileName="Set/组件/DA2ESimpleButton8.xml" pkg="jk0io98j" xy="521,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="3kv43" name="EditText1" xy="10,6" size="143,37" font="Microsoft YaHei" fontSize="18" color="#dfcfb4" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="物品名称"/>
+    <text id="5u24g" name="EditText2" xy="380,7" size="134,37" font="Microsoft YaHei" fontSize="18" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" bold="true" strokeColor="#000000" text="点击屏幕施法"/>
+  </displayList>
+</component>

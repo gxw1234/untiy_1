@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="343,432" scroll="both" remark="{&#xA;&#xA;&quot;Enable&quot;:0,&#xA;&#xA;&quot;Center&quot;:0,&#xA;&#xA;&quot;OX&quot;:1,&#xA;&#xA;&quot;OY&quot;:2&#xA;&#xA;}">
+  <displayList>
+    <image id="87qms" name="DCharSelect" src="45546" fileName="CharSelect/Data/OMG_MobileMini.Pak/00038.PNG" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="7686f" name="DJobList" src="wk1u1" fileName="CharSelect/组件/DJobList.xml" pkg="jk0io98j" xy="4,150">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="rquk8" name="DSexList" src="j43ts" fileName="CharSelect/组件/DSexList.xml" pkg="jk0io98j" xy="4,285">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="lj28g" name="DCharSelectClose" src="st764" fileName="CharSelect/组件/DCharSelectClose.xml" pkg="jk0io98j" xy="280,27">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="35f55" name="BtnSubmit" src="0ci26" fileName="CharSelect/组件/BtnSubmit.xml" pkg="jk0io98j" xy="98,375">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="7wx1c" name="DEditNickName" xy="80,80" size="150,24" font="Microsoft YaHei" fontSize="16" color="#ffffff" leading="0" autoSize="none" strokeColor="#000000" singleLine="true" text="" input="true" maxLength="21"/>
+    <component id="x66mn" name="BtnRandomNickName" src="ys021" fileName="CharSelect/组件/BtnRandomNickName.xml" pkg="jk0io98j" xy="204,69">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

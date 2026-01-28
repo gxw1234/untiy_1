@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="146,29" scroll="both">
+  <displayList>
+    <loader id="n1_zw59" name="Icon" xy="0,1" size="126,29" url="ui://jk0io98jv9b19v"/>
+    <text id="gtd2e" name="Title" xy="27,0" size="118,29" font="Microsoft YaHei" fontSize="14" color="#ffffff" vAlign="middle" leading="0" vars="true" autoSize="none" text="等    级:{RELEVEL=0}转{Level=0}级"/>
+  </displayList>
+</component>

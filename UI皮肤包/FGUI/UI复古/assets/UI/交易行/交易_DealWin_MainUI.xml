@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="916,594">
+  <controller name="cpage" pages="0,page1,1,page2,2,page3" selected="2"/>
+  <displayList>
+    <image id="n17_js02" name="bg" src="hr3gn1y7" fileName="Data/00413.PNG" xy="0,0" pkg="jk0io98j"/>
+    <component id="n18_js02" name="frame" src="j3e21cq" fileName="组件/frame.xml" xy="2,0" size="885,594" pkg="jk0io98j"/>
+    <graph id="n19_m582" name="ModalLayer" xy="0,0" size="2,2" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n1_js02" name="DealCloseBtn" src="j3e21bl" fileName="组件/DealCloseBtn.xml" xy="886,0" pkg="jk0io98j"/>
+    <component id="n9_js02" name="LeftRBtn1" src="j3e21by" fileName="组件/LeftRBtn1.xml" xy="886,58" pkg="jk0io98j">
+      <Button controller="cpage" page="0"/>
+    </component>
+    <component id="n11_js02" name="LeftRBtn2" src="j3e21c0" fileName="组件/LeftRBtn2.xml" xy="886,151" pkg="jk0io98j">
+      <Button controller="cpage" page="1"/>
+    </component>
+    <component id="n10_js02" name="LeftRBtn3" src="j3e21bz" fileName="组件/LeftRBtn3.xml" xy="886,249" pkg="jk0io98j">
+      <Button checked="true" controller="cpage" page="2"/>
+    </component>
+    <component id="n8_js02" name="CLeftpage1" src="j3e21bp" fileName="组件/CLeftpage1.xml" xy="23,53" size="839,520" pkg="jk0io98j">
+      <gearDisplay controller="cpage" pages="0"/>
+    </component>
+    <component id="n13_js02" name="CLeftpage2" src="j3e21c1" fileName="组件/CLeftpage2.xml" xy="23,53" size="839,520" pkg="jk0io98j">
+      <gearDisplay controller="cpage" pages="1"/>
+    </component>
+    <component id="n14_js02" name="CLeftpage3" src="j3e21ce" fileName="组件/CLeftpage3.xml" xy="23,53" size="839,520" pkg="jk0io98j">
+      <gearDisplay controller="cpage" pages="2"/>
+    </component>
+  </displayList>
+</component>

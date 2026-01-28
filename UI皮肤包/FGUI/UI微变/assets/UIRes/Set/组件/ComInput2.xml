@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="90,30">
+  <displayList>
+    <image id="n0_q184" name="DA2EWindow7" src="kn5zuz" fileName="Set/Data/OMG_MobileMini.Pak/Set_00425.png" xy="0,0" size="90,30">
+      <relation target="" sidePair="rightext-right,topext-top,bottomext-bottom,leftext-left"/>
+    </image>
+    <richtext id="n1_q184" name="text" xy="8,2" size="73,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" text="3000">
+      <relation target="" sidePair=""/>
+    </richtext>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="310,84" scroll="both">
+  <controller name="CRadios" exported="true" pages="0,Radio1,1,Radio2" selected="0"/>
+  <displayList>
+    <component id="0xt2x" name="DBtnSex0" src="4w02a" fileName="CharSelect/组件/DBtnSex0.xml" xy="86,0">
+      <Button checked="true" sound="ui://a1qeklvh3272i" controller="CRadios" page="0"/>
+    </component>
+    <component id="wrk3f" name="DBtnSex1" src="8st6k" fileName="CharSelect/组件/DBtnSex1.xml" xy="163,0">
+      <Button sound="ui://a1qeklvh3272i" controller="CRadios" page="1"/>
+    </component>
+  </displayList>
+</component>

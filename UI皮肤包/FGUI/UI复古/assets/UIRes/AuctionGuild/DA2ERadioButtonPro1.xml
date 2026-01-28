@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="138,52" scroll="both" extention="Button">
+  <displayList>
+    <image id="vy8a4" src="ldxan2bv" fileName="00626.PNG" xy="0,0" name="Img626c2w">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <component name="DA2ECheckBox2" id="smp53" src="kn5z137" fileName="DA2ECheckBox2.xml" xy="0,0">
+      <Button controller="expanded" page="1"/>
+      <Button/>
+    </component>
+    <image id="38q8c" src="ldxan2bm" fileName="00612.PNG" xy="3,48" size="128,3" name="DA2EIMAGE19" alpha="1.0"/>
+    <text name="title" id="g83j6" xy="0,7" size="138,39" font="Microsoft YaHei" fontSize="20" leading="0" autoSize="none" text="衣 服" color="#DFCFB4" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000"/>
+  </displayList>
+  <controller name="expanded" pages="0,,1," selected="0"/>
+  <controller name="leaf" pages="0,,1," selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="135,100" scroll="both">
+  <displayList>
+    <loader id="bceco" name="load" xy="0,0" size="135,100"/>
+    <richtext id="88s5r" name="title0" xy="0,0" size="10,19" touchable="false" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text=""/>
+    <richtext id="5g802" name="title1" xy="39,39" size="10,19" touchable="false" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text=""/>
+    <richtext id="c7eyo" name="title2" xy="47,47" size="10,19" touchable="false" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text=""/>
+    <richtext id="14lfe" name="title3" xy="60,47" size="10,19" touchable="false" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text=""/>
+    <graph id="a81jd" name="Stroke" xy="-1,-1" size="137,102" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff336600" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <relation target="bceco" sidePair="width-width,height-height"/>
+</component>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="633,585" opaque="false" scroll="both" remark="{&#xD;&#xA;&#xD;&#xA;&#x9;&quot;偏移X&quot;:-6,&#xD;&#xA;&#xD;&#xA;&#x9;&quot;偏移Y&quot;:68,&#xD;&#xA;&#xD;&#xA;        &quot;锁资源&quot;:1450,&#xD;&#xA;&#xD;&#xA;        &quot;锁偏移X&quot;:12,&#xD;&#xA;&#xD;&#xA;&#x9;&quot;锁偏移Y&quot;:13,&#xD;&#xA;&#xD;&#xA; &#x9;&quot;锁Tips&quot;:&quot;$Txt|双击解锁背包格(10000元宝)&quot;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;}">
+  <controller name="CRadios" exported="true" pages="0,Radio1,1,Radio2,2,Radio3,3,Radio4,4,Radio5" selected="0"/>
+  <displayList>
+    <image id="6y5te" name="DBag" src="v9b142" fileName="Bag/Data/OMG_MobileMini.Pak/Bag_00788.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="23m40" name="DA2EIMAGE1" src="v9b143" fileName="Bag/Data/OMG_MobileMini.Pak/Bag_00792.png" pkg="jk0io98j" xy="17,458" size="569,90" visible="false"/>
+    <image id="c472j" name="DA2EIMAGE3" src="v9b144" fileName="Bag/Data/OMG_MobileMini.Pak/Bag_00791.png" pkg="jk0io98j" xy="-24,356" size="62,62"/>
+    <image id="0i282" name="DA2EIMAGE2" src="v9b145" fileName="Bag/Data/OMG_MobileMini.Pak/Bag_00790.png" pkg="jk0io98j" xy="43,366" size="169,39"/>
+    <component id="153ug" name="frame" src="v9b14v" fileName="Bag/组件/frame.xml" pkg="jk0io98j" xy="12,9" size="571,399">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="hc5ea" name="DBagClose" src="v9b14w" fileName="Bag/组件/DBagClose.xml" pkg="jk0io98j" xy="584,8">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <list id="smj1k" name="DBagGrid" xy="28,23" size="543,337" layout="pagination" overflow="hidden" scroll="both" lineItemCount="8" lineItemCount2="10" defaultItem="ui://jk0io98jv9b15m" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="18rcx" name="btn3" src="v9b14x" fileName="Bag/组件/btn3.xml" pkg="jk0io98j" xy="186,418" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="m63i5" name="DGoldText2" xy="49,372" size="155,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <component id="gxe2a" name="DA2EButton1" src="v9b14y" fileName="Bag/组件/DA2EButton1.xml" pkg="jk0io98j" xy="-20,368">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="pbdtj" name="DBtnQueryBagItems" src="v9b14z" fileName="Bag/组件/DBtnQueryBagItems.xml" pkg="jk0io98j" xy="484,368">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="d1na4" name="bagRecoveryBtn" src="v9b150" fileName="Bag/组件/bagRecoveryBtn.xml" pkg="jk0io98j" xy="372,416" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="fws61" name="YuanBaoWin" src="v9b151" fileName="Bag/组件/YuanBaoWin.xml" pkg="jk0io98j" xy="32,476" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="7col5" name="JinPiaoWin" src="v9b152" fileName="Bag/组件/JinPiaoWin.xml" pkg="jk0io98j" xy="313,476" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="2v47j" name="YouXiDianWin" src="v9b153" fileName="Bag/组件/YouXiDianWin.xml" pkg="jk0io98j" xy="32,503" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="dc68o" name="RongYuWin" src="v9b154" fileName="Bag/组件/RongYuWin.xml" pkg="jk0io98j" xy="313,503" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="ch8ro" name="JinGangShiWin" src="v9b155" fileName="Bag/组件/JinGangShiWin.xml" pkg="jk0io98j" xy="313,476" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="1xts5" name="LingFuWin" src="v9b156" fileName="Bag/组件/LingFuWin.xml" pkg="jk0io98j" xy="32,503" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="35vau" name="XinYouXiDianWin" src="v9b157" fileName="Bag/组件/XinYouXiDianWin.xml" pkg="jk0io98j" xy="32,476" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n1_rw4g" name="YuanBaoBdWin" src="rw4ggvn35o" fileName="Bag/组件/YuanBaoBdWin.xml" pkg="jk0io98j" xy="314,503" visible="false"/>
+    <component id="4db2m" name="ShengWangWin" src="v9b158" fileName="Bag/组件/ShengWangWin.xml" pkg="jk0io98j" xy="32,476" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="el7up" name="DRBStorage" src="v9b159" fileName="Bag/组件/DRBStorage.xml" pkg="jk0io98j" xy="300,414" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="3t624" name="BgRadioBtn1" src="v9b15a" fileName="Bag/组件/BgRadioBtn1.xml" pkg="jk0io98j" xy="583,53">
+      <relation target="" sidePair=""/>
+      <Button checked="true" sound="ui://b3xl678aui26b" controller="CRadios" page="0"/>
+    </component>
+    <component id="d1llt" name="BgRadioBtn2" src="v9b15b" fileName="Bag/组件/BgRadioBtn2.xml" pkg="jk0io98j" xy="583,119">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="1"/>
+    </component>
+    <component id="7sgwa" name="BgRadioBtn3" src="v9b15c" fileName="Bag/组件/BgRadioBtn3.xml" pkg="jk0io98j" xy="583,185">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="2"/>
+    </component>
+    <component id="wmc48" name="BgRadioBtn4" src="v9b15d" fileName="Bag/组件/BgRadioBtn4.xml" pkg="jk0io98j" xy="583,251" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="3"/>
+    </component>
+    <component id="k0m7c" name="BgRadioBtn5" src="v9b15e" fileName="Bag/组件/BgRadioBtn5.xml" pkg="jk0io98j" xy="583,317" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="4"/>
+    </component>
+    <text id="n0_kb94" name="PanelItemTips" xy="32,476" size="539,59" visible="false" fontSize="16" color="#ffffff" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text="所需等级"/>
+    <component id="c3512" name="BagCustomBtn1" src="v9b15f" fileName="Bag/组件/BagCustomBtn1.xml" pkg="jk0io98j" xy="274,368">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="41n5g" name="BagCustomBtn2" src="v9b15g" fileName="Bag/组件/BagCustomBtn2.xml" pkg="jk0io98j" xy="379,368">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="a6syr" name="BagCustomBtn3" src="v9b15h" fileName="Bag/组件/BagCustomBtn3.xml" pkg="jk0io98j" xy="222,366">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="f18ap" name="BagCustomBtn4" src="v9b15i" fileName="Bag/组件/BagCustomBtn4.xml" pkg="jk0io98j" xy="395,326" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="48x1r" name="BagCustomBtn5" src="v9b15j" fileName="Bag/组件/BagCustomBtn5.xml" pkg="jk0io98j" xy="483,326" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

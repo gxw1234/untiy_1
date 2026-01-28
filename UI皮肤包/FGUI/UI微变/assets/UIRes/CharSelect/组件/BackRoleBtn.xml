@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,52" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_stlb" name="n0" src="gcp1n1q5" fileName="Data/OMG_MobileMini.Pak/00265.PNG" xy="0,0"/>
+    <image id="n1_stlb" name="n1" src="gcp1n1q6" fileName="Data/OMG_MobileMini.Pak/00266.PNG" xy="0,0"/>
+    <text id="xq5xm" name="title" xy="8,9" size="128,35" font="Microsoft YaHei" fontSize="16" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text="取回角色">
+      <gearColor controller="button" pages="1,2,3" values="#837155,#000000|#dfcfb4,#000000|#837155,#000000" default="#dfcfb4,#000000"/>
+    </text>
+    <image id="n2_kox4" name="n2" src="gcp1n1q7" fileName="Data/OMG_MobileMini.Pak/00467.PNG" xy="-81,-43" size="302,40"/>
+    <text id="n4_kox4" name="text" xy="-78,-41" size="296,37" font="Microsoft YaHei" fontSize="16" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="寄售中，如需取回角色，请点击下方按钮">
+      <gearColor controller="button" pages="1,2,3" values="#837155,#000000|#dfcfb4,#000000|#837155,#000000" default="#dfcfb4,#000000"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

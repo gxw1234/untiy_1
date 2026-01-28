@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="268,142" pivot="4,0" scroll="both" extention="Button">
+  <displayList>
+    <image id="4mm8h" src="ldxan2bg" fileName="00616.PNG" xy="0,0" name="Img61650g"/>
+    <image id="lr34f" src="ldxan2bg" fileName="00616.PNG" xy="0,0" name="Img6162v0">
+      <gearDisplay controller="button" pages="0,2,1"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <text name="Page2SellGoodNames" id="ym06y" xy="66,3" size="127,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="物品名字七个字" color="#FFFFFF" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit16" id="o444y" xy="78,60" size="70,24" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="竞 价:" color="#FFFFFF" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit17" id="08bq2" xy="77,84" size="70,24" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="一口价:" color="#FFFFFF" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit18" id="l2022" xy="77,108" size="70,31" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="竞拍中:" color="#FFFFFF" visible="false" align="center" vAlign="middle" anchor="false"/>
+    <loader id="n78h5" name="DA2ELoader8" size="36,30" url="ui://jk0io98jldxan2b7" align="center" vAlign="middle" xy="224,57"/>
+    <text name="Page2ItemsReNums" id="6inkr" xy="77,108" size="180,31" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="竞拍中:12345678" color="#FFFFFF" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <loader id="qcwed" name="DA2ELoader7" size="36,30" url="ui://jk0io98jldxan2b7" align="center" vAlign="middle" xy="224,81"/>
+    <component name="Page2SellGoodWin" id="dkvma" src="kn5z121" fileName="Page2SellGoodWin.xml" xy="9,59"/>
+    <component name="DA2EWindow3" id="xv7d4" src="kn5z122" fileName="DA2EWindow3.xml" xy="147,60"/>
+    <component name="DA2EWindow4" id="glo18" src="kn5z123" fileName="DA2EWindow4.xml" xy="147,84"/>
+    <text name="SelRiglGName" id="455if" xy="77,71" size="183,31" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="点击右侧上架物品" color="#FFFFFF" visible="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

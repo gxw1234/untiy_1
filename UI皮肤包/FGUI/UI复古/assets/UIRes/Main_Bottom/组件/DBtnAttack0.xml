@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,120" scroll="both" extention="Button">
+  <displayList>
+    <loader id="3o132" name="skill" xy="0,0" size="120,120" align="center" vAlign="middle" fill="scale"/>
+    <image id="pym37" name="mask" src="ldxan26z" fileName="Data/OMG_MobileMini.Pak/00436.PNG" xy="0,0" size="120,120" alpha="0.6" fillMethod="radial360" fillClockwise="false"/>
+    <text id="l643a" name="name" xy="0,90" size="120,29" font="Microsoft YaHei" fontSize="18" color="#fffbf0" align="center" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" autoClearText="true" text=""/>
+    <loader id="0v384" name="lock0" xy="0,0" size="120,120" align="center" vAlign="middle"/>
+    <text id="01sp3" name="time" xy="0,0" size="120,120" font="Microsoft YaHei" fontSize="22" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text=""/>
+  </displayList>
+  <Button sound="ui://a1qeklvhg2d28" volume="0"/>
+  <transition name="select" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Icon" target="0v384" value="ui://jk0io98jldxan25j"/>
+    <item time="6" type="Icon" target="0v384" value="ui://jk0io98jldxan25k"/>
+    <item time="12" type="Icon" target="0v384" value="ui://jk0io98jldxan25l"/>
+    <item time="18" type="Icon" target="0v384" value="ui://jk0io98jldxan25m"/>
+    <item time="24" type="Icon" target="0v384" value="ui://jk0io98jldxan25n"/>
+    <item time="30" type="Icon" target="0v384" value="ui://jk0io98jldxan25o"/>
+  </transition>
+</component>

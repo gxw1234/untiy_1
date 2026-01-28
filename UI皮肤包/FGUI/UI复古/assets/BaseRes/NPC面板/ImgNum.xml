@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="20,20" scroll="both">
+  <displayList>
+    <loader id="v6tk0" name="Item" size="20,20" xy="0,0"/>
+    <graph size="22,22" id="n4ah0" name="Stroke" xy="-1,-1" visible="false" lineSize="2" touchable="false" type="rect" fillColor="#00ffffff" lineColor="#ff663300">
+      <relation sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <relation target="v6tk0" sidePair="width-width,height-height"/>
+</component>

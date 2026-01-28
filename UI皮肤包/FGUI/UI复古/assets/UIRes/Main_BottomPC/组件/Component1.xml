@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="420,30">
+  <displayList>
+    <component id="n0_r9if" name="DBtnMiniMap" src="j3e21ny" fileName="组件/DBtnMiniMap.xml" xy="3,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="n1_r9if" name="DBtnDeal" src="j3e21nz" fileName="组件/DBtnDeal.xml" xy="33,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="n2_r9if" name="DBtnGuild" src="j3e21o0" fileName="组件/DBtnGuild.xml" xy="63,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="n3_r9if" name="DBtnGroup" src="j3e21o1" fileName="组件/DBtnGroup.xml" xy="93,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="n4_r9if" name="DBtnFriends" src="j3e21o2" fileName="组件/DBtnFriends.xml" xy="123,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="n5_r9if" name="DBtnRankList" src="j3e21o3" fileName="组件/DBtnRankList.xml" xy="152,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="n6_r9if" name="DBtnChatRec" src="j3e21o4" fileName="组件/DBtnChatRec.xml" xy="182,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="n9_r9if" name="DBtnPlusAbil" src="j3e21o7" fileName="组件/DBtnPlusAbil.xml" xy="212,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="n7_r9if" name="DBtnOut" src="j3e21o5" fileName="组件/DBtnOut.xml" xy="328,1">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="n8_r9if" name="DBtnQuit" src="j3e21o6" fileName="组件/DBtnQuit.xml" xy="360,1">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+  </displayList>
+</component>

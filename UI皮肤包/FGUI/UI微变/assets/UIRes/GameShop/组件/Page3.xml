@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="811,458" initName="Page3">
+  <displayList>
+    <image id="n0_wfya" name="bg" src="wfyagvn322" fileName="GameShop/Data/gs_cs3.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n1_wfya" name="Txt1" xy="120,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="物品名称"/>
+    <text id="n2_wfya" name="Txt2" xy="280,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="销售价格"/>
+    <text id="n3_wfya" name="Txt3" xy="405,12" size="40,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="类别"/>
+    <text id="n4_wfya" name="Txt4" xy="511,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="添加日期"/>
+    <text id="n5_wfya" name="Txt5" xy="652,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="放入店铺"/>
+    <text id="n6_wfya" name="Txt6" xy="754,12" size="40,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="取回"/>
+    <list id="n7_wfya" name="ListView" xy="0,48" size="810,199" overflow="scroll" lineGap="4" defaultItem="ui://jk0io98jwfyagvn32b" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

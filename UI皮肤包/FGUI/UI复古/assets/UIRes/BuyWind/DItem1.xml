@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="62,62" scroll="both">
+  <displayList>
+    <image id="w7168" name="ImgBuyS" src="ldxan2ot" fileName="BuyWind/Data/OMG_MobileMini.Pak/BuyWind_00178.png" xy="0,0" size="62,62"/>
+    <loader id="n0_bvzr" name="Eff21" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" fill="scale" clearOnPublish="true"/>
+    <loader id="n1_bvzr" name="Eff11" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" fill="scale" clearOnPublish="true"/>
+    <loader id="056yd" name="LoadStallItem" xy="0,0" size="60,60"/>
+    <loader id="n2_bvzr" name="Eff22" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" fill="scale" clearOnPublish="true"/>
+    <loader id="n3_bvzr" name="Eff12" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" fill="scale" clearOnPublish="true"/>
+    <loader id="n4_bvzr" name="Eff23" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" fill="scale" clearOnPublish="true"/>
+    <loader id="n5_bvzr" name="Eff13" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" fill="scale" clearOnPublish="true"/>
+    <text id="q7jp7" name="itemCount" xy="45,43" size="17,19" font="Microsoft YaHei" fontSize="12" color="#ffffff" align="right" vAlign="bottom" leading="0" autoClearText="true" text="">
+      <relation target="w7168" sidePair="right-right,bottom-bottom"/>
+    </text>
+    <text id="n6_bvzr" name="StarLevel" xy="0,18" size="30,20" font="ui://5615522tpm542" fontSize="14" color="#ffffff" strokeColor="#000000" autoClearText="true" text="+1"/>
+  </displayList>
+</component>

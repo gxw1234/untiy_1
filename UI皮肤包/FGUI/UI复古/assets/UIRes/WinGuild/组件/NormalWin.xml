@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="889,593" scroll="both">
+  <displayList>
+    <image id="q4dli" src="ldxan2ll" fileName="00242.PNG" xy="23,54" size="840,44" name="DA2EIMAGE1" alpha="1.0"/>
+    <text name="ChatEdit3" id="4185m" xy="27,55" size="198,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="玩家名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit4" id="m0k3l" xy="235,55" size="199,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit5" id="860f1" xy="439,55" size="163,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="职业" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit36" id="qi04h" xy="607,55" size="256,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="操作" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <list id="f2xes" name="DA2EGrid5" xy="24,96" size="839,302" treeView="false" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="6" defaultItem="ui://jk0io98jkn5z18h">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="BtnAllAree" id="2ko3m" src="kn5z17z" fileName="BtnAllAree.xml" xy="760,528">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="ChatEdit1" id="y1671" xy="83,520" size="110,41" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="禁止入会申请" color="#FFFFFF" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit2" id="4c7u3" xy="262,520" size="115,41" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="开启自动审批" color="#FFFFFF" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="CheckBoxBan" id="u7pd2" src="kn5z180" fileName="CheckBoxBan.xml" xy="41,524">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="CheckBoxOpen" id="qn786" src="kn5z181" fileName="CheckBoxOpen.xml" xy="220,524">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnAllRefuse" id="028x0" src="kn5z182" fileName="BtnAllRefuse.xml" xy="650,528">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnApplyCon" id="s68yv" src="kn5z183" fileName="BtnApplyCon.xml" xy="540,528">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

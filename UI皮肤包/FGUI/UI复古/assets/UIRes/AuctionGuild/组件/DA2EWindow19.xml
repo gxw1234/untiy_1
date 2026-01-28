@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="163,36" scroll="both">
+  <displayList>
+    <image id="n733o" src="ldxan2bn" fileName="00617.PNG" xy="0,0" name="DA2EWindow19">
+      <relation sidePair=""/>
+    </image>
+    <text name="MoushPriceBuyNums" id="y4x8q" xy="3,3" size="157,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="99999999999" color="#F5D462" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

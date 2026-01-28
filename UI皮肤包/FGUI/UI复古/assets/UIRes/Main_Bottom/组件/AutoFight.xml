@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="243,82" scroll="both">
+  <displayList>
+    <loader id="okqjx" name="AutoFightAni" size="243,82" align="center" vAlign="middle" xy="0,0"/>
+    <component name="BtnAutoFight" id="3jtol" src="v9b11h" fileName="BtnAutoFight.xml" xy="196,19">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+  <transition name="select" frameRate="60" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Icon" target="okqjx" value="ui://jk0io98jldxan25p"/>
+    <item time="6" type="Icon" target="okqjx" value="ui://jk0io98jldxan25q"/>
+    <item time="12" type="Icon" target="okqjx" value="ui://jk0io98jldxan25r"/>
+    <item time="18" type="Icon" target="okqjx" value="ui://jk0io98jldxan25s"/>
+    <item time="24" type="Icon" target="okqjx" value="ui://jk0io98jldxan25t"/>
+    <item time="30" type="Icon" target="okqjx" value="ui://jk0io98jldxan25u"/>
+    <item time="36" type="Icon" target="okqjx" value="ui://jk0io98jldxan25v"/>
+    <item time="42" type="Icon" target="okqjx" value="ui://jk0io98jldxan25w"/>
+    <item time="48" type="Icon" target="okqjx" value="ui://jk0io98jldxan25x"/>
+    <item time="54" type="Icon" target="okqjx" value="ui://jk0io98jldxan25y"/>
+    <item time="60" type="Icon" target="okqjx" value="ui://jk0io98jldxan25z"/>
+    <item time="66" type="Icon" target="okqjx" value="ui://jk0io98jldxan260"/>
+    <item time="72" type="Icon" target="okqjx" value="ui://jk0io98jldxan261"/>
+    <item time="78" type="Icon" target="okqjx" value="ui://jk0io98jldxan262"/>
+    <item time="84" type="Icon" target="okqjx" value="ui://jk0io98jldxan263"/>
+    <item time="90" type="Icon" target="okqjx" value="ui://jk0io98jldxan264"/>
+    <item time="96" type="Icon" target="okqjx" value="ui://jk0io98jldxan265"/>
+    <item time="102" type="Icon" target="okqjx" value="ui://jk0io98jldxan266"/>
+    <item time="108" type="Icon" target="okqjx" value="ui://jk0io98jldxan267"/>
+    <item time="114" type="Icon" target="okqjx" value="ui://jk0io98jldxan268"/>
+  </transition>
+</component>

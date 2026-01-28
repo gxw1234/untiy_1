@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="584,330" scroll="both">
+  <displayList>
+    <image id="5b3s1" src="ldxan2bs" fileName="00620.PNG" xy="0,0" name="CompetePriceUI" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="p45m4" src="kn5z12z" fileName="frame4.xml" xy="0,0" pkg="jk0io98j"/>
+    <image id="17x21" src="ldxan2bu" fileName="00613.PNG" xy="252,26" size="77,33" name="DA2EIMAGE8" alpha="1.0" pkg="jk0io98j"/>
+    <image id="h7t50" src="ldxan2bm" fileName="00612.PNG" xy="54,77" size="472,3" name="DA2EIMAGE9" alpha="1.0" pkg="jk0io98j"/>
+    <text name="CompetePriceGoodsName" id="r6o20" xy="56,178" size="105,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="物品名字七个字" color="#FF0000" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit53" id="qem78" xy="199,98" size="91,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="当前竞价:" color="#FFFFFF" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit54" id="wchyt" xy="199,149" size="91,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="加价金额:" color="#FFFFFF" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2EWindow21" id="k815f" src="kn5z130" fileName="DA2EWindow21.xml" xy="339,95" pkg="jk0io98j"/>
+    <component name="DA2EWindow22" id="4p2e8" src="kn5z131" fileName="DA2EWindow22.xml" xy="339,147" pkg="jk0io98j"/>
+    <component name="CompetePriceCancleBtn" id="wk3to" src="kn5z132" fileName="CompetePriceCancleBtn.xml" xy="48,248" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <component name="CompetePriceBuyBtn" id="83hvd" src="kn5z133" fileName="CompetePriceBuyBtn.xml" xy="384,248" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <image id="apik6" src="ldxan2bm" fileName="00612.PNG" xy="174,188" size="380,3" name="DA2EIMAGE11" alpha="1.0" pkg="jk0io98j"/>
+    <text name="ChatEdit61" id="b5dhi" xy="199,198" size="91,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="出价金额:" color="#FFFFFF" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2EWindow15" id="4odp1" src="kn5z134" fileName="DA2EWindow15.xml" xy="339,195" pkg="jk0io98j"/>
+    <component name="CompeteAddPriceEditBtn" id="817t4" src="kn5z135" fileName="CompeteAddPriceEditBtn.xml" xy="508,150" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <component name="CompetePriceGoodsWins" id="b6ree" src="kn5z136" fileName="CompetePriceGoodsWins.xml" xy="77,111" pkg="jk0io98j"/>
+    <loader id="30604" name="DA2ELoader71" size="36,30" url="ui://jk0io98jldxan2b7" xy="296,98"/>
+    <loader id="e300e" name="DA2ELoader72" size="36,30" url="ui://jk0io98jldxan2b7" xy="296,150"/>
+    <loader id="1v638" name="DA2ELoader73" size="36,30" url="ui://jk0io98jldxan2b7" xy="296,199"/>
+  </displayList>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="20,20" scroll="both">
+  <displayList>
+    <loader id="p44ex" name="Item" size="20,20" xy="0,0"/>
+    <graph size="22,22" id="k63rj" name="Stroke" xy="-1,-1" visible="false" lineSize="2" touchable="false" type="rect" fillColor="#00ffffff" lineColor="#ff663300">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </graph>
+  </displayList>
+  <relation target="p44ex" sidePair="width-width,height-height"/>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,30" scroll="both">
+  <displayList>
+    <loader id="q346m" name="bgLoad" xy="0,0" size="80,30" clearOnPublish="true"/>
+    <text id="5ag53" name="name" xy="0,0" size="80,24" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" autoClearText="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <relation target="q346m" sidePair="width-width,height-height"/>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="526,265">
+  <displayList>
+    <image id="n2_lfc4" name="n2" src="wfyagvn2za" fileName="Common/common_bg.png" xy="0,0" size="526,265" pkg="jk0io98j"/>
+    <component id="n3_lfc4" name="CloseButton" src="wfyagvn2zc" fileName="Common/CloseButton.xml" xy="526,0" pkg="jk0io98j"/>
+    <component id="n5_lfc4" name="n5" src="gstbgvn34l" fileName="Attack/组件/helpText.xml" xy="25,31" size="476,213" pkg="jk0io98j"/>
+  </displayList>
+</component>

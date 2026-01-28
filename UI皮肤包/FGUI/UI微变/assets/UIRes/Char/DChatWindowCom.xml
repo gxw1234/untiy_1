@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,41" scroll="both">
+  <displayList>
+    <graph size="6,34" id="j14m5" name="Graph" xy="2,1" lineSize="0" type="rect" fillColor="#FFFFFF" lineColor="">
+      <relation target="3j8x2" sidePair="width-width,height-height,"/>
+    </graph>
+    <richtext name="Text" id="3j8x2" xy="0,0" size="10,36" font="ui://t1h1280l0840t" faceDilate="1" fontSize="18" leading="0" autoSize="none" text="" color="#080000" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <relation target="j14m5" sidePair="width-width,height-height"/>
+</component>

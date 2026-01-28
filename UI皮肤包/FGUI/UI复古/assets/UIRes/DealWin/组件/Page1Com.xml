@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="639,435">
+  <displayList>
+    <image id="n8_js02" name="n8" src="hr3gn1y8" fileName="Data/00913.png" xy="0,0"/>
+    <image id="n12_js02" name="n12" src="hr3gn1yd" fileName="Data/00914.png" xy="196,13"/>
+    <image id="n13_js02" name="n13" src="hr3gn1yd" fileName="Data/00914.png" xy="300,14"/>
+    <image id="n14_js02" name="n14" src="hr3gn1yd" fileName="Data/00914.png" xy="419,13"/>
+    <list id="n2_js02" name="RoleGrids" xy="0,46" size="635,361" overflow="scroll" defaultItem="ui://jk0io98jj3e21br" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n3_js02" name="n3" xy="6,4" size="118,32" font="Microsoft YaHei" fontSize="18" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="角色名称"/>
+    <text id="n7_js02" name="n7" xy="472,4" size="153,32" font="Microsoft YaHei" fontSize="18" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="操作"/>
+    <richtext id="n9_js02" name="TRoleJob" xy="140,4" size="69,32" fontSize="18" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="职业"/>
+    <richtext id="n10_js02" name="TRoleLevel" xy="224,4" size="103,32" fontSize="18" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="等级"/>
+    <richtext id="n11_js02" name="TRoleprice" xy="343,4" size="106,32" fontSize="18" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" text="价格"/>
+  </displayList>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,87">
+  <displayList>
+    <component id="n10_q184" name="ComBtnChoice" src="q184gvn2xk" fileName="Set/组件/ComBtnChoice.xml" xy="19,47"/>
+    <component id="n9_q184" name="ComSlide" src="hc0ogvn2xj" fileName="Set/组件/ComSlide.xml" xy="63,49" size="561,37">
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n14_q184" name="ComDownBox" src="q184gvn2xn" fileName="Set/组件/ComDownBox.xml" xy="474,1" size="141,44"/>
+    <text id="n1_hc0o" name="ChatEdit25" xy="64,8" size="113,36" font="Microsoft YaHei" fontSize="18" color="#f7efe2" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="生命值低于"/>
+    <text id="n3_hc0o" name="ChatEdit26" xy="318,7" size="156,36" font="Microsoft YaHei" fontSize="18" color="#f7efe2" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="时，自动使用"/>
+    <text id="n8_hc0o" name="ChatEdit27" xy="731,48" size="52,36" font="Microsoft YaHei" fontSize="18" color="#f7efe2" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="毫秒"/>
+    <image id="n15_q184" name="bg1" src="kn5zuz" fileName="Set/Data/OMG_MobileMini.Pak/Set_00425.png" xy="177,5" size="141,43">
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="n17_q184" name="bg2" src="kn5zuz" fileName="Set/Data/OMG_MobileMini.Pak/Set_00425.png" xy="640,52" size="90,34"/>
+    <text id="n19_q184" name="GameVclEdit1" xy="183,11" size="129,31" font="Microsoft YaHei" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="" input="true" keyboardType="4"/>
+    <text id="n20_q184" name="GameVclEdit2" xy="644,52" size="83,29" font="Microsoft YaHei" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" singleLine="true" text="" input="true" restrict="[0-9]" keyboardType="4"/>
+  </displayList>
+</component>

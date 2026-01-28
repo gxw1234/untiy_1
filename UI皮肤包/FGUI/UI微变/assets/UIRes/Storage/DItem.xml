@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="68,68" scroll="both" extention="Button">
+  <displayList>
+    <loader id="413q2" name="Eff21" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" fill="scale"/>
+    <loader id="1m384" name="Eff11" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" fill="scale"/>
+    <loader id="lago8" name="icon" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" align="center" vAlign="middle" fill="scale"/>
+    <text id="52noi" name="title" xy="2,43" size="65,23" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="right" vAlign="bottom" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <loader id="g0it2" name="Eff22" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" fill="scale"/>
+    <loader id="je00d" name="Eff12" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" fill="scale"/>
+    <loader id="af2rn" name="Eff23" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" fill="scale"/>
+    <loader id="38u25" name="Eff13" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" fill="scale"/>
+    <loader id="tq4tk" name="bagsLod" xy="65,65" pivot="1,1" anchor="true" size="33,33" fill="scale"/>
+    <component id="5ho14" name="BagAniWin" src="kn5z141" fileName="Storage/组件/BagAniWin.xml" xy="53,1">
+      <relation target="" sidePair=""/>
+    </component>
+    <loader id="nn65j" name="bagsLods" xy="2,66" pivot="0,1" anchor="true" size="30,23" fill="scale"/>
+    <richtext id="n1_z6xw" name="Strengthen" xy="1,44" size="66,22" font="ui://t1h1280lz6xw16" fontSize="14" color="#ffffff" align="center" vAlign="bottom" letterSpacing="-5" autoSize="none" text=""/>
+  </displayList>
+  <Button volume="0"/>
+</component>

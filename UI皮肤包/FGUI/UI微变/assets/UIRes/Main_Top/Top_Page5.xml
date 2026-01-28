@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="304,44" initName="Top_Page5">
+  <displayList>
+    <component id="n10_kkrc" name="YuanBaoWin" src="v9b16d" fileName="Main_Top/组件/YuanBaoWin.xml" xy="0,0"/>
+    <component id="n11_kkrc" name="JinBiWin" src="v9b16b" fileName="Main_Top/组件/JinBiWin.xml" xy="151,0"/>
+    <component id="n12_kkrc" name="JinPiaoWin" src="v9b16f" fileName="Main_Top/组件/JinPiaoWin.xml" xy="151,-50" visible="false"/>
+    <component id="n13_kkrc" name="YouXiDianWin" src="v9b16h" fileName="Main_Top/组件/YouXiDianWin.xml" xy="0,-50" visible="false"/>
+    <component id="n14_kkrc" name="RongYuWin" src="v9b16j" fileName="Main_Top/组件/RongYuWin.xml" xy="0,-100" visible="false"/>
+    <component id="n15_kkrc" name="JinGangShiWin" src="v9b16l" fileName="Main_Top/组件/JinGangShiWin.xml" xy="151,-150" visible="false"/>
+    <component id="n16_kkrc" name="LingFuWin" src="v9b16n" fileName="Main_Top/组件/LingFuWin.xml" xy="0,-150" visible="false"/>
+    <component id="n17_kkrc" name="XinYouXiDianWin" src="v9b16p" fileName="Main_Top/组件/XinYouXiDianWin.xml" xy="0,-200" visible="false"/>
+    <component id="n18_kkrc" name="ShengWangWin" src="v9b16r" fileName="Main_Top/组件/ShengWangWin.xml" xy="151,-100" visible="false"/>
+    <text id="n19_kkrc" name="FGUIHypertext" xy="4,49" size="302,302" visible="false" fontSize="22" color="#ffffff" vars="true" autoSize="none" text="金    币:{Gold=0}&#xA;元    宝:{GameGold=0}&#xA;金    票:{GameGold=0}&#xA;荣 誉 点:{GAMEGLORY=0}&#xA;游 戏 点:{GAMEDIAMOND=0}&#xA;金 刚 石:{GamePoint=0}&#xA;灵    符:{GAMEGIRD=0}&#xA;新游戏点:{GameGoldEX=0}&#xA;声    望:{CreditPoint=0}&#xA;"/>
+  </displayList>
+</component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="378,277" scroll="both">
+  <displayList>
+    <image id="4ub40" name="DA2EWindow3" src="kn5z15w" fileName="Data/OMG_MobileMini.Pak/00275.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="74f86" name="ChatEdit15" xy="72,3" size="233,52" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="申请条件"/>
+    <component id="hmdn7" name="BtnConCancle" src="kn5z16v" fileName="组件/BtnConCancle.xml" xy="45,216" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="l45o3" name="EditText" xy="6,140" size="85,41" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="等级要求："/>
+    <image id="w1r65" name="DA2EIMAGE4" src="kn5z15z" fileName="Data/OMG_MobileMini.Pak/00274.PNG" xy="93,134" size="223,52" pkg="jk0io98j"/>
+    <component id="vurtn" name="BtnSave" src="kn5z16w" fileName="组件/BtnSave.xml" xy="209,216" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="utgup" name="EditText" xy="317,140" size="32,41" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="级"/>
+    <text id="k7a5u" name="EditLevels" xy="129,140" size="151,38" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" text="45" input="true"/>
+    <text id="j6jj5" name="ChatEdit57" xy="55,83" size="68,33" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="战士"/>
+    <text id="65055" name="ChatEdit58" xy="174,85" size="68,33" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="法师"/>
+    <text id="8r18r" name="ChatEdit59" xy="294,85" size="68,33" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="道士"/>
+    <component id="4fo3s" name="ChBoxJob1" src="kn5z16x" fileName="组件/ChBoxJob1.xml" xy="16,83" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="4884j" name="ChBoxJob2" src="kn5z16y" fileName="组件/ChBoxJob2.xml" xy="135,83" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="6uk14" name="ChBoxJob3" src="kn5z16z" fileName="组件/ChBoxJob3.xml" xy="255,83" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+</component>

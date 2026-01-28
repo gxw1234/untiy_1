@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="837,39" pivot="4,0" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="21j60" name="Img254o67" src="ldxan2l1" fileName="WinGuild/Data/OMG_MobileMini.Pak/WinGuild_00254.png" xy="0,0"/>
+    <image id="7p8pl" name="Img30124p" src="ldxan2l0" fileName="WinGuild/Data/OMG_MobileMini.Pak/WinGuild_00301.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="v6yf6" name="GuildName" xy="0,0" size="206,39" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="名字"/>
+    <text id="dr6e3" name="HomeName" xy="210,0" size="200,39" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="等级"/>
+    <text id="42we6" name="Player" xy="414,0" size="165,39" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="行会"/>
+    <text id="2un6d" name="EditCountDown" xy="639,0" size="134,40" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" ubb="true" autoSize="none" autoClearText="true" text="02:58:45"/>
+    <loader id="h607e" name="LoaderTag" xy="599,3" size="34,34" url="ui://jk0io98jldxan2ky"/>
+    <component id="5r66s" name="BtnDeclareWar" src="kn5z17u" fileName="WinGuild/组件/BtnDeclareWar.xml" xy="608,2">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="mskq0" name="BtnInviteGroup" src="kn5z17v" fileName="WinGuild/组件/BtnInviteGroup.xml" xy="720,2">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="vpw4b" name="BtnLeague" src="kn5z17w" fileName="WinGuild/组件/BtnLeague.xml" xy="720,2">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n0_kntc" name="BtnCancelWar" src="kntcgvn2ws" fileName="WinGuild/组件/BtnCancelWar.xml" xy="720,2"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

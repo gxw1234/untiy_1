@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="250,30" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_ipqu" name="n0" src="hr3gn1xv" fileName="Data/00899.png" xy="209,2">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="n1_ipqu" name="n1" src="hr3gn1xw" fileName="Data/00900.png" xy="209,2">
+      <gearDisplay controller="button" pages="1"/>
+    </image>
+    <image id="n2_ipqu" name="n2" src="hr3gn1xv" fileName="Data/00899.png" xy="209,2">
+      <gearDisplay controller="button" pages="2"/>
+    </image>
+    <image id="n3_ipqu" name="n3" src="hr3gn1xw" fileName="Data/00900.png" xy="209,2">
+      <gearDisplay controller="button" pages="3"/>
+    </image>
+    <text id="n5_m7m2" name="GaTapeText" xy="40,3" size="163,26" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" autoSize="shrink" strokeColor="#000000" text="支付宝"/>
+    <loader id="n6_m7m2" name="LoadImg" xy="2,2" size="30,27" fill="scale"/>
+  </displayList>
+  <Button mode="Check"/>
+</component>

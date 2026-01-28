@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="837,39" pivot="4,0" scroll="both" extention="Button">
+  <displayList>
+    <image id="7bvxs" src="ldxan2l1" fileName="00254.PNG" xy="0,0" name="Img2541g7"/>
+    <image id="f4a6f" src="ldxan2l0" fileName="00301.PNG" xy="0,0" name="Img3010fl">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <text name="GuildName" id="0wr2s" xy="2,0" size="198,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="名字" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="HomeName" id="uxnf6" xy="210,0" size="199,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="Player" id="ussby" xy="414,0" size="163,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="行会" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2ESimpleButton1" id="r5wp6" src="kn5z177" fileName="DA2ESimpleButton1.xml" xy="720,3">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ESimpleButton2" id="hs7hn" src="kn5z178" fileName="DA2ESimpleButton2.xml" xy="608,3">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

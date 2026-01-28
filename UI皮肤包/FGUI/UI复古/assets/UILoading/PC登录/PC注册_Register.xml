@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,390">
+  <displayList>
+    <image id="n11_ps2x" name="background" src="ps2xl" fileName="PCLoginUI/Data/OMG_MobileMini.Pak/background.png" pkg="us2ut3jf" xy="1,0" size="556,390"/>
+    <image id="n20_eguh" name="title4" src="ps2xm" fileName="PCLoginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="220,208" size="217,32"/>
+    <image id="n14_ps2x" name="title3" src="ps2xm" fileName="PCLoginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="220,263" size="140,32"/>
+    <image id="n13_ps2x" name="title2" src="ps2xm" fileName="PCLoginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="220,153" size="217,32"/>
+    <image id="n12_ps2x" name="title1" src="ps2xm" fileName="PCLoginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="220,98" size="217,32"/>
+    <text id="n0_ps2x" name="UserID" xy="93,98" size="113,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" strokeSize="3" text="账         号"/>
+    <text id="n3_ps2x" name="Code" xy="92,263" size="112,32" fontSize="22" color="#ffffff" strokeColor="#000000" strokeSize="3" text="验   证   码"/>
+    <text id="n4_ps2x" name="UserPassword" xy="92,153" size="113,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" strokeSize="3" text="密         码"/>
+    <text id="n5_ps2x" name="UserIDInput" xy="220,98" size="217,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true"/>
+    <text id="n6_ps2x" name="UserPasswordInput" xy="220,153" size="217,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true" password="true"/>
+    <text id="n21_eguh" name="MobileInput" xy="220,208" size="217,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" singleLine="true" text="" input="true"/>
+    <text id="n7_ps2x" name="CodeInput" xy="220,263" size="140,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true"/>
+    <component id="n10_ps2x" name="close" src="r7r81z" fileName="LoginUI/组件/DBtnLoginUIClose.xml" pkg="us2ut3jf" xy="526,2"/>
+    <component id="n17_ps2x" name="SubmitButton" src="ps2x1a" fileName="PCLoginUI/组件/SubmitButton.xml" pkg="us2ut3jf" xy="230,310"/>
+    <component id="n18_eguh" name="ObtainButton" src="ps2x1c" fileName="PCLoginUI/组件/ObtainButton.xml" pkg="us2ut3jf" xy="367,259"/>
+    <text id="n19_eguh" name="Mobile" xy="92,208" size="112,32" fontSize="22" color="#ffffff" strokeColor="#000000" strokeSize="3" text="手   机   号"/>
+    <text id="n22_eguh" name="Title" xy="222,48" size="113,32" fontSize="22" color="#00ff00" bold="true" strokeColor="#000000" text="账 号 注 册"/>
+  </displayList>
+</component>

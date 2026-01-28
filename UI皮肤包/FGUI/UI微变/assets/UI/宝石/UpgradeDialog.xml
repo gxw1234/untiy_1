@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="352,409">
+  <displayList>
+    <image id="n0_ib9q" name="bg" src="ib9qgvn2yh" fileName="UpgradeDialog/upgrade_bg.png" pkg="jk0io98j" xy="0,0"/>
+    <component id="n9_ib9q" name="frame" src="ib9qn1qo" fileName="宝石/frame.xml" xy="0,0" pkg="jk0io98j"/>
+    <component id="n3_ib9q" name="UpgradeCell1" src="ib9qn1qi" fileName="宝石/UpgradeCell1.xml" xy="143,107" tooltips="放入需要升级的装备" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_ib9q" name="UpgradeCell2" src="ib9qn1qj" fileName="宝石/UpgradeCell2.xml" xy="49,226" tooltips="放入升级宝石" pkg="jk0io98j">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n5_ib9q" name="UpgradeCell3" src="ib9qn1qk" fileName="宝石/UpgradeCell3.xml" xy="238,226" tooltips="放入附加宝石(可以不放)" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_hknt" name="BtnUpgradeDialogClose" src="hkntn1qy" fileName="宝石/BtnUpgradeDialogClose.xml" xy="352,0" pkg="jk0io98j"/>
+    <component id="n11_hknt" name="BtnUpgrade1" src="hkntn1qz" fileName="宝石/BtnUpgrade.xml" xy="109,320" pkg="jk0io98j">
+      <Button title="确定" titleColor="#ffffff" titleFontSize="22"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="839,520">
+  <displayList>
+    <list id="n0_t0m7" name="SCreatImgGrids" xy="0,108" size="839,305" layout="flow_hz" overflow="scroll" lineGap="11" colGap="21" defaultItem="ui://jk0io98jj3e21ca" align="center" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n1_t0m7" name="n1" xy="188,31" size="457,29" font="Microsoft YaHei" fontSize="20" color="#cdbf31" text="游戏信息截取需要3-5秒时间，请不要进行其他操作"/>
+    <component id="n2_t0m7" name="LastStepBtn" src="j3e21cb" fileName="组件/LastStepBtn.xml" xy="503,451"/>
+    <component id="n3_t0m7" name="ConsignsellRoleBtn" src="j3e21cc" fileName="组件/ConsignsellRoleBtn.xml" xy="687,451"/>
+    <component id="n4_lq6f" name="AgainCreatBtn" src="j3e21cd" fileName="组件/AgainCreatBtn.xml" xy="13,18"/>
+  </displayList>
+</component>

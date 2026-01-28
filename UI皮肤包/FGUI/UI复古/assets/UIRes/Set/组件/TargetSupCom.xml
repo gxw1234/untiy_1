@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="833,102">
+  <controller name="TargetSupComCon" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <text id="n0_tba3" name="title" xy="25,12" size="76,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="shrink" strokeColor="#000000" text="目标辅助"/>
+    <component id="n1_tba3" name="n1" src="s336gvn2wh" fileName="Set/组件/ComSkillItem4.xml" xy="415,5" size="147,40">
+      <Button title="常规列表" controller="TargetSupComCon" page="1"/>
+    </component>
+    <component id="n2_tba3" name="n2" src="s336gvn2wh" fileName="Set/组件/ComSkillItem4.xml" xy="620,5" size="153,40">
+      <Button controller="TargetSupComCon" page="2"/>
+    </component>
+    <component id="n4_tba3" name="n4" src="s336gvn2wh" fileName="Set/组件/ComSkillItem4.xml" xy="210,5" size="106,40">
+      <Button checked="true" title="关闭" controller="TargetSupComCon" page="0"/>
+    </component>
+    <component id="n5_tba3" name="SetActorList" src="s336gvn2wg" fileName="Set/组件/Button7.xml" xy="661,0">
+      <Button title="优先目标"/>
+    </component>
+    <component id="n6_mh4s" name="SetSkillList" src="s336gvn2wg" fileName="Set/组件/Button7.xml" xy="661,51" visible="false">
+      <Button title="技能施法控制"/>
+    </component>
+    <component id="n7_mh4s" name="SetFilterSkillBtn" src="heq7gvn2vb" fileName="Set/组件/ComBtnChoice.xml" xy="620,56" visible="false"/>
+  </displayList>
+</component>

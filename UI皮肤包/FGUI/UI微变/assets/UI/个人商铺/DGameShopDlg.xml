@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="858,594">
+  <displayList>
+    <image id="n0_wfya" name="BG" src="wfyagvn2za" fileName="Common/common_bg.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n30_wfya" name="frame" src="wfyagvn31x" fileName="GameShop/组件/frame.xml" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_wfya" name="CloseButton" src="wfyagvn2zc" fileName="Common/CloseButton.xml" pkg="jk0io98j" xy="857,0">
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="n3_wfya" name="Title" xy="35,14" size="90,26" fontSize="18" color="#fbf3d3" letterSpacing="2" autoSize="none" bold="true" strokeColor="#000000" text="个人店铺"/>
+    <component id="n33_ir4n" name="ShopButton1" src="ir4ngvn32n" fileName="GameShop/组件/ShopButton1.xml" pkg="jk0io98j" xy="26,70"/>
+    <component id="n34_kn95" name="ShopButton2" src="ir4ngvn32o" fileName="GameShop/组件/ShopButton2.xml" pkg="jk0io98j" xy="136,70"/>
+    <component id="n7_wfya" name="GameShopPanel" src="wfyagvn2zn" fileName="GameShop/组件/GameShopPanel.xml" pkg="jk0io98j" xy="23,114" visible="false"/>
+    <component id="n29_wfya" name="BuyPanel" src="wfyagvn31c" fileName="GameShop/组件/BuyPanel.xml" pkg="jk0io98j" xy="23,114"/>
+  </displayList>
+</component>

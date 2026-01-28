@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <graph id="iq75n" name="bg" xy="0,0" size="1280,720" type="rect" lineSize="0" fillColor="#7fffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="hl4gd" name="SignOutBtn" src="qgn26x" fileName="组件/SignOutBtn.xml" xy="1119,17">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="k70cr" name="SwitchBtn" src="qgn26y" fileName="组件/SwitchBtn.xml" xy="972,18">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="c7eyo" name="Panel" src="qgn27r" fileName="组件/Panel.xml" xy="768,74">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="ds8k1" name="SelAllBtn" src="qgn27s" fileName="组件/SelAllBtn.xml" xy="819,18">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="n0_gpfv" name="Left" xy="56,616" size="65,32" font="Microsoft YaHei" fontSize="22" autoSize="none" bold="true" italic="true" text="Left："/>
+    <text id="n1_gpfv" name="LeftInput" xy="130,615" size="138,32" font="Microsoft YaHei" fontSize="22" autoSize="none" singleLine="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n2_gpfv" name="Top" xy="57,656" size="65,32" font="Microsoft YaHei" fontSize="22" autoSize="none" bold="true" italic="true" text="Top："/>
+    <text id="n3_gpfv" name="TopInput" xy="131,655" size="138,32" font="Microsoft YaHei" fontSize="22" autoSize="none" singleLine="true" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

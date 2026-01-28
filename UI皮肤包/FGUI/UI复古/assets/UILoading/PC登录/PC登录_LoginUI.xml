@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,390">
+  <displayList>
+    <image id="n5_ps2x" name="background" src="ps2xl" fileName="PCLoginUI/Data/OMG_MobileMini.Pak/background.png" pkg="us2ut3jf" xy="1,0" size="556,390"/>
+    <image id="n7_ps2x" name="title2" src="ps2xm" fileName="PCLoginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="218,116" size="200,32"/>
+    <image id="n6_ps2x" name="title1" src="ps2xm" fileName="PCLoginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="220,67" size="200,32"/>
+    <text id="n0_ps2x" name="UserID" xy="119,69" size="62,32" fontSize="22" color="#ffffff" strokeColor="#000000" strokeSize="3" text="账  号"/>
+    <text id="n1_ps2x" name="UserPassword" xy="119,116" size="62,32" fontSize="22" color="#ffffff" strokeColor="#000000" strokeSize="3" text="密  码"/>
+    <text id="n2_ps2x" name="UserIDInput" xy="220,67" size="200,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true"/>
+    <text id="n3_ps2x" name="UserPasswordInput" xy="218,116" size="200,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true" password="true"/>
+    <component id="n8_ps2x" name="RegisterButton" src="ps2xy" fileName="PCLoginUI/组件/RegisterButton.xml" pkg="us2ut3jf" xy="105,194"/>
+    <component id="n9_ps2x" name="LoginButton" src="ps2xz" fileName="PCLoginUI/组件/LoginButton.xml" pkg="us2ut3jf" xy="313,194"/>
+    <component id="n11_ps2x" name="ResetPassword" src="ps2x11" fileName="PCLoginUI/组件/ResetPasswordButton.xml" pkg="us2ut3jf" xy="105,252"/>
+    <component id="n15_ps2x" name="PhoneLogin" src="ps2x15" fileName="PCLoginUI/组件/PhoneLoginButton.xml" pkg="us2ut3jf" xy="314,252"/>
+    <component id="n19_pz62" name="ScanLoginButton" src="pz626e" fileName="PCLoginUI/组件/ScanLoginButton.xml" pkg="us2ut3jf" xy="241,283" size="80,83"/>
+  </displayList>
+</component>

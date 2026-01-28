@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" scroll="both">
+  <displayList>
+    <image id="57i22" src="ldxan2dn" fileName="00406.PNG" xy="0,0" name="DBagItem">
+      <relation sidePair=""/>
+    </image>
+    <loader id="p25v4" name="DItemIconLoader" size="84,84" fill="scale" pivot="0.5,0.5" anchor="true" xy="42,42"/>
+    <loader id="454pf" name="DIconLoader" size="64,27" visible="false" xy="10,5"/>
+  </displayList>
+</component>

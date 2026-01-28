@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="811,248" initName="Page4">
+  <displayList>
+    <image id="n1_takl" name="bg" src="taklgvn32l" fileName="GameShop/Data/gs_riji.png" xy="0,0"/>
+    <text id="n0_wfya" name="Input" xy="21,13" size="760,209" fontSize="18" color="#ffffff" letterSpacing="1" autoSize="none" autoClearText="true" text="222222222222&#xA;3333&#xA;222" input="true"/>
+  </displayList>
+</component>

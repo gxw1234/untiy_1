@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="27,27" scroll="both">
+  <displayList>
+    <image id="60io3" src="r7r8e" fileName="00395.PNG" xy="0,0" name="DServerRed">
+      <relation sidePair=""/>
+    </image>
+  </displayList>
+</component>

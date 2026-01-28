@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="378,277" scroll="both">
+  <controller name="CRadios" exported="true" selected="0" pages="0,Radio1,1,Radio2,2,Radio3"/>
+  <displayList>
+    <image id="54q32" src="ldxan2kn" fileName="00275.PNG" xy="0,0" name="DA2EWindow4" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <text name="ChatEdit20" id="44461" xy="73,4" size="233,52" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="改变职位" color="#FFFFFF" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="BtnPosCancle" id="77j54" src="kn5z170" fileName="BtnPosCancle.xml" xy="43,216" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnConfirm" id="am5m6" src="kn5z171" fileName="BtnConfirm.xml" xy="248,216" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnPresident" id="i05y2" src="kn5z172" fileName="BtnPresident.xml" xy="24,150" pkg="jk0io98j">
+      <Button controller="CRadios" page="0" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnDePresident" id="3j267" src="kn5z173" fileName="BtnDePresident.xml" xy="143,150" pkg="jk0io98j">
+      <Button controller="CRadios" page="1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="ChatEdit22" id="84pwt" xy="63,150" size="68,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="会长" color="#FFFFFF" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit24" id="176cu" xy="182,152" size="68,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="副会长" color="#FFFFFF" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="EditPoitionText" id="2qvtg" xy="57,80" size="266,41" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="BtnGuildTMem" id="dk5v3" src="kn5z174" fileName="BtnGuildTMem.xml" xy="263,150" pkg="jk0io98j">
+      <Button controller="CRadios" page="2" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="ChatEdit50" id="b6c25" xy="302,152" size="68,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="成员" color="#FFFFFF" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

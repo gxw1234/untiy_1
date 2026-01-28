@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,44" scroll="both">
+  <displayList>
+    <image id="c0yq0" src="10awvn2rb" fileName="00280.PNG" xy="0,0" name="DA2EWindow7">
+      <relation sidePair=""/>
+    </image>
+    <text name="ChatEdit16" id="3g71b" xy="0,0" size="154,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit17" id="qg204" xy="158,0" size="115,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit18" id="3yq6k" xy="278,0" size="122,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="职业" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit19" id="x7082" xy="560,0" size="108,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="位置" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit21" id="jv8c1" xy="405,0" size="153,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="行会" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

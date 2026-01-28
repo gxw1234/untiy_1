@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,84" scroll="both">
+  <displayList>
+    <loader id="81y1i" name="clickAni" size="84,84" align="center" vAlign="middle" xy="0,0"/>
+  </displayList>
+  <transition name="clickTrs" frameRate="60" autoPlay="false" autoPlayRepeat="1">
+    <item time="0" type="Icon" target="81y1i" value="ui://jk0io98jldxan251"/>
+    <item time="6" type="Icon" target="81y1i" value="ui://jk0io98jldxan252"/>
+    <item time="12" type="Icon" target="81y1i" value="ui://jk0io98jldxan253"/>
+    <item time="18" type="Icon" target="81y1i" value="ui://jk0io98jldxan254"/>
+    <item time="24" type="Icon" target="81y1i" value="ui://jk0io98jldxan255"/>
+    <item time="30" type="Icon" target="81y1i" value="ui://jk0io98jldxan256"/>
+  </transition>
+</component>

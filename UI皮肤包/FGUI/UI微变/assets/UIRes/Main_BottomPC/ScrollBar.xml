@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="16,200" extention="ScrollBar">
+  <displayList>
+    <image id="n0_s5a5" name="n0" src="j3e21lr" fileName="data/OMG_NewopUI.wil/00020.PNG" xy="0,10" size="16,179">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <graph id="n1_s5a5" name="bar" xy="0,20" size="16,160">
+      <relation target="" sidePair="height-height"/>
+    </graph>
+    <component id="n2_s5a5" name="arrow1" src="j3e21on" fileName="组件/ScrollBar1_arrow1.xml" xy="0,0"/>
+    <component id="n3_s5a5" name="arrow2" src="j3e21oo" fileName="组件/ScrollBar1_arrow2.xml" xy="0,180">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n4_s5a5" name="grip" src="j3e21op" fileName="组件/ScrollBar1_grip.xml" xy="0,20"/>
+  </displayList>
+  <ScrollBar fixedGripSize="true"/>
+</component>

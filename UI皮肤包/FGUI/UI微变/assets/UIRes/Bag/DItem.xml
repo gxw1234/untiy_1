@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="68,68" scroll="both">
+  <displayList>
+    <loader id="d1i1w" name="Eff21" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" touchable="false" fill="scale"/>
+    <loader id="6gn14" name="Eff11" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" touchable="false" fill="scale"/>
+    <loader id="4b5bc" name="icon" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" touchable="false" align="center" vAlign="middle" fill="scale"/>
+    <text id="6bt72" name="title" xy="1,44" size="66,22" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="right" vAlign="bottom" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <loader id="p4s5k" name="Eff22" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" touchable="false" fill="scale"/>
+    <loader id="010s6" name="Eff12" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" touchable="false" fill="scale"/>
+    <loader id="v1768" name="Eff23" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" touchable="false" fill="scale"/>
+    <loader id="22owc" name="Eff13" xy="34,34" pivot="0.5,0.5" anchor="true" size="66,66" touchable="false" fill="scale"/>
+    <loader id="fn8rt" name="bagsLod" xy="67,67" pivot="1,1" anchor="true" size="35,35" touchable="false" fill="scale"/>
+    <component id="8jeut" name="BagAniWin" src="v9b15k" fileName="Bag/组件/BagAniWin.xml" xy="52,2">
+      <relation target="" sidePair=""/>
+    </component>
+    <loader id="8c3i4" name="bagsLods" xy="2,66" pivot="0,1" anchor="true" size="30,30" touchable="false" fill="scale"/>
+    <image id="25ny1" name="BagSelectBg" src="v9b14r" fileName="Bag/Data/OMG_MobileMini.Pak/Bag_00890.png" xy="1,1" size="66,66" visible="false"/>
+    <richtext id="n0_z6xw" name="Strengthen" xy="1,44" size="66,22" font="ui://t1h1280lz6xw16" fontSize="14" color="#ffffff" align="center" vAlign="bottom" letterSpacing="-5" autoSize="none" text=""/>
+  </displayList>
+</component>

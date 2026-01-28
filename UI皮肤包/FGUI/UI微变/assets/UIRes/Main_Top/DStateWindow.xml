@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="418,44" scroll="both" initName="Top_Page1">
+  <displayList>
+    <image id="g0cow" name="DStateWindow" src="v9b15u" fileName="Main_Top/Data/OMG_MobileMini.Pak/Top_00173.png" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="j412p" name="DBtnGold" src="v9b169" fileName="Main_Top/组件/DBtnGold.xml" xy="309,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <image id="54732" name="DA2EIMAGE3" src="v9b15x" fileName="Main_Top/Data/OMG_MobileMini.Pak/Top_00132.png" xy="334,2" size="83,40" visible="false"/>
+    <component id="73fy3" name="YuanBaoWin" src="v9b16d" fileName="Main_Top/组件/YuanBaoWin.xml" xy="151,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="gsyf8" name="JinBiWin" src="v9b16b" fileName="Main_Top/组件/JinBiWin.xml" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="l6uxt" name="JinPiaoWin" src="v9b16f" fileName="Main_Top/组件/JinPiaoWin.xml" xy="0,0" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="hq55i" name="YouXiDianWin" src="v9b16h" fileName="Main_Top/组件/YouXiDianWin.xml" xy="0,0" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="i520g" name="RongYuWin" src="v9b16j" fileName="Main_Top/组件/RongYuWin.xml" xy="0,0" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n71qa" name="JinGangShiWin" src="v9b16l" fileName="Main_Top/组件/JinGangShiWin.xml" xy="151,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="fqy3t" name="LingFuWin" src="v9b16n" fileName="Main_Top/组件/LingFuWin.xml" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="dvr7l" name="XinYouXiDianWin" src="v9b16p" fileName="Main_Top/组件/XinYouXiDianWin.xml" xy="0,0" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="r7ga8" name="ShengWangWin" src="v9b16r" fileName="Main_Top/组件/ShengWangWin.xml" xy="0,0" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n5_vfmg" name="Top_Page1" src="qmg5y" fileName="Main_Top/Top_Page1.xml" xy="0,1" visible="false" touchable="false"/>
+    <component id="n6_vfmg" name="Top_Page2" src="qmg5z" fileName="Main_Top/Top_Page2.xml" xy="0,1" visible="false" touchable="false"/>
+    <component id="n8_komp" name="Top_Page3" src="kompgvn351" fileName="Main_Top/Top_Page3.xml" xy="0,1" visible="false" touchable="false"/>
+    <component id="n9_komp" name="Top_Page4" src="kompgvn352" fileName="Main_Top/Top_Page4.xml" xy="0,1" visible="false" touchable="false"/>
+    <component id="n10_komp" name="Top_Page5" src="kompgvn353" fileName="Main_Top/Top_Page5.xml" xy="0,1" visible="false" touchable="false"/>
+    <text id="n7_vfmg" name="Desc" xy="2,57" size="437,340" visible="false" fontSize="22" color="#ffffff" autoSize="none" autoClearText="true" text="显示货币有两种方式： &#xA;1.默认显示第一种老的方式（兼容老版本） &#xA;2.第二种方式是将当前列表上方老版本的货币全部设置不可见，再把Top_Page1 Top_Page2（根据自己的需求添加翻页数）勾选可见，每个控制页面可以放入显示多个货币，也可以增加超过5个以上的控制页面，添加多个控制页面名字按照Top_Page+数字（里层和外层都要增加）"/>
+  </displayList>
+</component>

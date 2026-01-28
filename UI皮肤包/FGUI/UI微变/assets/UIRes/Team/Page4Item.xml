@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,40" pivot="4,0" scroll="both" extention="Button">
+  <displayList>
+    <image id="edp4a" src="kn5zt2" fileName="00273.PNG" xy="0,0" name="Img2732p1"/>
+    <image id="18402" src="kn5zt1" fileName="00303.PNG" xy="0,0" name="Img3031ff">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <component name="DA2ESimpleButton24" id="fh0bl" src="kn5zue" fileName="DA2ESimpleButton24.xml" xy="474,3">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DA2ESimpleButton25" id="oh303" src="kn5zuf" fileName="DA2ESimpleButton25.xml" xy="569,3">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text name="ChatEdit33" id="77s5d" xy="-2,0" size="152,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit34" id="v4grm" xy="156,0" size="115,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit35" id="18uw3" xy="275,0" size="183,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="行会" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

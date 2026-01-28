@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="135,100" scroll="both">
+  <displayList>
+    <loader id="pupgr" name="load" size="135,100" clearOnPublish="true" xy="0,0"/>
+  </displayList>
+  <relation target="pupgr" sidePair="width-width,height-height"/>
+</component>

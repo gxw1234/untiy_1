@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="320,40">
+  <displayList>
+    <component id="n2_vptl" name="ComSkillItem" src="s46az" fileName="Set/组件/ComSkillItem.xml" xy="0,0"/>
+    <component id="n3_vptl" name="ComDownBox2" src="j4ky5" fileName="Set/组件/ComDownBox2.xml" xy="174,0"/>
+  </displayList>
+</component>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="378,338" scroll="both">
+  <displayList>
+    <image id="w7q57" name="DFunPanel" src="ldxan2k3" fileName="Friends/Data/OMG_MobileMini.Pak/Friends_00275.png" xy="0,0" size="378,338" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="81bts" name="DPlayName" xy="102,8" size="170,41" font="Microsoft YaHei" fontSize="18" color="#e4cb45" align="center" vAlign="middle" leading="0" autoSize="none" text="玩家名字七个字"/>
+    <component id="5s220" name="DBtnLookPlay" src="kn5z157" fileName="Friends/组件/DBtnLookPlay.xml" xy="26,74" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="56w15" name="DBtnChat" src="kn5z158" fileName="Friends/组件/DBtnChat.xml" xy="208,74" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="fs872" name="DBtnJoinGroup" src="kn5z159" fileName="Friends/组件/DBtnJoinGroup.xml" xy="26,140" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="5dx50" name="DBtnAddFriend" src="kn5z15a" fileName="Friends/组件/DBtnAddFriend.xml" xy="208,140" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="411p6" name="DBtnTrade" src="kn5z15b" fileName="Friends/组件/DBtnTrade.xml" xy="26,206" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="73hsn" name="DBtnBlock" src="kn5z15c" fileName="Friends/组件/DBtnBlock.xml" xy="208,206" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n1_dwef" name="DBtnFristSet" src="12ffob" fileName="Friends/组件/DBtnFristSet.xml" xy="26,272" pkg="jk0io98j"/>
+  </displayList>
+</component>

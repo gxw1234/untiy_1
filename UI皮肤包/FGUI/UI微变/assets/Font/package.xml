@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="t1h1280l">
+  <resources>
+    <font id="vns0d" name="SIMHEI.TTF" path="/" exported="true" renderMode="sdfaa" samplePointSize="60"/>
+    <font id="0840t" name="msyh.ttc" path="/" exported="true" renderMode="smooth" samplePointSize="16"/>
+    <image id="z6xwu" name="01100.PNG" path="/Font1/" exported="true"/>
+    <image id="z6xwv" name="01110.PNG" path="/Font1/" exported="true"/>
+    <image id="z6xww" name="01111.PNG" path="/Font1/" exported="true"/>
+    <image id="z6xwx" name="01112.PNG" path="/Font1/" exported="true"/>
+    <image id="z6xwy" name="01113.PNG" path="/Font1/" exported="true"/>
+    <image id="z6xwz" name="01114.PNG" path="/Font1/" exported="true"/>
+    <image id="z6xw10" name="01115.PNG" path="/Font1/" exported="true"/>
+    <image id="z6xw11" name="01116.PNG" path="/Font1/" exported="true"/>
+    <image id="z6xw12" name="01117.PNG" path="/Font1/" exported="true"/>
+    <image id="z6xw13" name="01118.PNG" path="/Font1/" exported="true"/>
+    <image id="z6xw14" name="01119.PNG" path="/Font1/" exported="true"/>
+    <font id="z6xw16" name="StrengthenNum.fnt" path="/Font1/" exported="true"/>
+  </resources>
+  <publish name="" path="./bin/UI" packageCount="2"/>
+</packageDescription>

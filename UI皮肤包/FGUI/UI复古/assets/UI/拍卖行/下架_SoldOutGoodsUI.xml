@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="402,516" scroll="both">
+  <displayList>
+    <image id="75lx3" src="ldxan2bk" fileName="00621.PNG" xy="0,0" name="SoldOutGoodsUI" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="2632l" src="kn5z12j" fileName="frame2.xml" xy="0,0" pkg="jk0io98j"/>
+    <image id="pd7il" src="ldxan2br" fileName="00623.PNG" xy="130,26" size="151,33" name="DA2EIMAGE3" alpha="1.0" pkg="jk0io98j"/>
+    <image id="2p4jf" src="ldxan2bm" fileName="00612.PNG" xy="40,70" size="321,3" name="DA2EIMAGE4" alpha="1.0" pkg="jk0io98j"/>
+    <text name="SoldOutGoodsNames" id="v3x74" xy="126,80" size="153,33" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="物品名字七个字" color="#FFFFFF" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="SoldOutGoodsTimes" id="4104c" xy="49,226" size="144,33" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="竞拍中03:59:32" color="#FF8421" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit48" id="s66jo" xy="49,269" size="91,33" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="起拍价:" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit49" id="1s6w1" xy="49,318" size="91,33" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="一口价:" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="SoldOutGoodsStWin" id="m0p03" src="kn5z12k" fileName="SoldOutGoodsStWin.xml" xy="159,266" pkg="jk0io98j"/>
+    <component name="SoldOutGoodsMPWin" id="76ld0" src="kn5z12l" fileName="SoldOutGoodsMPWin.xml" xy="159,315" pkg="jk0io98j"/>
+    <component name="SoldOutGCancleBtn" id="yk6l5" src="kn5z12m" fileName="SoldOutGCancleBtn.xml" xy="32,424" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <component name="SoldOutGBuyBtn" id="oe03k" src="kn5z12n" fileName="SoldOutGBuyBtn.xml" xy="216,424" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <text name="SoldOutGdsStateEdit" id="c1i55" xy="158,183" size="91,33" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="竞拍中" color="#FFFFFF" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="SoldOutGoodsAdEdits" id="pem8f" xy="214,226" size="95,33" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="上架数量:" color="#00FF00" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2ESimpleButton11" id="464ap" src="kn5z12o" fileName="DA2ESimpleButton11.xml" visible="false" xy="328,268" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <component name="DA2ESimpleButton12" id="0p37q" src="kn5z12p" fileName="DA2ESimpleButton12.xml" visible="false" xy="330,315" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <text name="ChatEdit34" id="j62sk" xy="49,366" size="91,33" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="当前竞价:" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="SoldOutGoodsNPWin" id="d565a" src="kn5z12q" fileName="SoldOutGoodsNPWin.xml" xy="159,363" pkg="jk0io98j"/>
+    <component name="DA2ESimpleButton5" id="5o312" src="kn5z12r" fileName="DA2ESimpleButton5.xml" visible="false" xy="330,363" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <component name="SoldOutGoodsWin" id="6vl30" src="kn5z12s" fileName="SoldOutGoodsWin.xml" xy="172,119" pkg="jk0io98j"/>
+    <text name="SoldOutGoodsNums" id="xwpj6" xy="309,226" size="66,33" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="45" color="#00FF00" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

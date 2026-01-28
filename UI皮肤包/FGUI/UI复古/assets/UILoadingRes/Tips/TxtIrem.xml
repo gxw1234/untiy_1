@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="40,29" scroll="both">
+  <displayList>
+    <richtext name="Content" id="i0jxf" xy="30,0" size="10,29" font="ui://5615522tw56a8" faceDilate="1" fontSize="20" leading="3" text="" color="#FFFFFF" touchable="false" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <loader id="34uar" name="imgloader" size="30,29" touchable="false" vAlign="middle" xy="0,0"/>
+  </displayList>
+  <relation target="i0jxf" sidePair="width-width,height-height"/>
+</component>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="277,150" scroll="both">
+  <displayList>
+    <image id="d2qo8" src="j3e21p9" fileName="00506.PNG" xy="0,0" name="DDice" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <loader id="535ix" name="shaiziLoad0" size="50,50" clearOnPublish="true" xy="108,50"/>
+    <loader id="5pd1s" name="shaiziLoad1" size="50,50" clearOnPublish="true" xy="116,58"/>
+    <loader id="6b7s5" name="shaiziLoad2" size="50,50" clearOnPublish="true" xy="124,66"/>
+    <loader id="d0j14" name="shaiziLoad3" size="50,50" clearOnPublish="true" xy="132,74"/>
+    <loader id="b6s88" name="shaiziLoad4" size="50,50" clearOnPublish="true" xy="140,82"/>
+    <loader id="nv0g5" name="shaiziLoad5" size="50,50" clearOnPublish="true" xy="148,90"/>
+    <loader id="6jk5a" name="shaiziLoad6" size="50,50" clearOnPublish="true" xy="28,18"/>
+    <loader id="715v3" name="shaiziLoad7" size="50,50" clearOnPublish="true" xy="36,26"/>
+    <loader id="06j42" name="shaiziLoad8" size="50,50" clearOnPublish="true" xy="44,34"/>
+    <loader id="0xm61" name="shaiziLoad9" size="50,50" clearOnPublish="true" xy="52,42"/>
+  </displayList>
+</component>

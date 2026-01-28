@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="584,330" scroll="both">
+  <displayList>
+    <image id="30v5f" src="ldxan2bs" fileName="00620.PNG" xy="0,0" name="MouthPriceUI" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="4dq8t" src="kn5z12t" fileName="frame3.xml" xy="0,0" pkg="jk0io98j"/>
+    <image id="40thl" src="ldxan2bt" fileName="00624.PNG" xy="235,26" size="113,32" name="DA2EIMAGE5" alpha="1.0" pkg="jk0io98j"/>
+    <image id="p6613" src="ldxan2bm" fileName="00612.PNG" xy="54,77" size="472,3" name="DA2EIMAGE6" alpha="1.0" pkg="jk0io98j"/>
+    <text name="PriceGoodsNames" id="1ua8i" xy="56,178" size="105,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="物品名字七个字" color="#FF0000" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit55" id="4u5tn" xy="242,105" size="91,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="购买数量:" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit56" id="1ho83" xy="242,169" size="91,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="购买价格:" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2EWindow19" id="l554o" src="kn5z12u" fileName="DA2EWindow19.xml" xy="339,103" pkg="jk0io98j"/>
+    <component name="DA2EWindow20" id="41130" src="kn5z12v" fileName="DA2EWindow20.xml" xy="339,167" pkg="jk0io98j"/>
+    <component name="MousePriceCancleBtn" id="xut1x" src="kn5z12w" fileName="MousePriceCancleBtn.xml" xy="48,248" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <component name="MousePriceBuyBtn" id="3v2ld" src="kn5z12x" fileName="MousePriceBuyBtn.xml" xy="384,248" pkg="jk0io98j">
+      <Button/>
+    </component>
+    <component name="MousePriceGoods" id="y7ekj" src="kn5z12y" fileName="MousePriceGoods.xml" xy="77,111" pkg="jk0io98j"/>
+  </displayList>
+</component>

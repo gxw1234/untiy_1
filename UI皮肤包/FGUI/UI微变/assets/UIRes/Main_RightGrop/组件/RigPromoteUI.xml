@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="168,265" pivot="1,1" anchor="true" scroll="both">
+  <displayList>
+    <loader id="vgo25" name="DA2ELoader1" xy="0,0" size="168,265" url="ui://jk0io98jk02tn1tu" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <list id="m1838" name="RigPromoteList" xy="4,2" size="160,260" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jk02tn1v4"/>
+  </displayList>
+  <relation target="m1838" sidePair="width-width,height-height"/>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="14,14" scroll="both">
+  <displayList>
+    <loader id="0i1u1" name="BagAniLoad" size="14,14" align="center" vAlign="middle" xy="0,0"/>
+  </displayList>
+  <transition name="select" frameRate="60" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Icon" target="0i1u1" value="ui://jk0io98jv9b14s"/>
+    <item time="30" type="Icon" target="0i1u1" value="ui://jk0io98jv9b14t"/>
+    <item time="60" type="Icon" target="0i1u1" value="ui://jk0io98jv9b14u"/>
+  </transition>
+</component>

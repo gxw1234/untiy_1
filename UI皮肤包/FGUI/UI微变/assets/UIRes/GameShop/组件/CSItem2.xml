@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="808,64">
+  <displayList>
+    <graph id="n1_wfya" name="n1" xy="13,2" size="60,60" type="rect" lineColor="#ff669900" fillColor="#ff000000" corner="5"/>
+    <loader id="n0_wfya" name="item" xy="42,32" pivot="0.5,0.5" anchor="true" size="60,60" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n2_wfya" name="ItemName" xy="82,20" size="150,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="物品名称七个字"/>
+    <text id="n3_wfya" name="Price" xy="226,20" size="154,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="用户名称七个字"/>
+    <text id="n4_wfya" name="shop" xy="383,20" size="146,26" fontSize="18" color="#f7b656" align="center" vAlign="middle" autoSize="none" bold="true" autoClearText="true" text="6666店铺8888"/>
+    <text id="n6_wfya" name="time" xy="541,16" size="195,34" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="2022-12-14 16:45:56"/>
+    <component id="n7_takl" name="BuyButton" src="okopgvn32g" fileName="GameShop/组件/BuyButton.xml" xy="739,16"/>
+  </displayList>
+</component>

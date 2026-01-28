@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="917,601" scroll="both">
+  <controller name="CPages" exported="true" selected="3" pages="0,page1,1,page2,2,page3,3,page4"/>
+  <displayList>
+    <image id="7pc42" src="ldxan2k4" fileName="00405.PNG" xy="0,0" name="FriendsUI" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="p0v1s" src="kn5z15d" fileName="frame.xml" xy="0,0" pkg="jk0io98j"/>
+    <component name="DBtnFriendApplication" id="n4rkc" src="kn5z15e" fileName="DBtnFriendApplication.xml" visible="false" xy="23,273" pkg="jk0io98j">
+      <Button checked="true" controller="CPages" page="0" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnMyFriend" id="35yp6" src="kn5z15f" fileName="DBtnMyFriend.xml" xy="23,55" pkg="jk0io98j">
+      <Button controller="CPages" page="1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnRecentContact" id="j5jau" src="kn5z15g" fileName="DBtnRecentContact.xml" visible="false" xy="23,331" pkg="jk0io98j">
+      <Button controller="CPages" page="2" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnBlacklist" id="p848v" src="kn5z15h" fileName="DBtnBlacklist.xml" xy="23,107" pkg="jk0io98j">
+      <Button controller="CPages" page="3" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnFriendsUIClose" id="dnfhq" src="kn5z15i" fileName="DBtnFriendsUIClose.xml" xy="887,0" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2EWindow1" id="63st2" src="kn5z15j" fileName="DA2EWindow1.xml" xy="188,48" pkg="jk0io98j"/>
+    <image id="6471n" src="ldxan2kg" fileName="00270.PNG" xy="18,12" size="53,29" name="DA2EIMAGE1" alpha="1.0" pkg="jk0io98j"/>
+    <graph size="2,2" id="q28l5" name="ModalLayer" xy="0,0" lineSize="0" touchable="false" type="rect" fillColor="#00ffffff" lineColor=""/>
+    <component name="DA2EPage1" id="i6i4m" src="kn5z14y" fileName="DA2EPage1.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component name="DA2EPage2" id="7yav0" src="kn5z151" fileName="DA2EPage2.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component name="DA2EPage3" id="275p5" src="kn5z154" fileName="DA2EPage3.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <component name="DA2EPage4" id="1ml6t" src="kn5z156" fileName="DA2EPage4.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="3"/>
+    </component>
+  </displayList>
+</component>

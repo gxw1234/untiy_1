@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <graph id="n4_bg5o" name="bg" xy="391,42" size="700,673" type="rect" fillColor="#7fffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n31_9kp7" name="Title" xy="393,5" size="124,35" fontSize="25" color="#ffffff" autoSize="none" text="EquipCell:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n6_bg5o" name="WilBg" xy="391,43" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n5_bg5o" name="WilTxt" xy="401,55" size="143,32" fontSize="22" color="#ffffff" text=" WIL文件序号:"/>
+    <text id="n7_bg5o" name="Input3" xy="553,50" size="514,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n8_bg5o" name="ImgBg" xy="391,100" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n9_bg5o" name="ImgTxt" xy="402,112" size="273,32" fontSize="22" color="#ffffff" text="背景为文件中的第几个图片:"/>
+    <text id="n10_bg5o" name="Input4" xy="688,107" size="397,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n23_bg5o" name="ImgBg5" xy="391,157" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n24_bg5o" name="ImgTxt5" xy="402,169" size="333,32" fontSize="22" color="#ffffff" text="角色类型(0:自己 1:英雄 2:其他人):"/>
+    <text id="n25_bg5o" name="Input5" xy="743,164" size="341,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n17_bg5o" name="HintBg" xy="391,214" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n18_bg5o" name="HintTxt" xy="401,226" size="173,32" fontSize="22" color="#ffffff" text="装备位置(0~70) :"/>
+    <text id="n19_bg5o" name="Input6" xy="580,221" size="497,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n20_bg5o" name="FLinkBg" xy="391,271" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n21_bg5o" name="FLinkTxt7" xy="395,268" size="292,61" fontSize="22" color="#ffffff" autoSize="none" text=" 绘制模式 (0 背包图标绘制 &#xA;1 物身上格子绘制):"/>
+    <text id="n22_bg5o" name="Input7" xy="692,278" size="394,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n28_bg5o" name="FLinkBg8" xy="391,328" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n29_bg5o" name="FLinkTxt8" xy="401,340" size="259,32" fontSize="22" color="#ffffff" text="0,1  参与排版 不参与排版:"/>
+    <text id="n30_bg5o" name="Input8" xy="671,335" size="415,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n39_iduu" name="FLinkBg9" xy="391,385" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n40_iduu" name="FLinkTxt9" xy="401,397" size="66,32" fontSize="22" color="#cccccc" text="参数9:"/>
+    <text id="n41_iduu" name="Input9" xy="477,392" size="240,42" touchable="false" fontSize="22" color="#cccccc" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n42_iduu" name="FLinkTxt10" xy="759,397" size="79,32" fontSize="22" color="#cccccc" text="参数10:"/>
+    <text id="n43_iduu" name="Input10" xy="835,392" size="240,42" touchable="false" fontSize="22" color="#cccccc" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n44_iduu" name="FLinkBg11" xy="391,442" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n45_iduu" name="FLinkTxt11" xy="401,454" size="79,32" fontSize="22" color="#cccccc" text="参数11:"/>
+    <text id="n46_iduu" name="Input11" xy="477,449" size="240,42" touchable="false" fontSize="22" color="#cccccc" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n47_iduu" name="FLinkTxt12" xy="759,454" size="79,32" fontSize="22" color="#cccccc" text="参数12:"/>
+    <text id="n48_iduu" name="Input12" xy="835,449" size="240,42" touchable="false" fontSize="22" color="#cccccc" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n49_iduu" name="FLinkBg13" xy="391,500" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n50_iduu" name="FLinkTxt13" xy="401,512" size="507,32" fontSize="22" color="#ffffff" text="允许取下（0=允许取下装备，1=不允许取下装备）:"/>
+    <text id="n51_iduu" name="Input13" xy="916,507" size="174,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n52_iduu" name="FLinkBg14" xy="391,557" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n53_iduu" name="FLinkTxt14" xy="401,569" size="97,32" fontSize="22" color="#ffffff" text="备注信息:"/>
+    <text id="n54_iduu" name="Input14" xy="506,564" size="584,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n32_qzyt" name="ScaleBg" xy="391,621" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n33_qzyt" name="FormIDTxt" xy="390,633" size="87,32" fontSize="22" color="#ffffff" text="FormID:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n34_qzyt" name="FormID" xy="483,628" size="70,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="-1" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n35_qzyt" name="ScaleTxt" xy="564,634" size="89,32" fontSize="22" color="#ffffff" text="缩放X轴:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n36_qzyt" name="FScaleX" xy="662,629" size="155,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n37_qzyt" name="ScaleYTxt" xy="826,634" size="89,32" fontSize="22" color="#ffffff" text="缩放X轴:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n38_qzyt" name="FScaleY" xy="924,628" size="164,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n3_bg5o" name="CancelBtn" src="r7r815" fileName="NPC面板/Detail/StateBtn.xml" xy="782,679" size="100,32">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n2_bg5o" name="ConfirmBtn" src="r7r815" fileName="NPC面板/Detail/StateBtn.xml" xy="961,679" size="100,32">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="提交"/>
+    </component>
+  </displayList>
+</component>

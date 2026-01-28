@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="407,278" opaque="false" scroll="both">
+  <displayList>
+    <image id="f407r" name="DWindow2" src="kn5zsz" fileName="Data/OMG_MobileMini.Pak/00275.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="o8i6i" name="ChatEdit8" xy="102,9" size="170,41" font="Microsoft YaHei" fontSize="18" color="#dcdcdb" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="添加好友"/>
+    <component id="i715e" name="DA2ESimpleButton18" src="kn5ztx" fileName="组件/DA2ESimpleButton18.xml" xy="38,98" size="123,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="72ngm" name="DA2ESimpleButton19" src="kn5zty" fileName="组件/DA2ESimpleButton19.xml" xy="220,98" size="123,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n0bp6" name="DA2ESimpleButton20" src="kn5ztz" fileName="组件/DA2ESimpleButton20.xml" xy="38,181" size="123,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="k1x26" name="DA2ESimpleButton21" src="kn5zu0" fileName="组件/DA2ESimpleButton21.xml" xy="220,181" size="123,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="w150b" name="DCloseBtn" src="kn5ztv" fileName="组件/DCloseBtn.xml" xy="377,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

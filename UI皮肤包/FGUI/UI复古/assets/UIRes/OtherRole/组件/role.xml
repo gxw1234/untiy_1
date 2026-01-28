@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="100,100" scroll="both">
+  <displayList>
+    <loader id="qcv0d" name="role" size="50,50" xy="7,-44"/>
+    <component name="EquipCell17" id="q26il" src="j3e21i0" fileName="EquipCell17.xml" xy="45,1"/>
+  </displayList>
+</component>

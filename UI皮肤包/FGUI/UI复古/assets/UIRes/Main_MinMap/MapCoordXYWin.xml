@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="131,32" scroll="both">
+  <displayList>
+    <image id="688x5" src="ruoyn2qu" fileName="00887.PNG" xy="0,0" size="131,32" name="MapCoordBg" alpha="1.0"/>
+    <text name="CoordXYText" id="o127e" xy="14,4" size="102,24" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#00FF00" align="center" vAlign="middle" ubb="true" vars="true" autoClearText="true" anchor="false"/>
+  </displayList>
+</component>

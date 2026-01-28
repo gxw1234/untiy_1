@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="635,40">
+  <displayList>
+    <text id="n0_js02" name="RoleName" xy="5,4" size="115,32" font="Microsoft YaHei" fontSize="15" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="角色名字七个字"/>
+    <text id="n1_js02" name="RoleJob" xy="132,4" size="83,32" font="Microsoft YaHei" fontSize="16" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="英雄点"/>
+    <text id="n2_js02" name="RoleLevel" xy="235,4" size="81,32" font="Microsoft YaHei" fontSize="16" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="英雄点"/>
+    <text id="n3_js02" name="RolePlay" xy="345,4" size="104,32" font="Microsoft YaHei" fontSize="16" color="#f7f0dd" align="center" vAlign="middle" autoSize="none" autoClearText="true" text="英雄点"/>
+    <component id="n5_js02" name="RoleLookBtn" src="j3e21bs" fileName="DealWin/组件/caozuo1.xml" xy="458,3"/>
+    <component id="n6_js02" name="RoleBuyBtn" src="j3e21bt" fileName="DealWin/组件/caozuo2.xml" xy="549,3"/>
+  </displayList>
+</component>

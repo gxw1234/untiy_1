@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="384,537" opaque="false" scroll="both">
+  <displayList>
+    <richtext id="n57_kk8r" name="GuildName" xy="63,90" size="225,32" font="Microsoft YaHei" fontSize="15" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text=""/>
+    <loader id="b8ob0" name="role" xy="60,181" size="235,294" visible="false" touchable="false" url="ui://jk0io98jhr3gn1yx" align="center" vAlign="middle" fill="scale"/>
+    <component id="jqk55" name="DBtnOpenJewelryBox" src="j3e21d2" fileName="组件/DBtnOpenJewelryBox.xml" xy="264,126">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n0_v7ci" name="EquipCell3" src="j3e21d3" fileName="组件/EquipCell3.xml" xy="256,190">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n1_v7ci" name="EquipCell2" src="j3e21d4" fileName="组件/EquipCell2.xml" xy="31,255">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n2_v7ci" name="EquipCell14" src="j3e21d5" fileName="组件/EquipCell14.xml" xy="256,255">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n3_v7ci" name="EquipCell6" src="j3e21d6" fileName="组件/EquipCell6.xml" xy="256,320">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n4_v7ci" name="EquipCell8" src="j3e21d7" fileName="组件/EquipCell8.xml" xy="256,385">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n5_v7ci" name="EquipCell12" src="j3e21d8" fileName="组件/EquipCell12.xml" xy="256,450">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n6_v7ci" name="EquipCell11" src="j3e21d9" fileName="组件/EquipCell11.xml" xy="181,450">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n7_v7ci" name="EquipCell10" src="j3e21da" fileName="组件/EquipCell10.xml" xy="106,453">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n8_v7ci" name="EquipCell9" src="j3e21db" fileName="组件/EquipCell9.xml" xy="31,453">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n9_v7ci" name="EquipCell7" src="j3e21dc" fileName="组件/EquipCell7.xml" xy="31,385">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n10_v7ci" name="EquipCell5" src="j3e21dd" fileName="组件/EquipCell5.xml" xy="31,320">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n11_v7ci" name="EquipCell15" src="j3e21de" fileName="组件/EquipCell15.xml" xy="31,190">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n14_v7ci" name="EquipCell18" src="j3e21df" fileName="组件/EquipCell18.xml" xy="465,6" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n15_v7ci" name="EquipCell19" src="j3e21dg" fileName="组件/EquipCell19.xml" xy="533,6" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n16_v7ci" name="EquipCell20" src="j3e21dh" fileName="组件/EquipCell20.xml" xy="615,6" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n17_v7ci" name="EquipCell21" src="j3e21di" fileName="组件/EquipCell21.xml" xy="686,10" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n18_v7ci" name="EquipCell22" src="j3e21dj" fileName="组件/EquipCell22.xml" xy="758,6" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n19_v7ci" name="EquipCell23" src="j3e21dk" fileName="组件/EquipCell23.xml" xy="396,63" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n20_v7ci" name="EquipCell24" src="j3e21dl" fileName="组件/EquipCell24.xml" xy="467,63" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n21_v7ci" name="EquipCell25" src="j3e21dm" fileName="组件/EquipCell25.xml" xy="535,62" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n22_v7ci" name="EquipCell26" src="j3e21dn" fileName="组件/EquipCell26.xml" xy="606,62" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n23_v7ci" name="EquipCell27" src="j3e21do" fileName="组件/EquipCell27.xml" xy="683,63" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n24_v7ci" name="EquipCell28" src="j3e21dp" fileName="组件/EquipCell28.xml" xy="757,65" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n25_v7ci" name="EquipCell29" src="j3e21dq" fileName="组件/EquipCell29.xml" xy="396,124" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n26_v7ci" name="EquipCell42" src="j3e21dr" fileName="组件/EquipCell42.xml" xy="467,123" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n27_v7ci" name="EquipCell43" src="j3e21ds" fileName="组件/EquipCell43.xml" xy="546,127" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n28_v7ci" name="EquipCell44" src="j3e21dt" fileName="组件/EquipCell44.xml" xy="616,127" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n29_v7ci" name="EquipCell45" src="j3e21du" fileName="组件/EquipCell45.xml" xy="687,127" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n30_v7ci" name="EquipCell46" src="j3e21dv" fileName="组件/EquipCell46.xml" xy="755,126" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n31_v7ci" name="EquipCell47" src="j3e21dw" fileName="组件/EquipCell47.xml" xy="404,188" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n32_v7ci" name="EquipCell48" src="j3e21dx" fileName="组件/EquipCell48.xml" xy="472,188" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n33_v7ci" name="EquipCell49" src="j3e21dy" fileName="组件/EquipCell49.xml" xy="542,185" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n34_v7ci" name="EquipCell50" src="j3e21dz" fileName="组件/EquipCell50.xml" xy="611,187" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n35_v7ci" name="EquipCell51" src="j3e21e0" fileName="组件/EquipCell51.xml" xy="683,186" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n36_v7ci" name="EquipCell52" src="j3e21e1" fileName="组件/EquipCell52.xml" xy="754,184" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n37_v7ci" name="EquipCell53" src="j3e21e2" fileName="组件/EquipCell53.xml" xy="403,249" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n38_v7ci" name="EquipCell54" src="j3e21e3" fileName="组件/EquipCell54.xml" xy="472,247" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n39_v7ci" name="EquipCell55" src="j3e21e4" fileName="组件/EquipCell55.xml" xy="542,247" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n40_v7ci" name="EquipCell56" src="j3e21e5" fileName="组件/EquipCell56.xml" xy="611,246" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n41_v7ci" name="EquipCell57" src="j3e21e6" fileName="组件/EquipCell57.xml" xy="683,246" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n42_v7ci" name="EquipCell58" src="j3e21e7" fileName="组件/EquipCell58.xml" xy="758,245" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n43_v7ci" name="EquipCell59" src="j3e21e8" fileName="组件/EquipCell59.xml" xy="401,308" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n44_v7ci" name="EquipCell60" src="j3e21e9" fileName="组件/EquipCell60.xml" xy="472,308" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n45_v7ci" name="EquipCell61" src="j3e21ea" fileName="组件/EquipCell61.xml" xy="542,308" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n46_v7ci" name="EquipCell62" src="j3e21eb" fileName="组件/EquipCell62.xml" xy="613,308" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n47_v7ci" name="EquipCell63" src="j3e21ec" fileName="组件/EquipCell63.xml" xy="683,307" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n48_v7ci" name="EquipCell65" src="j3e21ed" fileName="组件/EquipCell65.xml" xy="758,307" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n49_v7ci" name="EquipCell66" src="j3e21ee" fileName="组件/EquipCell66.xml" xy="401,367" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n50_v7ci" name="EquipCell67" src="j3e21ef" fileName="组件/EquipCell67.xml" xy="472,367" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n51_v7ci" name="EquipCell68" src="j3e21eg" fileName="组件/EquipCell68.xml" xy="543,368" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n52_v7ci" name="EquipCell69" src="j3e21eh" fileName="组件/EquipCell69.xml" xy="615,368" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n53_v7ci" name="EquipCell70" src="j3e21ei" fileName="组件/EquipCell70.xml" xy="683,368" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n54_l4nq" name="EquipCell64" src="j3e21ej" fileName="组件/EquipCell64.xml" xy="493,476" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n55_xlvw" name="EquipCell4" src="j3e21ek" fileName="组件/EquipCell4.xml" xy="31,125">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n56_xlvw" name="EquipCell13" src="j3e21el" fileName="组件/EquipCell13.xml" xy="31,125">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="wk05d" name="Equip" src="j3e21em" fileName="组件/Equip.xml" xy="87,269">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+</component>

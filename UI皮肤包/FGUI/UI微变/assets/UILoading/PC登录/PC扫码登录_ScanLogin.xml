@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,390">
+  <displayList>
+    <image id="n0_q4ai" name="background" src="s6ko3t" fileName="PCLoiginUI/Data/OMG_MobileMini.Pak/background.png" pkg="us2ut3jf" xy="1,0" size="556,390"/>
+    <component id="n1_q4ai" name="close" src="r7r81z" fileName="LoginUI/组件/DBtnLoginUIClose.xml" pkg="us2ut3jf" xy="528,0"/>
+    <loader id="n2_q4ai" name="Image" xy="153,69" size="256,256"/>
+  </displayList>
+</component>

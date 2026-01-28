@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="42,42" scroll="both">
+  <displayList>
+    <loader id="114gw" name="bg" size="42,42" touchable="false" align="center" vAlign="middle" xy="0,0"/>
+    <loader id="03t06" name="item" size="42,42" touchable="false" align="center" vAlign="middle" xy="0,0"/>
+    <text name="itemCount" id="50r16" xy="32,23" size="10,19" font="ui://5615522tw56a8" faceDilate="1" fontSize="12" leading="0" text="" color="#FFFFFF" align="right" vAlign="bottom" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000">
+      <relation target="114gw" sidePair="right-right,bottom-bottom"/>
+    </text>
+  </displayList>
+  <relation target="114gw" sidePair="width-width,height-height"/>
+</component>

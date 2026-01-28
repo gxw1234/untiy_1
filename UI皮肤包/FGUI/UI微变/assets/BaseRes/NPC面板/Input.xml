@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="172,20" scroll="both">
+  <displayList>
+    <graph id="nqrjc" name="bg" xy="0,0" size="172,20" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="7grl8" name="InputItem" xy="2,0" size="170,20" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" faceDilate="1" autoClearText="true" text="" input="true"/>
+    <graph id="k0354" name="Stroke" xy="-1,-1" size="174,22" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff663300" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <relation target="7grl8" sidePair="width-width,height-height"/>
+</component>

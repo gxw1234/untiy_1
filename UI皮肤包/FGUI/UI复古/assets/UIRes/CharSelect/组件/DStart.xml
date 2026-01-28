@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,51" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="d2g05" name="Img26s8b" src="ldxan284" fileName="CharSelect/Data/OMG_MobileMini.Pak/CharSelect_00026.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="0y527" name="Img27041" src="ldxan285" fileName="CharSelect/Data/OMG_MobileMini.Pak/CharSelect_00027.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="n0_ia18" name="n0" src="ia18vn2ub" fileName="CharSelect/组件/ProgressBar2.xml" xy="6,5">
+      <ProgressBar value="100" max="100"/>
+    </component>
+  </displayList>
+  <Button/>
+</component>

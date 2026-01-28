@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50" scroll="both">
+  <displayList>
+    <loader id="6kk7w" name="img" size="50,50" fill="scale" scale="1.3,1.3" xy="0,0"/>
+  </displayList>
+  <relation target="6kk7w" sidePair="width-width,height-height"/>
+</component>

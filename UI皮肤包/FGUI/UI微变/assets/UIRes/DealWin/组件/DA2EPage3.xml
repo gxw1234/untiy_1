@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="383,537" scroll="both">
+  <displayList>
+    <component name="RoleAdvanWUI" id="c2i02" src="j3e21ey" fileName="RoleAdvanWUI.xml" xy="176,87">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="RolebaseWUI" id="4rc5b" src="j3e21ez" fileName="RolebaseWUI.xml" xy="19,87">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+</component>

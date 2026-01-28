@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,390">
+  <displayList>
+    <image id="n0_q4ai" name="background" src="s6ko3t" fileName="PCLoiginUI/Data/OMG_MobileMini.Pak/background.png" pkg="us2ut3jf" xy="1,0" size="556,390"/>
+    <image id="n9_q4ai" name="title2" src="s6ko4e" fileName="PCLoiginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="219,153" size="250,32"/>
+    <image id="n8_q4ai" name="title1" src="s6ko4e" fileName="PCLoiginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="219,98" size="190,32"/>
+    <text id="n1_q4ai" name="Title" xy="222,48" size="113,32" fontSize="22" color="#00ff00" bold="true" strokeColor="#000000" text="实 名 认 证"/>
+    <text id="n3_q4ai" name="UserName" xy="92,99" size="113,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" strokeSize="3" text="姓         名"/>
+    <text id="n4_q4ai" name="CodeID" xy="92,152" size="113,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" strokeSize="3" text="身 份 证 号"/>
+    <text id="n6_q4ai" name="UserNameInput" xy="219,98" size="190,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" singleLine="true" text="" input="true"/>
+    <text id="n7_q4ai" name="CodeIDInput" xy="219,153" size="250,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" singleLine="true" text="" input="true"/>
+    <component id="n5_q4ai" name="SubmitButton" src="s6ko4i" fileName="PCLoiginUI/组件/SubmitButton.xml" pkg="us2ut3jf" xy="228,229"/>
+    <component id="n2_q4ai" name="close" src="r7r81z" fileName="LoginUI/组件/DBtnLoginUIClose.xml" pkg="us2ut3jf" xy="527,0"/>
+  </displayList>
+</component>

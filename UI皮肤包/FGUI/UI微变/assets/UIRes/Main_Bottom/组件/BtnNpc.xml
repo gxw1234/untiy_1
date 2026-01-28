@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="143,77" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="kv8dq" name="BottNpcImg" src="v9b1a3" fileName="Data/OMG_MobileMini.Pak/00355.PNG" xy="54,5" size="35,72">
+      <relation target="04l71" sidePair="leftext-left,rightext-right,topext-top"/>
+    </image>
+    <text id="04l71" name="title" xy="72,46" pivot="0.5,1" anchor="true" size="10,26" font="ui://t1h1280lvns0d" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text=""/>
+  </displayList>
+  <Button/>
+</component>

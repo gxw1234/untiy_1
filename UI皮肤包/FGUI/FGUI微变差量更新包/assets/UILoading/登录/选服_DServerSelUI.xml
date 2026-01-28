@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <component id="ylrt8" name="DBtnSwitchAccount" src="r7r81t" fileName="LoginUI/组件/DBtnSwitchAccount.xml" pkg="us2ut3jf" xy="129,32">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="e1466" name="DBtnGameNotice" src="r7r81u" fileName="LoginUI/组件/DBtnGameNotice.xml" pkg="us2ut3jf" xy="129,132">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="143n3" name="DBtnGameRepair" src="r7r81v" fileName="LoginUI/组件/DBtnGameRepair.xml" pkg="us2ut3jf" xy="129,232">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="2gn5w" name="DBtnInGame" src="r7r81w" fileName="LoginUI/组件/DBtnInGame.xml" pkg="us2ut3jf" xy="481,427">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="j2iw5" name="DBtnSwitchServer" src="r7r81x" fileName="LoginUI/组件/DBtnSwitchServer.xml" pkg="us2ut3jf" xy="423,317">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="suh57" name="DCurrServerName" xy="482,331" size="226,46" font="SimHei" fontSize="24" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" autoClearText="true" text=""/>
+    <text id="30w3k" name="DCurrServerText" xy="702,331" size="112,46" font="SimHei" fontSize="24" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" underline="true" strokeColor="#000000" strokeSize="2" text="点击选服"/>
+    <component id="5ba6v" name="DBtnBackToFlutter" src="r7r81y" fileName="LoginUI/组件/DBtnBackToFlutter.xml" pkg="us2ut3jf" xy="930,23">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n1_x143" name="DChPCBtn" src="r7r825" fileName="LoginUI/组件/DChPCBtn.xml" pkg="us2ut3jf" xy="90,455"/>
+    <component id="n2_x143" name="DDpiBtn" src="r7r826" fileName="LoginUI/组件/DDpiBtn.xml" pkg="us2ut3jf" xy="236,455"/>
+    <richtext id="n3_inxl" name="prvicaytips1" xy="375,1000" size="220,34" font="ui://t1h1280lvns0d" fontSize="24" color="#dfcfb4" text="我已详细阅读并同意"/>
+    <richtext id="n4_inxl" name="prvicaytips_fuwu" xy="596,1000" size="196,34" font="ui://t1h1280lvns0d" fontSize="24" color="#00ff00" text="游戏用户服务协议"/>
+    <richtext id="n6_inxl" name="prvicaytips2" xy="792,1000" size="28,34" font="ui://t1h1280lvns0d" fontSize="24" color="#dfcfb4" text="和"/>
+    <richtext id="n5_inxl" name="prvicaytips_yinsi" xy="819,1000" size="100,34" font="ui://t1h1280lvns0d" fontSize="24" color="#00ff00" text="隐私政策"/>
+    <loader id="n11_inxl" name="yinsibg" xy="342,1005" size="29,27" url="ui://us2ut3jfr7r81g" autoSize="true"/>
+    <image id="n9_inxl" name="yinsiset" src="r7r81h" fileName="LoginUI/Data/OMG_MobileMini.Pak/yinsiset.png" pkg="us2ut3jf" xy="343,1002" visible="false"/>
+    <richtext id="n12_qtxl" name="banhao" xy="3,575" size="1214,122" font="Microsoft YaHei" fontSize="22" color="#ffffff" align="center" text="著作权人：哈尔滨展成世纪科技有限公司 软著等级号：2016SR233728 出版单位：杭州紫府网络科技有限公司   &#xA;审批文号：新广出审[2017]6386号 ISBN：ISBN 978-7-7979-9548-1&#xA;抵制不良游戏，拒绝盗版游戏。注意自我保护，慎防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排游戏，享受健康生活&#xA;适龄提示L适合18岁以上使用"/>
+    <image id="n13_ma14" name="StateImg1" src="o60s2h" fileName="LoginUI/Data/OMG_MobileMini.Pak/Login_00938.png" pkg="us2ut3jf" xy="444,342" visible="false"/>
+    <image id="n14_ma14" name="StateImg2" src="r7r8d" fileName="LoginUI/Data/OMG_MobileMini.Pak/Login_00394.png" pkg="us2ut3jf" xy="444,342" visible="false"/>
+    <image id="n15_ma14" name="StateImg3" src="r7r8e" fileName="LoginUI/Data/OMG_MobileMini.Pak/Login_00395.png" pkg="us2ut3jf" xy="444,342" visible="false"/>
+    <component id="n16_q9hs" name="PC登录2_LoginUI2" src="s6ko2h" fileName="PC登录/PC登录2_LoginUI2.xml" xy="376,134" visible="false"/>
+    <component id="n17_q9hs" name="PC登录_LoginUI" src="s6ko2g" fileName="PC登录/PC登录_LoginUI.xml" xy="376,134" visible="false"/>
+    <component id="n18_q9hs" name="PC重置密码_ResetPassword" src="s6ko2i" fileName="PC登录/PC重置密码_ResetPassword.xml" xy="376,134" visible="false"/>
+    <component id="n19_q9hs" name="PC注册_Register" src="s6ko2f" fileName="PC登录/PC注册_Register.xml" xy="376,134" size="556,390" visible="false"/>
+    <component id="n20_q4ai" name="PC实名认证_RealName" src="q4ai2k" fileName="PC登录/PC实名认证_RealName.xml" xy="376,134" visible="false"/>
+    <component id="n21_q4ai" name="PC扫码登录_ScanLogin" src="q4ai2j" fileName="PC登录/PC扫码登录_ScanLogin.xml" xy="421,58" visible="false"/>
+  </displayList>
+</component>

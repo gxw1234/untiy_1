@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,30" scroll="both">
+  <displayList>
+    <graph size="100,30" id="30c48" name="bg" xy="0,0" visible="false" lineSize="0" touchable="false" type="rect" fillColor="#7f00cc00" lineColor="">
+      <relation sidePair="width-width,height-height"/>
+    </graph>
+    <graph size="102,32" id="fhl55" name="Stroke" xy="-1,-1" visible="false" lineSize="1" touchable="false" type="rect" fillColor="#00000000" lineColor="#ff339900">
+      <relation sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+</component>

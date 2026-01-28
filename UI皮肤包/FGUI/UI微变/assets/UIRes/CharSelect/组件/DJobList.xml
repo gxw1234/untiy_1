@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="310,89" scroll="both">
+  <controller name="CRadios" exported="true" pages="0,Radio1,1,Radio2,2,Radio3" selected="0"/>
+  <displayList>
+    <component id="yym3s" name="DBtnJob0" src="s6571" fileName="CharSelect/组件/DBtnJob0.xml" xy="33,0">
+      <relation target="" sidePair=""/>
+      <Button checked="true" sound="ui://b3xl678aui26b" controller="CRadios" page="0"/>
+    </component>
+    <component id="gjjfu" name="DBtnJob1" src="d0ai4" fileName="CharSelect/组件/DBtnJob1.xml" xy="123,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="1"/>
+    </component>
+    <component id="77n50" name="DBtnJob2" src="sv16g" fileName="CharSelect/组件/DBtnJob2.xml" xy="213,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="2"/>
+    </component>
+  </displayList>
+</component>

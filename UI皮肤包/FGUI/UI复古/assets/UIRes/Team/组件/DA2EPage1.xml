@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="933,602" scroll="both">
+  <displayList>
+    <list id="6clr6" name="DFDRequestItem" xy="194,97" size="666,342" treeView="false" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://jk0io98jkn5zul">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="DA2EWindow5" id="60j3s" src="kn5zt6" fileName="DA2EWindow5.xml" xy="192,54"/>
+    <component name="DA2ESimpleButton1" id="fi07p" src="kn5zt7" fileName="DA2ESimpleButton1.xml" xy="712,512">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ECheckBox1" id="w448k" src="kn5zt8" fileName="DA2ECheckBox1.xml" visible="false" xy="376,464">
+      <Button/>
+    </component>
+    <component name="DA2ECheckBox2" id="6107f" src="kn5zt9" fileName="DA2ECheckBox2.xml" visible="false" xy="412,520">
+      <Button/>
+    </component>
+    <text name="ChatEdit5" id="201xg" xy="418,464" size="139,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="自动同意入队申请:" color="#008000" visible="false" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit9" id="c24v0" xy="454,520" size="139,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="自动同意组队申请:" color="#008000" visible="false" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2ECheckBox3" id="663q8" src="kn5zta" fileName="DA2ECheckBox3.xml" xy="280,516">
+      <Button/>
+    </component>
+    <text name="ChatEdit61" id="mrnh3" xy="194,520" size="83,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="允许组队:" color="#008000" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

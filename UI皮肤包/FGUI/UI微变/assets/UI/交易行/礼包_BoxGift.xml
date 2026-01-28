@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="530,269">
+  <displayList>
+    <image id="n15_nzi0" name="bg" src="uiarn1qg" fileName="DealWin/Data/boxgiftBg.png" pkg="jk0io98j" xy="-262,-120"/>
+    <image id="n42_xw9s" name="n42" src="xw9sgvn2w4" fileName="DealWin/Data/boxgiftitembg.png" pkg="jk0io98j" xy="63,8"/>
+    <component id="n10_js02" name="CodeCloseBtn" src="j3e21cn" fileName="DealWin/组件/CodeCloseBtn.xml" pkg="jk0io98j" xy="599,-43"/>
+    <text id="n3_js02" name="giftTipsText" xy="90,94" size="359,32" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="使用当前账号登录可领取平台礼包"/>
+    <text id="n44_jfey" name="giftTipsText2" xy="91,121" size="359,32" font="Microsoft YaHei" fontSize="16" color="#00cc33" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="前往礼包界面领取礼包码即可领取礼包"/>
+    <image id="n43_xw9s" name="inputBg" src="uiarn1qk" fileName="DealWin/Data/inputBg.png" pkg="jk0io98j" xy="114,157"/>
+    <text id="n12_ipqu" name="cdkeynum" xy="130,161" size="290,24" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="" input="true" prompt="请输入礼包码"/>
+    <component id="n18_nzi0" name="BtnToBox" src="uiarn1ql" fileName="DealWin/组件/BtnBoxGiftToBox.xml" pkg="jk0io98j" xy="-291,-186" visible="false"/>
+    <text id="n19_nzi0" name="tobox" xy="-284,-177" size="126,32" visible="false" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="跳转平台"/>
+    <component id="n35_nzi0" name="btnGet" src="uiarn1qr" fileName="DealWin/组件/BtnBoxGiftGet.xml" pkg="jk0io98j" xy="207,205"/>
+    <list id="n36_nzi0" name="listItem" xy="94,11" size="347,81" layout="row" overflow="scroll" scroll="horizontal" colGap="10" defaultItem="ui://jk0io98juiarn1qu" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="n37_olo1" name="listPlatform" xy="453,13" size="148,234" overflow="scroll" scrollBarFlags="6" scrollBar="hidden" margin="3,0,0,5" scrollBarRes="ui://jk0io98jxw9sn1qn," lineGap="18" colGap="10" defaultItem="ui://jk0io98juiarn1qo" autoItemSize="false" align="center">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n40_tqcl" name="imgHadGet" src="tqclgvn2w2" fileName="DealWin/Data/boxgiftget3.png" pkg="jk0io98j" xy="207,203" visible="false"/>
+    <image id="n41_xw9s" name="boxgifttips" src="xw9sgvn2w3" fileName="DealWin/Data/boxgifttips.png" pkg="jk0io98j" xy="110,125"/>
+  </displayList>
+</component>

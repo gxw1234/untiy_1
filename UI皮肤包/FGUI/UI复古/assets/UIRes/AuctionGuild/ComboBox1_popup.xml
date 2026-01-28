@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,200" scroll="both">
+  <displayList>
+    <image id="05850" src="ldxan2be" fileName="00426.PNG" xy="0,0" size="150,200" name="ComboBox1_popup">
+      <relation sidePair="width-width,height-height"/>
+    </image>
+    <list id="6n3q0" name="list" xy="0,0" size="150,200" treeView="false" overflow="hidden" scroll="both" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="0" lineItemCount2="0" defaultItem="ui://jk0io98jkn5z13c">
+      <relation target="" sidePair="width-width"/>
+    </list>
+  </displayList>
+</component>

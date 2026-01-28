@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,76" opaque="false" scroll="both">
+  <displayList>
+    <loader id="ar607" name="Eff21" xy="38,38" pivot="0.5,0.5" anchor="true" size="72,72" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="37247" name="Eff11" xy="38,38" pivot="0.5,0.5" anchor="true" size="72,72" touchable="false" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="lft2i" name="Icon" xy="38,38" pivot="0.5,0.5" anchor="true" size="72,72" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="1he07" name="itemCount" xy="23,54" size="51,22" font="ui://5615522tw56a8" fontSize="14" color="#ffffff" align="right" vAlign="bottom" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text=""/>
+    <loader id="u2736" name="Eff22" xy="38,38" pivot="0.5,0.5" anchor="true" size="72,72" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="ugjxd" name="Eff12" xy="38,38" pivot="0.5,0.5" anchor="true" size="72,72" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="u6fqi" name="Eff23" xy="38,38" pivot="0.5,0.5" anchor="true" size="72,72" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="h4g10" name="Eff13" xy="38,38" pivot="0.5,0.5" anchor="true" size="72,72" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="51h81" name="bagsLod1" xy="49,67" pivot="1,1" anchor="true" size="18,18" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n3_jlg7" name="bagsLod2" xy="58,67" pivot="1,1" anchor="true" size="18,18" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n4_jlg7" name="bagsLod3" xy="67,67" pivot="1,1" anchor="true" size="18,18" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+  </displayList>
+</component>

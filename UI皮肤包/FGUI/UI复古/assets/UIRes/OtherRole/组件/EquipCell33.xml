@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="62,62" scroll="both">
+  <displayList>
+    <loader id="6h15p" name="Eff21" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="y20ka" name="Eff11" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="ke8mq" name="item" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="joy0h" name="title" xy="5,36" size="53,22" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="right" leading="0" autoSize="none" autoClearText="true" text=""/>
+    <loader id="ut5m3" name="Eff22" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="4rjy7" name="Eff12" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="f3h01" name="Eff23" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="3c050" name="Eff13" xy="31,31" pivot="0.5,0.5" anchor="true" size="60,60" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="4w481" name="bagsLod" xy="59,58" pivot="1,1" anchor="true" size="18,18" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n0_tj03" name="IconXY" xy="0,0" size="357,32" visible="false" fontSize="22" color="#ffffff" autoClearText="true" text="对应PC的图标偏移 修改上面位置X,Y"/>
+    <text id="n1_jcc1" name="EffectXY" xy="0,0" size="357,32" visible="false" fontSize="22" color="#ffffff" autoClearText="true" text="对应PC的特效偏移 修改上面位置X,Y"/>
+    <text id="n2_jcc1" name="StarLevel" xy="2,24" size="61,32" font="ui://5615522tpm542" fontSize="14" color="#ffffff" autoSize="none" autoClearText="true" text=""/>
+  </displayList>
+</component>

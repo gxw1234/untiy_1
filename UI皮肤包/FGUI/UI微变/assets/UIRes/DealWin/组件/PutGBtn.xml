@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,52" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_js02" name="n0" src="hr3gn1xq" fileName="Data/00497.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_js02" name="n1" src="hr3gn1xr" fileName="Data/00498.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_js02" name="n2" src="hr3gn1xq" fileName="Data/00497.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_js02" name="n3" src="hr3gn1xr" fileName="Data/00498.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_js02" name="n4" xy="8,13" size="143,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="上架货币"/>
+  </displayList>
+  <Button/>
+</component>

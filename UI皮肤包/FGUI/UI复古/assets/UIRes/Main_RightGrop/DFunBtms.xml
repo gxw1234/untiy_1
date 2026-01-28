@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="388,476" opaque="false" scroll="both">
+  <controller name="CRadios" exported="true" pages="0,Radio1" selected="0"/>
+  <displayList>
+    <component id="n7_pqnp" name="DBtnsWindow2" src="pqnp0" fileName="Main_RightGrop/组件/DBtnWindow2.xml" xy="1,303" visible="false"/>
+    <component id="8531v" name="DBtnsWindow" src="k02tn1up" fileName="Main_RightGrop/组件/DBtnsWindow.xml" xy="388,153">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n147v" name="DBtnShow" src="k02tn1ut" fileName="Main_RightGrop/组件/DBtnShow.xml" xy="323,79">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <loader id="w20kd" name="BagFull" xy="163,2" size="40,40" touchable="false" url="ui://jk0io98jldxan22m"/>
+    <component id="0c5dq" name="NoteBagWin" src="k02tn1uv" fileName="Main_RightGrop/组件/NoteBagWin.xml" xy="34,1" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="6lo1v" name="RigPromoteUI" src="k02tn1uw" fileName="Main_RightGrop/组件/RigPromoteUI.xml" xy="19,117" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <list id="n4_r44f" name="RigFunctionList" xy="83,-75" size="310,65" visible="false" layout="flow_vt" overflow="scroll" scroll="horizontal" colGap="10" lineItemCount="1" align="right" vAlign="middle">
+      <item url="ui://jk0io98jk02tn1v0"/>
+      <item url="ui://jk0io98jk02tn1uy"/>
+      <item url="ui://jk0io98jih0mn1ve"/>
+      <item url="ui://jk0io98jldxan23c"/>
+    </list>
+    <component id="n6_h3nb" name="RigPetUI" src="ih0mn1vd" fileName="Main_RightGrop/组件/RigPetUI.xml" xy="325,70" visible="false"/>
+    <component id="n8_ylt6" name="DBtnExit2" src="lfr9gvn2wt" fileName="Main_RightGrop/组件/DBtnExit.xml" xy="36,-38" visible="false"/>
+    <component id="n9_kxxy" name="DBtnFollow" src="kxxygvn2x5" fileName="Main_RightGrop/组件/DBtnFollow.xml" xy="62,-36" visible="false"/>
+    <component id="n13_mwat" name="DBtnHero" src="mwatgvn2yo" fileName="Main_RightGrop/DBtnHero.xml" xy="81,79"/>
+    <component id="n14_mwat" name="n14" src="mwatgvn2yp" fileName="Main_RightGrop/DBtnRiding.xml" xy="163,79"/>
+    <component id="n15_mwat" name="n15" src="mwatgvn2yq" fileName="Main_RightGrop/DBtnControl.xml" xy="243,79"/>
+    <component id="5facl" name="DBtnBag" src="k02tn1uq" fileName="Main_RightGrop/组件/DBtnBag.xml" xy="195,33" size="66,64">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n10_svyl" name="DBtnState" src="myy9gvn2xu" fileName="Main_RightGrop/组件/DBtnState.xml" xy="114,33" size="66,64"/>
+    <component id="n11_v6dg" name="n11" src="v6dggvn2xx" fileName="Main_RightGrop/组件/DBtnSkill.xml" xy="276,33" size="67,64"/>
+    <component id="n12_v6dg" name="n12" src="v6dggvn2y0" fileName="Main_RightGrop/组件/DBtnMissions.xml" xy="354,33" size="66,64"/>
+    <component id="n16_mwat" name="DBtnaAutomatic" src="mwatgvn2yr" fileName="Main_RightGrop/DBtnaAutomatic.xml" xy="34,33" pivot="0.5,0.5" anchor="true" size="67,64"/>
+    <component id="n19_mwat" name="n19" src="mwatgvn2ys" fileName="Main_RightGrop/DBtnPick.xml" xy="2,79"/>
+  </displayList>
+  <transition name="come">
+    <item time="0" type="XY" target="8531v" tween="true" startValue="388,153" endValue="0,153" duration="12"/>
+  </transition>
+</component>

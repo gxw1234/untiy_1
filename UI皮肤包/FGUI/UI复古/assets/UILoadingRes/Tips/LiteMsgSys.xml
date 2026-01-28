@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="238,36" scroll="both">
+  <displayList>
+    <image id="862jn" src="vmwk5m" fileName="00886.PNG" xy="0,0" size="238,36" name="LiteMsgSysBg" alpha="1.0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text name="msg" id="i08nh" xy="22,5" size="193,26" font="ui://5615522tw56a8" faceDilate="1" fontSize="20" leading="0" text="" color="#FFFFFF" vAlign="middle" ubb="true" autoClearText="true" anchor="false"/>
+  </displayList>
+  <relation target="i08nh" sidePair="width-width,height-height"/>
+</component>

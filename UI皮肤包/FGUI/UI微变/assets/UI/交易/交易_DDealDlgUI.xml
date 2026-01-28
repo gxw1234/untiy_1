@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="411,281" scroll="both">
+  <displayList>
+    <image id="q041e" name="DDealDlg" src="kn5z18j" fileName="Deal/Data/OMG_MobileMini.Pak/Deal_00179.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="ip72j" name="DMyName" xy="89,6" size="189,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="玩家名字七个字"/>
+    <text id="cpp3h" name="DMyGold" xy="71,224" size="157,28" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="0"/>
+    <list id="p3b4l" name="DDealGrid" xy="23,81" size="325,130" layout="pagination" overflow="hidden" scroll="both" lineItemCount2="2" defaultItem="ui://jk0io98jkn5z18v" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="05258" name="BtnDeal" src="kn5z18p" fileName="Deal/组件/BtnDeal.xml" pkg="jk0io98j" xy="259,221">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="5eb20" name="CloseDealBtn" src="kn5z18q" fileName="Deal/组件/CloseDealBtn.xml" pkg="jk0io98j" xy="364,64">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="j754f" name="DDGold" src="kn5z18r" fileName="Deal/组件/DDGold.xml" pkg="jk0io98j" xy="3,227">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

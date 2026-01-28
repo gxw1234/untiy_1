@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,300" scroll="both">
+  <displayList>
+    <loader id="f167j" name="BottLeTaskFinishAni" size="300,300" align="center" vAlign="middle" xy="0,0"/>
+  </displayList>
+  <transition name="select" frameRate="60" autoPlay="true" autoPlayRepeat="1">
+    <item time="0" type="Icon" target="f167j" value="ui://jk0io98jldxan21q"/>
+    <item time="6" type="Icon" target="f167j" value="ui://jk0io98jldxan21r"/>
+    <item time="12" type="Icon" target="f167j" value="ui://jk0io98jldxan21s"/>
+    <item time="18" type="Icon" target="f167j" value="ui://jk0io98jldxan21t"/>
+    <item time="24" type="Icon" target="f167j" value="ui://jk0io98jldxan21u"/>
+  </transition>
+</component>

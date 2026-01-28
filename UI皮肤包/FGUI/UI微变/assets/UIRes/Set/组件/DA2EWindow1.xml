@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="840,179" scroll="both">
+  <displayList>
+    <image id="6es5j" name="DA2EWindow1" src="kn5zur" fileName="Set/Data/OMG_MobileMini.Pak/Set_00410.png" xy="0,0" size="840,179">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="36ry5" name="DUserName" xy="253,10" size="353,41" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <component id="0044m" name="BtnBuy" src="kn5zw6" fileName="Set/组件/BtnBuy.xml" xy="555,123">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="b4nj8" name="BtnPresent" src="kn5zw7" fileName="Set/组件/BtnPresent.xml" xy="699,123">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="308oq" name="DA2EWindow2" src="kn5zw9" fileName="Set/组件/DA2EWindow2.xml" xy="51,64">
+      <Slider max="15" min="5"/>
+    </component>
+    <component id="n1_erw3" name="BtnYinSi" src="w0v1c" fileName="Set/组件/BtnYinSi.xml" xy="414,123"/>
+    <richtext id="n2_qs09" name="appVerText" xy="27,132" size="338,32" fontSize="16" color="#ffffff" vAlign="middle" autoSize="none" text=""/>
+  </displayList>
+</component>

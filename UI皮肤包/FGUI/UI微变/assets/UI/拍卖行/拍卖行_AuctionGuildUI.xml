@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="916,593" scroll="both">
+  <controller name="CPages" exported="true" selected="9" pages="0,page1,1,page2,2,page3"/>
+  <displayList>
+    <image id="se0d3" src="kn5z101" fileName="00413.PNG" xy="0,0" name="AuctionGuildUI" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="46pwu" src="kn5z11a" fileName="frame.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="TabBtnBuy" id="nqr2a" src="kn5z11b" fileName="TabBtnBuy.xml" xy="29,53" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button controller="CPages" page="0" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="BtnClose" id="3yf27" src="kn5z11c" fileName="BtnClose.xml" xy="886,-1" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="TabBtnSell" id="7s5f0" src="kn5z11d" fileName="TabBtnSell.xml" xy="122,53" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button controller="CPages" page="1" sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="TabBtnAuction" id="3ga3n" src="kn5z11e" fileName="TabBtnAuction.xml" xy="215,53" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button controller="CPages" page="2" sound="ui://b3xl678aui26b"/>
+    </component>
+    <image id="5khdd" src="kn5z106" fileName="00630.PNG" xy="19,13" size="73,28" name="ImgGuild" alpha="1.0" pkg="jk0io98j"/>
+    <graph size="2,2" id="x6ux2" name="ModalLayer" xy="0,0" lineSize="0" touchable="false" type="rect" fillColor="#00ffffff" lineColor=""/>
+    <component name="DA2EPage1" id="6u43i" src="kn5z11t" fileName="DA2EPage1.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component name="DA2EPage2" id="44g50" src="kn5z120" fileName="DA2EPage2.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component name="DA2EPage3" id="7q7tk" src="kn5z125" fileName="DA2EPage3.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+  </displayList>
+</component>

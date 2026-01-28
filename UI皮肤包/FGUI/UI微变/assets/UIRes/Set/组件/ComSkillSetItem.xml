@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="706,40" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1_a5rz" name="bg" src="kn5zuz" fileName="Set/Data/OMG_MobileMini.Pak/Set_00425.png" xy="611,-2" size="64,40"/>
+    <text id="n3_a5rz" name="title0" xy="22,7" size="96,26" fontSize="18" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" singleLine="true" text="当前技能："/>
+    <text id="n2_a5rz" name="title1" xy="524,5" size="86,27" fontSize="18" color="#ffffff" vAlign="middle" autoSize="shrink" strokeColor="#000000" singleLine="true" text="优先级别："/>
+    <text id="n4_a5rz" name="skillname" xy="117,7" size="76,26" fontSize="18" color="#ffffff" vAlign="middle" strokeColor="#000000" singleLine="true" text="刀刀刺杀"/>
+    <text id="n5_a5rz" name="input" xy="615,3" size="57,30" fontSize="18" color="#ffffff" autoSize="shrink" strokeColor="#000000" text="1" input="true" maxLength="5" restrict="[0-9]" keyboardType="4"/>
+    <component id="n6_a5rz" name="check" src="a5rzgvn35d" fileName="Set/组件/ComSkillSet2Item.xml" xy="278,0"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

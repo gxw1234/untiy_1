@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <component name="Detail" id="pbu35" src="qgn289" fileName="Detail.xml" xy="290,125"/>
+    <component name="ConfirmBtn" id="vd58k" src="qgn27u" fileName="ConfirmBtn.xml" xy="686,597">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="CancelBtn" id="402v2" src="qgn27t" fileName="CancelBtn.xml" xy="507,597">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

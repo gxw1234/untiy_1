@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="922,603" scroll="both">
+  <displayList>
+    <component name="DFDRequestTitle" id="v0fq5" src="kn5z14v" fileName="DFDRequestTitle.xml" xy="192,54">
+      <relation target="" sidePair=""/>
+    </component>
+    <list id="50v64" name="DFDRequestList" xy="195,97" size="666,376" treeView="false" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://jk0io98jkn5z15s">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="DA2ESimpleButton6" id="83vsx" src="kn5z14w" fileName="DA2ESimpleButton6.xml" xy="712,512">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DA2ESimpleButton7" id="v774v" src="kn5z14x" fileName="DA2ESimpleButton7.xml" xy="556,512">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

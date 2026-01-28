@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="396,558" opaque="false">
+  <displayList>
+    <image id="n0_t0do" name="PVP_BG" src="s3361" fileName="PVP/Data/PVP_BG.png" xy="0,0" pkg="jk0io98j"/>
+    <component id="n8_726q" name="frame" src="j3e21jb" fileName="OtherRole/组件/frame.xml" xy="4,4" size="384,547" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <richtext id="n1_t0do" name="tipsText" xy="19,449" size="360,94" fontSize="20" color="#ffffff" letterSpacing="2" autoSize="none" text="&#x9;&#x9;挑战中将以武馆教头的挑战规则作为评判胜负的标准，如果你同意就开始挑战吧"/>
+    <component id="n3_t0do" name="CloseButton" src="np3ugvn2w2" fileName="Common/CloseButton.xml" xy="396,0" pkg="jk0io98j"/>
+    <component id="n4_t0do" name="otherInfo" src="s3366" fileName="PVP/组件/ComInfo.xml" xy="17,29" pkg="jk0io98j"/>
+    <component id="n5_t0do" name="myInfo" src="s3366" fileName="PVP/组件/ComInfo.xml" xy="17,204" pkg="jk0io98j"/>
+    <component id="n6_t0do" name="BtnSure" src="s336e" fileName="PVP/组件/BtnSure.xml" xy="65,386" pkg="jk0io98j"/>
+    <component id="n7_t0do" name="BtnCancel" src="s336h" fileName="PVP/组件/BtnCancel.xml" xy="228,386" pkg="jk0io98j"/>
+  </displayList>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" opaque="false">
+  <displayList>
+    <loader id="n0_p27s" name="bgLoader" xy="18,41" size="50,50" touchable="false" autoSize="true"/>
+    <loader id="n2_p27s" name="iconLoader" xy="15,102" size="50,50" touchable="false" autoSize="true"/>
+    <richtext id="n4_p27s" name="levelText" xy="18,178" size="10,22" touchable="false" fontSize="14" color="#ffffff" text=""/>
+    <richtext id="n5_p27s" name="nameText" xy="18,235" size="10,22" touchable="false" fontSize="14" color="#ffffff" text=""/>
+    <richtext id="n6_p27s" name="belongText" xy="19,289" size="10,22" visible="false" touchable="false" fontSize="14" color="#ffffff" text=""/>
+    <richtext id="n7_p27s" name="bloodText" xy="18,348" size="10,22" touchable="false" fontSize="14" color="#ffffff" text=""/>
+    <list id="n3_p27s" name="dropItem" xy="19,418" size="467,45" layout="flow_hz" scroll="horizontal" defaultItem="ui://jk0io98jp27sgvn2x0"/>
+  </displayList>
+</component>

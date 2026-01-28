@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="837,39" pivot="4,0" scroll="both">
+  <displayList>
+    <image id="6o744" src="kn5z16a" fileName="00254.PNG" xy="0,0" name="LogItem">
+      <relation sidePair=""/>
+    </image>
+    <text name="EditLogTxt" id="143tu" xy="0,0" size="837,39" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="名字" color="#FFFFFF" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

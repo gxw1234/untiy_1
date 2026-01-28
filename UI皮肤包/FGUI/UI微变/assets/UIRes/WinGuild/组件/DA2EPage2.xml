@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="934,593" opaque="false" scroll="both">
+  <displayList>
+    <image id="88444" name="DA2EIMAGE3" src="kn5z16t" fileName="Data/OMG_MobileMini.Pak/00243.PNG" xy="24,54" size="840,44"/>
+    <text id="23ju0" name="ChatEdit10" xy="23,54" size="210,39" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字"/>
+    <text id="2v5y3" name="ChatEdit11" xy="235,54" size="131,39" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="等级"/>
+    <text id="2r4jw" name="ChatEdit12" xy="370,54" size="131,39" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="职业"/>
+    <text id="b7jg8" name="ChatEdit13" xy="505,53" size="167,39" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="职位"/>
+    <text id="801i6" name="ChatEdit14" xy="675,53" size="188,39" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="状态"/>
+    <list id="47ld6" name="DA2EGrid3" xy="24,96" size="837,417" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jkn5z18g" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="4sc71" name="BtnComPlayPos" src="kn5z17n" fileName="组件/BtnComPlayPos.xml" xy="588,513" size="123,51">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="pn651" name="BtnDelePlay" src="kn5z17o" fileName="组件/BtnDelePlay.xml" xy="721,513" size="123,51">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="65i7q" name="EditGuildPlay" xy="29,526" size="335,33" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="行会人数"/>
+  </displayList>
+</component>

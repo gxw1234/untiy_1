@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="833,260" overflow="hidden">
+  <displayList>
+    <component id="n1_tba3" name="TargetSupCom" src="nnc6gvn34s" fileName="Set/组件/TargetSupCom.xml" xy="0,0"/>
+    <component id="n2_ofrw" name="TrochalSet" src="nnc6gvn34r" fileName="Set/组件/Skill.xml" xy="1,267" size="833,198" visible="false"/>
+    <richtext id="n4_gm9d" name="n4" xy="68,62" size="305,32" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="格内无怪物优先拾取 (0格优先拾取)"/>
+    <component id="n6_gm9d" name="n6" src="q184gvn2xk" fileName="Set/组件/ComBtnChoice.xml" xy="35,58" touchable="false"/>
+    <text id="n3_gm9d" name="checkDistance" xy="35,62" size="37,32" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="0" input="true" maxLength="1" restrict="[0-9]" keyboardType="4"/>
+    <component id="n8_byp6" name="btnSustainSkill" src="mua5gvn2xf" fileName="Set/组件/ComSkillItem.xml" xy="415,54">
+      <Button title="持续攻击"/>
+    </component>
+  </displayList>
+</component>

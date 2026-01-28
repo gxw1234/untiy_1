@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="556,390">
+  <displayList>
+    <image id="n13_s6ko" name="background" src="s6ko3t" fileName="PCLoiginUI/Data/OMG_MobileMini.Pak/background.png" pkg="us2ut3jf" xy="1,0" size="556,390"/>
+    <image id="n19_s6ko" name="title4" src="s6ko4e" fileName="PCLoiginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="220,263" size="140,32"/>
+    <image id="n18_s6ko" name="title3" src="s6ko4e" fileName="PCLoiginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="220,208" size="217,32"/>
+    <image id="n17_s6ko" name="title2" src="s6ko4e" fileName="PCLoiginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="220,153" size="217,32"/>
+    <image id="n16_s6ko" name="title1" src="s6ko4e" fileName="PCLoiginUI/Data/OMG_MobileMini.Pak/title.png" pkg="us2ut3jf" xy="220,98" size="217,32"/>
+    <text id="n1_s6ko" name="Ttile" xy="222,48" size="113,32" fontSize="22" color="#00ff00" bold="true" strokeColor="#000000" text="账 号 注 册"/>
+    <component id="n2_s6ko" name="close" src="r7r81z" fileName="LoginUI/组件/DBtnLoginUIClose.xml" pkg="us2ut3jf" xy="528,1"/>
+    <text id="n3_s6ko" name="UserID" xy="93,98" size="113,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" strokeSize="3" text="账         号"/>
+    <text id="n4_s6ko" name="UserPassword" xy="92,153" size="113,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" strokeSize="3" text="密         码"/>
+    <text id="n5_s6ko" name="Mobile" xy="92,208" size="112,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" strokeSize="3" text="手   机   号"/>
+    <text id="n6_s6ko" name="Code" xy="92,263" size="112,32" fontSize="22" color="#ffffff" autoSize="none" strokeColor="#000000" strokeSize="3" text="验   证   码"/>
+    <text id="n7_s6ko" name="UserIDInput" xy="220,98" size="217,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true"/>
+    <text id="n20_s6ko" name="UserPasswordInput" xy="220,153" size="217,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true" password="true"/>
+    <text id="n9_s6ko" name="MobileInput" xy="220,208" size="217,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true"/>
+    <text id="n10_s6ko" name="CodeInput" xy="220,263" size="140,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true"/>
+    <component id="n11_s6ko" name="ObtainButton" src="s6ko4h" fileName="PCLoiginUI/组件/ObtainButton.xml" pkg="us2ut3jf" xy="366,259"/>
+    <component id="n12_s6ko" name="SubmitButton" src="s6ko4i" fileName="PCLoiginUI/组件/SubmitButton.xml" pkg="us2ut3jf" xy="230,310"/>
+  </displayList>
+</component>

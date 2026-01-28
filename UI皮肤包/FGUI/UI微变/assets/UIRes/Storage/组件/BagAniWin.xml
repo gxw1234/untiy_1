@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="14,14" scroll="both">
+  <displayList>
+    <loader id="rkost" name="BagAniLoad" xy="0,0" size="14,14" url="ui://jk0io98jkn5z13y" align="center" vAlign="middle" clearOnPublish="true"/>
+  </displayList>
+  <transition name="select" autoPlay="true" autoPlayRepeat="-1" frameRate="60"/>
+</component>

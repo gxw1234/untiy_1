@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="465,40">
+  <displayList>
+    <component id="n4_vptl" name="ComSkillItem" src="ka7vgvn2y5" fileName="Set/组件/ComSkill2Item.xml" xy="0,0" size="143,40">
+      <Button title="生命值低于"/>
+    </component>
+    <component id="n3_vptl" name="ComDownBox2" src="ka7vgvn2y9" fileName="Set/组件/ComDownBox2.xml" xy="324,0">
+      <relation target="n8_vptl" sidePair="left-right"/>
+    </component>
+    <image id="n5_vptl" name="bg" src="kn5zuz" fileName="Set/Data/OMG_MobileMini.Pak/Set_00425.png" xy="143,0" size="78,40">
+      <relation target="n4_vptl" sidePair="left-right"/>
+    </image>
+    <text id="n6_vptl" name="SetValue" xy="143,0" size="78,40" fontSize="18" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="100%" input="true">
+      <relation target="n5_vptl" sidePair="left-left"/>
+      <relation target="" sidePair="middle-middle"/>
+    </text>
+    <text id="n8_vptl" name="title1" xy="226,7" size="94,26" fontSize="18" color="#ffffff" align="center" strokeColor="#000000" text="时自动使用">
+      <relation target="" sidePair="middle-middle"/>
+      <relation target="n5_vptl" sidePair="left-right"/>
+    </text>
+  </displayList>
+  <relation target="n3_vptl" sidePair="rightext-right"/>
+</component>

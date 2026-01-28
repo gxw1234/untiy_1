@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="933,596" scroll="both">
+  <displayList>
+    <list id="t1264" name="DA2EGrid2" xy="24,58" size="837,359" treeView="false" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="6" defaultItem="ui://jk0io98jkn5z18e">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="BtnMemberLog" id="2m24h" src="kn5z186" fileName="BtnMemberLog.xml" xy="650,528">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnWarLog" id="26b03" src="kn5z187" fileName="BtnWarLog.xml" xy="760,528">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="295,410">
+  <displayList>
+    <image id="n0_js02" name="n0" src="hr3gn1yc" fileName="Data/00918.png" xy="0,0" pkg="jk0io98j"/>
+    <text id="n1_js02" name="n1" xy="33,71" size="102,26" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" align="center" autoSize="none" strokeColor="#000000" text="需支付金额："/>
+    <text id="n2_js02" name="n2" xy="33,116" size="118,26" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" align="center" autoSize="none" strokeColor="#000000" text="剩余支付时间："/>
+    <text id="n3_js02" name="DealMoNumTxt" xy="151,71" size="126,26" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" autoSize="none" strokeColor="#000000" autoClearText="true" text="需支付金额："/>
+    <text id="n4_js02" name="DealTimeTxt" xy="151,116" size="126,26" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" autoSize="none" strokeColor="#000000" autoClearText="true" text="666666"/>
+    <component id="n9_js02" name="PayTypeSBtn" src="j3e21co" fileName="组件/PayTypeSBtn.xml" xy="69,329" pkg="jk0io98j"/>
+    <component id="n10_js02" name="BuyCloseBtn" src="j3e21cp" fileName="组件/BuyCloseBtn.xml" xy="294,0" pkg="jk0io98j"/>
+    <list id="n14_m7m2" name="DealPayGrids" xy="24,225" size="250,94" overflow="scroll" scroll="horizontal" defaultItem="ui://jk0io98jj3e21fo" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

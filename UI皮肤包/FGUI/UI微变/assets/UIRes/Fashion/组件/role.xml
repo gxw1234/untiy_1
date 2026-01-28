@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" scroll="both">
+  <displayList>
+    <loader id="r3dp7" name="role" size="50,50" touchable="false" url="ui://jk0io98jkn5z193" xy="7,-44"/>
+    <loader id="76374" name="EquipCell0" size="56,116" xy="-16,-76"/>
+    <loader id="2g2o2" name="EquipCell1" size="73,121" fill="scale" xy="-13,-85"/>
+    <loader id="4mqd8" name="EquipTitle" size="41,41" xy="32,-16"/>
+    <loader id="2u2u6" name="EquipCell11" size="73,121" fill="scale" xy="-13,-85"/>
+  </displayList>
+</component>

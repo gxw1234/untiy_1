@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="888,638" scroll="both">
+  <displayList>
+    <image id="kd46x" src="vmwk4m" fileName="00389.PNG" xy="0,0" name="DServerListUI" pkg="us2ut3jf">
+      <relation sidePair=""/>
+    </image>
+    <component name="DA2ESimpleButton1" id="2mhwa" src="r7r81q" fileName="DA2ESimpleButton1.xml" xy="237,536" pkg="us2ut3jf">
+      <Button sound="ui://v8024m780ns77"/>
+    </component>
+    <list id="0122j" name="DServerLeftList" xy="41,93" size="226,428" treeView="false" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="3" lineItemCount2="3" defaultItem="ui://us2ut3jfr7r82f">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <list id="87ss5" name="DServerRightList" xy="282,94" size="530,425" treeView="false" autoClearItems="true" layout="flow_hz" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="2" lineItemCount2="7" defaultItem="ui://us2ut3jfr7r82g">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="DA2ESimpleButton4" id="w7ln6" src="r7r81r" fileName="DA2ESimpleButton4.xml" xy="525,536" pkg="us2ut3jf">
+      <Button sound="ui://v8024m780ns77"/>
+    </component>
+    <component name="SelectServerCloseBtn" id="g2hx4" src="r7r81s" fileName="SelectServerCloseBtn.xml" xy="817,33" pkg="us2ut3jf">
+      <Button/>
+    </component>
+  </displayList>
+</component>

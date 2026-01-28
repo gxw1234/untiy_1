@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="402,177" scroll="both">
+  <displayList>
+    <loader id="dpmqc" name="bg" size="402,177" url="ui://use7blkkqgn264" fill="scaleFree" xy="0,0"/>
+    <component name="frame" id="k61hq" src="qgn26k" fileName="frame.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component name="closeButton" id="vt3b1" src="qgn26l" fileName="closeButton.xml" xy="402,0">
+      <relation target="k61hq" sidePair="right-right,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="ImgMulRoot" id="m0y3s" sidePair="" src="qgn26m" fileName="ImgMulRoot.xml" xy="187,51">
+      <relation target="n6l5i" sidePair="width-width,height-height"/>
+    </component>
+    <text name="MirNpcWindow1" id="k5867" xy="21,15" size="364,136" font="Microsoft YaHei" fontSize="8" leading="0" autoSize="none" text="" color="#080000" anchor="false"/>
+  </displayList>
+  <relation target="dpmqc" sidePair="width-width,height-height"/>
+</component>

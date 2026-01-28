@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="135,100" scroll="both">
+  <displayList>
+    <loader id="2p48y" name="load" size="135,100" xy="0,0"/>
+    <richtext name="title0" id="5mg10" xy="0,0" size="28,19" font="ui://5615522tw56a8" faceDilate="1" fontSize="12" leading="0" text="" color="#FFFFFF" touchable="false" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <richtext name="title1" id="05r84" xy="39,39" size="28,19" font="ui://5615522tw56a8" faceDilate="1" fontSize="12" leading="0" text="" color="#FFFFFF" touchable="false" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <richtext name="title2" id="5in71" xy="47,47" size="28,19" font="ui://5615522tw56a8" faceDilate="1" fontSize="12" leading="0" text="" color="#FFFFFF" touchable="false" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <richtext name="title3" id="t34sm" xy="60,47" size="28,19" font="ui://5615522tw56a8" faceDilate="1" fontSize="12" leading="0" text="" color="#FFFFFF" touchable="false" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <graph size="137,102" id="qf871" name="Stroke" xy="-1,-1" visible="false" lineSize="2" touchable="false" type="rect" fillColor="#00ffffff" lineColor="#ff336600">
+      <relation sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <relation target="2p48y" sidePair="width-width,height-height"/>
+</component>

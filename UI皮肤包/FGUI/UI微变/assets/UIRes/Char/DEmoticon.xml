@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="395,325" scroll="both">
+  <displayList>
+    <image id="tr421" src="j3e21k0" fileName="00308.PNG" xy="0,0" name="DEmoticon">
+      <relation sidePair=""/>
+    </image>
+    <list id="rw5my" name="DEmoticonGrid" xy="18,19" size="354,283" treeView="false" layout="pagination" overflow="hidden" scroll="both" scrollBarFlags="128" align="center" vAlign="middle" lineGap="10" colGap="10" lineItemCount="6" lineItemCount2="4" defaultItem="ui://jk0io98jj3e21ky">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

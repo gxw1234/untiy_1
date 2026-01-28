@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" opaque="false">
+  <displayList>
+    <loader id="n0_i7tn" name="ImgLoader" xy="0,0" size="80,80" touchable="false"/>
+  </displayList>
+</component>

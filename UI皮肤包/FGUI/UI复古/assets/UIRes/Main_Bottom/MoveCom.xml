@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="625,37" overflow="hidden" scroll="both">
+  <displayList>
+    <image id="42fv6" src="ldxan27v" fileName="00324.PNG" xy="0,0" size="624,36" name="msgbg" alpha="1.0"/>
+    <text name="msg" id="trwv3" xy="325,17" size="220,26" font="Microsoft YaHei" fontSize="18" leading="0" text="" color="#FFFFFF" align="center" vAlign="middle" ubb="true" bold="true" singleLine="true" autoClearText="true" pivot="0.5,0.5" anchor="true" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

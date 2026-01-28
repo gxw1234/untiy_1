@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="360,356" opaque="false" scroll="both">
+  <displayList>
+    <graph id="4561v" name="n0" xy="84,75" size="276,281" lineSize="0" lineColor="#00000000" fillColor="#00000000"/>
+    <component id="7xwyi" name="DBtnAttack2" src="v9b1fa" fileName="Main_Bottom/组件/DBtnAttack2.xml" xy="93,169"/>
+    <component id="4ff5d" name="DBtnSelMonster" src="py91gvn33r" fileName="Main_Bottom/组件/DBtnSelMonster.xml" xy="162,268" scale="1.3,1.3">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="d2isn" name="DBtnSelPlay" src="py91gvn33q" fileName="Main_Bottom/组件/DBtnSelPlay.xml" xy="269,155" aspect="true" scale="1.3,1.3">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="ex7l6" name="DBtnAttack0" src="v9b1fd" fileName="Main_Bottom/组件/DBtnAttack0.xml" xy="186,181"/>
+    <component id="a6mjt" name="DBtnAttack1" src="v9b1fe" fileName="Main_Bottom/组件/DBtnAttack1.xml" xy="76,262"/>
+    <component id="36y7b" name="DBtnAttack3" src="v9b1ff" fileName="Main_Bottom/组件/DBtnAttack3.xml" xy="151,97"/>
+    <component id="0oqxq" name="DBtnAttack4" src="v9b1fg" fileName="Main_Bottom/组件/DBtnAttack4.xml" xy="251,65"/>
+    <component id="0jq20" name="DBtnAttack5" src="v9b1fh" fileName="Main_Bottom/组件/DBtnAttack5.xml" xy="1,208"/>
+    <component id="00umm" name="DBtnAttack6" src="v9b1fi" fileName="Main_Bottom/组件/DBtnAttack6.xml" xy="20,115"/>
+    <component id="ud80a" name="DBtnAttack7" src="v9b1fj" fileName="Main_Bottom/组件/DBtnAttack7.xml" xy="84,34"/>
+    <component id="2jd63" name="DBtnAttack8" src="v9b1fk" fileName="Main_Bottom/组件/DBtnAttack8.xml" xy="182,5"/>
+    <component id="n0_py91" name="DTargetBtn" src="py91gvn33s" fileName="Main_Bottom/组件/DTargetBtn.xml" xy="13,43" visible="false"/>
+    <component id="n2_gpd0" name="TargetCom" src="py91gvn33t" fileName="Main_Bottom/组件/TargetCom.xml" xy="-171,-2" visible="false"/>
+    <component id="n3_wjqw" name="TargetListItem0" src="gpd0gvn341" fileName="Main_Bottom/组件/TargetListItem.xml" xy="-63,-30" visible="false"/>
+    <component id="n4_wjqw" name="TargetListItem1" src="gpd0gvn341" fileName="Main_Bottom/组件/TargetListItem.xml" xy="-149,65" visible="false"/>
+    <component id="n5_wjqw" name="TargetListItem2" src="gpd0gvn341" fileName="Main_Bottom/组件/TargetListItem.xml" xy="-225,145" visible="false"/>
+    <component id="n6_n5e1" name="DBtnStorm" src="qs09gvn35n" fileName="Main_Bottom/组件/DBtnStorm.xml" xy="298,289"/>
+  </displayList>
+</component>

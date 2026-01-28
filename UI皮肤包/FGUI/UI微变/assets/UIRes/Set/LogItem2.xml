@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="513,42" scroll="both">
+  <displayList>
+    <component id="0e55t" name="DA2EWindow16" src="kn5zxz" fileName="Set/组件/DA2EWindow16.xml" xy="0,40">
+      <relation target="" sidePair=""/>
+    </component>
+    <text id="7fu6h" name="title" xy="3,5" size="200,33" font="Microsoft YaHei" fontSize="17" color="#dfcfb4" vAlign="middle" leading="0" autoSize="shrink" strokeColor="#000000" autoClearText="true" text="拾取类型"/>
+    <component id="66w0q" name="SelectBtn" src="kn5zy1" fileName="Set/组件/DA2ECheckBox33.xml" xy="430,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

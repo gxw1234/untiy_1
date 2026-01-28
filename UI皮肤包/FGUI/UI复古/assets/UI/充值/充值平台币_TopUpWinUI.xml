@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="856,596">
+  <displayList>
+    <image id="n0_sxci" name="bg" src="ldxan2mj" fileName="Recharge/Data/Recharge_00933.png" xy="0,0" pkg="jk0io98j"/>
+    <component id="n1_sxci" name="frame" src="j3e21p4" fileName="Recharge/组件/frame.xml" xy="-1,1" size="856,596" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <graph id="n14_mq9p" name="ModalLayer" xy="0,0" size="2,2" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="n2_sxci" name="TopUpCloseBtn" src="j3e21p5" fileName="Recharge/组件/TopUpCloseBtn.xml" xy="856,1" pkg="jk0io98j"/>
+    <text id="n3_sxci" name="n3" xy="39,63" size="72,24" font="Microsoft YaHei" fontSize="16" color="#a09d9d" text="充值角色:"/>
+    <text id="n4_sxci" name="RoleName" xy="120,63" size="10,24" font="Microsoft YaHei" fontSize="16" color="#a09d9d" autoClearText="true" text=""/>
+    <text id="n5_sxci" name="n5" xy="601,63" size="72,24" font="Microsoft YaHei" fontSize="16" color="#a09d9d" text="本服名称:"/>
+    <text id="n6_sxci" name="ServerName" xy="682,63" size="10,24" font="Microsoft YaHei" fontSize="16" color="#a09d9d" autoClearText="true" text=""/>
+    <text id="n7_sxci" name="n7" xy="39,114" size="72,24" font="Microsoft YaHei" fontSize="16" color="#a09d9d" text="货币种类:"/>
+    <list id="n13_sxci" name="MoneyTypeG" xy="65,160" size="754,211" layout="flow_hz" overflow="scroll" scroll="horizontal" defaultItem="ui://jk0io98jj3e21p7" vAlign="middle" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <richtext id="n16_fa7t" name="n16" xy="585,105" size="109,26" fontSize="18" color="#a09d9d" leading="2" letterSpacing="1" text="可用平台币 :"/>
+    <richtext id="n17_fa7t" name="text_myptb" xy="700,105" size="103,26" fontSize="18" color="#a09d9d" vAlign="middle" leading="2" text="100000000"/>
+    <component id="n21_dy56" name="NotarizeRechargeBtn" src="j3e21p6" fileName="Recharge/组件/NotarizeRechargeBtn.xml" xy="628,470" pkg="jk0io98j"/>
+  </displayList>
+</component>

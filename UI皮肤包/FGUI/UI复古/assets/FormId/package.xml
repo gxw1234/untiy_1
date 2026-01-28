@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="vf3w6hiq">
+  <resources>
+    <component id="6v5dj" name="FormIDListCom.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+</packageDescription>

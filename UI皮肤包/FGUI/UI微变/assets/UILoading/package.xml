@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="up3anxyr">
+  <resources>
+    <component id="r7r84" name="进度条_ScheduleCopntUI.xml" path="/进度条/" exported="true"/>
+    <component id="r7r828" name="创建账户_CreateAccountUI.xml" path="/登录/" exported="true"/>
+    <component id="r7r829" name="修改密码_DChangePasswordUI.xml" path="/登录/" exported="true"/>
+    <component id="r7r82c" name="区服列表_DServerListUI.xml" path="/登录/" exported="true"/>
+    <component id="r7r82d" name="选服_DServerSelUI.xml" path="/登录/" exported="true"/>
+    <component id="r7r82e" name="登录_LoginUI.xml" path="/登录/" exported="true"/>
+    <component id="023k1" name="选服_NoticeUIWinUI.xml" path="/选服公告/" exported="true"/>
+    <component id="s6ko2f" name="PC注册_Register.xml" path="/PC登录/" exported="true"/>
+    <component id="s6ko2g" name="PC登录_LoginUI.xml" path="/PC登录/" exported="true"/>
+    <component id="s6ko2h" name="PC登录2_LoginUI2.xml" path="/PC登录/" exported="true"/>
+    <component id="s6ko2i" name="PC重置密码_ResetPassword.xml" path="/PC登录/" exported="true"/>
+    <component id="q4ai2j" name="PC扫码登录_ScanLogin.xml" path="/PC登录/"/>
+    <component id="q4ai2k" name="PC实名认证_RealName.xml" path="/PC登录/"/>
+  </resources>
+  <publish name="" path="./bin/UILoading" packageCount="2"/>
+</packageDescription>

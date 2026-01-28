@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="29,29" scroll="both">
+  <displayList>
+    <loader id="25m5w" name="d4" size="29,29" touchable="false" xy="0,0"/>
+  </displayList>
+  <relation target="3npk6" sidePair="center-center,middle-middle"/>
+</component>

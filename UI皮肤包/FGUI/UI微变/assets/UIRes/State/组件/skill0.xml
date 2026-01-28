@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,115" scroll="both">
+  <displayList>
+    <loader id="byf5l" name="skill" size="86,86" xy="7,4"/>
+    <text name="name" id="5d083" xy="3,90" size="93,22" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

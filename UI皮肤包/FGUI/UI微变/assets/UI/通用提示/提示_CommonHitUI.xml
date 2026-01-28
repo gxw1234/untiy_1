@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="569,241" scroll="both">
+  <displayList>
+    <image id="ym142" name="CommonHitUI" src="j3e21kz" fileName="Data/OMG_MobileMini.Pak/00189.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <richtext id="gte6m" name="DTips" xy="24,16" size="513,40" font="Microsoft YaHei" fontSize="18" color="#ffffff" leading="0" ubb="true" autoSize="height" strokeColor="#000000" autoClearText="true" text=""/>
+    <component id="02mcq" name="DBtnConfirm" src="j3e21l4" fileName="组件/DBtnConfirm.xml" xy="270,155" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="a1n4t" name="DBtnCancel" src="j3e21l5" fileName="组件/DBtnCancel.xml" xy="411,155" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <graph id="5go7a" name="DlgEditTextLine" xy="95,92" size="374,35" touchable="false" type="rect" lineColor="#ffffffff" fillColor="#00000000"/>
+    <text id="8v31n" name="DlgEditText" xy="98,94" size="368,30" font="SimSun" fontSize="18" color="#ffffff" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="" input="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="227,27" scroll="both">
+  <displayList>
+    <text id="fc6qt" name="DGoldName" xy="0,0" size="85,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="绑定元宝:"/>
+    <text id="3yj6p" name="DGold" xy="89,0" size="137,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+  </displayList>
+</component>

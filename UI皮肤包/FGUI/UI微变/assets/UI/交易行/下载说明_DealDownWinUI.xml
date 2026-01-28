@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="530,269">
+  <displayList>
+    <image id="n0_js02" name="n0" src="hr3gn1ya" fileName="Data/00916.png" xy="0,0" pkg="jk0io98j"/>
+    <component id="n10_js02" name="DealDownCloseBtn" src="j3e21cn" fileName="组件/CodeCloseBtn.xml" xy="530,2" pkg="jk0io98j"/>
+    <text id="n2_js02" name="n2" xy="34,19" size="458,187" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="提现需在TOP传奇平台操作，点击跳转至对应下载页面"/>
+    <component id="n9_js02" name="DealDownSBtn" src="j3e21cm" fileName="组件/CodeSureBtn.xml" xy="191,205" pkg="jk0io98j"/>
+  </displayList>
+</component>

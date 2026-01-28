@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="928,595" scroll="both">
+  <displayList>
+    <component name="LeadWin" id="j8b8y" src="kn5z17y" fileName="LeadWin.xml" xy="0,0"/>
+    <component name="NormalWin" id="cqlh3" src="kn5z184" fileName="NormalWin.xml" xy="0,0"/>
+  </displayList>
+</component>

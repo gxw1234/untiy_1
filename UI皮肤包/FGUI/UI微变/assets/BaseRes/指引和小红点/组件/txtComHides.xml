@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="192,49" scroll="both">
+  <displayList>
+    <loader id="236f6" name="DA2ELoader3" size="42,46" touchable="false" xy="147,2"/>
+    <component name="txtComLeftAnis" id="r2asp" src="r7r849" fileName="txtComLeftAnis.xml" xy="20,0">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+  <relation target="od1hu" sidePair="middle-middle,left-left"/>
+  <transition name="select" frameRate="60" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="XY" target="r2asp" value="200"/>
+    <item time="6" type="XY" target="r2asp" value="180"/>
+    <item time="12" type="XY" target="r2asp" value="160"/>
+    <item time="18" type="XY" target="r2asp" value="140"/>
+    <item time="24" type="XY" target="r2asp" value="120"/>
+    <item time="30" type="XY" target="r2asp" value="100"/>
+    <item time="36" type="XY" target="r2asp" value="80"/>
+    <item time="42" type="XY" target="r2asp" value="60"/>
+    <item time="48" type="XY" target="r2asp" value="40"/>
+    <item time="54" type="XY" target="r2asp" value="20"/>
+  </transition>
+</component>

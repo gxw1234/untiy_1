@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="129,35" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="1"/>
+  <displayList>
+    <image id="n0_nzi0" name="n0" src="fxnkvn2sa" fileName="DealWin/Data/boxgiftbtn1.png" xy="0,-4" pivot="0.5,0.5" size="129,44">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_nzi0" name="n1" src="fxnkvn2sb" fileName="DealWin/Data/boxgiftbtn2.png" xy="-4,-3" size="137,44">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n2_nzi0" name="btnTitle" xy="24,4" size="76,26" fontSize="18" color="#ffffff" align="center" vAlign="middle" strokeColor="#000000" shadowColor="#000000" shadowOffset="1,1" text="平台礼包"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

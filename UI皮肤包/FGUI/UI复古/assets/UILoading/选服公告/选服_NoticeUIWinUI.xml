@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="769,430" scroll="both">
+  <displayList>
+    <image id="ob2cq" src="vmwk5p" fileName="00496.PNG" xy="0,0" name="NoticeUIWin" pkg="us2ut3jf">
+      <relation sidePair=""/>
+    </image>
+    <component name="ConfirmBtn" id="x1iqh" src="k2h33v" fileName="ConfirmBtn.xml" xy="379,346" pkg="us2ut3jf">
+      <Button sound="ui://v8024m780ns77"/>
+    </component>
+    <list id="r4hs0" name="DA2EGrid1" xy="14,15" size="161,400" treeView="false" overflow="scroll" lineGap="0" colGap="0" lineItemCount="0" lineItemCount2="0" defaultItem="ui://us2ut3jfk2h33w">
+      <relation target="" sidePair=""/>
+    </list>
+    <list id="53uw0" name="DA2EGrid2" xy="204,48" size="526,300" treeView="false" overflow="scroll" lineGap="0" colGap="0" lineItemCount="0" lineItemCount2="0" defaultItem="ui://us2ut3jfvmwk5w">
+      <relation target="" sidePair=""/>
+    </list>
+    <text name="TitleName" id="o73pi" xy="272,12" size="386,32" font="Microsoft YaHei" fontSize="20" leading="0" autoSize="none" text="" color="#00FF00" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

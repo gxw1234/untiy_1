@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="382,537" opaque="false" scroll="both">
+  <controller name="CPages" exported="true" pages="0,page1,1,page2,2,page3,3,page4,4,page5,5,page6" selected="0"/>
+  <displayList>
+    <image id="l4678" name="DState" src="hr3gn1wk" fileName="State/Data/OMG_MobileMini.Pak/State_00231.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="1d07n" name="frame" src="sb0cp" fileName="State/组件/frame.xml" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <richtext id="n0_kk8r" name="DUserName" xy="117,35" size="121,32" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" autoClearText="true" text=""/>
+    <component id="e5g1g" name="DBtnStateColse" src="7tpxr" fileName="State/组件/DBtnStateColse.xml" pkg="jk0io98j" xy="351,66">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="677vx" name="DA2ETabButton1" src="020k4" fileName="State/组件/DA2ETabButton1.xml" pkg="jk0io98j" xy="-30,68">
+      <relation target="" sidePair=""/>
+      <Button checked="true" sound="ui://b3xl678aui26b" controller="CPages" page="0"/>
+    </component>
+    <component id="6e26s" name="DA2ETabButton2" src="k147t" fileName="State/组件/DA2ETabButton2.xml" pkg="jk0io98j" xy="-30,143">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="1"/>
+    </component>
+    <component id="a0ec2" name="DA2ETabButton3" src="17322" fileName="State/组件/DA2ETabButton3.xml" pkg="jk0io98j" xy="-30,218">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="2"/>
+    </component>
+    <component id="kxc71" name="DA2ETabButton4" src="05420" fileName="State/组件/DA2ETabButton4.xml" pkg="jk0io98j" xy="-30,293">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="3"/>
+    </component>
+    <component id="pe144" name="DA2ETabButton5" src="ks6a5" fileName="State/组件/DA2ETabButton5.xml" pkg="jk0io98j" xy="-30,368">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="4"/>
+    </component>
+    <component id="7681b" name="DA2ETabButton6" src="ws588" fileName="State/组件/DA2ETabButton6.xml" pkg="jk0io98j" xy="-30,443">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="5"/>
+    </component>
+    <component id="6to3r" name="DA2EPage1" src="ag12x" fileName="State/组件/DA2EPage1.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component id="6rgbh" name="DA2EPage2" src="chuwv" fileName="State/组件/DA2EPage2.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component id="a6k64" name="DA2EPage3" src="6c55l" fileName="State/组件/DA2EPage3.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <component id="2pklk" name="DA2EPage4" src="w145b" fileName="State/组件/DA2EPage4.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="3"/>
+    </component>
+    <component id="j50at" name="DA2EPage5" src="505hp" fileName="State/组件/DA2EPage5.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="4"/>
+    </component>
+    <component id="meco6" name="DA2EPage6" src="87qi8" fileName="State/组件/DA2EPage6.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="5"/>
+    </component>
+    <image id="n2_kb94" name="Panel1" src="kb94gvn357" fileName="State/Data/OMG_MobileMini.Pak/State_panel1.png" pkg="jk0io98j" xy="1,540" visible="false"/>
+    <text id="n3_kb94" name="PanelItemTips" xy="15,556" size="322,66" visible="false" fontSize="16" color="#ffffff" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text="所需等级">
+      <relation target="n2_kb94" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

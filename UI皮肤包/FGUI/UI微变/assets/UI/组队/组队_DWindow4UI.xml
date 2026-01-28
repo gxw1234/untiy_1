@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="408,278" opaque="false" scroll="both">
+  <displayList>
+    <image id="27685" name="DWindow4" src="kn5zsz" fileName="Data/OMG_MobileMini.Pak/00275.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="07cxv" name="DPlayName" xy="104,10" size="170,41" font="Microsoft YaHei" fontSize="18" color="#e4cb45" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字七个字"/>
+    <component id="k2p4t" name="DA2ESimpleButton7" src="kn5zu5" fileName="组件/DA2ESimpleButton7.xml" xy="39,80" size="123,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="8i4a2" name="DA2ESimpleButton8" src="kn5zu6" fileName="组件/DA2ESimpleButton8.xml" xy="221,80" size="123,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="2ye70" name="DA2ESimpleButton9" src="kn5zu7" fileName="组件/DA2ESimpleButton9.xml" xy="39,144" size="123,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="iuf6s" name="DA2ESimpleButton10" src="kn5zu8" fileName="组件/DA2ESimpleButton10.xml" xy="221,144" size="123,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="03if5" name="DA2ESimpleButton11" src="kn5zu9" fileName="组件/DA2ESimpleButton11.xml" xy="39,210" size="123,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="36357" name="DA2ESimpleButton17" src="kn5zua" fileName="组件/DA2ESimpleButton17.xml" xy="221,210" size="123,51" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="64x8m" name="DCloseBtn" src="kn5ztv" fileName="组件/DCloseBtn.xml" xy="378,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

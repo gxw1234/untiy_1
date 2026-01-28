@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="5615522t">
+  <resources>
+    <font id="w56a8" name="SIMHEI.TTF" path="/" exported="true" renderMode="sdfaa" samplePointSize="60"/>
+    <font id="6d772" name="msyh.ttc" path="/" exported="true" renderMode="smooth" samplePointSize="16"/>
+    <image id="pm543" name="01100.PNG" path="/Font1/" exported="true"/>
+    <image id="pm544" name="01110.PNG" path="/Font1/" exported="true"/>
+    <image id="pm545" name="01111.PNG" path="/Font1/" exported="true"/>
+    <image id="pm546" name="01112.PNG" path="/Font1/" exported="true"/>
+    <image id="pm547" name="01113.PNG" path="/Font1/" exported="true"/>
+    <image id="pm548" name="01114.PNG" path="/Font1/" exported="true"/>
+    <image id="pm549" name="01115.PNG" path="/Font1/" exported="true"/>
+    <image id="pm54a" name="01116.PNG" path="/Font1/" exported="true"/>
+    <image id="pm54b" name="01117.PNG" path="/Font1/" exported="true"/>
+    <image id="pm54c" name="01118.PNG" path="/Font1/" exported="true"/>
+    <image id="pm54d" name="01119.PNG" path="/Font1/" exported="true"/>
+    <font id="pm542" name="StrengthenNum.fnt" path="/Font1/" exported="true"/>
+  </resources>
+  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+</packageDescription>

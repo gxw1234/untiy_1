@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="416,157" scroll="both">
+  <displayList>
+    <image id="dobf2" name="Imgimage" src="j3e21lf" fileName="data/OMG_NewopUI.wil/_10_11_12_13_14_14_15_16.PNG" xy="0,0" size="416,157">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="e577n" name="DChatWindow" xy="14,24" size="395,111" overflow="scroll" scrollBarFlags="128" scrollBarRes="ui://jk0io98jj3e21ou," defaultItem="ui://jk0io98jj3e21ot">
+      <relation target="" sidePair="width-width,height-height"/>
+    </list>
+    <component id="51d66" name="DA2ECheckBox1" src="j3e21o8" fileName="组件/DA2ECheckBox1.xml" xy="-11,11">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="s7nna" name="DA2ECheckBox2" src="j3e21o9" fileName="组件/DA2ECheckBox2.xml" xy="-11,32">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="oj70o" name="DA2ECheckBox3" src="j3e21oa" fileName="组件/DA2ECheckBox3.xml" xy="-11,53">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="2ef73" name="DA2ECheckBox4" src="j3e21ob" fileName="组件/DA2ECheckBox4.xml" xy="-11,74">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="7cff8" name="DA2ECheckBox5" src="j3e21oc" fileName="组件/DA2ECheckBox5.xml" xy="-11,95">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="634ta" name="DA2ESimpleButton14" src="j3e21od" fileName="组件/DA2ESimpleButton14.xml" xy="-11,116">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="b03p5" name="DBtnMission" src="j3e21oi" fileName="组件/DBtnMission.xml" xy="362,-31">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="466wl" name="DBtnStalling" src="j3e21oj" fileName="组件/DBtnStalling.xml" xy="395,-31">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <text id="n0_rf55" name="ChatEdit1" xy="13,134" size="383,19" font="ui://t1h1280l0840t" fontSize="12" autoSize="none" singleLine="true" text="" input="true">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

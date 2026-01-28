@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="933,539" overflow="scroll" margin="60,0,0,0">
+  <displayList>
+    <component id="33i7i" name="DA2EWindow12" src="kn5zwr" fileName="Set/组件/DA2EWindow12.xml" xy="21,343"/>
+    <component id="b224c" name="DA2EWindow3" src="kn5zws" fileName="Set/组件/DA2EWindow3.xml" xy="21,4"/>
+    <component id="npf0d" name="DA2EWindow4" src="kn5zwt" fileName="Set/组件/DA2EWindow4.xml" xy="45,14"/>
+    <text id="l7ka0" name="ChatEdit18" xy="102,56" size="107,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="生命值低于"/>
+    <component id="c3gjp" name="DA2ECheckBox17" src="kn5zwu" fileName="Set/组件/DA2ECheckBox17.xml" xy="56,51">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="47qu4" name="DA2EWindow5" src="kn5zwv" fileName="Set/组件/DA2EWindow5.xml" xy="210,51"/>
+    <text id="i1553" name="ChatEdit20" xy="362,56" size="163,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="时，自动智能吃药"/>
+    <component id="4u7g7" name="DA2ECheckBox18" src="kn5zww" fileName="Set/组件/DA2ECheckBox18.xml" xy="56,151">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="0w0pg" name="ChatEdit21" xy="102,156" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="魔法值低于"/>
+    <component id="2rv3t" name="DA2EWindow6" src="kn5zwx" fileName="Set/组件/DA2EWindow6.xml" xy="210,149"/>
+    <text id="vyl50" name="ChatEdit23" xy="362,156" size="163,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="时，自动智能吃药"/>
+    <component id="g5i68" name="DA2ECheckBox19" src="kn5zwy" fileName="Set/组件/DA2ECheckBox19.xml" xy="56,248">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="xic08" name="ChatEdit25" xy="102,253" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="生命值低于"/>
+    <component id="yj6ld" name="DA2EWindow7" src="kn5zwz" fileName="Set/组件/DA2EWindow7.xml" xy="210,246"/>
+    <text id="ke7ti" name="ChatEdit26" xy="362,253" size="119,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="时，自动使用"/>
+    <component id="avnd1" name="DA2EWindow11" src="kn5zx0" fileName="Set/组件/DA2EWindow11.xml" xy="45,353"/>
+    <component id="fa0b6" name="DA2ECheckBox20" src="kn5zx1" fileName="Set/组件/DA2ECheckBox20.xml" xy="44,389">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="0yi01" name="ChatEdit27" xy="91,391" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="刀刀刺杀"/>
+    <component id="y8653" name="DA2ECheckBox21" src="kn5zx2" fileName="Set/组件/DA2ECheckBox21.xml" xy="260,389">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="085fp" name="ChatEdit28" xy="307,391" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="自动烈火"/>
+    <component id="lq3w8" name="DA2ECheckBox22" src="kn5zx3" fileName="Set/组件/DA2ECheckBox22.xml" xy="477,389">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="n63l2" name="ChatEdit29" xy="524,391" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="智能半月"/>
+    <component id="44f8m" name="DA2ECheckBox23" src="kn5zx4" fileName="Set/组件/DA2ECheckBox23.xml" xy="694,389">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="bfbxa" name="ChatEdit30" xy="741,391" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="隔位刺杀"/>
+    <component id="ff75h" name="DA2ECheckBox24" src="kn5zx5" fileName="Set/组件/DA2ECheckBox24.xml" xy="44,432">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="q6dv1" name="ChatEdit31" xy="91,434" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="自动开天"/>
+    <component id="14kar" name="DA2ECheckBox25" src="kn5zx6" fileName="Set/组件/DA2ECheckBox25.xml" xy="260,432">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="8174b" name="ChatEdit32" xy="307,434" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="走位刺杀"/>
+    <component id="5f2g2" name="DA2ECheckBox26" src="kn5zx7" fileName="Set/组件/DA2ECheckBox26.xml" xy="477,432">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="fil7s" name="ChatEdit33" xy="524,434" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="自动逐日"/>
+    <component id="4da11" name="DA2ECheckBox27" src="kn5zx8" fileName="Set/组件/DA2ECheckBox27.xml" xy="694,432">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="0i2pn" name="ChatEdit34" xy="741,434" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="自动连月"/>
+    <component id="6eq42" name="DA2ECheckBox28" src="kn5zx9" fileName="Set/组件/DA2ECheckBox28.xml" xy="43,475">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="er8g6" name="ChatEdit35" xy="90,477" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="自动开盾"/>
+    <component id="531f6" name="DA2ECheckBox29" src="kn5zxa" fileName="Set/组件/DA2ECheckBox29.xml" xy="260,475">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="demw6" name="ChatEdit36" xy="307,477" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="自动隐身"/>
+    <text id="adiur" name="GameVclEdit1" xy="215,57" size="129,36" font="Microsoft YaHei" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="" input="true"/>
+    <text id="a7434" name="GameVclEdit2" xy="220,155" size="123,36" font="Microsoft YaHei" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="" input="true"/>
+    <text id="6vkc2" name="GameVclEdit3" xy="220,251" size="123,36" font="Microsoft YaHei" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="" input="true"/>
+    <component id="od68y" name="DA2EWindow14" src="kn5zxc" fileName="Set/组件/DA2EWindow14.xml" xy="495,247"/>
+    <component id="0ka6t" name="DA2EWindow8" src="kn5zxe" fileName="Set/组件/DA2EWindow8.xml" xy="101,103">
+      <Slider max="100"/>
+    </component>
+    <component id="wphh4" name="DA2EWindow9" src="kn5zxg" fileName="Set/组件/DA2EWindow9.xml" xy="101,203">
+      <Slider max="100"/>
+    </component>
+    <component id="b2ast" name="DA2EWindow10" src="kn5zxi" fileName="Set/组件/DA2EWindow10.xml" xy="101,300">
+      <Slider max="100"/>
+    </component>
+    <component id="7g7t8" name="DA2ECheckBox34" src="kn5zxj" fileName="Set/组件/DA2ECheckBox34.xml" xy="694,475">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="ragl0" name="ChatEdit43" xy="734,482" size="130,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="技能间隔接平砍&#xD;&#xA;"/>
+    <component id="3336u" name="DA2ECheckBox35" src="kn5zxl" fileName="Set/组件/DA2ECheckBox35.xml" xy="477,475">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="bhh82" name="ChatEdit44" xy="524,477" size="100,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="施毒术"/>
+    <component id="n1_c6on" name="DA2EWindow13" src="kn5zwr" fileName="Set/组件/DA2EWindow12.xml" xy="21,549">
+      <Label title=" 其他设置："/>
+    </component>
+    <text id="n3_c6on" name="ChatEdit45" xy="101,608" size="107,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="耐久低于"/>
+    <component id="n4_c6on" name="DA2ECheckBox36" src="kn5zwu" fileName="Set/组件/DA2ECheckBox17.xml" xy="55,603">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text id="n5_c6on" name="ChatEdit46" xy="361,608" size="195,36" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="时，自动使用修复神水"/>
+    <component id="n7_c6on" name="DA2EWindow16" src="kn5zxe" fileName="Set/组件/DA2EWindow8.xml" xy="100,655">
+      <Slider max="100"/>
+    </component>
+    <component id="n8_m33n" name="DA2EWindow15" src="kn5zwv" fileName="Set/组件/DA2EWindow5.xml" xy="211,604"/>
+    <text id="n6_c6on" name="GameVclEdit4" xy="216,609" size="129,36" font="Microsoft YaHei" fontSize="20" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" text="" input="true"/>
+  </displayList>
+</component>

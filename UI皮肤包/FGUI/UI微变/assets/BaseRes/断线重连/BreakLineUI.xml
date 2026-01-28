@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <loader id="0045b" name="BreakLineLoad" size="64,63" align="center" vAlign="middle" xy="609,329"/>
+  </displayList>
+  <transition name="select" frameRate="60" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Icon" target="0045b" value="ui://use7blkkr7r83o"/>
+    <item time="6" type="Icon" target="0045b" value="ui://use7blkkr7r83p"/>
+    <item time="12" type="Icon" target="0045b" value="ui://use7blkkr7r83q"/>
+    <item time="18" type="Icon" target="0045b" value="ui://use7blkkr7r83r"/>
+    <item time="24" type="Icon" target="0045b" value="ui://use7blkkr7r83s"/>
+    <item time="30" type="Icon" target="0045b" value="ui://use7blkkr7r83t"/>
+    <item time="36" type="Icon" target="0045b" value="ui://use7blkkr7r83u"/>
+    <item time="42" type="Icon" target="0045b" value="ui://use7blkkr7r83v"/>
+  </transition>
+</component>

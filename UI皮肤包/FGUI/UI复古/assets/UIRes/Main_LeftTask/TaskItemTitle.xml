@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,26" scroll="both">
+  <displayList>
+    <richtext name="title" id="svnp8" xy="0,0" size="10,26" font="Microsoft YaHei" fontSize="12" leading="0" text="" color="#FFFFFF" ubb="true" anchor="false"/>
+  </displayList>
+  <relation target="svnp8" sidePair="width-width,height-height"/>
+</component>

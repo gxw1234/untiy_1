@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,36" scroll="both">
+  <displayList>
+    <graph size="10,34" id="gdg01" name="ChatWindowBG" xy="0,1" lineSize="0" type="rect" fillColor="#FFFFFF" lineColor="#000000">
+      <relation target="r588e" sidePair="width-width,height-height"/>
+    </graph>
+    <richtext name="ChatWindowText" id="r588e" xy="0,0" size="10,36" font="ui://5615522t6d772" faceDilate="1" fontSize="18" leading="0" text="" color="#080000" ubb="true" anchor="false"/>
+    <component name="DChatWinowitGraps" id="0vtwn" sidePair="" src="j3e21kr" fileName="DChatWinowitGraps.xml" touchable="false" xy="0,0">
+      <relation target="gdg01" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <relation target="gdg01" sidePair="width-width,height-height"/>
+</component>

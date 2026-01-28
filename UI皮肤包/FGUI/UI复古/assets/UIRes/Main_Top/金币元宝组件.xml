@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="418,44" scroll="both">
+  <displayList>
+    <image id="7u16d" name="DStateWindow" src="ldxan2m1" fileName="Main_Top/Data/OMG_MobileMini.Pak/Top_00173.png" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="eu0px" name="DBtnGold" src="v9b169" fileName="Main_Top/组件/DBtnGold.xml" xy="309,0">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="n7u84" name="DA2EIMAGE3" src="ldxan2m4" fileName="Main_Top/Data/OMG_MobileMini.Pak/Top_00132.png" xy="334,2" size="83,40" visible="false"/>
+    <component id="1lww1" name="JinBiWin" src="v9b16b" fileName="Main_Top/组件/JinBiWin.xml" xy="0,0"/>
+    <component id="w4l6v" name="YuanBaoWin" src="v9b16d" fileName="Main_Top/组件/YuanBaoWin.xml" xy="151,0"/>
+    <component id="3630l" name="JinPiaoWin" src="v9b16f" fileName="Main_Top/组件/JinPiaoWin.xml" xy="0,0" visible="false"/>
+    <component id="812y8" name="YouXiDianWin" src="v9b16h" fileName="Main_Top/组件/YouXiDianWin.xml" xy="0,0" visible="false"/>
+    <component id="77bq5" name="RongYuWin" src="v9b16j" fileName="Main_Top/组件/RongYuWin.xml" xy="0,0" visible="false"/>
+    <component id="f35jk" name="JinGangShiWin" src="v9b16l" fileName="Main_Top/组件/JinGangShiWin.xml" xy="151,0"/>
+    <component id="qryj2" name="LingFuWin" src="v9b16n" fileName="Main_Top/组件/LingFuWin.xml" xy="0,0"/>
+    <component id="f5pdo" name="XinYouXiDianWin" src="v9b16p" fileName="Main_Top/组件/XinYouXiDianWin.xml" xy="0,0" visible="false"/>
+    <component id="5wk86" name="ShengWangWin" src="v9b16r" fileName="Main_Top/组件/ShengWangWin.xml" xy="0,0" visible="false"/>
+    <component id="n1_jjkz" name="Top_Page1" src="jjkzgvn2wk" fileName="Main_Top/Top_Page1.xml" xy="0,1" visible="false" touchable="false"/>
+    <component id="n2_jjkz" name="Top_Page2" src="jjkzgvn2wl" fileName="Main_Top/Top_Page2.xml" xy="0,0" visible="false" touchable="false"/>
+    <component id="n3_jjkz" name="Top_Page3" src="jjkzgvn2wm" fileName="Main_Top/Top_Page3.xml" xy="0,0" visible="false" touchable="false"/>
+    <component id="n4_jjkz" name="Top_Page4" src="jjkzgvn2wn" fileName="Main_Top/Top_Page4.xml" xy="0,0" visible="false" touchable="false"/>
+    <component id="n5_jjkz" name="Top_Page5" src="jjkzgvn2wo" fileName="Main_Top/Top_Page5.xml" xy="0,0" visible="false" touchable="false"/>
+    <text id="n6_jjkz" name="Desc" xy="1,51" size="433,361" visible="false" fontSize="22" color="#ffffff" autoSize="none" autoClearText="true" text="显示货币有两种方式： &#xA;1.默认显示第一种老的方式（兼容老版本） &#xA;2.第二种方式是将当前列表上方老版本的货币全部设置不可见，再把Top_Page1 Top_Page2（根据自己的需求添加翻页数）勾选可见，每个控制页面可以放入显示多个货币，也可以增加超过5个以上的控制页面，添加多个控制页面名字按照Top_Page+数字（里层和外层都要增加）"/>
+  </displayList>
+</component>

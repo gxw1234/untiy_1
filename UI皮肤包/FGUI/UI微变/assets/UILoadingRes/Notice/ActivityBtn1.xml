@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="160,52" scroll="both" extention="Button">
+  <displayList>
+    <image id="vwso1" src="xxapf" fileName="00498.PNG" xy="0,0" name="Img498p10">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="r7y11" src="2yy31" fileName="00497.PNG" xy="0,0" name="Img497bpy">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <loader id="tefu1" name="ActivityLoad" size="51,52" url="ui://us2ut3jf0s423" xy="-2,1"/>
+    <loader id="q0fkr" name="UpdateLoad" size="51,52" url="ui://us2ut3jfiekw1" xy="-2,1"/>
+    <text name="EditText" id="74ip6" xy="3,8" size="151,35" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="各种活动" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#DFCFB4|#DFCFB4" default="#DFCFB4"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

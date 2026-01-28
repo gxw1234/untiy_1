@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="839,481" scroll="both">
+  <displayList>
+    <image id="o545n" src="ldxan2ax" fileName="00607.PNG" xy="0,0" name="Page1BuyWin">
+      <relation sidePair=""/>
+    </image>
+    <text name="EditText1" id="q784s" xy="156,7" size="73,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="图标" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="EditText2" id="l16vf" xy="286,7" size="73,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="物品名称" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="EditText3" id="0vg2g" xy="427,7" size="73,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="剩余时间" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="EditText4" id="foju4" xy="571,7" size="73,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="竞拍价格" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="EditText5" id="sb567" xy="722,7" size="73,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="一口价" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <list id="cyhs3" name="DA2EGrid3" xy="143,41" size="694,380" treeView="false" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://jk0io98jkn5z13k">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="Page1RoleStySelect" id="2050q" src="kn5z11g" fileName="Page1RoleStySelect.xml" xy="513,437"/>
+    <component name="Page1GoodsStySelect" id="3jvh1" src="kn5z11i" fileName="Page1GoodsStySelect.xml" xy="679,437"/>
+    <list id="4suly" name="DA2EGrid6" xy="0,6" size="138,474" treeView="true" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://jk0io98jkn5z13j">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="JinGangShiWin" id="qd3c6" src="kn5z11j" fileName="JinGangShiWin.xml" visible="false" xy="143,439"/>
+    <component name="JinPiaoWin" id="g6ji5" src="kn5z11k" fileName="JinPiaoWin.xml" xy="322,439"/>
+    <component name="LingFuWin" id="51oh2" src="kn5z11l" fileName="LingFuWin.xml" visible="false" xy="143,440"/>
+    <component name="RongYuWin" id="s11id" src="kn5z11m" fileName="RongYuWin.xml" visible="false" xy="322,442"/>
+    <component name="ShengWangWin" id="g335o" src="kn5z11n" fileName="ShengWangWin.xml" visible="false" xy="143,441"/>
+    <component name="XinYouXiDianWin" id="su284" src="kn5z11o" fileName="XinYouXiDianWin.xml" visible="false" xy="322,440"/>
+    <component name="YouXiDianWin" id="4tb52" src="kn5z11p" fileName="YouXiDianWin.xml" visible="false" xy="322,441"/>
+    <component name="YuanBaoWin" id="2a5mq" src="kn5z11q" fileName="YuanBaoWin.xml" xy="143,442"/>
+    <component name="JinBiWin" id="eae40" src="kn5z11r" fileName="JinBiWin.xml" visible="false" xy="143,442"/>
+    <image id="8e1le" src="ldxan2b9" fileName="00787.PNG" xy="290,177" size="395,66" visible="false" name="NogoodsImg" alpha="1.0"/>
+  </displayList>
+</component>

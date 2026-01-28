@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="60,60">
+  <displayList>
+    <loader id="n0_hdg7" name="Eff21" xy="30,30" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n1_hdg7" name="Eff11" xy="30,30" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n2_hdg7" name="item" xy="30,30" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n3_hdg7" name="title" xy="4,36" size="52,23" fontSize="14" color="#ffffff" align="right" autoSize="none" text=""/>
+    <loader id="n4_hdg7" name="Eff22" xy="30,30" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n5_hdg7" name="Eff12" xy="30,30" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n6_hdg7" name="Eff13" xy="30,30" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n7_hdg7" name="Eff23" xy="30,30" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n8_hdg7" name="bagsLod" xy="56,58" pivot="1,1" anchor="true" size="18,18" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n10_hdg7" name="Select" xy="-9,-9" size="78,78" touchable="false" clearOnPublish="true"/>
+  </displayList>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="342,415">
+  <displayList>
+    <image id="n0_y2cl" name="StoreUI" src="y2cl9z" fileName="NPC面板/Data/OMG_MobileMini.Pak/Npc_00013.png" xy="2,3"/>
+    <component id="n1_y2cl" name="RightTurnBtn" src="y2claa" fileName="NPC面板/组件/PageDown.xml" xy="193,371"/>
+    <component id="n2_y2cl" name="LeftTurnBtn" src="y2clab" fileName="NPC面板/组件/PageUp.xml" xy="97,371"/>
+    <text id="n3_y2cl" name="PageNum" xy="131,372" size="55,24" fontSize="12" color="#ffffff" align="center" autoSize="none" text=""/>
+    <component id="n4_y2cl" name="BtnClose2" src="qgn26n" fileName="NPC面板/组件/BtnClose1.xml" xy="312,4"/>
+    <list id="n5_y2cl" name="GridList" xy="13,19" size="284,348" layout="pagination" overflow="scroll" lineItemCount="1" lineItemCount2="6" defaultItem="ui://use7blkky2clad"/>
+  </displayList>
+</component>

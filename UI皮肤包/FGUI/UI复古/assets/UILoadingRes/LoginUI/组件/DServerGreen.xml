@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="27,27" scroll="both">
+  <displayList>
+    <image id="w7026" src="vmwk46" fileName="00394.PNG" xy="0,0" name="DServerGreen">
+      <relation sidePair=""/>
+    </image>
+  </displayList>
+</component>

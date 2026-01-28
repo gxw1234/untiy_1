@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,86" scroll="both" extention="Button">
+  <displayList>
+    <image id="a506g" src="hr3gn1vw" fileName="00346.PNG" xy="0,0" name="Img3465ec">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="a5dw8" src="hr3gn1vx" fileName="00345.PNG" xy="0,0" name="Img345386">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text name="ChatEdit1" id="n4wt5" xy="0,0" size="30,57" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="时装" color="#DACAAD" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DACAAD|#837155|#DACAAD" default="#837155"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="30,29">
+  <displayList>
+    <richtext id="n1_izau" name="Txt" xy="0,0" size="84,29" font="ui://t1h1280lvns0d" fontSize="20" color="#ffffff" ubb="true" strokeColor="#000000" autoClearText="true" text="[color=#C6A529]系统锻造[/color]"/>
+  </displayList>
+</component>

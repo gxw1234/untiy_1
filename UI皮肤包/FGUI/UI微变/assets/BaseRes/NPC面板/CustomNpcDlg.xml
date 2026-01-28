@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="419,177" scroll="both">
+  <displayList>
+    <loader id="3p70m" name="bg" xy="0,0" size="419,177" url="ui://use7blkkhr3g4j" fill="scaleFree"/>
+    <component id="5wke4" name="frame" src="r7r81f" fileName="组件/frame.xml" xy="0,0" size="419,178">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="8x2tp" name="closeButton" src="r7r81g" fileName="组件/closeButton.xml" xy="419,1">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="f8p4e" name="ImgMulRoot" src="r7r81h" fileName="组件/ImgMulRoot.xml" xy="187,51">
+      <relation target="" sidePair=""/>
+    </component>
+    <text id="n0_dmce" name="MirNpcWindow1" xy="21,15" size="347,136" font="Microsoft YaHei" fontSize="22" color="#ffffff" autoSize="none" text=""/>
+  </displayList>
+  <relation target="3p70m" sidePair="width-width,height-height"/>
+</component>

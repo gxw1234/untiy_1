@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="73,77" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_t0do" name="n0" src="s336c" fileName="PVP/Data/PVP_btnBG.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_t0do" name="n1" src="s336c" fileName="PVP/Data/PVP_btnBG.png" xy="0,0" color="#999999">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <richtext id="n2_t0do" name="n2" xy="1,37" size="70,24" fontSize="16" color="#55d142" align="center" autoSize="none" strokeColor="#000000" text="9999"/>
+    <richtext id="n3_t0do" name="n3" xy="1,11" size="72,26" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="金刚石"/>
+  </displayList>
+  <Button/>
+</component>

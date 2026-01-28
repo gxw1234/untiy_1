@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="298,29" scroll="both">
+  <displayList>
+    <richtext name="Content" id="1c3kt" xy="0,0" size="298,29" font="ui://5615522tw56a8" faceDilate="1" fontSize="20" leading="1" text="" color="#FFFFFF" touchable="false" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <relation target="1c3kt" sidePair="width-width,height-height"/>
+</component>

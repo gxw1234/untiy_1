@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,52" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="ffe61" name="Img265n3p" src="r7r817" fileName="Data/OMG_MobileMini.Pak/00265.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="ug1is" name="Img266af4" src="r7r818" fileName="Data/OMG_MobileMini.Pak/00266.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="xq5xm" name="n2" xy="8,9" size="128,35" font="Microsoft YaHei" fontSize="16" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text="返回盒子">
+      <gearColor controller="button" pages="1,2,3" values="#837155,#000000|#dfcfb4,#000000|#837155,#000000" default="#dfcfb4,#000000"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="383,539" scroll="both">
+  <displayList>
+    <image id="x04md" src="ldxan2n0" fileName="00200.PNG" xy="24,108" size="304,365" name="DA2EIMAGE1" alpha="1.0"/>
+    <component name="DA2ECheckBox1" id="585l3" src="j3e21j7" fileName="DA2ECheckBox1.xml" visible="false" xy="127,481">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="ChatEdit44" id="4038b" xy="165,482" size="100,31" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="外显时装" color="#FFFFFF" visible="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="role" id="33pv5" scale="1,1" src="j3e21j8" fileName="role.xml" xy="87,269"/>
+  </displayList>
+</component>

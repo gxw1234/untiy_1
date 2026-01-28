@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <image id="74837" src="r7r80" fileName="00551.PNG" xy="0,0" size="1280,720" name="bg" alpha="1.0" pkg="us2ut3jf"/>
+    <component id="07t41" name="ScheduleProg" src="r7r83" xy="293,668" pkg="us2ut3jf"/>
+    <text name="ScheduleEdit" id="b2q0k" xy="394,633" size="489,32" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="OK" color="#FFFFFF" touchable="false" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="373,139" restrictSize="6,0,0,0">
+  <displayList>
+    <component id="n3_pnb5" name="顶部UI英角色图标" src="pnb5gvn30d" fileName="Main_RightGrop/组件/顶部UI英角色图标.xml" xy="80,73">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n4_pnb5" name="顶部UI英背包图标" src="pnb5gvn30e" fileName="Main_RightGrop/组件/顶部UI英背包图标.xml" xy="155,73">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n5_pnb5" name="顶部UI英技能图标" src="pnb5gvn30f" fileName="Main_RightGrop/组件/顶部UI英技能图标.xml" xy="230,73">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n6_pnb5" name="顶部UI邮件图标" src="pnb5gvn30g" fileName="Main_RightGrop/组件/顶部UI邮件图标.xml" xy="5,5">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n7_pnb5" name="顶部UI充值图标" src="pnb5gvn30h" fileName="Main_RightGrop/组件/顶部UI充值图标.xml" xy="305,73">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n8_pnb5" name="顶部UI攻略图标" src="pnb5gvn30i" fileName="Main_RightGrop/组件/顶部UI攻略图标.xml" xy="80,5">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n9_pnb5" name="顶部UI活动图标" src="pnb5gvn30j" fileName="Main_RightGrop/组件/顶部UI活动图标.xml" xy="155,5">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n10_pnb5" name="顶部UI排行榜图标" src="pnb5gvn30k" fileName="Main_RightGrop/组件/顶部UI排行榜图标.xml" xy="230,5">
+      <relation target="" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n11_pnb5" name="顶部UI礼包图标" src="kvjygvn2uj" fileName="Main_RightGrop/组件/顶部UI礼包图标.xml" xy="338,37">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+  </displayList>
+</component>

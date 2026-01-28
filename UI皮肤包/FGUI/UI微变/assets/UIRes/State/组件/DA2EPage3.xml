@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="384,538" opaque="false" scroll="both">
+  <displayList>
+    <component id="0y8u2" name="RoleStateWUI" src="88l07" fileName="State/组件/RoleStateWUI.xml" xy="19,87">
+      <relation target="" sidePair=""/>
+    </component>
+    <text id="145y3" name="ChatEdit9" xy="126,106" size="117,31" visible="false" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text=""/>
+    <component id="n1_rgmu" name="StateWinLJ" src="rgmun21y" fileName="State/组件/StateWinLJ.xml" xy="33,127"/>
+  </displayList>
+</component>

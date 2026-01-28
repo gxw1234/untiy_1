@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="20,158" scroll="both">
+  <displayList>
+    <image id="mvt46" src="j3e21ld" fileName="00003.PNG" xy="0,0" name="DAngerBar">
+      <relation sidePair=""/>
+    </image>
+  </displayList>
+</component>

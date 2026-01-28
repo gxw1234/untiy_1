@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="260,60" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="r5a1e" name="Img392pl6" src="vmwk48" fileName="Data/OMG_MobileMini.Pak/00392.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="38w61" name="Img3933x1" src="vmwk49" fileName="Data/OMG_MobileMini.Pak/00393.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="j26vk" name="DA2EIMAGE1" src="vmwk4n" fileName="Data/OMG_MobileMini.Pak/00388.PNG" xy="211,12" size="35,38"/>
+    <image id="n0_sxe8" name="Flag" src="vmwk5c" fileName="Data/OMG_MobileMini.Pak/00939.png" xy="201,8" visible="false"/>
+    <image id="n1_sxe8" name="StateImg1" src="vmwk5b" fileName="Data/OMG_MobileMini.Pak/00938.png" xy="12,17" visible="false"/>
+    <image id="n2_sxe8" name="StateImg2" src="vmwk46" fileName="Data/OMG_MobileMini.Pak/00394.PNG" xy="12,18" visible="false"/>
+    <image id="n3_sxe8" name="StateImg3" src="vmwk47" fileName="Data/OMG_MobileMini.Pak/00395.PNG" xy="12,17" visible="false"/>
+    <text id="jtf40" name="EditText" xy="40,9" size="169,42" font="Microsoft YaHei" fontSize="18" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" autoClearText="true" text="各种活动">
+      <gearColor controller="button" pages="1,2,3" values="#837155,#000000|#dfcfb4,#000000|#837155,#000000" default="#dfcfb4,#000000"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

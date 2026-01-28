@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="113,26" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_js02" name="n0" src="hr3gn1xv" fileName="Data/00899.png" xy="0,0" size="29,26">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_js02" name="n1" src="hr3gn1xw" fileName="Data/00900.png" xy="0,0" size="29,26">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_js02" name="n2" src="hr3gn1xv" fileName="Data/00899.png" xy="0,0" size="29,26">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_js02" name="n3" src="hr3gn1xw" fileName="Data/00900.png" xy="0,0" size="29,26">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_js02" name="title" xy="27,1" size="85,24" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" align="center" autoSize="none" strokeColor="#000000" autoClearText="true" text="游戏"/>
+  </displayList>
+  <Button mode="Radio"/>
+</component>

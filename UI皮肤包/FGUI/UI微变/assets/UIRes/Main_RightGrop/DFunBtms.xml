@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="388,303" opaque="false" scroll="both">
+  <controller name="CRadios" exported="true" pages="0,Radio1" selected="0"/>
+  <displayList>
+    <component id="8531v" name="DBtnsWindow" src="k02tn1up" fileName="Main_RightGrop/组件/DBtnsWindow.xml" xy="0,153">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n7_xxa1" name="DBtnsWindow2" src="xxa1gvn359" fileName="Main_RightGrop/组件/DBtnWindow2.xml" xy="0,153" visible="false"/>
+    <component id="5facl" name="DBtnBag" src="k02tn1uq" fileName="Main_RightGrop/组件/DBtnBag.xml" xy="353,34">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="0fw3m" name="DBtnState" src="k02tn1ur" fileName="Main_RightGrop/组件/DBtnState.xml" xy="274,34">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n147v" name="DBtnShow" src="k02tn1ut" fileName="Main_RightGrop/组件/DBtnShow.xml" xy="311,74">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <loader id="w20kd" name="BagFull" xy="304,-2" size="40,40" touchable="false" url="ui://jk0io98jk02tn1tt"/>
+    <component id="0c5dq" name="NoteBagWin" src="k02tn1uv" fileName="Main_RightGrop/组件/NoteBagWin.xml" xy="34,1" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="6lo1v" name="RigPromoteUI" src="k02tn1uw" fileName="Main_RightGrop/组件/RigPromoteUI.xml" xy="19,117" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n3_js02" name="BottomDealBankBtn" src="k02tn1v1" fileName="Main_RightGrop/组件/BottomDealBankBtn.xml" xy="199,34"/>
+    <list id="n4_r44f" name="RigFunctionList" xy="23,78" size="284,65" layout="flow_vt" overflow="scroll" scroll="horizontal" colGap="10" lineItemCount="1" align="right" vAlign="middle" scrollItemToViewOnClick="false">
+      <item url="ui://jk0io98jk02tn1v0"/>
+      <item url="ui://jk0io98jk02tn1uy"/>
+      <item url="ui://jk0io98jih0mn1ve"/>
+      <item url="ui://jk0io98jk02tn1uz"/>
+    </list>
+    <component id="n6_h3nb" name="RigPetUI" src="ih0mn1vd" fileName="Main_RightGrop/组件/RigPetUI.xml" xy="325,70" visible="false"/>
+    <component id="n8_swaz" name="DBtnExit2" src="shgq0" fileName="Main_RightGrop/组件/DBtnExit.xml" xy="354,188"/>
+    <component id="n9_wfiz" name="n9" src="wfiz0" fileName="Main_RightGrop/组件/DBtnFollow.xml" xy="96,5"/>
+  </displayList>
+</component>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="66,66" pivot="0.5,0.5" anchor="true" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n0_v6dg" name="n0" src="v6dggvn2xz" fileName="Main_RightGrop/Data/OMG_MobileMini.Pak/RightGrop_00099.png" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_v6dg" name="n1" src="v6dggvn2xy" fileName="Main_RightGrop/Data/OMG_MobileMini.Pak/RightGrop_00100.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_v6dg" name="n2" src="v6dggvn2xz" fileName="Main_RightGrop/Data/OMG_MobileMini.Pak/RightGrop_00099.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_v6dg" name="n3" src="v6dggvn2xy" fileName="Main_RightGrop/Data/OMG_MobileMini.Pak/RightGrop_00100.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+</component>

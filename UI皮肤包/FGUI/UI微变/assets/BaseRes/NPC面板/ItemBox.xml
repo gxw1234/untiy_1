@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="42,42" scroll="both">
+  <displayList>
+    <loader id="1655g" name="bg" xy="0,0" size="42,42" touchable="false" align="center" vAlign="middle"/>
+    <loader id="n1_vz1v" name="Eff21" xy="-4,-4" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n2_vz1v" name="Eff11" xy="-4,-4" size="50,50" touchable="false" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n3_vz1v" name="item" xy="-4,-4" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n0_vz1v" name="title" xy="3,20" size="39,22" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="right" vAlign="bottom" leading="0" autoSize="none" autoClearText="true" text=""/>
+    <loader id="n4_vz1v" name="Eff22" xy="-4,-4" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n5_vz1v" name="Eff12" xy="-4,-4" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n6_vz1v" name="Eff23" xy="-4,-4" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n7_vz1v" name="Eff13" xy="-4,-4" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n8_vz1v" name="bagsLod" xy="42,42" pivot="1,1" anchor="true" size="18,18" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n9_vz1v" name="StarLevel" xy="-1,11" size="35,22" font="ui://t1h1280lz6xw16" fontSize="14" color="#ffffff" autoSize="none" strokeColor="#000000" autoClearText="true" text="+1"/>
+    <graph id="2ujxf" name="Stroke" xy="-1,-1" size="44,44" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff336600" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <relation target="1655g" sidePair="width-width,height-height"/>
+</component>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,630" scroll="both">
+  <displayList>
+    <graph id="lc578" name="BG" xy="0,0" size="500,199" type="rect" lineSize="0" lineColor="#00000000" fillColor="#7f000000"/>
+    <text id="c1a1q" name="InputContent" xy="0,0" size="500,199" font="Microsoft YaHei" fontSize="18" color="#ffffff" leading="0" autoSize="none" text="" input="true"/>
+    <graph id="542r8" name="bg2" xy="0,201" size="500,46" type="rect" lineSize="0" lineColor="#00000000" fillColor="#7f000000"/>
+    <component id="13auw" name="DelBtn" src="r7r81u" fileName="NPC面板/组件/DelBtn.xml" xy="43,205">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="3v2l6" name="ExpBtn" src="r7r81v" fileName="NPC面板/组件/ExpBtn.xml" xy="147,205">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="4565g" name="LoadBtn" src="r7r81w" fileName="NPC面板/组件/LoadBtn.xml" xy="251,205">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="8811b" name="ClearBtn" src="r7r81x" fileName="NPC面板/组件/ClearBtn.xml" xy="355,205">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <graph id="6d5bl" name="bg3" xy="0,250" size="500,84" type="rect" lineSize="0" lineColor="#00000000" fillColor="#7f000000"/>
+    <component id="ql751" name="DA2ESimpleButton1" src="r7r81y" fileName="NPC面板/组件/DA2ESimpleButton1.xml" xy="6,252">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="Text" titleColor="#e2c502" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="re27r" name="DA2ESimpleButton2" src="r7r81z" fileName="NPC面板/组件/DA2ESimpleButton2.xml" xy="106,252">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="Img" titleColor="#e2c502" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="6c3l3" name="DA2ESimpleButton3" src="r7r820" fileName="NPC面板/组件/DA2ESimpleButton3.xml" xy="206,252">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="ImgEx" titleColor="#e2c502" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="n0_c2cd" name="DA2ESimpleButton4" src="r7r820" fileName="NPC面板/组件/DA2ESimpleButton3.xml" xy="306,252">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="PlayImg" titleColor="#e2c502" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="n1_c2cd" name="DA2ESimpleButton5" src="r7r820" fileName="NPC面板/组件/DA2ESimpleButton3.xml" xy="406,251">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="PlayImgEx" titleColor="#e2c502" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="n2_c2cd" name="DA2ESimpleButton6" src="r7r820" fileName="NPC面板/组件/DA2ESimpleButton3.xml" xy="6,291">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="Input" titleColor="#e2c502" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="n3_c2cd" name="DA2ESimpleButton7" src="r7r820" fileName="NPC面板/组件/DA2ESimpleButton3.xml" xy="106,291">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="ImgNum" titleColor="#e2c502" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="n4_c2cd" name="DA2ESimpleButton8" src="r7r820" fileName="NPC面板/组件/DA2ESimpleButton3.xml" xy="206,291">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="ItemShow" titleColor="#e2c502" titleFontSize="15" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="n5_c2cd" name="DA2ESimpleButton9" src="r7r820" fileName="NPC面板/组件/DA2ESimpleButton3.xml" xy="306,291">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="ItemBox" titleColor="#e2c502" titleFontSize="16" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="n31_c2cd" name="DA2ESimpleButton10" src="r7r820" fileName="NPC面板/组件/DA2ESimpleButton3.xml" xy="406,291">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="Layout" titleColor="#e2c502" titleFontSize="16" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <graph id="qpu8j" name="bg4" xy="0,336" size="500,293" type="rect" lineSize="0" lineColor="#00000000" fillColor="#7f000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n33_iduu" name="DA2ESimpleButton11" src="r7r820" fileName="NPC面板/组件/DA2ESimpleButton3.xml" xy="406,329">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="EquipCell" titleColor="#e2c502" titleFontSize="16" sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="n12_c2cd" name="FileID" src="r7r822" fileName="NPC面板/组件/FileID.xml" xy="1,404">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n13_c2cd" name="ImgID" src="r7r823" fileName="NPC面板/组件/ImgID.xml" xy="85,404">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n14_c2cd" name="CanMove" src="r7r824" fileName="NPC面板/组件/CanMove.xml" xy="170,404">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n15_c2cd" name="ShowPos" src="r7r825" fileName="NPC面板/组件/ShowPos.xml" xy="256,404">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n16_c2cd" name="MX" src="r7r826" fileName="NPC面板/组件/MX.xml" xy="339,404">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n17_c2cd" name="MY" src="r7r827" fileName="NPC面板/组件/MY.xml" xy="423,404">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n18_c2cd" name="ShowCloseButton" src="r7r828" fileName="NPC面板/组件/ShowCloseButton.xml" xy="1,470">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n19_c2cd" name="CloseX" src="r7r829" fileName="NPC面板/组件/CloseX.xml" xy="85,470">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n20_c2cd" name="CloseY" src="r7r82a" fileName="NPC面板/组件/CloseY.xml" xy="170,470">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n21_c2cd" name="CurMerchant" src="r7r82b" fileName="NPC面板/组件/CurMerchant.xml" xy="256,470">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n22_c2cd" name="Stretch" src="r7r82c" fileName="NPC面板/组件/Stretch.xml" xy="339,470">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n23_c2cd" name="CloseScale" src="r7r82d" fileName="NPC面板/组件/CloseScale.xml" xy="423,470">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n24_c2cd" name="ChatEdit17" xy="34,341" size="196,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text="NPC大对话框">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n25_c2cd" name="BigNPC" src="r7r82e" fileName="NPC面板/组件/BigNPC.xml" xy="3,338">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component id="n27_c2cd" name="IsContainer" src="r7r82e" fileName="NPC面板/组件/BigNPC.xml" xy="4,512">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <text id="n28_c2cd" name="ChatEdit18" xy="46,513" size="251,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text="容器 @Container+ID/">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n29_c2cd" name="ContainerBg" xy="1,553" size="496,82" type="rect" fillColor="#ff000000">
+      <relation target="n27_c2cd" sidePair="left-left,bottom-bottom"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n30_c2cd" name="ContainerInput" xy="7,553" size="492,82" fontSize="22" color="#ffffff" autoSize="none" text="" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

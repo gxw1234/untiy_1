@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="144,52" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_xk9u" name="n0" src="ldxan28z" fileName="Data/OMG_MobileMini.Pak/00265.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_xk9u" name="n1" src="ldxan290" fileName="Data/OMG_MobileMini.Pak/00266.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_xk9u" name="n2" src="ldxan28z" fileName="Data/OMG_MobileMini.Pak/00265.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_xk9u" name="n3" src="ldxan290" fileName="Data/OMG_MobileMini.Pak/00266.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <text id="n4_xk9u" name="title" xy="8,9" size="128,35" font="Microsoft YaHei" fontSize="16" color="#dfcfb4" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="取回角色"/>
+    <image id="n5_lmja" name="n5" src="ldxan291" fileName="Data/OMG_MobileMini.Pak/00467.PNG" xy="-81,-43" size="302,40"/>
+    <text id="n6_lmja" name="text" xy="-80,-40" size="298,37" font="Microsoft YaHei" fontSize="16" color="#dfcfb4" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="寄售中，如需取回角色，请点击下方按钮"/>
+  </displayList>
+  <Button/>
+</component>

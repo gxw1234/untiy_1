@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="141,47" scroll="both">
+  <displayList>
+    <image id="80288" name="DA2EWindow14" src="qu4p1" fileName="Set/Data/OMG_MobileMini.Pak/Set_00425.png" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="e84ww" name="n1" src="kn5zxb" fileName="Set/组件/n1.xml" xy="0,0">
+      <ComboBox visibleItemCount="10">
+        <item title="盟重传送石"/>
+        <item title="随机传送石"/>
+      </ComboBox>
+    </component>
+  </displayList>
+</component>

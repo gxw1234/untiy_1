@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="530,269">
+  <displayList>
+    <image id="n0_js02" name="n0" src="hr3gn1ya" fileName="Data/00916.png" xy="0,0" pkg="jk0io98j"/>
+    <component id="n10_js02" name="DealRelatedCloseBtn" src="j3e21cn" fileName="组件/CodeCloseBtn.xml" xy="530,2" pkg="jk0io98j"/>
+    <text id="n2_js02" name="n2" xy="34,19" size="458,187" font="Microsoft YaHei" fontSize="14" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" text="交易相关&#xA;&#x9;&#x9;1.购买角色时，需保证账号至少有一个角色空位&#xA;&#x9;&#x9;2购买角色后，小退至登录界面即可查询到购买的角色&#xA;&#x9;&#x9;3购买货币后，货币直接发送至当前角色背包&#xA;&#x9;&#x9;4.不可购买自己寄售的角色与货币&#xA;&#x9;&#x9;5.交易成功后无法撤销，请谨慎操作&#xA;提现相关&#xA;&#x9;&#x9;1.交易币需到官方盒子进行提现，提现比例1:1&#xA;&#x9;&#x9;2.寄售需扣除10%的手续费&#xA;"/>
+    <component id="n9_js02" name="DealRelatedBtn" src="j3e21cm" fileName="组件/CodeSureBtn.xml" xy="191,205" pkg="jk0io98j"/>
+  </displayList>
+</component>

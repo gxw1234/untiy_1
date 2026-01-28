@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="513,42" scroll="both">
+  <displayList>
+    <component name="DA2EWindow16" id="0e55t" src="kn5zxz" fileName="DA2EWindow16.xml" xy="0,40">
+      <relation target="" sidePair=""/>
+    </component>
+    <text name="EditText" id="7fu6h" xy="3,5" size="200,33" font="Microsoft YaHei" fontSize="17" leading="0" autoSize="shrink" text="拾取类型" color="#DFCFB4" touchable="false" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2ECheckBox32" id="c0b5l" src="kn5zy0" fileName="DA2ECheckBox32.xml" xy="237,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DA2ECheckBox33" id="66w0q" src="kn5zy1" fileName="DA2ECheckBox33.xml" xy="438,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

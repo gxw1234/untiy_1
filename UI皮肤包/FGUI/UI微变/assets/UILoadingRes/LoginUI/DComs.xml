@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="260,155" scroll="both">
+  <displayList>
+    <component name="DServerGreen" id="538b5" src="r7r81l" fileName="DServerGreen.xml" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="DServerRed" id="6o614" src="r7r81m" fileName="DServerRed.xml" xy="26,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="DA2ESimpleButton2" id="gi30f" src="r7r81n" fileName="DA2ESimpleButton2.xml" xy="0,26">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component name="DA2ESimpleButton3" id="ryaa5" src="r7r81o" fileName="DA2ESimpleButton3.xml" xy="0,85">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

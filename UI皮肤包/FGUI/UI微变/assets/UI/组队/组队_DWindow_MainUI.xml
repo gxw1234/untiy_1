@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="916,601" opaque="false" scroll="both">
+  <controller name="CPages" exported="true" pages="0,page1,1,page2,2,page3,3,page4" selected="0"/>
+  <displayList>
+    <image id="3cwt6" name="DWindow1" src="kn5zsm" fileName="Data/OMG_MobileMini.Pak/00413.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="v210t" name="frame" src="kn5ztq" fileName="组件/frame.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="q8sfx" name="DA2EIMAGE1" src="kn5zsn" fileName="Data/OMG_MobileMini.Pak/00302.PNG" xy="54,12" size="53,29" pkg="jk0io98j"/>
+    <component id="qej68" name="DGroupApply" src="kn5ztr" fileName="组件/DGroupApply.xml" xy="22,59" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button checked="true" sound="ui://b3xl678aui26b" controller="CPages" page="0"/>
+    </component>
+    <component id="3301o" name="DMyGroup" src="kn5zts" fileName="组件/DMyGroup.xml" xy="22,111" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="1"/>
+    </component>
+    <component id="an40d" name="DNearbyPeople" src="kn5ztt" fileName="组件/DNearbyPeople.xml" xy="22,163" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="2"/>
+    </component>
+    <component id="447p6" name="DNearbyGroup" src="kn5ztu" fileName="组件/DNearbyGroup.xml" xy="22,215" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="3"/>
+    </component>
+    <component id="21oqi" name="DCloseBtn" src="kn5ztv" fileName="组件/DCloseBtn.xml" xy="886,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="2i8et" name="DA2EWindow1" src="kn5ztw" fileName="组件/DA2EWindow1.xml" xy="187,49" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <graph id="f7tmi" name="ModalLayer" xy="0,0" size="2,2" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="83i4h" name="DA2EPage1" src="kn5ztb" fileName="组件/DA2EPage1.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component id="fg6sm" name="DA2EPage2" src="kn5zth" fileName="组件/DA2EPage2.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component id="r237g" name="DA2EPage3" src="kn5ztk" fileName="组件/DA2EPage3.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <component id="vxtlg" name="DA2EPage4" src="kn5ztp" fileName="组件/DA2EPage4.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="3"/>
+    </component>
+  </displayList>
+</component>

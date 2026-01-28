@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="64,64" scroll="both">
+  <displayList>
+    <image id="106ab" src="ldxan2e4" fileName="00228.PNG" xy="0,0" name="skillset5">
+      <relation sidePair=""/>
+    </image>
+    <loader id="5wfe8" name="skill" size="54,54" xy="5,5"/>
+    <text name="name" id="451b8" xy="1,41" size="62,20" font="Microsoft YaHei" fontSize="12" leading="0" autoSize="none" text="" color="#E4DBCA" touchable="false" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

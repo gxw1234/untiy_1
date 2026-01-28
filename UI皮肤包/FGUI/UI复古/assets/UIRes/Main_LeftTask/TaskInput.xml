@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="172,20" scroll="both">
+  <displayList>
+    <text name="InputItem" id="42cv7" xy="2,0" size="170,20" font="ui://5615522tw56a8" faceDilate="1" fontSize="12" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <relation target="42cv7" sidePair="width-width,height-height"/>
+</component>

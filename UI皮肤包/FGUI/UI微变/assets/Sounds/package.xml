@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="b3xl678a">
+  <resources>
+    <sound id="ui26b" name="103.wav" path="/" exported="true"/>
+    <sound id="ox338" name="104.wav" path="/" exported="true"/>
+    <sound id="x33ak" name="105.wav" path="/" exported="true"/>
+  </resources>
+  <publish name="" path="./bin/UI" packageCount="2"/>
+</packageDescription>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="105,47" scroll="both" extention="Button">
+  <displayList>
+    <text name="EditText" id="033l4" xy="0,0" size="105,49" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="详 情" color="#00FF00" touchable="false" align="center" vAlign="middle" underline="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

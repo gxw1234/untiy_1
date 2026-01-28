@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="89,36" scroll="both" extention="Button" remark="[@ItemBagButtonClick2]">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="a87ss" name="Img108p5" src="v9b14b" fileName="Data/OMG_MobileMini.Pak/00010.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="325p0" name="Img1144m" src="v9b14c" fileName="Data/OMG_MobileMini.Pak/00011.PNG" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="2bqx7" name="ChatEdit2" xy="7,4" size="75,28" font="Microsoft YaHei" fontSize="16" color="#ffff00" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text="回收">
+      <gearColor controller="button" pages="1,2,3" values="#6d4006,#000000|#ffff00,#000000|#6d4006,#000000" default="#ffff00,#000000"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="841,45" scroll="both" extention="Label">
+  <displayList>
+    <image id="1801q" name="DA2EWindow12" src="kn5zux" fileName="Set/Data/OMG_MobileMini.Pak/Set_00411.png" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="n0_7bma" name="title" xy="10,6" size="236,32" fontSize="22" color="#d6c277" leading="0" letterSpacing="2" autoSize="none" bold="true" strokeColor="#000000" shadowColor="#000000" shadowOffset="0,0" text=""/>
+  </displayList>
+</component>

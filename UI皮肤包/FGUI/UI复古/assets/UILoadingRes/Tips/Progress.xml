@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="300,30" scroll="both">
+  <displayList>
+    <richtext name="TxtNameLv" id="suy7p" xy="0,0" size="91,29" font="ui://5615522tw56a8" faceDilate="1" fontSize="12" leading="0" autoSize="none" text="" color="#FFFFFF" touchable="false" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </richtext>
+    <loader id="l5f54" name="progressBg" size="30,30" touchable="false" xy="95,0"/>
+    <loader id="6i36e" name="progressFg" size="30,30" touchable="false" xy="95,0"/>
+  </displayList>
+</component>

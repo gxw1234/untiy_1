@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,44" scroll="both">
+  <displayList>
+    <image id="urlkq" src="kn5z149" fileName="00282.PNG" xy="0,0" name="DFDBlackTitle">
+      <relation sidePair=""/>
+    </image>
+    <text name="ChatEdit5" id="0g4k2" xy="1,1" size="153,38" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit7" id="aip62" xy="278,1" size="204,38" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="行会" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit8" id="gu4i7" xy="159,2" size="113,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit9" id="31134" xy="487,0" size="180,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="状态" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

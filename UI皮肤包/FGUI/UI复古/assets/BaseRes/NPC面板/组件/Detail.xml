@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,512" scroll="both">
+  <displayList>
+    <graph size="700,512" id="suupw" name="bg" xy="0,0" lineSize="0" type="rect" fillColor="#7fffffff" lineColor="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph size="695,152" id="n7060" name="InputBg" xy="2,2" lineSize="1" type="rect" fillColor="#7f000000" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="ContentInput" id="ykp17" xy="2,2" size="695,152" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="n7060" sidePair="center-center"/>
+    </text>
+    <text name="Title" id="8y128" xy="28,-53" size="112,52" font="Microsoft YaHei" fontSize="25" leading="0" text="Text:" color="#FFFFFF" vAlign="middle" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <graph size="700,60" id="7im20" name="FontBg" xy="0,157" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="fontsize" id="x4akj" xy="5,170" size="97,32" font="Microsoft YaHei" fontSize="22" leading="0" text="字号大小:" color="#FFFFFF" bold="true" anchor="false">
+      <relation target="7im20" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <text name="FontSizeInput" id="rp2x0" xy="121,159" size="502,58" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" bold="true" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <graph size="700,60" id="d6kmd" name="ColorBg" xy="0,220" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="colorTxt" id="k27f4" xy="5,233" size="97,32" font="Microsoft YaHei" fontSize="22" leading="0" text="文字颜色:" color="#FFFFFF" bold="true" anchor="false">
+      <relation target="d6kmd" sidePair="center-center,middle-middle"/>
+    </text>
+    <text name="ColorInput" id="r3cgu" xy="121,222" size="502,58" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" bold="true" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="d6kmd" sidePair="width-width,height-height"/>
+    </text>
+    <graph size="700,53" id="6dbg7" name="TipsBg" xy="0,283" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="TipsTxt" id="k01f6" xy="12,294" size="55,32" font="Microsoft YaHei" fontSize="22" leading="0" text="提示:" color="#FFFFFF" bold="true" anchor="false">
+      <relation target="6dbg7" sidePair="center-center,middle-middle"/>
+    </text>
+    <text name="TipsInput" id="n7363" xy="72,288" size="627,45" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" bold="true" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <graph size="700,53" id="3fnc8" name="FLinkBg" xy="0,339" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="FLinkTxt" id="pb8qy" xy="12,349" size="55,32" font="Microsoft YaHei" fontSize="22" leading="0" text="事件:" color="#FFFFFF" bold="true" anchor="false">
+      <relation target="3fnc8" sidePair="center-center,middle-middle"/>
+    </text>
+    <text name="FLinlInput" id="4733s" xy="73,340" size="627,51" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" bold="true" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="3fnc8" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph size="700,55" id="137e8" name="ScaleBg" xy="0,395" lineSize="1" type="rect" fillColor="#7f333333" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text name="FormID" id="bioq1" xy="93,402" size="70,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <text name="FScaleX" id="r5631" xy="272,402" size="155,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <text name="FScaleY" id="psq54" xy="534,402" size="164,42" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <text name="ScaleYTxt" id="j34gf" xy="436,408" size="89,32" font="Microsoft YaHei" fontSize="22" leading="0" text="缩放Y轴:" color="#FFFFFF" anchor="false"/>
+    <text name="ScaleTxt" id="u6ens" xy="174,407" size="89,32" font="Microsoft YaHei" fontSize="22" leading="0" text="缩放X轴:" color="#FFFFFF" anchor="false"/>
+    <text name="FormIDTxt" id="e5851" xy="0,407" size="87,32" font="Microsoft YaHei" fontSize="22" leading="0" text="FormID:" color="#FFFFFF" anchor="false"/>
+  </displayList>
+</component>

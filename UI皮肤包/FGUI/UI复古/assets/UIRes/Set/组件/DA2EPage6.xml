@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="837,500" overflow="scroll" opaque="false" margin="0,20,0,0">
+  <displayList>
+    <component id="n18_cxqe" name="ComTitle1" src="kn5zwr" fileName="Set/组件/DA2EWindow12.xml" xy="-2,-2">
+      <Label title="血量保护："/>
+    </component>
+    <component id="n2_q184" name="ComSetItem1" src="heq7gvn2va" fileName="Set/组件/ComSetItem.xml" xy="0,42"/>
+    <component id="n8_q184" name="ComSetItem2" src="heq7gvn2va" fileName="Set/组件/ComSetItem.xml" xy="0,134"/>
+    <component id="n19_cxqe" name="ComTitle2" src="kn5zwr" fileName="Set/组件/DA2EWindow12.xml" xy="-2,223">
+      <Label title="蓝量保护："/>
+    </component>
+    <component id="n9_q184" name="ComSetItem3" src="heq7gvn2va" fileName="Set/组件/ComSetItem.xml" xy="0,267"/>
+    <component id="n10_q184" name="ComSetItem4" src="heq7gvn2va" fileName="Set/组件/ComSetItem.xml" xy="0,359"/>
+    <component id="n20_cxqe" name="ComTitle3" src="kn5zwr" fileName="Set/组件/DA2EWindow12.xml" xy="-2,448">
+      <Label title="回城保护："/>
+    </component>
+    <component id="n14_q184" name="ComSetItem5" src="heq7gvn2va" fileName="Set/组件/ComSetItem.xml" xy="0,492"/>
+    <component id="n15_q184" name="ComSetItem6" src="heq7gvn2va" fileName="Set/组件/ComSetItem.xml" xy="0,584"/>
+    <component id="n16_brxh" name="ComSetItem7" src="heq7gvn2va" fileName="Set/组件/ComSetItem.xml" xy="0,676"/>
+    <component id="n17_brxh" name="ComSetItem8" src="heq7gvn2va" fileName="Set/组件/ComSetItem.xml" xy="0,768"/>
+    <component id="n21_c6on" name="ComTitle4" src="kn5zwr" fileName="Set/组件/DA2EWindow12.xml" xy="-2,856">
+      <Label title="其他保护："/>
+    </component>
+    <component id="n22_c6on" name="ComSetItem9" src="heq7gvn2va" fileName="Set/组件/ComSetItem.xml" xy="0,908"/>
+    <component id="n23_gsnf" name="ComSetItem10" src="heq7gvn2va" fileName="Set/组件/ComSetItem.xml" xy="0,1005"/>
+  </displayList>
+</component>

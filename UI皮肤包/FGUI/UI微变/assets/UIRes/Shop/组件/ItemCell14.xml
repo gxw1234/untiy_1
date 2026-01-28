@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="145,91" scroll="both">
+  <displayList>
+    <loader id="ro61d" name="Item" size="60,47" fill="scaleNoBorder" xy="67,2"/>
+    <richtext name="Info" id="70et3" xy="3,49" size="139,42" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

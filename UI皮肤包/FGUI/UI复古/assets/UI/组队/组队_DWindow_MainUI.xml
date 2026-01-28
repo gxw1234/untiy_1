@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="916,601" scroll="both">
+  <controller name="CPages" exported="true" selected="3" pages="0,page1,1,page2,2,page3,3,page4"/>
+  <displayList>
+    <image id="gwn78" src="10awvn2rc" fileName="00413.PNG" xy="0,0" name="DWindow1" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="kwn11" src="kn5ztq" fileName="frame.xml" xy="0,0" pkg="jk0io98j"/>
+    <image id="qe1l2" src="10awvn2rd" fileName="00302.PNG" xy="18,14" size="54,28" name="DA2EIMAGE1" alpha="1.0" pkg="jk0io98j"/>
+    <component name="DGroupApply" id="8g2xi" src="kn5ztr" fileName="DGroupApply.xml" xy="22,59" pkg="jk0io98j">
+      <Button checked="true" controller="CPages" page="0" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DMyGroup" id="r1q4g" src="kn5zts" fileName="DMyGroup.xml" xy="22,111" pkg="jk0io98j">
+      <Button controller="CPages" page="1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DNearbyPeople" id="12tg5" src="kn5ztt" fileName="DNearbyPeople.xml" xy="22,163" pkg="jk0io98j">
+      <Button controller="CPages" page="2" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DNearbyGroup" id="16ph1" src="kn5ztu" fileName="DNearbyGroup.xml" xy="22,215" pkg="jk0io98j">
+      <Button controller="CPages" page="3" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DCloseBtn" id="vpup8" src="kn5ztv" fileName="DCloseBtn.xml" xy="886,0" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2EWindow1" id="8534t" src="kn5ztw" fileName="DA2EWindow1.xml" xy="187,49" pkg="jk0io98j"/>
+    <graph size="2,2" id="83544" name="ModalLayer" xy="0,0" lineSize="0" touchable="false" type="rect" fillColor="#00ffffff" lineColor=""/>
+    <component name="DA2EPage1" id="028d0" src="kn5ztb" fileName="DA2EPage1.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component name="DA2EPage2" id="qqdo8" src="kn5zth" fileName="DA2EPage2.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component name="DA2EPage3" id="1p3e0" src="kn5ztk" fileName="DA2EPage3.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <component name="DA2EPage4" id="o0o54" src="kn5ztp" fileName="DA2EPage4.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="3"/>
+    </component>
+  </displayList>
+</component>

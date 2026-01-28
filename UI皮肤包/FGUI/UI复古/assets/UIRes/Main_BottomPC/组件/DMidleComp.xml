@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="428,14" scroll="both">
+  <displayList>
+    <component name="DBtnChatRec" id="2e6sm" src="j3e21o4" fileName="DBtnChatRec.xml" xy="182,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnDeal" id="tqbo1" src="j3e21nz" fileName="DBtnDeal.xml" xy="33,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnFriends" id="crv6k" src="j3e21o2" fileName="DBtnFriends.xml" xy="123,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnGroup" id="330ld" src="j3e21o1" fileName="DBtnGroup.xml" xy="93,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnGuild" id="u2875" src="j3e21o0" fileName="DBtnGuild.xml" xy="63,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnMiniMap" id="6j578" src="j3e21ny" fileName="DBtnMiniMap.xml" xy="3,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnOut" id="enf2x" src="j3e21o5" fileName="DBtnOut.xml" xy="328,1">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnPlusAbil" id="36yqc" src="j3e21o7" fileName="DBtnPlusAbil.xml" xy="212,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnQuit" id="6b428" src="j3e21o6" fileName="DBtnQuit.xml" xy="360,1">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnRankList" id="dx804" src="j3e21o3" fileName="DBtnRankList.xml" xy="152,1">
+      <relation target="" sidePair="left-left,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

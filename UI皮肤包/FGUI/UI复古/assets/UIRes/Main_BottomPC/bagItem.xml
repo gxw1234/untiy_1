@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="31,29" scroll="both">
+  <displayList>
+    <loader id="085md" name="KEff21" size="31,29" fill="scale" pivot="0.5,0.5" anchor="true" xy="16,15"/>
+    <loader id="f8u58" name="KEff11" size="31,29" fill="scale" pivot="0.5,0.5" anchor="true" xy="16,15"/>
+    <loader id="81bld" name="Kicon" size="31,29" align="center" vAlign="middle" fill="scale" pivot="0.5,0.5" anchor="true" xy="16,15"/>
+    <text name="Ktitle" id="4n5gg" xy="0,15" size="31,13" font="Microsoft YaHei" fontSize="14" leading="0" autoSize="none" text="" color="#FFFFFF" align="right" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <loader id="8m528" name="KEff22" size="31,29" fill="scale" pivot="0.5,0.5" anchor="true" xy="16,15"/>
+    <loader id="h4b0d" name="KEff12" size="31,29" fill="scale" pivot="0.5,0.5" anchor="true" xy="16,15"/>
+    <loader id="m7441" name="KEff23" size="31,29" fill="scale" pivot="0.5,0.5" anchor="true" xy="16,15"/>
+    <loader id="ntfm1" name="KEff13" size="31,29" fill="scale" pivot="0.5,0.5" anchor="true" xy="16,15"/>
+    <loader id="80i5x" name="KbagsLod" size="13,18" fill="scale" pivot="1,1" anchor="true" xy="31,34"/>
+    <loader id="7cbq7" name="KbagsLods" size="18,10" fill="scale" pivot="0,1" anchor="true" xy="0,28"/>
+  </displayList>
+</component>

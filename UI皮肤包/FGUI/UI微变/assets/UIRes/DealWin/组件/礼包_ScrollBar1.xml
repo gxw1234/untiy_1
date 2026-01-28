@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="9,200" extention="ScrollBar">
+  <displayList>
+    <image id="n0_xw9s" name="n0" src="xw9sgvn2w7" fileName="DealWin/Data/boxgiftlistbg.png" xy="0,0" size="9,200">
+      <relation target="" sidePair="height-height"/>
+    </image>
+    <graph id="n1_xw9s" name="bar" xy="0,9" size="11,180">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <component id="n2_xw9s" name="arrow1" src="xw9sn1qk" fileName="交易行/礼包_ScrollBar1_arrow1.xml" xy="1,-5"/>
+    <component id="n3_xw9s" name="arrow2" src="xw9sn1ql" fileName="交易行/礼包_ScrollBar1_arrow2.xml" xy="1,174">
+      <relation target="" sidePair="bottom-bottom"/>
+    </component>
+    <component id="n4_xw9s" name="grip" src="xw9sn1qm" fileName="交易行/礼包_ScrollBar1_grip.xml" xy="1,0" size="9,30"/>
+  </displayList>
+  <ScrollBar fixedGripSize="true"/>
+</component>

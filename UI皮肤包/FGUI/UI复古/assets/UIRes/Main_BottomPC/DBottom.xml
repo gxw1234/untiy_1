@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="794,249" scroll="both">
+  <displayList>
+    <component name="DBottomLeftPanel" id="ko23e" src="j3e21nf" fileName="DBottomLeftPanel.xml" xy="-1,0">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component name="DBottomRightPanel" id="8453c" src="j3e21nv" fileName="DBottomRightPanel.xml" xy="594,0">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component name="DBottomBelts" id="l3p10" src="j3e21nw" fileName="DBottomBelts.xml" xy="177,44">
+      <relation target="" sidePair="center-center"/>
+      <relation target="58vuq" sidePair="top-top"/>
+    </component>
+    <component name="DBottomMemo" id="58vuq" src="j3e21ok" fileName="DBottomMemo.xml" xy="187,98">
+      <relation target="" sidePair="width-width"/>
+      <relation target="b470m" sidePair="topext-bottom"/>
+    </component>
+    <component name="DMidleComp" id="b470m" src="ldxan2q2" fileName="DMidleComp.xml" xy="197,107">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+</component>

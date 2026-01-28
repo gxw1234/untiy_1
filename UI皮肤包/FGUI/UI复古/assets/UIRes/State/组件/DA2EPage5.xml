@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="383,537" opaque="false" scroll="both">
+  <displayList>
+    <image id="84uwb" name="DA2EIMAGE25" src="ldxan2f3" fileName="State/Data/OMG_MobileMini.Pak/State_00347.png" xy="19,87" size="314,434"/>
+    <list id="eiv7h" name="DRecoverItemList" xy="20,199" size="165,322" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jka2i0">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="w7h78" name="TitleTextEdit" xy="188,200" size="141,320" font="Microsoft YaHei" fontSize="16" color="#ffffff" leading="0" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text="外显时装"/>
+    <component id="4078x" name="TopLoad" src="4rki8" fileName="State/组件/TopLoad.xml" xy="33,99">
+      <relation target="" sidePair=""/>
+    </component>
+    <text id="ee863" name="TopName" xy="118,116" size="161,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text="外显时装"/>
+    <component id="n2_kv3q" name="RemarkPanel" src="kv3qgvn2w0" fileName="State/组件/RemarkPanel.xml" xy="189,224"/>
+    <component id="n0_10bjg" name="TitleWinLJ" src="10bjgvn2ug" fileName="State/组件/TitleWinLJ.xml" xy="33,126"/>
+  </displayList>
+</component>

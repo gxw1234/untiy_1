@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="378,277" scroll="both">
+  <controller name="CRadios" exported="true" pages="0,Radio1,1,Radio2,2,Radio3" selected="0"/>
+  <displayList>
+    <image id="0t20m" name="DA2EWindow4" src="kn5z15w" fileName="Data/OMG_MobileMini.Pak/00275.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="nnyui" name="ChatEdit20" xy="73,4" size="233,52" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" text="改变职位"/>
+    <component id="35fq1" name="BtnPosCancle" src="kn5z170" fileName="组件/BtnPosCancle.xml" xy="45,216" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="33fd6" name="BtnConfirm" src="kn5z171" fileName="组件/BtnConfirm.xml" xy="209,216" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="78f11" name="BtnPresident" src="kn5z172" fileName="组件/BtnPresident.xml" xy="24,150" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button checked="true" sound="ui://b3xl678aui26b" controller="CRadios" page="0"/>
+    </component>
+    <component id="03p3m" name="BtnDePresident" src="kn5z173" fileName="组件/BtnDePresident.xml" xy="143,150" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="1"/>
+    </component>
+    <text id="p06n3" name="ChatEdit22" xy="63,150" size="68,33" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="会长"/>
+    <text id="plgd3" name="ChatEdit24" xy="182,152" size="68,33" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="副会长"/>
+    <text id="8246j" name="EditPoitionText" xy="57,80" size="266,41" font="Microsoft YaHei" fontSize="16" color="#ffffff" leading="0" ubb="true" autoSize="none" strokeColor="#000000" text=""/>
+    <component id="l538a" name="BtnGuildTMem" src="kn5z174" fileName="组件/BtnGuildTMem.xml" xy="263,150" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CRadios" page="2"/>
+    </component>
+    <text id="4nf0q" name="ChatEdit50" xy="302,152" size="68,33" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="成员"/>
+  </displayList>
+</component>

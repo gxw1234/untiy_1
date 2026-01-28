@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,252" scroll="both">
+  <displayList>
+    <image id="m7m4n" name="DBottomRightPanel" src="j3e21lc" fileName="data/OMG_NewopUI.wil/00001.PNG" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="rgj51" name="DA2EControl1" src="j3e21ng" fileName="组件/DA2EControl1.xml" xy="148,80">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="ryp06" name="DBtnShop" src="j3e21nh" fileName="组件/DBtnShop.xml" xy="153,204">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="7p231" name="DBtnState" src="j3e21ni" fileName="组件/DBtnState.xml" xy="43,62">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://ds8122r3h74d5"/>
+    </component>
+    <component id="7d3k8" name="DBtnBag" src="j3e21nj" fileName="组件/DBtnBag.xml" xy="82,42">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://ds8122r3h74d5"/>
+    </component>
+    <component id="wj22u" name="DBtnMagic" src="j3e21nk" fileName="组件/DBtnMagic.xml" xy="122,22">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://ds8122r3h74d5"/>
+    </component>
+    <component id="y403x" name="DA2ESimpleButton4" src="j3e21nl" fileName="组件/DA2ESimpleButton4.xml" xy="164,12">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://ds8122r3h74d5"/>
+    </component>
+    <component id="j2jvl" name="DA2ESimpleButton1" src="j3e21nn" fileName="组件/DA2ESimpleButton1.xml" xy="39,109">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="006ss" name="DA2ESimpleButton2" src="j3e21no" fileName="组件/DA2ESimpleButton2.xml" xy="65,108">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="ng58p" name="DA2ESimpleButton3" src="j3e21np" fileName="组件/DA2ESimpleButton3.xml" xy="92,108">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://ds8122r3mq306"/>
+    </component>
+    <component id="w47wt" name="DBtnChangeJob" src="j3e21nr" fileName="组件/DBtnChangeJob.xml" xy="120,141">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="k452t" name="DExpBar" src="j3e21ns" fileName="组件/DExpBar.xml" xy="65,179">
+      <ProgressBar max="100"/>
+    </component>
+    <component id="56hcr" name="DWetBar" src="j3e21nt" fileName="组件/DWetBar.xml" xy="65,211">
+      <ProgressBar max="100"/>
+    </component>
+    <text id="83466" name="timerHour" xy="70,228" size="53,19" font="Microsoft YaHei" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" vars="true" autoSize="none" text="{h=0}:{m=0}:{s=0}"/>
+    <component id="0253f" name="DAngerBar" src="j3e21nu" fileName="组件/DAngerBar.xml" xy="8,94">
+      <relation target="" sidePair=""/>
+    </component>
+    <richtext id="n1_ctwd" name="DLevel" xy="61,146" size="10,19" font="Microsoft YaHei" fontSize="12" color="#ffffff" letterSpacing="-5" ubb="true" autoClearText="true" text=""/>
+    <richtext id="n2_bugp" name="AttatckMode" xy="37,123" size="88,19" font="Microsoft YaHei" fontSize="12" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="[全体模式],[和平模式],[夫妻模式],[师徒模式],[编组模式],[行会模式],[善恶模式],[盟友模式]"/>
+  </displayList>
+</component>

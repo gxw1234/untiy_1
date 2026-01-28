@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="416,157" scroll="both">
+  <displayList>
+    <image id="6636v" name="bg" src="j3e21lf" fileName="_10_11_12_13_14_14_15_16.PNG" xy="0,0" size="416,157">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="51od1" name="DChatWindow" xy="14,24" size="392,111" treeView="false" scrollBarRes="ui://jk0io98jldxan2q3," overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="0" lineItemCount2="0" defaultItem="ui://jk0io98jj3e21ot">
+      <relation target="" sidePair="width-width,height-height"/>
+    </list>
+    <component name="DA2ECheckBox1" id="vyi57" src="j3e21o8" fileName="DA2ECheckBox1.xml" xy="-11,11">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ECheckBox2" id="y4hlo" src="j3e21o9" fileName="DA2ECheckBox2.xml" xy="-11,32">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ECheckBox3" id="17lpm" src="j3e21oa" fileName="DA2ECheckBox3.xml" xy="-11,53">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ECheckBox4" id="02647" src="j3e21ob" fileName="DA2ECheckBox4.xml" xy="-11,74">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ECheckBox5" id="2158m" src="j3e21oc" fileName="DA2ECheckBox5.xml" xy="-11,95">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ESimpleButton14" id="s7333" src="j3e21od" fileName="DA2ESimpleButton14.xml" xy="-11,116">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnMission" id="88t6g" src="j3e21oi" fileName="DBtnMission.xml" xy="362,-31">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnStalling" id="7m4i4" src="j3e21oj" fileName="DBtnStalling.xml" xy="395,-31">
+      <relation target="" sidePair="right-right,top-top"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="ChatEdit1" id="tf644" xy="13,134" size="383,19" font="ui://5615522t6d772" faceDilate="1" fontSize="12" leading="0" autoSize="none" text="" color="#080000" input="true" singleLine="true" anchor="false">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </text>
+  </displayList>
+  <relation target="" sidePair="width-width"/>
+  <relation target="b470m" sidePair="topext-bottom"/>
+</component>

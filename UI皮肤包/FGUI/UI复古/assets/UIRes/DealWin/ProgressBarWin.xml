@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <image id="n0_js02" name="bg" src="hr3gn1yg" fileName="Data/00919.png" xy="0,0"/>
+    <component id="n1_js02" name="DProgressBar" src="j3e21cr" fileName="组件/DProgressBar.xml" xy="400,345">
+      <ProgressBar value="57" max="100"/>
+    </component>
+    <text id="n2_js02" name="SellCTxt" xy="499,307" size="110,35" font="Microsoft YaHei" fontSize="25" color="#ffffff" autoSize="none" text="寄售中："/>
+  </displayList>
+</component>

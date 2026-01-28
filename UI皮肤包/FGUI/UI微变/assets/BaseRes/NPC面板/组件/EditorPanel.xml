@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720" scroll="both">
+  <displayList>
+    <graph size="1280,720" id="5qipw" name="bg0" xy="0,0" lineSize="1" type="rect" fillColor="#b2000000" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </graph>
+    <graph size="1280,600" id="0xr66" name="bg" xy="0,0" lineSize="1" type="rect" fillColor="#7f000000" lineColor="#000000">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </graph>
+    <text name="EditorInput" id="oo13w" xy="0,0" size="1280,600" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+    <component name="Confign" id="wnc83" src="r7r82f" fileName="Confign.xml" xy="490,638">
+      <relation target="" sidePair=""/>
+      <relation sidePair="left-center,bottom-bottom"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <component name="Cancel" id="8k2n8" src="r7r82g" fileName="Cancel.xml" xy="618,638">
+      <relation target="" sidePair=""/>
+      <relation sidePair="left-center,bottom-bottom"/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+  </displayList>
+</component>

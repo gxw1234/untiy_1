@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="423,281" scroll="both">
+  <displayList>
+    <image id="j337h" name="DDealRemoteDlg" src="kn5z18j" fileName="Deal/Data/OMG_MobileMini.Pak/Deal_00179.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="rhyrg" name="DWhoName" xy="90,6" size="187,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="玩家名字七个字"/>
+    <text id="thcjq" name="DWhoGold" xy="71,225" size="157,27" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="0"/>
+    <list id="of06x" name="DDealRemoteGrid" xy="23,84" size="325,130" layout="pagination" overflow="hidden" scroll="both" lineItemCount2="2" defaultItem="ui://jk0io98jkn5z18v" align="center" vAlign="middle">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="358c8" name="DA2EButton1" src="kn5z18s" fileName="Deal/组件/DA2EButton1.xml" pkg="jk0io98j" xy="3,227">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

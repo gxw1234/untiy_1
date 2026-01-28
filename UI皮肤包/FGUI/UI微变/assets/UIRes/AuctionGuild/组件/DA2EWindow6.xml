@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="839,481" scroll="both">
+  <displayList>
+    <image id="7fh84" src="kn5z10s" fileName="00609.PNG" xy="0,0" name="DA2EWindow6">
+      <relation sidePair=""/>
+    </image>
+    <text name="EditText1" id="3sxv1" xy="59,7" size="73,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="竞拍道具" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="EditText2" id="4q7nd" xy="233,7" size="73,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="剩余时间" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="EditText3" id="10p1d" xy="470,7" size="73,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="竞拍价格" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <text name="EditText4" id="l638o" xy="697,7" size="73,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="一口价" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#837155|#DFCFB4" default="#837155"/>
+    </text>
+    <list id="7jao6" name="DA2EGrid5" xy="2,42" size="838,439" treeView="false" autoClearItems="true" overflow="scroll" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://jk0io98jkn5z139">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

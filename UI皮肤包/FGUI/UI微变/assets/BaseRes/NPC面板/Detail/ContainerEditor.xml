@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <graph id="n4_bg5o" name="bg" xy="290,125" size="700,470" type="rect" fillColor="#7fffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n26_9kp7" name="Title" xy="290,83" size="75,35" fontSize="25" color="#ffffff" autoSize="none" text="容器:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n6_bg5o" name="WilBg" xy="290,126" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n5_bg5o" name="WilTxt" xy="300,138" size="80,32" fontSize="22" color="#ffffff" autoSize="none" text="容器ID:"/>
+    <text id="n7_bg5o" name="Input1" xy="387,133" size="579,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n8_bg5o" name="ImgBg" xy="291,183" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n9_bg5o" name="ImgTxt" xy="301,195" size="67,32" fontSize="22" color="#ffffff" text="X坐标:"/>
+    <text id="n10_bg5o" name="Input2" xy="377,190" size="253,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n27_k5l7" name="ImgTxt2" xy="657,195" size="72,32" fontSize="22" color="#ffffff" autoSize="none" text="Y坐标:"/>
+    <text id="n28_k5l7" name="Input3" xy="737,190" size="226,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n23_bg5o" name="ImgBg4" xy="291,240" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n24_bg5o" name="ImgTxt4" xy="301,252" size="53,32" fontSize="22" color="#ffffff" text="宽度:"/>
+    <text id="n25_bg5o" name="Input4" xy="361,247" size="277,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n29_k5l7" name="ImgTxt5" xy="646,252" size="53,32" fontSize="22" color="#ffffff" text="高度:"/>
+    <text id="n30_k5l7" name="Input5" xy="709,247" size="274,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n17_bg5o" name="HintBg" xy="290,297" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n18_bg5o" name="HintTxt" xy="300,309" size="97,32" fontSize="22" color="#ffffff" text="背景颜色:"/>
+    <text id="n19_bg5o" name="Input6" xy="407,304" size="559,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n20_bg5o" name="FLinkBg" xy="291,354" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n21_bg5o" name="FLinkTxt" xy="301,366" size="220,32" fontSize="22" color="#ffffff" text="是否弹性(0=否 1=是):"/>
+    <text id="n22_bg5o" name="Input7" xy="531,361" size="436,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n3_bg5o" name="CancelBtn" src="r7r815" fileName="Detail/StateBtn.xml" xy="571,500" size="100,32">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n2_bg5o" name="ConfirmBtn" src="r7r815" fileName="Detail/StateBtn.xml" xy="750,500" size="100,32">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="提交"/>
+    </component>
+    <graph id="n31_k5l7" name="FLinkBg8" xy="291,411" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n32_k5l7" name="FLinkTxt8" xy="301,423" size="565,32" fontSize="22" color="#ffffff" text="0=不可拖动1=上下拖动2=左右拖动3=根据内容自由拖动:"/>
+    <text id="n33_k5l7" name="Input8" xy="875,418" size="111,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

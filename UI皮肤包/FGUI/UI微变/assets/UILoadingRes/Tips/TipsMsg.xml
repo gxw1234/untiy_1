@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,29" opaque="false">
+  <displayList>
+    <richtext id="n0_i7tn" name="Content" xy="0,0" size="10,29" touchable="false" font="ui://t1h1280lvns0d" fontSize="20" color="#ffffff" leading="1" ubb="true" strokeColor="#000000" autoClearText="true" text=""/>
+  </displayList>
+  <relation target="n0_i7tn" sidePair="width-width,height-height"/>
+</component>

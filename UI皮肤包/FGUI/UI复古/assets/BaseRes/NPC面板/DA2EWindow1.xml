@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="454,356" scroll="both">
+  <displayList>
+    <image id="o10om" src="qgn267" fileName="00188.PNG" xy="0,0" name="DA2EWindow1">
+      <relation sidePair=""/>
+    </image>
+    <image id="186na" src="qgn268" fileName="00003.PNG" xy="122,305" size="120,34" name="PageBackground" alpha="1.0"/>
+    <text name="EditItemList" id="82l10" xy="10,10" size="165,30" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="物品列表" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000"/>
+    <list id="c3w14" name="GridList" xy="12,43" size="402,252" treeView="false" autoClearItems="true" overflow="hidden" scroll="both" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://use7blkkqgn28z">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text name="EditCost" id="786h3" xy="176,10" size="141,32" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="费用" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000"/>
+    <text name="EditLasting" id="v17q8" xy="319,10" size="96,32" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="持久" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000"/>
+    <component name="BtnClose1" id="h5e4h" src="qgn26n" fileName="BtnClose1.xml" xy="423,0">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="EditPage" id="64bbh" xy="126,308" size="112,28" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="0/48" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="BtnPageUp" id="6ybp8" src="qgn26o" fileName="BtnPageUp.xml" xy="80,306">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnPageDown" id="080u1" src="qgn26p" fileName="BtnPageDown.xml" xy="254,306">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnOk1" id="y5ogg" src="qgn26q" fileName="BtnOk1.xml" xy="311,303">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

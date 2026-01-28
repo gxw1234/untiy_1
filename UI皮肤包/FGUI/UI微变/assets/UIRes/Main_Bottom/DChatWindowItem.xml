@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,36" scroll="both">
+  <displayList>
+    <graph size="10,34" id="semem" name="ChatWindowBG" xy="0,1" lineSize="0" type="rect" fillColor="#FFFFFF" lineColor="#000000">
+      <relation target="w7ci7" sidePair="width-width,height-height,"/>
+    </graph>
+    <richtext name="ChatWindowText" id="w7ci7" xy="0,0" size="10,36" font="ui://t1h1280l0840t" faceDilate="1" fontSize="18" leading="0" text="" color="#080000" ubb="true" anchor="false"/>
+    <component name="DChatWinowitGrap" id="8eon3" src="v9b1fy" fileName="DChatWinowitGrap.xml" xy="0,0">
+      <relation target="" sidePair=""/>
+      <relation target="semem" sidePair="width-width,height-height"/>
+    </component>
+  </displayList>
+  <relation target="semem" sidePair="width-width,height-height"/>
+</component>

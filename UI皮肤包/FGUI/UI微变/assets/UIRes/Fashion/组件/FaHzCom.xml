@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,30" overflow="hidden" scroll="both">
+  <displayList>
+    <text name="EditText" id="4ce2q" xy="0,0" size="132,30" font="Microsoft YaHei" fontSize="18" leading="0" letterSpacing="2" text="魔龙之心" color="#E3D2B4" touchable="false" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#E3D2B4|#E3D2B4|#E3D2B4" default="#E3D2B4"/>
+    </text>
+  </displayList>
+</component>

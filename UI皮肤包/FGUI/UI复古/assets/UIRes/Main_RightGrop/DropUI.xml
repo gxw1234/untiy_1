@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,65" pivot="0.5,0.5" anchor="true" scroll="both">
+  <displayList>
+    <loader id="ul61x" name="BottomDropLoad1" size="63,63" fill="scale" pivot="0.5,0.5" anchor="true" xy="33,33"/>
+    <loader id="gqie5" name="BottomDropLoad2" size="63,63" align="center" vAlign="middle" fill="scale" pivot="0.5,0.5" anchor="true" xy="33,33"/>
+    <text name="BottomDropEdits" id="v46ng" xy="0,46" size="65,19" font="Microsoft YaHei" fontSize="14" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" anchor="false"/>
+  </displayList>
+</component>

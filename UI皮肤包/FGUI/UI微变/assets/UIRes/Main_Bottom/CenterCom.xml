@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="421,27" overflow="hidden" scroll="both">
+  <displayList>
+    <image id="80jhl" src="v9b1e3" fileName="00323.PNG" xy="0,0" size="420,26" name="clentermsgbg" alpha="1.0"/>
+    <text name="centermsg" id="10dm6" xy="254,12" size="85,24" font="Microsoft YaHei" fontSize="16" leading="0" text="" color="#FFFFFF" align="center" vAlign="middle" ubb="true" bold="true" singleLine="true" autoClearText="true" pivot="0.5,0.5" anchor="true" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

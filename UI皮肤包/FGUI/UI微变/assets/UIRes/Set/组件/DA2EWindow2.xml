@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,45" scroll="both" extention="Slider">
+  <displayList>
+    <image id="5h70l" src="kn5zuu" fileName="00417.PNG" xy="0,0" size="698,38" name="n0" alpha="1.0">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </image>
+    <image id="cd13k" src="kn5zuv" fileName="00418.PNG" xy="3,6" size="690,26" name="bar" alpha="1.0"/>
+    <component name="grip" id="mevbk" src="kn5zw8" fileName="grip.xml" xy="683,-18">
+      <relation target="" sidePair=""/>
+      <relation target="cd13k" sidePair="right-right"/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+  <Slider titleType="percent"/>
+</component>

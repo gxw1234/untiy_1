@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="247,279" scroll="both">
+  <displayList>
+    <image id="w5w4e" src="qgn26f" fileName="00187.PNG" xy="0,0" name="DA2EWindow2">
+      <relation sidePair=""/>
+    </image>
+    <component name="BtnOk2" id="poxg8" src="qgn26r" fileName="BtnOk2.xml" xy="64,239">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnColose2" id="k643p" src="qgn26s" fileName="BtnColose2.xml" xy="216,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <relation target="" sidePair="right-right,rightext-right"/>
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="Title" id="5mmt8" xy="6,5" size="205,34" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="OK" color="#FFFFFF" touchable="false" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="GameItemCell1" id="ukrl5" src="qgn26t" fileName="GameItemCell1.xml" xy="40,86"/>
+  </displayList>
+</component>

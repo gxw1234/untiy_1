@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="811,459" initName="cs1">
+  <displayList>
+    <image id="n8_takl" name="bg" src="m9og1h" fileName="GameShop/Data/gs_cs3.png" xy="0,0"/>
+    <list id="n2_wfya" name="ListView" xy="0,48" size="808,200" overflow="scroll" scrollBarFlags="160" scrollBar="hidden" lineGap="4" defaultItem="ui://jk0io98jm9og1i" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n3_wfya" name="txt1" xy="120,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="物品名称"/>
+    <text id="n4_wfya" name="txt2" xy="280,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="销售价格"/>
+    <text id="n5_wfya" name="txt3" xy="405,12" size="40,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="类别"/>
+    <text id="n6_wfya" name="txt4" xy="511,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="添加日期"/>
+    <text id="n7_wfya" name="txt5" xy="652,12" size="76,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="返回仓库"/>
+    <text id="n9_takl" name="txt6" xy="754,12" size="40,26" fontSize="18" color="#fbf3d3" align="center" strokeColor="#000000" text="购买"/>
+  </displayList>
+</component>

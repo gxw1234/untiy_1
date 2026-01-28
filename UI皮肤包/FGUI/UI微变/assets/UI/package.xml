@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="jyvofh5e">
+  <resources>
+    <component id="td9g0" name="主界面_MainUI.xml" path="/主界面/" exported="true"/>
+    <component id="v9b15l" name="背包_DBagUI.xml" path="/背包/" exported="true"/>
+    <component id="wzbbmh" name="角色_DStateUI.xml" path="/角色/" exported="true"/>
+    <component id="wzbbme" name="技能设置_DSkillConfigUI.xml" path="/角色/" exported="true"/>
+    <component id="wzbbmi" name="神器_DJewelryBoxUI.xml" path="/角色/" exported="true"/>
+    <component id="wzbbmg" name="技能设置PC_DSkillKeySetUI.xml" path="/角色/" exported="true"/>
+    <component id="kn5zsf" name="商店_DShopUI.xml" path="/商店/" exported="true"/>
+    <component id="kn5zuh" name="组队_DWindow_MainUI.xml" path="/组队/" exported="true"/>
+    <component id="kn5zui" name="组队_DWindow2UI.xml" path="/组队/" exported="true"/>
+    <component id="kn5zuj" name="组队_DWindow3UI.xml" path="/组队/" exported="true"/>
+    <component id="kn5zuk" name="组队_DWindow4UI.xml" path="/组队/" exported="true"/>
+    <component id="kn5zyu" name="设置_DSetUI.xml" path="/设置/" exported="true"/>
+    <component id="kn5zyw" name="拾取详情_InfoPageUI.xml" path="/设置/" exported="true"/>
+    <component id="kn5zzz" name="排行_RankListWinUI.xml" path="/排行/" exported="true"/>
+    <component id="kn5z13a" name="拍卖行_AuctionGuildUI.xml" path="/拍卖行/" exported="true"/>
+    <component id="kn5z13g" name="竞拍_CompetePriceUI.xml" path="/拍卖行/" exported="true"/>
+    <component id="kn5z13m" name="一口价_MouthPriceUI.xml" path="/拍卖行/" exported="true"/>
+    <component id="kn5z13n" name="上架_PutAwayGoodUI.xml" path="/拍卖行/" exported="true"/>
+    <component id="kn5z13p" name="下架_SoldOutGoodsUI.xml" path="/拍卖行/" exported="true"/>
+    <component id="kn5z148" name="仓库_StorageUI.xml" path="/背包/" exported="true"/>
+    <component id="kn5z15v" name="好友_Friends_MainUI.xml" path="/好友/" exported="true"/>
+    <component id="kn5z15t" name="好友_DFunPanel.xml" path="/好友/" exported="true"/>
+    <component id="kn5z18i" name="工会_WinGuild_MainUI.xml" path="/工会/" exported="true"/>
+    <component id="kn5z18a" name="申请条件_DA2EWindow3UI.xml" path="/工会/" exported="true"/>
+    <component id="kn5z18b" name="改变职位_DA2EWindow4UI.xml" path="/工会/" exported="true"/>
+    <component id="kn5z18c" name="编辑公告_DA2EWindow5UI.xml" path="/工会/" exported="true"/>
+    <component id="kn5z18t" name="交易_DDealDlgUI.xml" path="/交易/" exported="true"/>
+    <component id="kn5z18u" name="交易_DDealRemoteDlgUI.xml" path="/交易/" exported="true"/>
+    <component id="kn5z190" name="公告_DNoticeOKBoxUI.xml" path="/公告/" exported="true"/>
+    <component id="kn5z19h" name="装扮_FashionDreUI.xml" path="/装扮/" exported="true"/>
+    <component id="j3e21gj" name="购买_BuyWindUI.xml" path="/摆摊/" exported="true"/>
+    <component id="j3e21gm" name="出售类型_PricewindUI.xml" path="/摆摊/" exported="true"/>
+    <component id="j3e21gn" name="出售_StallwindUI.xml" path="/摆摊/" exported="true"/>
+    <component id="j3e21jx" name="他人角色_DStateUI.xml" path="/他人信息/" exported="true"/>
+    <component id="j3e21jy" name="他人神器_JewelryBoxUI.xml" path="/他人信息/" exported="true"/>
+    <component id="j3e21ku" name="聊天_DCharUI.xml" path="/聊天/" exported="true"/>
+    <component id="3ctax" name="创建角色_DCharSelectUI.xml" path="/选角/" exported="true"/>
+    <component id="le08f" name="恢复角色_DCharRecoverUI.xml" path="/选角/" exported="true"/>
+    <component id="6k1wk" name="选角_CharSelectUI.xml" path="/选角/" exported="true"/>
+    <component id="j3e21l6" name="提示_CommonHitUI.xml" path="/通用提示/" exported="true"/>
+    <component id="j3e21p8" name="充值_TopUpWinUI.xml" path="/充值/" exported="true"/>
+    <component id="j3e21pa" name="摇骰子_DDiceUI.xml" path="/摇骰子/" exported="true"/>
+    <component id="j3e21pe" name="进度条_CommentUI.xml" path="/通用进度条/" exported="true"/>
+    <component id="11icn1pf" name="身份验证_CheckCodewinUI.xml" path="/交易行/" exported="true"/>
+    <component id="11icn1pg" name="交易说明_DealConsignSWinUI.xml" path="/交易行/" exported="true"/>
+    <component id="11icn1ph" name="下载说明_DealDownWinUI.xml" path="/交易行/" exported="true"/>
+    <component id="11icn1pi" name="寄售成功_DealRelateWinUI.xml" path="/交易行/" exported="true"/>
+    <component id="11icn1pj" name="交易_DealWin_MainUI.xml" path="/交易行/" exported="true"/>
+    <component id="11icn1pk" name="神器_JewelryBoxUI.xml" path="/交易行/" exported="true"/>
+    <component id="11icn1pl" name="购买信息_PayCheckWinUI.xml" path="/交易行/" exported="true"/>
+    <component id="11icn1pm" name="角色_RoleWinUI.xml" path="/交易行/" exported="true"/>
+    <component id="kn5zn4" name="地图_DBigMapWindowUI.xml" path="/地图/" exported="true"/>
+    <component id="pt7on1pn" name="主界面刘海屏_MainUI.xml" path="/主界面/" exported="true"/>
+    <component id="kdgun1qb" name="充值_ChoseChargeUI.xml" path="/交易行/" exported="true"/>
+    <component id="nzi0n1qf" name="礼包_BoxGift.xml" path="/交易行/" exported="true"/>
+    <component id="f4m1c" name="任务_DA2EWindow1UI.xml" path="/任务日志/" exported="true"/>
+    <component id="a53rn1qg" name="设置_DNewSetUI.xml" path="/设置/" exported="true"/>
+    <component id="ib9qn1qh" name="UpgradeDialog.xml" path="/宝石/" exported="true"/>
+    <component id="ib9qn1qp" name="BoxView.xml" path="/宝箱/" exported="true"/>
+    <component id="wfyan1qq" name="DGameShopDlg.xml" path="/个人商铺/" exported="true"/>
+    <component id="wfyagvn31w" name="DMyShopDlg.xml" path="/个人商铺/" exported="true"/>
+    <component id="wfyagvn2zb" name="DUserShopDlg.xml" path="/个人商铺/" exported="true"/>
+    <component id="t0dogvn330" name="挑战_PVPUI.xml" path="/挑战/" exported="true"/>
+    <component id="gstbgvn344" name="优先帮助_Help.xml" path="/优先设置/" exported="true"/>
+    <component id="gstbgvn345" name="优先设置_FirstSetUI.xml" path="/优先设置/" exported="true"/>
+    <component id="fa7tgvn346" name="兑换_TopUpWinUI.xml" path="/充值/" exported="true"/>
+    <component id="dy56gvn347" name="充值平台币_TopUpWinUI.xml" path="/充值/" exported="true"/>
+    <component id="y1gngvn348" name="技能设置详情_InfoPageUI.xml" path="/设置/" exported="true"/>
+  </resources>
+  <publish name="" path="./bin/UI" packageCount="2"/>
+</packageDescription>

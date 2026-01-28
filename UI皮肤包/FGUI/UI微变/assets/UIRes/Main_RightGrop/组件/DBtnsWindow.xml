@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="388,152" opaque="false" scroll="both">
+  <displayList>
+    <component id="nk58t" name="DBtnSetting" src="k02tn1uf" fileName="Main_RightGrop/组件/DBtnSetting.xml" xy="194,113">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="41axi" name="DBtnShop" src="k02tn1ug" fileName="Main_RightGrop/组件/DBtnShop.xml" xy="354,113">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="w4422" name="DBtnFriends" src="k02tn1uh" fileName="Main_RightGrop/组件/DBtnFriends.xml" xy="194,34">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="5560f" name="DBtnGuild" src="k02tn1ui" fileName="Main_RightGrop/组件/DBtnGuild.xml" xy="274,34">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="pfdjo" name="DBtnStalling" src="k02tn1uj" fileName="Main_RightGrop/组件/DBtnStalling.xml" xy="354,34">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="i6e4o" name="DBtnGroup" src="k02tn1uk" fileName="Main_RightGrop/组件/DBtnGroup.xml" xy="274,113">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="g7uyk" name="DBtnAuctionGuild" src="k02tn1ul" fileName="Main_RightGrop/组件/DBtnAuctionGuild.xml" xy="43,34">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="20cfw" name="DA2ESimpleButton14" src="k02tn1um" fileName="Main_RightGrop/组件/DA2ESimpleButton14.xml" xy="194,113" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="t4c70" name="DA2ESimpleButton15" src="k02tn1un" fileName="Main_RightGrop/组件/DA2ESimpleButton15.xml" xy="274,113" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="655n6" name="DBtnFashionDress" src="k02tn1uo" fileName="Main_RightGrop/组件/DBtnFashionDress.xml" xy="114,34" visible="false">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="n1_shgq" name="DBtnExit" src="shgq0" fileName="Main_RightGrop/组件/DBtnExit.xml" xy="354,187"/>
+  </displayList>
+</component>

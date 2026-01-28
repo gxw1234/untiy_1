@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="530,269">
+  <displayList>
+    <image id="n0_js02" name="n0" src="hr3gn1ya" fileName="DealWin/Data/DealWin_00916.png" pkg="jk0io98j" xy="-1,0" size="531,269"/>
+    <component id="n10_js02" name="CodeCloseBtn" src="j3e21cn" fileName="DealWin/组件/CodeCloseBtn.xml" pkg="jk0io98j" xy="530,2"/>
+    <text id="n2_js02" name="commodityPrice" xy="53,27" size="300,32" font="Microsoft YaHei" fontSize="20" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" text="价格"/>
+    <text id="n4_js02" name="commodityName" xy="55,64" size="300,32" font="Microsoft YaHei" fontSize="12" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" text="商品名"/>
+    <component id="n9_js02" name="CodeSureBtn" src="j3e21cm" fileName="DealWin/组件/CodeSureBtn.xml" pkg="jk0io98j" xy="189,200"/>
+    <image id="n20_wo2q" name="n20" src="hr3gn1z0" fileName="DealWin/Data/DealWin_00200.png" pkg="jk0io98j" xy="50,97" size="403,100"/>
+    <list id="n29_m7m2" name="ChosePayList" xy="50,97" size="403,100" overflow="scroll" defaultItem="ui://jk0io98jkdgun1qc" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

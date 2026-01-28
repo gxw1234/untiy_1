@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="243,82" scroll="both">
+  <displayList>
+    <loader id="51836" name="AutoWayAni" size="243,82" align="center" vAlign="middle" xy="0,0"/>
+    <component name="BtnAutoWay" id="ysjnw" src="v9b11j" fileName="BtnAutoWay.xml" xy="196,19">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+  <transition name="Select" frameRate="60" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Icon" target="51836" value="ui://jk0io98jv9b1ci"/>
+    <item time="6" type="Icon" target="51836" value="ui://jk0io98jv9b1cj"/>
+    <item time="12" type="Icon" target="51836" value="ui://jk0io98jv9b1ck"/>
+    <item time="18" type="Icon" target="51836" value="ui://jk0io98jv9b1cl"/>
+    <item time="24" type="Icon" target="51836" value="ui://jk0io98jv9b1cm"/>
+    <item time="30" type="Icon" target="51836" value="ui://jk0io98jv9b1cn"/>
+    <item time="36" type="Icon" target="51836" value="ui://jk0io98jv9b1co"/>
+    <item time="42" type="Icon" target="51836" value="ui://jk0io98jv9b1cp"/>
+    <item time="48" type="Icon" target="51836" value="ui://jk0io98jv9b1cq"/>
+    <item time="54" type="Icon" target="51836" value="ui://jk0io98jv9b1cr"/>
+    <item time="60" type="Icon" target="51836" value="ui://jk0io98jv9b1cs"/>
+    <item time="66" type="Icon" target="51836" value="ui://jk0io98jv9b1ct"/>
+    <item time="72" type="Icon" target="51836" value="ui://jk0io98jv9b1cu"/>
+    <item time="78" type="Icon" target="51836" value="ui://jk0io98jv9b1cv"/>
+    <item time="84" type="Icon" target="51836" value="ui://jk0io98jv9b1cw"/>
+    <item time="90" type="Icon" target="51836" value="ui://jk0io98jv9b1cx"/>
+    <item time="96" type="Icon" target="51836" value="ui://jk0io98jv9b1cy"/>
+    <item time="102" type="Icon" target="51836" value="ui://jk0io98jv9b1cz"/>
+    <item time="108" type="Icon" target="51836" value="ui://jk0io98jv9b1d0"/>
+    <item time="114" type="Icon" target="51836" value="ui://jk0io98jv9b1d1"/>
+  </transition>
+</component>

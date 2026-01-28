@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="18,17" scroll="both">
+  <displayList>
+    <loader id="ulxhv" name="bg" size="18,17" touchable="false" align="center" vAlign="middle" xy="0,0"/>
+    <loader id="42ni6" name="Eff21" size="18,17" touchable="false" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" xy="0,0"/>
+    <loader id="qojc4" name="Eff11" size="18,17" touchable="false" clearOnPublish="true" fill="scaleFree" xy="0,0"/>
+    <loader id="405li" name="item" size="18,17" touchable="false" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" xy="0,0"/>
+    <text name="title" id="2s1kj" xy="0,0" size="18,17" font="Microsoft YaHei" fontSize="14" leading="0" autoSize="none" text="" color="#FFFFFF" align="right" autoClearText="true" anchor="false"/>
+    <loader id="8j507" name="Eff22" size="18,17" touchable="false" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" xy="0,0"/>
+    <loader id="t624d" name="Eff12" size="18,17" touchable="false" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" xy="0,0"/>
+    <loader id="12mt8" name="Eff23" size="18,17" touchable="false" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" xy="0,0"/>
+    <loader id="v08e0" name="Eff13" size="18,17" touchable="false" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" xy="0,0"/>
+    <loader id="uwb10" name="bagsLod" size="18,17" touchable="false" clearOnPublish="true" align="center" vAlign="middle" fill="scaleFree" xy="0,0"/>
+  </displayList>
+</component>

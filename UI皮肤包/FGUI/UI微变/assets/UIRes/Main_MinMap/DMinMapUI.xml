@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="248,165" scroll="both">
+  <displayList>
+    <image id="g2j04" name="DMinMapBG" src="kn5zmr" fileName="Main_MinMap/Data/OMG_MobileMini.Pak/00059.PNG" xy="36,0" size="211,163"/>
+    <graph id="8tmro" name="MiniMapGraph1" xy="40,32" size="203,101" type="rect" lineSize="0" lineColor="#00000000" fillColor="#ff000000"/>
+    <loader id="n1_clnl" name="MinisMapBg" xy="40,31" size="203,128" url="ui://jk0io98jkn5zmy" fill="scaleFree"/>
+    <component id="f2687" name="DMap" src="td9g17" fileName="Main_MinMap/组件/DMap.xml" xy="41,31">
+      <relation target="" sidePair=""/>
+    </component>
+    <text id="166bn" name="DMinMapInfo" xy="40,133" size="203,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" text=""/>
+    <text id="b0h25" name="DMinMapName" xy="41,3" size="203,25" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="is7om" name="PosX" xy="40,133" size="98,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="right" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="6n277" name="PosY" xy="144,133" size="99,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" text=""/>
+    <component id="b8l76" name="DBtnMinMap" src="td9g18" fileName="Main_MinMap/组件/DBtnMinMap.xml" xy="1,0">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+</component>

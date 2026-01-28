@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="145,44" scroll="both">
+  <displayList>
+    <component id="4f242" name="DA2EControl1" src="v9b16a" fileName="Main_Top/组件/DA2EControl1.xml" xy="2,7"/>
+    <text id="c033r" name="DGLod" xy="43,9" size="90,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+  </displayList>
+</component>

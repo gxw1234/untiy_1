@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="36,36" scroll="both" extention="Button">
+  <displayList>
+    <image id="25418" src="ruoyn2qp" fileName="00570.PNG" xy="0,0" name="Img5707q0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="3s5g1" src="ruoyn2qr" fileName="00572.PNG" xy="0,0" name="Img572dtc">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="hsp83" src="ruoyn2qt" fileName="00598.PNG" xy="11,0" size="24,24" visible="false" name="DBtnMinMapRHot" alpha="1.0"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Check"/>
+</component>

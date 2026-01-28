@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50">
+  <displayList>
+    <loader id="n0_p27s" name="itembg" xy="0,0" size="50,50" autoSize="true"/>
+    <loader id="n1_p27s" name="itemicon" xy="0,0" pivot="0.5,0.5" size="50,50"/>
+  </displayList>
+</component>

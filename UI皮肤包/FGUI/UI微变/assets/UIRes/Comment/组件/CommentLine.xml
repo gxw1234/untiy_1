@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="182,55" extention="ProgressBar">
+  <ProgressBar =""/>
+  <displayList>
+    <image id="4m7ir" src="j3e21pb" fileName="00555.PNG" xy="0,0" name="n0"/>
+    <image id="7emc4" src="j3e21pc" fileName="00556.PNG" xy="17,29" name="bar" fillMethod="hz"/>
+  </displayList>
+</component>

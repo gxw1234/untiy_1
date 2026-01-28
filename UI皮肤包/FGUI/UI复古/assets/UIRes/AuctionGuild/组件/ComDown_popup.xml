@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,200" scroll="both">
+  <displayList>
+    <image id="54l1g" name="ComboBox1_popup" src="foo96" fileName="AuctionGuild/Data/OMG_MobileMini.Pak/AuctionGuild_00426.png" xy="0,0" size="150,200">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <list id="k8y6e" name="list" xy="0,0" size="150,200" overflow="hidden" scroll="both" defaultItem="ui://jk0io98jfoo97"/>
+  </displayList>
+</component>

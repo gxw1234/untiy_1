@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="407,177" scroll="both">
+  <displayList>
+    <image id="y711y" src="10awvn2rq" fileName="00299.PNG" xy="0,0" name="DWindow3" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="DA2ESimpleButton2" id="y3d3b" src="kn5zu2" fileName="DA2ESimpleButton2.xml" xy="26,89" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="DPlayName" id="v13cf" xy="104,10" size="170,41" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="玩家名字七个字" color="#E4CB45" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2ESimpleButton3" id="nydi7" src="kn5zu3" fileName="DA2ESimpleButton3.xml" xy="208,89" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DCloseBtn" id="8d042" src="kn5ztv" fileName="DCloseBtn.xml" xy="377,-1" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

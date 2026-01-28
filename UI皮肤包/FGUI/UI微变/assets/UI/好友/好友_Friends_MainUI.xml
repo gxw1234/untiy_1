@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="917,601" opaque="false" scroll="both">
+  <controller name="CPages" exported="true" pages="0,page1,1,page2,2,page3,3,page4" selected="0"/>
+  <displayList>
+    <image id="1c8xy" name="FriendsUI" src="kn5z14e" fileName="Data/OMG_MobileMini.Pak/00405.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="5o6q4" name="frame" src="kn5z15d" fileName="组件/frame.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="74364" name="DBtnFriendApplication" src="kn5z15e" fileName="组件/DBtnFriendApplication.xml" xy="23,273" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button checked="true" sound="ui://b3xl678aui26b" controller="CPages" page="0"/>
+    </component>
+    <component id="0ejll" name="DBtnMyFriend" src="kn5z15f" fileName="组件/DBtnMyFriend.xml" xy="23,55" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="1"/>
+    </component>
+    <component id="63lsy" name="DBtnRecentContact" src="kn5z15g" fileName="组件/DBtnRecentContact.xml" xy="23,331" visible="false" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="2"/>
+    </component>
+    <component id="7ke23" name="DBtnBlacklist" src="kn5z15h" fileName="组件/DBtnBlacklist.xml" xy="23,107" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b" controller="CPages" page="3"/>
+    </component>
+    <component id="m7q7b" name="DBtnFriendsUIClose" src="kn5z15i" fileName="组件/DBtnFriendsUIClose.xml" xy="887,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="43i31" name="DA2EWindow1" src="kn5z15j" fileName="组件/DA2EWindow1.xml" xy="188,48" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="nb600" name="DA2EIMAGE1" src="kn5z14q" fileName="Data/OMG_MobileMini.Pak/00270.PNG" xy="54,12" size="53,29" pkg="jk0io98j"/>
+    <graph id="s1ygl" name="ModalLayer" xy="0,0" size="2,2" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="0031s" name="DA2EPage1" src="kn5z14y" fileName="组件/DA2EPage1.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component id="r510q" name="DA2EPage2" src="kn5z151" fileName="组件/DA2EPage2.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component id="7o1wd" name="DA2EPage3" src="kn5z154" fileName="组件/DA2EPage3.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <component id="hgu0r" name="DA2EPage4" src="kn5z156" fileName="组件/DA2EPage4.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="3"/>
+    </component>
+  </displayList>
+</component>

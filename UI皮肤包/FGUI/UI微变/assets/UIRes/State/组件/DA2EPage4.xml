@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="383,537" opaque="false" scroll="both">
+  <displayList>
+    <component id="c2i02" name="RoleAdvanWUI" src="01w74" fileName="State/组件/RoleAdvanWUI.xml" xy="176,87">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="4rc5b" name="RolebaseWUI" src="0f0s3" fileName="State/组件/RolebaseWUI.xml" xy="19,87">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n0_rgmu" name="AbilityWinLJ" src="rgmun21z" fileName="State/组件/AbilityWinLJ.xml" xy="33,127"/>
+  </displayList>
+</component>

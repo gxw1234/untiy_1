@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="162,52" scroll="both" extention="Button">
+  <displayList>
+    <image id="163md" src="hr3gn1wo" fileName="00350.PNG" xy="0,0" name="Img350u70">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <text name="titleEdit" id="qrs3w" xy="54,7" size="104,36" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="true" strokeSize="1" strokeColor="#000000"/>
+    <image id="k5s7w" src="hr3gn1wp" fileName="00348.PNG" xy="3,1" size="46,46" name="DA2EIMAGE26" alpha="1.0"/>
+    <image id="wr45y" src="hr3gn1wq" fileName="00349.PNG" xy="7,48" size="150,3" name="DA2EIMAGE27" alpha="1.0"/>
+    <loader id="abd53" name="TitleLoader" size="45,46" clearOnPublish="true" align="center" vAlign="middle" xy="3,1"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

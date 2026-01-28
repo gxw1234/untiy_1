@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="16,17" opaque="false" scroll="both">
+  <displayList>
+    <loader id="3v747" name="icon" xy="0,0" size="16,17" align="center" vAlign="middle"/>
+  </displayList>
+</component>

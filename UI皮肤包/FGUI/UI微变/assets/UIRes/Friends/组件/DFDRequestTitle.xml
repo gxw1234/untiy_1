@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="668,44" scroll="both">
+  <displayList>
+    <image id="o2566" src="kn5z149" fileName="00282.PNG" xy="0,0" name="DFDRequestTitle">
+      <relation sidePair=""/>
+    </image>
+    <text name="DFDRequestName" id="p6p6i" xy="1,1" size="153,38" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="DFDRequestGuild" id="m7wp5" xy="278,0" size="204,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="行会" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="DFDRequestLevel" id="js7b6" xy="158,1" size="115,38" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="DFDRequestState" id="5412c" xy="487,1" size="180,38" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="状态" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

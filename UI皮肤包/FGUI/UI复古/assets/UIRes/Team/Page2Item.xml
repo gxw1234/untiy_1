@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="664,40" pivot="4,0" scroll="both" extention="Button">
+  <displayList>
+    <image id="r5706" src="10awvn2rs" fileName="00273.PNG" xy="0,0" name="Img273280"/>
+    <image id="l245t" src="10awvn2rr" fileName="00303.PNG" xy="0,0" name="Img303u4n">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <text name="ChatEdit14" id="p2h8u" xy="24,0" size="120,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit15" id="7p5ap" xy="157,0" size="115,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit38" id="572rm" xy="277,0" size="122,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="等级" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit37" id="4x308" xy="404,0" size="153,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="行会" color="#00FF00" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit29" id="a6it1" xy="559,0" size="105,40" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="行会" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <image id="5i0e3" src="10awvn2rt" fileName="00289.PNG" xy="1,0" size="30,37" name="caption" alpha="1.0"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

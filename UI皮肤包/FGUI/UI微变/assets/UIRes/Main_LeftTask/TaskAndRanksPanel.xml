@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="300,210" scroll="both">
+  <controller name="CPages" exported="true" pages="0,page1,1,page2,4,page3,5,page4" selected="1"/>
+  <displayList>
+    <image id="f18xv" name="n1" src="v9b187" fileName="Main_LeftTask/Data/OMG_MobileMini.Pak/LeftTask_00351.png" xy="38,0" size="262,210"/>
+    <component id="0v867" name="DA2ESimpleButton1" src="td9gb" fileName="Main_LeftTask/组件/DA2ESimpleButton1.xml" xy="319,104">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="hjf67" name="DTabBtnTaks" src="ijscgvn2wv" fileName="Main_LeftTask/组件/DTabBtnTaks.xml" xy="2,0" size="34,84">
+      <relation target="" sidePair=""/>
+      <Button controller="CPages" page="0"/>
+    </component>
+    <component id="j8454" name="DTabBtnRanks" src="ijscgvn2ww" fileName="Main_LeftTask/组件/DTabBtnRanks.xml" xy="2,124" size="34,84">
+      <relation target="" sidePair=""/>
+      <Button checked="true" controller="CPages" page="1"/>
+    </component>
+    <component id="n1_ijsc" name="DTabBtnHums" src="ijscgvn2x3" fileName="Main_LeftTask/组件/DTabBtnHums.xml" xy="2,0">
+      <Button controller="CPages" page="4"/>
+    </component>
+    <component id="n2_ijsc" name="DTabBtnMobs" src="ijscgvn2x4" fileName="Main_LeftTask/组件/DTabBtnMob.xml" xy="2,124">
+      <Button controller="CPages" page="5"/>
+    </component>
+    <component id="2g0u8" name="DA2EPage1" src="td9ge" fileName="Main_LeftTask/组件/DA2EPage1.xml" xy="38,0">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component id="1pai1" name="DA2EPage2" src="td9gf" fileName="Main_LeftTask/组件/DA2EPage2.xml" xy="38,0">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component id="n3_ijsc" name="DA2EPage3" src="ijscgvn2x6" fileName="Main_LeftTask/组件/DA2EPage3.xml" xy="38,0">
+      <gearDisplay controller="CPages" pages="4"/>
+    </component>
+    <component id="n4_ijsc" name="DA2EPage4" src="ijscgvn2x8" fileName="Main_LeftTask/组件/DA2EPage4.xml" xy="38,0">
+      <gearDisplay controller="CPages" pages="5"/>
+    </component>
+    <component id="n0_ijsc" name="RefreshBtn" src="ijscgvn2wr" fileName="Main_LeftTask/组件/RefreshBtn.xml" xy="0,83"/>
+  </displayList>
+</component>

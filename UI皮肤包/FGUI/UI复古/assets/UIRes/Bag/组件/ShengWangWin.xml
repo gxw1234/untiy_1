@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="227,27" scroll="both">
+  <displayList>
+    <text name="DGoldName" id="nq08q" xy="0,0" size="85,27" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="声望:" color="#FFFFFF" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="DGold" id="1cbcd" xy="89,0" size="137,27" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <graph id="n4_bg5o" name="bg" xy="290,125" size="700,470" type="rect" fillColor="#7fffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n26_9kp7" name="Title" xy="290,83" size="125,35" fontSize="25" color="#ffffff" autoSize="none" text="Layout:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n6_bg5o" name="WilBg" xy="290,126" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n5_bg5o" name="WilTxt" xy="300,138" size="53,32" fontSize="22" color="#ffffff" text="宽度:"/>
+    <text id="n7_bg5o" name="Input3" xy="360,133" size="606,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n8_bg5o" name="ImgBg" xy="290,183" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n9_bg5o" name="ImgTxt" xy="301,195" size="53,32" fontSize="22" color="#ffffff" text="高度:"/>
+    <text id="n10_bg5o" name="Input4" xy="361,190" size="606,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n23_bg5o" name="ImgBg5" xy="290,240" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n24_bg5o" name="ImgTxt5" xy="301,252" size="159,32" fontSize="22" color="#ffffff" text="区域颜色(*=无):"/>
+    <text id="n25_bg5o" name="Input5" xy="467,247" size="500,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n27_nl5g" name="ImgBg6" xy="290,297" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n28_nl5g" name="ImgTxt6" xy="298,309" size="286,32" fontSize="22" color="#ffffff" text="颜色模式(0=填充 1=边框线):"/>
+    <text id="n29_nl5g" name="Input6" xy="590,304" size="375,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n30_nl5g" name="ImgBg7" xy="290,354" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n31_nl5g" name="ImgTxt7" xy="297,348" size="294,62" fontSize="22" color="#ffffff" text="是否点、双击触发执行(0=点&#xA;击执行触发 1=双击执行触发):"/>
+    <text id="n32_nl5g" name="Input7" xy="598,361" size="367,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n17_bg5o" name="HintBg" xy="290,410" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n18_bg5o" name="HintTxt" xy="300,422" size="141,32" fontSize="22" color="#ffffff" text="备注信息显示:"/>
+    <text id="n19_bg5o" name="Input8" xy="449,417" size="517,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n20_bg5o" name="FLinkBg" xy="290,467" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n21_bg5o" name="FLinkTxt" xy="301,479" size="53,32" fontSize="22" color="#ffffff" text="事件:"/>
+    <text id="n22_bg5o" name="FLinkInput" xy="408,474" size="559,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n3_bg5o" name="CancelBtn" src="r7r815" fileName="NPC面板/Detail/StateBtn.xml" xy="571,542" size="100,32">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n2_bg5o" name="ConfirmBtn" src="r7r815" fileName="NPC面板/Detail/StateBtn.xml" xy="750,542" size="100,32">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="提交"/>
+    </component>
+  </displayList>
+</component>

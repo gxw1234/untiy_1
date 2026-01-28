@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="29,29" scroll="both">
+  <displayList>
+    <loader id="qd0rb" name="d6" size="29,29" touchable="false" xy="0,0"/>
+  </displayList>
+  <relation target="87i65" sidePair="left-left,bottom-bottom"/>
+</component>

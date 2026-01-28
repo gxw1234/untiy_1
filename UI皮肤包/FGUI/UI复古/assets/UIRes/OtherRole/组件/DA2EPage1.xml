@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="353,539" opaque="false" scroll="both">
+  <displayList>
+    <richtext id="ob15y" name="GuildName" xy="40,89" size="272,32" font="Microsoft YaHei" fontSize="15" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" bold="true" strokeColor="#000000" autoClearText="true" text=""/>
+    <loader id="s484e" name="role" xy="60,181" size="235,294" visible="false" url="ui://jk0io98jldxan2mn" align="center" vAlign="middle" fill="scale"/>
+    <component id="1c3c1" name="DBtnOpenJewelryBox" src="j3e21hm" fileName="OtherRole/组件/DBtnOpenJewelryBox.xml" xy="266,126">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="su1yu" name="EquipCell10" src="j3e21ht" fileName="OtherRole/组件/EquipCell10.xml" xy="106,456"/>
+    <component id="i467q" name="EquipCell11" src="j3e21hs" fileName="OtherRole/组件/EquipCell11.xml" xy="181,456"/>
+    <component id="2d3a2" name="EquipCell12" src="j3e21hr" fileName="OtherRole/组件/EquipCell12.xml" xy="256,456"/>
+    <component id="85d52" name="EquipCell14" src="j3e21hx" fileName="OtherRole/组件/EquipCell14.xml" xy="31,261"/>
+    <component id="nqya5" name="EquipCell15" src="j3e21hz" fileName="OtherRole/组件/EquipCell15.xml" xy="477,683" visible="false"/>
+    <component id="41dc5" name="EquipCell18" src="j3e21i1" fileName="OtherRole/组件/EquipCell18.xml" xy="536,215" visible="false"/>
+    <component id="02vw8" name="EquipCell19" src="j3e21i2" fileName="OtherRole/组件/EquipCell19.xml" xy="444,284" visible="false"/>
+    <component id="64qa5" name="EquipCell2" src="j3e21ho" fileName="OtherRole/组件/EquipCell2.xml" xy="256,261"/>
+    <component id="g2q4x" name="EquipCell20" src="j3e21i3" fileName="OtherRole/组件/EquipCell20.xml" xy="539,281" visible="false"/>
+    <component id="aw14f" name="EquipCell21" src="j3e21i4" fileName="OtherRole/组件/EquipCell21.xml" xy="627,278" visible="false"/>
+    <component id="ixu73" name="EquipCell22" src="j3e21i5" fileName="OtherRole/组件/EquipCell22.xml" xy="707,272" visible="false"/>
+    <component id="l3h2a" name="EquipCell23" src="j3e21i6" fileName="OtherRole/组件/EquipCell23.xml" xy="413,399" visible="false"/>
+    <component id="7u344" name="EquipCell24" src="j3e21i7" fileName="OtherRole/组件/EquipCell24.xml" xy="479,371" visible="false"/>
+    <component id="3kpeq" name="EquipCell25" src="j3e21i8" fileName="OtherRole/组件/EquipCell25.xml" xy="550,367" visible="false"/>
+    <component id="g3j48" name="EquipCell26" src="j3e21i9" fileName="OtherRole/组件/EquipCell26.xml" xy="621,362" visible="false"/>
+    <component id="40c1t" name="EquipCell27" src="j3e21ia" fileName="OtherRole/组件/EquipCell27.xml" xy="692,344" visible="false"/>
+    <component id="34v87" name="EquipCell28" src="j3e21ib" fileName="OtherRole/组件/EquipCell28.xml" xy="763,338" visible="false"/>
+    <component id="864ih" name="EquipCell29" src="j3e21ic" fileName="OtherRole/组件/EquipCell29.xml" xy="427,460" visible="false"/>
+    <component id="6kdj3" name="EquipCell3" src="j3e21hn" fileName="OtherRole/组件/EquipCell3.xml" xy="256,196"/>
+    <component id="567gg" name="EquipCell42" src="j3e21id" fileName="OtherRole/组件/EquipCell42.xml" xy="851,336" visible="false"/>
+    <component id="yo0j0" name="EquipCell43" src="j3e21ie" fileName="OtherRole/组件/EquipCell43.xml" xy="430,523" visible="false"/>
+    <component id="254jo" name="EquipCell44" src="j3e21if" fileName="OtherRole/组件/EquipCell44.xml" xy="498,437" visible="false"/>
+    <component id="4auk7" name="EquipCell45" src="j3e21ig" fileName="OtherRole/组件/EquipCell45.xml" xy="569,433" visible="false"/>
+    <component id="82hel" name="EquipCell46" src="j3e21ih" fileName="OtherRole/组件/EquipCell46.xml" xy="640,428" visible="false"/>
+    <component id="b1whg" name="EquipCell47" src="j3e21ii" fileName="OtherRole/组件/EquipCell47.xml" xy="421,584" visible="false"/>
+    <component id="bgg7b" name="EquipCell48" src="j3e21ij" fileName="OtherRole/组件/EquipCell48.xml" xy="501,498" visible="false"/>
+    <component id="06jfi" name="EquipCell49" src="j3e21ik" fileName="OtherRole/组件/EquipCell49.xml" xy="572,494" visible="false"/>
+    <component id="30761" name="EquipCell5" src="j3e21hw" fileName="OtherRole/组件/EquipCell5.xml" xy="31,326"/>
+    <component id="74rbr" name="EquipCell50" src="j3e21il" fileName="OtherRole/组件/EquipCell50.xml" xy="504,559" visible="false"/>
+    <component id="848ic" name="EquipCell51" src="j3e21im" fileName="OtherRole/组件/EquipCell51.xml" xy="485,620" visible="false"/>
+    <component id="wg6d0" name="EquipCell52" src="j3e21in" fileName="OtherRole/组件/EquipCell52.xml" xy="576,552" visible="false"/>
+    <component id="ujkph" name="EquipCell53" src="j3e21io" fileName="OtherRole/组件/EquipCell53.xml" xy="575,618" visible="false"/>
+    <component id="rmfkr" name="EquipCell54" src="j3e21ip" fileName="OtherRole/组件/EquipCell54.xml" xy="647,492" visible="false"/>
+    <component id="6it8u" name="EquipCell55" src="j3e21iq" fileName="OtherRole/组件/EquipCell55.xml" xy="858,402" visible="false"/>
+    <component id="3id84" name="EquipCell56" src="j3e21ir" fileName="OtherRole/组件/EquipCell56.xml" xy="651,617" visible="false"/>
+    <component id="rxbla" name="EquipCell57" src="j3e21is" fileName="OtherRole/组件/EquipCell57.xml" xy="716,410" visible="false"/>
+    <component id="j1dyi" name="EquipCell58" src="j3e21it" fileName="OtherRole/组件/EquipCell58.xml" xy="787,404" visible="false"/>
+    <component id="8h120" name="EquipCell59" src="j3e21iu" fileName="OtherRole/组件/EquipCell59.xml" xy="858,489" visible="false"/>
+    <component id="5u7mp" name="EquipCell6" src="j3e21hp" fileName="OtherRole/组件/EquipCell6.xml" xy="256,326"/>
+    <component id="3sd56" name="EquipCell60" src="j3e21iv" fileName="OtherRole/组件/EquipCell60.xml" xy="644,681" visible="false"/>
+    <component id="7524l" name="EquipCell61" src="j3e21iw" fileName="OtherRole/组件/EquipCell61.xml" xy="715,685" visible="false"/>
+    <component id="21008" name="EquipCell62" src="j3e21ix" fileName="OtherRole/组件/EquipCell62.xml" xy="716,492" visible="false"/>
+    <component id="h0ovw" name="EquipCell63" src="j3e21iy" fileName="OtherRole/组件/EquipCell63.xml" xy="787,489" visible="false"/>
+    <component id="ywk07" name="EquipCell64" src="j3e21hy" fileName="OtherRole/组件/EquipCell64.xml" xy="563,681" visible="false"/>
+    <component id="wjru5" name="EquipCell65" src="j3e21iz" fileName="OtherRole/组件/EquipCell65.xml" xy="722,615" visible="false"/>
+    <component id="xo8vf" name="EquipCell66" src="j3e21j0" fileName="OtherRole/组件/EquipCell66.xml" xy="805,685" visible="false"/>
+    <component id="15w6x" name="EquipCell67" src="j3e21j1" fileName="OtherRole/组件/EquipCell67.xml" xy="802,624" visible="false"/>
+    <component id="bgjt5" name="EquipCell68" src="j3e21j2" fileName="OtherRole/组件/EquipCell68.xml" xy="651,558" visible="false"/>
+    <component id="dqu46" name="EquipCell69" src="j3e21j3" fileName="OtherRole/组件/EquipCell69.xml" xy="722,556" visible="false"/>
+    <component id="2subu" name="EquipCell7" src="j3e21hv" fileName="OtherRole/组件/EquipCell7.xml" xy="31,391"/>
+    <component id="5260x" name="EquipCell70" src="j3e21j4" fileName="OtherRole/组件/EquipCell70.xml" xy="802,555" visible="false"/>
+    <component id="v1268" name="EquipCell8" src="j3e21hq" fileName="OtherRole/组件/EquipCell8.xml" xy="256,391"/>
+    <component id="vb84x" name="EquipCell9" src="j3e21hu" fileName="OtherRole/组件/EquipCell9.xml" xy="31,456"/>
+    <component id="j0g6r" name="Equip" src="j3e21hl" fileName="OtherRole/组件/Equip.xml" xy="87,269"/>
+    <component id="n4724_10bjg" name="OtherShowHintWin185" src="10bjgvn2ui" fileName="OtherRole/组件/OtherShowHintWin185.xml" xy="38,52"/>
+    <component id="n4725_rxzw" name="UserStateButtonClick1" src="rxzwgvn2uy" fileName="OtherRole/组件/UserStateButtonClick1.xml" xy="-133,66" visible="false" customData="[@UserStateButtonClick1]"/>
+    <component id="n4726_rxzw" name="UserStateButtonClick2" src="rxzwgvn2uz" fileName="OtherRole/组件/UserStateButtonClick2.xml" xy="-133,152" visible="false" customData="[@UserStateButtonClick2]"/>
+    <component id="n4727_rxzw" name="UserStateButtonClick3" src="rxzwgvn2v0" fileName="OtherRole/组件/UserStateButtonClick3.xml" xy="-133,233" visible="false" customData="[@UserStateButtonClick3]"/>
+    <component id="n4728_rxzw" name="UserStateButtonClick4" src="rxzwgvn2v1" fileName="OtherRole/组件/UserStateButtonClick4.xml" xy="-133,321" visible="false" customData="[@UserStateButtonClick4]"/>
+    <component id="n4729_rxzw" name="UserStateButtonClick5" src="rxzwgvn2v2" fileName="OtherRole/组件/UserStateButtonClick5.xml" xy="-133,409" visible="false" customData="[@UserStateButtonClick5]"/>
+  </displayList>
+</component>

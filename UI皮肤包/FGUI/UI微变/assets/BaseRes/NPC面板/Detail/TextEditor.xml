@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <component id="n1_bg5o" name="Detail" src="r7r814" fileName="Detail/Detail.xml" xy="290,125"/>
+    <component id="n2_bg5o" name="ConfirmBtn" src="r7r815" fileName="Detail/StateBtn.xml" xy="750,583" size="100,32">
+      <Button title="提交"/>
+    </component>
+    <component id="n3_bg5o" name="CancelBtn" src="r7r815" fileName="Detail/StateBtn.xml" xy="571,584" size="100,32">
+      <Button title="取消"/>
+    </component>
+  </displayList>
+</component>

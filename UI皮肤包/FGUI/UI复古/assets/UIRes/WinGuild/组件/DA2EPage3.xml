@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="934,593" scroll="both">
+  <displayList>
+    <image id="0ef75" src="ldxan2ll" fileName="00242.PNG" xy="23,54" size="840,44" name="DA2EIMAGE5" alpha="1.0"/>
+    <list id="a8s8v" name="DA2EGrid1" xy="24,96" size="837,401" treeView="false" autoClearItems="true" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="10" defaultItem="ui://jk0io98jkn5z18d">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text name="ChatEdit31" id="e5b2q" xy="24,55" size="206,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="行会名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit32" id="mmo5x" xy="234,55" size="200,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="会长名字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit33" id="bjq2n" xy="438,55" size="165,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="人数" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="ChatEdit34" id="1n43f" xy="607,55" size="255,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="操作" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="BtnDelectPlay" id="5rr6w" src="kn5z17q" fileName="BtnDelectPlay.xml" xy="760,528">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnDisComPos" id="vn3xe" src="kn5z17r" fileName="BtnDisComPos.xml" xy="650,528">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="EditDisGuild" id="45ge3" xy="80,520" size="155,41" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="允许行会结盟" color="#FFFFFF" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="CheckBAllow" id="60qo7" src="kn5z17s" fileName="CheckBAllow.xml" xy="41,524">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

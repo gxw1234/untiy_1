@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="530,269">
+  <displayList>
+    <image id="n0_js02" name="n0" src="hr3gn1ya" fileName="Data/00916.png" xy="0,0" pkg="jk0io98j"/>
+    <image id="n1_js02" name="n1" src="hr3gn1yb" fileName="Data/00917.png" xy="141,78" pkg="jk0io98j"/>
+    <image id="n5_js02" name="n5" src="hr3gn1yb" fileName="Data/00917.png" xy="140,133" pkg="jk0io98j"/>
+    <component id="n10_js02" name="CodeCloseBtn" src="j3e21cn" fileName="组件/CodeCloseBtn.xml" xy="530,2" pkg="jk0io98j"/>
+    <text id="n2_js02" name="n2" xy="34,26" size="389,32" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" text="使用交易行需先验证身份信息，避免出现盗号现象"/>
+    <text id="n3_js02" name="n3" xy="35,79" size="100,32" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" text="您的手机号："/>
+    <text id="n4_js02" name="n4" xy="34,135" size="100,32" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" text="手机验证码："/>
+    <component id="n6_js02" name="GetCodeBtn" src="j3e21cl" fileName="组件/GetCodeBtn.xml" xy="328,69" pkg="jk0io98j"/>
+    <component id="n9_js02" name="CodeSureBtn" src="j3e21cm" fileName="组件/CodeSureBtn.xml" xy="151,189" pkg="jk0io98j"/>
+    <text id="n11_ipqu" name="PhoneNumber" xy="145,83" size="168,24" touchable="false" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="" input="true"/>
+    <text id="n12_ipqu" name="CodeNumber" xy="144,138" size="168,24" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="" input="true"/>
+  </displayList>
+</component>

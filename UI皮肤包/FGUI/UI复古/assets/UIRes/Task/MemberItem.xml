@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="392,30" scroll="both" extention="Button">
+  <displayList>
+    <component name="n0" id="7p070" src="iioeh" fileName="n0.xml" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button/>
+    </component>
+    <text name="title" id="ev54t" xy="39,1" size="351,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" vAlign="middle" anchor="false">
+      <relation target="" sidePair="width-width,"/>
+      <relation target="21uqb" sidePair="leftext-left"/>
+    </text>
+    <graph size="13,30" id="dxvi3" name="indent" xy="0,0" lineSize="0" fillColor="" lineColor=""/>
+    <component name="expandButton" id="21uqb" src="d8bbt" fileName="expandButton.xml" xy="16,5">
+      <relation target="" sidePair=""/>
+      <relation target="dxvi3" sidePair="left-right"/>
+      <Button controller="expanded" page="1"/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+  <controller name="expanded" pages="0,,1," selected="0"/>
+  <controller name="leaf" pages="0,,1," selected="0"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

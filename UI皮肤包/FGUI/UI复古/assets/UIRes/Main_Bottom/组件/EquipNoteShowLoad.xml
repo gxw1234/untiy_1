@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,65" scroll="both">
+  <displayList>
+    <image id="y4h8o" src="ldxan27r" fileName="00194.PNG" xy="1,1" size="63,63" name="QEquipBg" alpha="1.0"/>
+    <loader id="h887q" name="QEff21" size="63,63" fill="scale" pivot="0.5,0.5" anchor="true" xy="33,33"/>
+    <loader id="ppa05" name="QEff11" size="63,63" fill="scale" pivot="0.5,0.5" anchor="true" xy="33,33"/>
+    <loader id="36p4i" name="Qicon" size="63,63" align="center" vAlign="middle" fill="scale" pivot="0.5,0.5" anchor="true" xy="33,33"/>
+    <text name="QEquipEdits" id="vw0gl" xy="0,46" size="65,19" font="Microsoft YaHei" fontSize="14" leading="0" autoSize="none" text="" color="#FFFFFF" align="right" anchor="false"/>
+    <loader id="m28eh" name="QEff22" size="63,63" fill="scale" pivot="0.5,0.5" anchor="true" xy="33,33"/>
+    <loader id="7wi36" name="QEff12" size="63,63" fill="scale" pivot="0.5,0.5" anchor="true" xy="33,33"/>
+    <loader id="82g34" name="QEff23" size="63,63" fill="scale" pivot="0.5,0.5" anchor="true" xy="33,33"/>
+    <loader id="5dc46" name="QEff13" size="63,63" fill="scale" pivot="0.5,0.5" anchor="true" xy="33,33"/>
+    <loader id="fcx27" name="QEquipLoad" size="35,35" fill="scale" pivot="1,1" anchor="true" xy="62,62"/>
+  </displayList>
+</component>

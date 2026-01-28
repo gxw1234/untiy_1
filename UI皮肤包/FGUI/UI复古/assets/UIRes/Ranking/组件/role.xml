@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="184,160" scroll="both">
+  <displayList>
+    <loader id="23v0s" name="RRoleModerLoader" size="50,50" url="ui://jk0io98jldxan2aj" xy="7,-44"/>
+    <component name="EquipCell0" id="eu108" src="kn5zzl" fileName="EquipCell0.xml" xy="66,25"/>
+    <component name="EquipCell4" id="75445" src="kn5zzn" fileName="EquipCell4.xml" xy="84,-11"/>
+    <component name="EquipCell13" id="7a2eb" src="kn5zzo" fileName="EquipCell13.xml" xy="78,-32"/>
+    <component name="EquipCell1" id="qbec8" src="kn5zzm" fileName="EquipCell1.xml" xy="13,-5"/>
+    <component name="EquipCell16" id="1seou" src="kn5zzp" fileName="EquipCell16.xml" xy="120,34"/>
+  </displayList>
+</component>

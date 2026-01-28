@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <graph id="n4_bg5o" name="bg" xy="290,125" size="700,470" type="rect" fillColor="#7fffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n23_9kp7" name="Title" xy="291,83" size="137,35" fontSize="25" color="#ffffff" autoSize="none" text="ItemShow:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n6_bg5o" name="WilBg" xy="290,126" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n5_bg5o" name="WilTxt" xy="301,139" size="313,32" fontSize="22" color="#ffffff" text="物品ID (参考DB数据库的Idx值):"/>
+    <text id="n7_bg5o" name="Input1" xy="623,133" size="364,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n8_bg5o" name="ImgBg" xy="291,183" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n9_bg5o" name="ImgTxt" xy="301,195" size="358,32" fontSize="22" color="#ffffff" text="显示数量 (如果为0 就不会显示数量):"/>
+    <text id="n10_bg5o" name="Input2" xy="666,190" size="315,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n11_bg5o" name="SortBg" xy="291,240" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n12_bg5o" name="SortTxt" xy="301,252" size="516,32" fontSize="22" color="#ffffff" text="是否显示背景图片(如果为0显示背景图片,1则不显示):"/>
+    <text id="n13_bg5o" name="Input5" xy="823,247" size="166,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n14_bg5o" name="TitleBg" xy="291,297" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n15_bg5o" name="TitleTxt" xy="301,309" size="206,41" fontSize="12" color="#ffffff" vAlign="middle" autoSize="none" text="属性ID1|属性值1, 属性ID2|属性值2:&#xA;,(显示多条自定义属性使用 , 逗号隔开)&#xD;&#xA;"/>
+    <text id="n16_bg5o" name="Input6" xy="517,304" size="450,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n17_bg5o" name="HintBg" xy="290,354" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n18_bg5o" name="HintTxt" xy="300,366" size="432,32" fontSize="22" color="#ffffff" text="是否参与排版(0=参与排版   1=不参与排版):"/>
+    <text id="n19_bg5o" name="Input7" xy="740,361" size="226,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n20_bg5o" name="FLinkBg" xy="291,411" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n21_bg5o" name="FLinkTxt" xy="301,423" size="53,32" fontSize="22" color="#ffffff" text="事件:"/>
+    <text id="n22_bg5o" name="FLinkInput" xy="361,418" size="606,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n24_qzyt" name="ScaleBg" xy="290,468" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n25_qzyt" name="FormIDTxt" xy="290,480" size="87,32" fontSize="22" color="#ffffff" text="FormID:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n26_qzyt" name="FormID" xy="383,475" size="70,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="-1" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n27_qzyt" name="ScaleTxt" xy="464,481" size="89,32" fontSize="22" color="#ffffff" text="缩放X轴:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n28_qzyt" name="FScaleX" xy="562,476" size="155,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n29_qzyt" name="ScaleYTxt" xy="726,481" size="89,32" fontSize="22" color="#ffffff" text="缩放X轴:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n30_qzyt" name="FScaleY" xy="824,475" size="164,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n3_bg5o" name="CancelBtn" src="r7r815" fileName="Detail/StateBtn.xml" xy="571,544" size="100,32">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="取消"/>
+    </component>
+    <component id="n2_bg5o" name="ConfirmBtn" src="r7r815" fileName="Detail/StateBtn.xml" xy="750,543" size="100,32">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Button title="提交"/>
+    </component>
+  </displayList>
+</component>

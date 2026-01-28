@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="200,252" scroll="both">
+  <displayList>
+    <image id="bnb7p" src="j3e21lb" fileName="00000.PNG" xy="0,0" name="DBottomLeftPanel">
+      <relation sidePair=""/>
+    </image>
+    <text name="ChatEdit2" id="on434" xy="9,212" size="76,19" font="Microsoft YaHei" fontSize="12" leading="0" autoSize="none" text="{HP = 0}/{MaxHP = 0}" color="#FFFFFF" align="right" vAlign="middle" vars="true" anchor="false"/>
+    <text name="ChatEdit3" id="68v6u" xy="87,212" size="82,19" font="Microsoft YaHei" fontSize="12" leading="0" autoSize="none" text="{MP = 0}/{MaxMP = 0}" color="#FFFFFF" vAlign="middle" vars="true" anchor="false"/>
+    <text name="ChatEdit4" id="4bl7i" xy="11,232" size="154,19" font="Microsoft YaHei" fontSize="12" leading="0" autoSize="none" text="{Map =0}:{X = 0}:{Y = 0}" color="#FFFFFF" align="center" vAlign="middle" vars="true" anchor="false"/>
+    <image id="8bw0h" src="j3e21la" fileName="00138.PNG" xy="37,90" size="45,97" name="DHPBall" alpha="1.0" fillMethod="vt" fillOrigin="1"/>
+    <image id="qkw5u" src="j3e21l9" fileName="00137.PNG" xy="87,90" size="45,97" name="DMPBall" alpha="1.0" fillMethod="vt" fillOrigin="1"/>
+  </displayList>
+</component>

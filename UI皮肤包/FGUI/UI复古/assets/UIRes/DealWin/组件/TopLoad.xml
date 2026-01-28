@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="59,59" scroll="both">
+  <displayList>
+    <loader id="xg06x" name="Item" size="59,59" clearOnPublish="true" fill="scaleNoBorder" xy="0,0"/>
+  </displayList>
+</component>

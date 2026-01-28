@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="208,236" scroll="both">
+  <displayList>
+    <image id="5co21" src="ldxan27o" fileName="00580.PNG" xy="0,0" name="QuickEquipNoteUI">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="5wj15" src="v9b1fu" fileName="frame.xml" xy="0,0"/>
+    <component name="QEquipBtnClose" id="l4dfq" src="v9b1fv" fileName="QEquipBtnClose.xml" xy="179,2">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="QEquipTitleNames" id="e75x7" xy="40,9" size="103,36" font="Microsoft YaHei" fontSize="20" leading="0" autoSize="none" text="快捷装备" color="#F8DE62" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000"/>
+    <component name="EquipNoteShowLoad" id="3g7hn" src="v9b1fw" fileName="EquipNoteShowLoad.xml" xy="58,58"/>
+    <text name="QEquipNames" id="6873x" xy="7,128" size="169,33" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="装备名字七个字" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="QDressEqpBtn" id="p476b" src="v9b1fx" fileName="QDressEqpBtn.xml" xy="43,165">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="QEquipTimeEdit" id="83ja6" xy="40,206" size="103,26" font="Microsoft YaHei" fontSize="14" leading="0" autoSize="none" text="(3s)" color="#008000" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

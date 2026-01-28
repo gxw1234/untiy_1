@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="141,35" scroll="both">
+  <displayList>
+    <image id="2fql5" name="DA2EWindow14" src="prs31" fileName="组件/AuctionGuild_00425.png" xy="-2,-3" size="147,42">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="kr112" name="n1" src="prs32" fileName="n1.xml" xy="0,0">
+      <relation target="" sidePair=""/>
+      <ComboBox visibleItemCount="10">
+        <item title="8小时"/>
+        <item title="16小时"/>
+        <item title="24小时"/>
+      </ComboBox>
+    </component>
+  </displayList>
+</component>

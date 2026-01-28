@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="440,54" scroll="both">
+  <displayList>
+    <image id="76emx" src="j3e21le" fileName="00002.PNG" xy="0,0" name="DBottomBelts">
+      <relation sidePair="center-center"/>
+    </image>
+    <list id="s4j0n" name="bagItemCell" xy="95,19" size="252,33" treeView="false" layout="row" overflow="hidden" scroll="both" scrollBarFlags="128" lineGap="0" colGap="13" lineItemCount="6" lineItemCount2="1" defaultItem="ui://jk0io98jj3e21ov">
+      <relation target="" sidePair=""/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+  <relation target="" sidePair="center-center"/>
+  <relation target="58vuq" sidePair="top-top"/>
+</component>

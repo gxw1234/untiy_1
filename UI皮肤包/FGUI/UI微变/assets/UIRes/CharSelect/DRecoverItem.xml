@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="260,24" scroll="both" extention="Button">
+  <displayList>
+    <image id="v27uc" src="vl767" fileName="00040.PNG" xy="0,0" name="Img406b0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <text name="DCharName" id="m6p41" xy="1,0" size="112,24" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="true" strokeSize="1" strokeColor="#000000"/>
+    <text name="DCharLevel" id="61j51" xy="116,0" size="51,24" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="true" strokeSize="1" strokeColor="#000000"/>
+    <text name="DCharJob" id="1dnv8" xy="170,0" size="52,24" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="true" strokeSize="1" strokeColor="#000000"/>
+    <text name="DCharSex" id="g8580" xy="225,0" size="33,24" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="true" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

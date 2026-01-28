@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="476,532" overflow="scroll">
+  <displayList>
+    <richtext id="n0_lfc4" name="n0" xy="1,37" size="476,496" fontSize="20" color="#ebae53" vAlign="middle" leading="15" autoSize="none" strokeColor="#000000" strokeSize="2" text="1.点击其他玩家名称，在弹出的选项中点击【优先目标】按钮，可将其设置为优先目标，设置后，此玩家的名称会出现在此界面左侧列表中，并自动添加主界面快捷选中按钮&#xA;2.此玩家出现在视野中，会自动显示快捷选中按钮，按钮中带有此玩家的血量显示，店家后即可直接选中此玩家&#xA;3.当玩家离开视野后，快捷选中按钮会自动隐藏&#xA;4.可同时选为优先目标的玩家无数量上限，单快捷按钮最多可设置三个玩家，在此界面中设置&#xA;5.所有优先目标设置保留在本地，切换设备后需重新设置"/>
+    <richtext id="n1_lfc4" name="title" xy="215,-1" size="48,32" fontSize="22" color="#ebae53" autoSize="none" strokeColor="#000000" text="提示"/>
+  </displayList>
+</component>

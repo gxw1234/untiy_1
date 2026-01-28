@@ -1,0 +1,79 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emory[Cc]aptures/
+/ExportedObj/
+
+# Unity Asset Store Tools
+**/[Aa]ssets/AssetStoreTools
+
+# Unity PlasticSCM integration
+/[Aa]ssets/Plugins/PlasticSCM*
+/.plastic/
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+.consulo/
+.gradle/
+
+# Visual Studio / Rider / MSBuild generated
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Private / local files
+*.private
+*.private.meta
+*.private.*
+*.private.*.meta
+sysinfo.txt
+crashlytics-build.properties
+
+# Build outputs
+*.apk
+*.aab
+*.app
+*.unitypackage
+
+# Unity temp sync file
+~UnityDirMonSyncFile~*
+
+# Addressables
+**/[Aa]ssets/AddressableAssetsData/*/*.bin*
+**/[Aa]ssets/StreamingAssets/aa.meta
+**/[Aa]ssets/StreamingAssets/*/aa/*
+
+# OS cruft
+.DS_Store*
+Thumbs.db
+Desktop.ini
+
+# Local logs / dumps
+Error.txt
+*.log
+
+# Archives (usually too large / generated)
+*.zip
+*.7z
+*.rar

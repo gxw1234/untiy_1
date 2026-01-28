@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="145,44" scroll="both">
+  <displayList>
+    <component name="DA2EControl9" id="o75jn" src="kn5zyd" fileName="DA2EControl9.xml" xy="2,7">
+      <relation target="" sidePair=""/>
+    </component>
+    <text name="DGLod" id="3l6a6" xy="43,4" size="90,36" font="Microsoft YaHei" fontSize="18" leading="0" text="" color="#FFFFFF" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

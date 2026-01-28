@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,55" initName="UpgradeCell2">
+  <displayList>
+    <loader id="n1_ib9q" name="Eff21" xy="32,27" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n2_ib9q" name="Eff11" xy="32,27" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n3_ib9q" name="item" xy="32,27" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n4_ib9q" name="title" xy="7,33" size="51,22" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="right" leading="0" autoSize="none" autoClearText="true" text=""/>
+    <loader id="n5_ib9q" name="Eff22" xy="32,27" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n6_ib9q" name="Eff12" xy="32,27" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n7_ib9q" name="Eff23" xy="32,27" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n8_ib9q" name="Eff13" xy="32,27" pivot="0.5,0.5" anchor="true" size="50,50" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="n9_ib9q" name="bagsLod" xy="62,53" pivot="1,1" anchor="true" size="18,18" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+  </displayList>
+</component>

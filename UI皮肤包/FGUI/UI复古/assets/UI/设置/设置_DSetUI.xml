@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="926,593" opaque="false" scroll="both">
+  <controller name="CPages" exported="true" pages="0,page1,1,page2,2,page3,3,page4" selected="1"/>
+  <displayList>
+    <image id="85ab0" name="DState" src="ldxan2cn" fileName="Set/Data/OMG_MobileMini.Pak/Set_00413.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="yya07" name="frame" src="kn5zxo" fileName="Set/组件/frame.xml" pkg="jk0io98j" xy="0,0"/>
+    <component id="wd10r" name="DA2ETabButton1" src="kn5zxp" fileName="Set/组件/DA2ETabButton1.xml" pkg="jk0io98j" xy="886,65">
+      <Button sound="ui://a1qeklvh3272i" controller="CPages" page="0"/>
+    </component>
+    <component id="ljt30" name="DA2ETabButton2" src="kn5zxq" fileName="Set/组件/DA2ETabButton2.xml" pkg="jk0io98j" xy="886,163">
+      <Button checked="true" sound="ui://a1qeklvh3272i" controller="CPages" page="1"/>
+    </component>
+    <component id="fbk6m" name="DA2ETabButton3" src="kn5zxr" fileName="Set/组件/DA2ETabButton3.xml" pkg="jk0io98j" xy="886,262">
+      <Button sound="ui://a1qeklvh3272i" controller="CPages" page="2"/>
+    </component>
+    <component id="848dc" name="DBtnStateColse" src="kn5zxs" fileName="Set/组件/DBtnStateColse.xml" pkg="jk0io98j" xy="886,0">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="2xki7" name="DA2EIMAGE9" src="ldxan2cw" fileName="Set/Data/OMG_MobileMini.Pak/Set_00300.png" pkg="jk0io98j" xy="16,12" size="53,29"/>
+    <graph id="37bdh" name="ModalLayer" xy="8,8" size="2,2" touchable="false" type="rect" lineSize="0" lineColor="#00000000" fillColor="#00ffffff"/>
+    <component id="1ccuu" name="DA2ETabButton4" src="kn5zxt" fileName="Set/组件/DA2ETabButton4.xml" pkg="jk0io98j" xy="885,361">
+      <Button sound="ui://a1qeklvh3272i" controller="CPages" page="3"/>
+    </component>
+    <component id="11lom" name="DA2EPage1" src="kn5zwq" fileName="Set/组件/DA2EPage1.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component id="25y52" name="DA2EPage2" src="kn5zxk" fileName="Set/组件/DA2EPage2.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component id="11j5t" name="DA2EPage3" src="kn5zxn" fileName="Set/组件/DA2EPage3.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <component id="g51wa" name="DA2EPage4" src="kn5zyq" fileName="Set/组件/DA2EPage4.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="3"/>
+    </component>
+  </displayList>
+</component>

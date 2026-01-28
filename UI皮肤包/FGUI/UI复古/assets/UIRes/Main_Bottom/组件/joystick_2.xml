@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="71,71" scroll="both" extention="Button">
+  <displayList>
+    <image id="n0_v9q4" name="thumb2" src="ldxan277" fileName="Data/OMG_MobileMini.Pak/00062.PNG" xy="0,0"/>
+  </displayList>
+  <Button/>
+</component>

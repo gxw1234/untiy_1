@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="825,443">
+  <displayList>
+    <image id="n10_js02" name="n10" src="hr3gn1y3" fileName="DealWin/Data/DealWin_00909.png" xy="110,101"/>
+    <image id="n11_js02" name="n11" src="hr3gn1y3" fileName="DealWin/Data/DealWin_00909.png" xy="111,188"/>
+    <text id="n0_js02" name="n0" xy="13,6" size="94,33" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" align="center" vAlign="middle" autoSize="none" text="货币类型:"/>
+    <text id="n3_js02" name="n3" xy="15,95" size="94,33" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" vAlign="middle" autoSize="none" text="出售数量:"/>
+    <text id="n4_js02" name="n4" xy="14,182" size="94,33" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" vAlign="middle" autoSize="none" text="出售总价:"/>
+    <text id="n6_js02" name="SellNumTxt" xy="111,101" size="274,24" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" vAlign="middle" autoSize="none" autoClearText="true" text="" input="true" restrict="[0-9]" keyboardType="4"/>
+    <text id="n7_js02" name="SellTallMonTxt" xy="117,188" size="271,24" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" vAlign="middle" autoSize="none" autoClearText="true" text="" input="true" prompt="[i][color=#666666]出售金额不能低于10[/color][/I]" restrict="[0-9]" keyboardType="4"/>
+    <text id="n12_js02" name="n12" xy="391,185" size="134,33" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" vAlign="middle" autoSize="none" strokeColor="#000000" text="手续费：10%"/>
+    <component id="n13_js02" name="PutGBtn" src="j3e21c7" fileName="DealWin/组件/PutGBtn.xml" xy="311,383"/>
+    <list id="n14_js02" name="MoneyTypeGrids" xy="113,8" size="521,28" layout="pagination" overflow="scroll" scroll="horizontal" defaultItem="ui://jk0io98jj3e21c8" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text id="n15_tnfx" name="T_money_assign_title" xy="14,275" size="120,33" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" vAlign="middle" autoSize="none" text="指定购买人:"/>
+    <image id="n16_tnfx" name="n16" src="hr3gn1y3" fileName="DealWin/Data/DealWin_00909.png" xy="113,280"/>
+    <text id="n17_tnfx" name="MoneyAssignTxt" xy="116,279" size="272,24" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" vAlign="middle" autoSize="none" autoClearText="true" text="" input="true" prompt="[i][color=#666666]输入指定玩家手机号，账号，角色名[/color][/I]"/>
+    <text id="n18_tnfx" name="T_money_assign_desc" xy="116,313" size="580,24" font="Microsoft YaHei" fontSize="16" color="#e9ddcd" vAlign="middle" text="如果指定售卖，需输入对方的游戏账号，输入前请多次确认，一旦售出概不负责。"/>
+  </displayList>
+</component>

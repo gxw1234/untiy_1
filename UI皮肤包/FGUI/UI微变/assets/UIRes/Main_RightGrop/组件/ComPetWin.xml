@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="63,63" remark="0,1,3">
+  <displayList>
+    <loader id="n0_h3nb" name="PetLoadImg" xy="0,0" size="63,63" scale="1.05,1.05" url="ui://jk0io98jih0mn1v5"/>
+    <loader id="n1_oldk" name="diyEff0" xy="0,0" size="60,60"/>
+    <loader id="n2_oldk" name="diyEff1" xy="0,0" size="60,60"/>
+    <loader id="n3_oldk" name="diyEff2" xy="0,0" size="60,60"/>
+    <loader id="n4_oldk" name="diyEff3" xy="0,0" size="60,60"/>
+  </displayList>
+</component>

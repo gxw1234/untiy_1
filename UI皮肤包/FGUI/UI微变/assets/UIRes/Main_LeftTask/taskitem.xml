@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="260,24" scroll="both">
+  <displayList>
+    <richtext name="taskmsg" id="3qp14" xy="0,0" size="260,24" font="Microsoft YaHei" fontSize="12" leading="0" autoSize="none" text="" color="#FFFFFF" vAlign="middle" anchor="false"/>
+    <loader id="3c338" name="bg" size="57,24" xy="0,0"/>
+    <loader id="qw72y" name="title" size="60,24" fill="scaleMatchHeight" xy="0,0"/>
+  </displayList>
+  <relation target="3qp14" sidePair="width-width,height-height"/>
+</component>

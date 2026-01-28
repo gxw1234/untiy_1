@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="380,539" opaque="false" scroll="both">
+  <controller name="CPages" exported="true" pages="0,page1,1,page2,2,page3" selected="0"/>
+  <displayList>
+    <image id="253ps" name="DState" src="ldxan2n3" fileName="OtherRole/Data/OMG_MobileMini.Pak/OtherRole_00231.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="o0111" name="frame" src="j3e21jb" fileName="OtherRole/组件/frame.xml" pkg="jk0io98j" xy="0,0"/>
+    <component id="24gi5" name="DA2ETabButton3" src="j3e21jc" fileName="OtherRole/组件/DA2ETabButton3.xml" pkg="jk0io98j" xy="-29,220">
+      <Button sound="ui://a1qeklvh3272i" controller="CPages" page="2"/>
+    </component>
+    <component id="507gb" name="DA2ETabButton2" src="j3e21jd" fileName="OtherRole/组件/DA2ETabButton2.xml" pkg="jk0io98j" xy="-29,144">
+      <Button sound="ui://a1qeklvh3272i" controller="CPages" page="1"/>
+    </component>
+    <component id="ckds3" name="DA2ETabButton1" src="j3e21je" fileName="OtherRole/组件/DA2ETabButton1.xml" pkg="jk0io98j" xy="-29,68">
+      <Button checked="true" sound="ui://a1qeklvh3272i" controller="CPages" page="0"/>
+    </component>
+    <component id="u148h" name="DBtnStateColse" src="j3e21jf" fileName="OtherRole/组件/DBtnStateColse.xml" pkg="jk0io98j" xy="349,65">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <richtext id="85whl" name="DUserName" xy="89,36" size="170,32" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" bold="true" strokeColor="#000000" autoClearText="true" text=""/>
+    <component id="0dnbv" name="DA2EPage1" src="j3e21j5" fileName="OtherRole/组件/DA2EPage1.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component id="2qbm3" name="DA2EPage2" src="j3e21ja" fileName="OtherRole/组件/DA2EPage2.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component id="6p26f" name="DA2EPage3" src="j3e21jv" fileName="OtherRole/组件/DA2EPage3.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <image id="n0_baqf" name="Panel1" src="baqfgvn2wr" fileName="OtherRole/Data/OMG_MobileMini.Pak/OtherRole_panel1.png" pkg="jk0io98j" xy="0,541" visible="false"/>
+    <text id="n1_baqf" name="PanelItemTips" xy="15,557" size="326,68" visible="false" fontSize="16" color="#ffffff" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text="所需等级">
+      <relation target="n0_baqf" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="934,593" scroll="both">
+  <displayList>
+    <component name="DA2EWindow13" id="dk5i2" src="kn5zxm" fileName="DA2EWindow13.xml" xy="23,52">
+      <relation target="" sidePair=""/>
+    </component>
+    <text name="EditText" id="052lj" xy="43,56" size="105,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="拾取类型" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="EditText" id="8j7y3" xy="274,56" size="105,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="掉落显示" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="EditText" id="h287r" xy="505,56" size="105,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="自动拾取" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <list id="7f46f" name="DA2EGrid2" xy="23,99" size="840,470" treeView="false" autoClearItems="true" overflow="hidden" scroll="both" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="10" defaultItem="ui://jk0io98jkn5zyx">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <text name="EditText" id="th4tp" xy="735,56" size="105,37" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="详细信息" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

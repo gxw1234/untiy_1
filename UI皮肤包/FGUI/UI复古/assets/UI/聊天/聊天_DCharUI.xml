@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="575,692" scroll="both">
+  <controller name="CRadios" exported="true" pages="0,Radio1,1,Radio2,2,Radio3,3,Radio4,4,Radio5,5,Radio6,6,Radio7" selected="0"/>
+  <displayList>
+    <image id="jb344" name="DCharUI" src="ldxan2dp" fileName="Char/Data/OMG_MobileMini.Pak/Char_00309.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="346bo" name="DBtnSend" src="j3e21ke" fileName="Char/组件/DBtnSend.xml" pkg="jk0io98j" xy="441,635">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="7i03f" name="DBtn" src="j3e21kf" fileName="Char/组件/DBtn.xml" pkg="jk0io98j" xy="535,295">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="mx7h4" name="DRBIntegrated" src="j3e21kg" fileName="Char/组件/DRBIntegrated.xml" pkg="jk0io98j" xy="13,16">
+      <Button checked="true" sound="ui://a1qeklvh3272i" controller="CRadios" page="0"/>
+    </component>
+    <component id="stp21" name="DRBSystem" src="j3e21kh" fileName="Char/组件/DRBSystem.xml" pkg="jk0io98j" xy="13,76">
+      <Button sound="ui://a1qeklvh3272i" controller="CRadios" page="1"/>
+    </component>
+    <component id="7i73c" name="DRBWorld" src="j3e21ki" fileName="Char/组件/DRBWorld.xml" pkg="jk0io98j" xy="13,136">
+      <Button sound="ui://a1qeklvh3272i" controller="CRadios" page="2"/>
+    </component>
+    <component id="505h8" name="DRBWhisper" src="j3e21kj" fileName="Char/组件/DRBWhisper.xml" pkg="jk0io98j" xy="13,196">
+      <Button sound="ui://a1qeklvh3272i" controller="CRadios" page="3"/>
+    </component>
+    <component id="18xi1" name="DRBGuild" src="j3e21kk" fileName="Char/组件/DRBGuild.xml" pkg="jk0io98j" xy="13,256">
+      <Button sound="ui://a1qeklvh3272i" controller="CRadios" page="4"/>
+    </component>
+    <component id="js3bx" name="DRBGroup" src="j3e21kl" fileName="Char/组件/DRBGroup.xml" pkg="jk0io98j" xy="13,316">
+      <Button sound="ui://a1qeklvh3272i" controller="CRadios" page="5"/>
+    </component>
+    <component id="i6udy" name="DRBHear" src="j3e21km" fileName="Char/组件/DRBHear.xml" pkg="jk0io98j" xy="13,376">
+      <Button sound="ui://a1qeklvh3272i" controller="CRadios" page="6"/>
+    </component>
+    <list id="rp8c6" name="DChatWindow" xy="146,16" size="378,585" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jj3e21kw">
+      <relation target="" sidePair=""/>
+    </list>
+    <text id="5382n" name="DEditChar" xy="10,636" size="416,40" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" autoSize="none" text="" input="true"/>
+    <component id="y31bb" name="DBtnEmoticon" src="j3e21kn" fileName="Char/组件/DBtnEmoticon.xml" pkg="jk0io98j" xy="290,630">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="0m427" name="DBtnBag" src="j3e21ko" fileName="Char/组件/DBtnBag.xml" pkg="jk0io98j" xy="338,630">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="lht7g" name="DBtnPosition" src="j3e21kp" fileName="Char/组件/DBtnPosition.xml" pkg="jk0io98j" xy="386,630">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="0530c" name="DChatToptem" src="j3e21kq" fileName="Char/组件/DChatToptem.xml" pkg="jk0io98j" xy="147,18" visible="false"/>
+    <component id="n0_mz11" name="DBtnAutoSendClose" src="mz110" fileName="Char/组件/DRAutoSendClose.xml" pkg="jk0io98j" xy="14,571"/>
+    <component id="n1_mz11" name="DBtnAutoSendOpen" src="mz112" fileName="Char/组件/DRAutoSendOpen.xml" pkg="jk0io98j" xy="14,571"/>
+  </displayList>
+</component>

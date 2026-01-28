@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="506,263" overflow="scroll">
+  <displayList>
+    <text id="n0_s2h3" name="textTips" xy="0,2" size="502,110" fontSize="20" color="#ffffff" autoSize="none" text="1.当血量/魔法低于配置的百分比后，将会自动使用下拉列表中选择的道具；&#xD;&#xA;2.当选择的道具用尽后，将会自动按照下拉列表中的药品排序进行使用。"/>
+  </displayList>
+</component>

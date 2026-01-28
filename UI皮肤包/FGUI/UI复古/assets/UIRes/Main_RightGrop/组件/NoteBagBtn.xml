@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="120,64" remark="[@OnClick4]&#xD;&#xA;" scroll="both" extention="Button">
+  <displayList>
+    <text name="EditText" id="j36r1" xy="0,0" size="120,64" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="点击回收" color="#00FF00" touchable="false" align="center" vAlign="bottom" underline="true" anchor="false" strokeSize="1" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#008000|#00FF00|#008000" default="#00FF00"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

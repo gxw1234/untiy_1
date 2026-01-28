@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="933,593" opaque="false" scroll="both">
+  <displayList>
+    <component id="o6440" name="DA2EWindow2" src="kn5z17i" fileName="组件/DA2EWindow2.xml" xy="25,55">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="yufrk" name="ImgGuildTag" src="kn5z16s" fileName="Data/OMG_MobileMini.Pak/00256.PNG" xy="82,115" size="300,373"/>
+    <richtext id="72d4h" name="ItemShowInfo" xy="441,190" size="408,316" font="Microsoft YaHei" fontSize="18" color="#ffffff" leading="0" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text=""/>
+    <text id="ft456" name="EditGuildName" xy="111,74" size="257,32" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="玩家公会名字"/>
+    <text id="2bysn" name="EditPlayerName" xy="437,97" size="420,48" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" autoClearText="true" text="玩家名字"/>
+    <component id="h8a1k" name="BtnDisGuild" src="kn5z17j" fileName="组件/BtnDisGuild.xml" xy="444,515" size="123,51">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="s2ogf" name="BtnCompileGuild" src="kn5z17k" fileName="组件/BtnCompileGuild.xml" xy="589,515" size="125,53">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="f486s" name="BtnExitGuild" src="kn5z17l" fileName="组件/BtnExitGuild.xml" xy="731,515" size="125,53">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

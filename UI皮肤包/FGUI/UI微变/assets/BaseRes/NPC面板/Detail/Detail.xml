@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="700,470">
+  <displayList>
+    <graph id="n1_bg5o" name="bg" xy="0,0" size="700,495" type="rect" lineSize="0" fillColor="#7fffffff"/>
+    <text id="n16_9kp7" name="Title" xy="1,-53" size="112,52" fontSize="25" color="#ffffff" vAlign="middle" autoSize="none" text="Text:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <graph id="n2_bg5o" name="InputBg" xy="2,2" size="695,152" type="rect" fillColor="#7f000000"/>
+    <text id="n3_bg5o" name="ContentInput" xy="2,2" size="695,152" fontSize="22" color="#ffffff" autoSize="none" text="" input="true" prompt="请输入">
+      <relation target="n2_bg5o" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph id="n5_bg5o" name="FontBg" xy="0,157" size="700,60" type="rect" fillColor="#7f000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n4_bg5o" name="fontsize" xy="13,169" size="98,32" fontSize="22" color="#ffffff" bold="true" text="字号大小:">
+      <relation target="n5_bg5o" sidePair="left-left,bottom-bottom"/>
+    </text>
+    <text id="n6_bg5o" name="FontSizeInput" xy="121,159" size="502,58" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="12" input="true"/>
+    <graph id="n7_bg5o" name="ColorBg" xy="0,220" size="700,60" type="rect" fillColor="#7f000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n8_bg5o" name="colorTxt" xy="11,235" size="98,32" fontSize="22" color="#ffffff" bold="true" text="文字颜色:">
+      <relation target="n7_bg5o" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n9_bg5o" name="ColorInput" xy="122,222" size="502,58" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" bold="true" singleLine="true" autoClearText="true" text="250" input="true">
+      <relation target="n7_bg5o" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph id="n10_bg5o" name="TipsBg" xy="0,283" size="700,53" type="rect" fillColor="#7f000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n11_bg5o" name="TipsTxt" xy="12,293" size="55,32" fontSize="22" color="#ffffff" autoSize="none" bold="true" text="提示:">
+      <relation target="n10_bg5o" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n12_bg5o" name="TipsInput" xy="72,288" size="627,45" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="3333" input="true"/>
+    <graph id="n13_bg5o" name="FLinkBg" xy="0,339" size="700,53" type="rect" fillColor="#7f000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n14_bg5o" name="FLinkTxt" xy="12,349" size="55,32" fontSize="22" color="#ffffff" autoSize="none" bold="true" text="事件:">
+      <relation target="n13_bg5o" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n15_bg5o" name="FLinlInput" xy="73,340" size="627,51" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" text="" input="true">
+      <relation target="n13_bg5o" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph id="n17_qzyt" name="ScaleBg" xy="0,395" size="700,55" type="rect" fillColor="#7f333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n18_qzyt" name="FormIDTxt" xy="0,407" size="87,32" fontSize="22" color="#ffffff" text="FormID:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n19_qzyt" name="FormID" xy="93,402" size="70,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="-1" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n20_qzyt" name="ScaleTxt" xy="174,407" size="89,32" fontSize="22" color="#ffffff" text="缩放X轴:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n21_qzyt" name="FScaleX" xy="272,402" size="155,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n22_qzyt" name="ScaleYTxt" xy="436,408" size="89,32" fontSize="22" color="#ffffff" text="缩放X轴:">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <text id="n23_qzyt" name="FScaleY" xy="534,402" size="164,42" fontSize="22" color="#ffffff" vAlign="middle" autoSize="none" singleLine="true" autoClearText="true" text="11" input="true">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

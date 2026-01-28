@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="353,539">
+  <controller name="CPages" pages="0,,1,,2,,3,,4,,5,,6,,7," selected="0"/>
+  <displayList>
+    <image id="n0_t0m7" name="bg" src="hr3gn1yl" fileName="DealWin/Data/DealWin_00231.png" pkg="jk0io98j" xy="0,0"/>
+    <component id="n2_t0m7" name="frame" src="j3e21d0" fileName="DealWin/组件/frame(1).xml" pkg="jk0io98j" xy="0,0"/>
+    <richtext id="n10_t0m7" name="DUserName" xy="116,34" size="121,32" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" autoClearText="true" text=""/>
+    <component id="n12_t0m7" name="DBtnStateColse" src="j3e21cp" fileName="DealWin/组件/BuyCloseBtn.xml" pkg="jk0io98j" xy="351,65"/>
+    <component id="n1_t0m7" name="RoleRidBtn1" src="j3e21cs" fileName="DealWin/组件/RoleRidBtn1.xml" pkg="jk0io98j" xy="-29,66">
+      <Button checked="true" controller="CPages" page="0"/>
+    </component>
+    <component id="n3_t0m7" name="RoleRidBtn2" src="j3e21ct" fileName="DealWin/组件/RoleRidBtn2.xml" pkg="jk0io98j" xy="-29,140">
+      <Button controller="CPages" page="1"/>
+    </component>
+    <component id="n4_t0m7" name="RoleRidBtn3" src="j3e21cu" fileName="DealWin/组件/RoleRidBtn3.xml" pkg="jk0io98j" xy="-29,216">
+      <Button controller="CPages" page="2"/>
+    </component>
+    <component id="n5_t0m7" name="RoleRidBtn4" src="j3e21cv" fileName="DealWin/组件/RoleRidBtn4.xml" pkg="jk0io98j" xy="-29,290">
+      <Button controller="CPages" page="3"/>
+    </component>
+    <component id="n6_t0m7" name="RoleRidBtn5" src="j3e21cw" fileName="DealWin/组件/RoleRidBtn5.xml" pkg="jk0io98j" xy="-29,364">
+      <Button controller="CPages" page="4"/>
+    </component>
+    <component id="n7_t0m7" name="RoleRidBtn6" src="j3e21cx" fileName="DealWin/组件/RoleRidBtn6.xml" pkg="jk0io98j" xy="-29,440">
+      <Button controller="CPages" page="5"/>
+    </component>
+    <component id="n8_t0m7" name="RoleRidBtn7" src="j3e21cy" fileName="DealWin/组件/RoleRidBtn7.xml" pkg="jk0io98j" xy="352,114">
+      <Button controller="CPages" page="6"/>
+    </component>
+    <component id="n9_t0m7" name="RoleRidBtn8" src="j3e21cz" fileName="DealWin/组件/RoleRidBtn8.xml" pkg="jk0io98j" xy="352,190">
+      <Button controller="CPages" page="7"/>
+    </component>
+    <component id="n11_t0m7" name="DA2EPage1" src="j3e21d1" fileName="DealWin/组件/DA2EPage1.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component id="n14_t0m7" name="DA2EPage2" src="j3e21ev" fileName="DealWin/组件/DA2EPage2.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component id="n15_t0m7" name="DA2EPage3" src="j3e21ex" fileName="DealWin/组件/DA2EPage3.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <component id="n17_t0m7" name="DA2EPage4" src="j3e21f3" fileName="DealWin/组件/DA2EPage4.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="3"/>
+    </component>
+    <component id="n16_t0m7" name="DA2EPage5" src="j3e21f0" fileName="DealWin/组件/DA2EPage5.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="4"/>
+    </component>
+    <component id="n13_t0m7" name="DA2EPage6" src="j3e21er" fileName="DealWin/组件/DA2EPage6.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="5"/>
+    </component>
+    <component id="n18_t0m7" name="DA2EPage7" src="j3e21f6" fileName="DealWin/组件/DA2EPage7.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="6"/>
+    </component>
+    <component id="n19_t0m7" name="DA2EPage8" src="j3e21f8" fileName="DealWin/组件/DA2EPage8.xml" pkg="jk0io98j" xy="0,0">
+      <gearDisplay controller="CPages" pages="7"/>
+    </component>
+    <image id="n20_baqf" name="Panel1" src="baqfgvn2wr" fileName="OtherRole/Data/OMG_MobileMini.Pak/OtherRole_panel1.png" pkg="jk0io98j" xy="1,541" visible="false"/>
+    <text id="n21_baqf" name="PanelItemTips" xy="15,555" size="328,72" visible="false" fontSize="16" color="#ffffff" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text="所需等级">
+      <relation target="n20_baqf" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

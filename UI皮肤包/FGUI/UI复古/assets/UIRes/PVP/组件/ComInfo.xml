@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="359,167">
+  <displayList>
+    <image id="n7_t0do" name="PVP_infoBG" src="s3367" fileName="PVP/Data/PVP_infoBG.png" xy="0,0"/>
+    <image id="n8_t0do" name="PVP_numberBG" src="s3368" fileName="PVP/Data/PVP_numberBG.png" xy="74,128"/>
+    <richtext id="n5_t0do" name="name" xy="5,8" size="144,26" fontSize="18" color="#ffffff" autoSize="none" text=""/>
+    <component id="n13_t0do" name="item1" src="s3369" fileName="PVP/组件/ComItem.xml" xy="8,41"/>
+    <component id="n10_t0do" name="item2" src="s3369" fileName="PVP/组件/ComItem.xml" xy="77,42"/>
+    <component id="n11_t0do" name="item3" src="s3369" fileName="PVP/组件/ComItem.xml" xy="146,42"/>
+    <component id="n12_t0do" name="item4" src="s3369" fileName="PVP/组件/ComItem.xml" xy="215,42"/>
+    <component id="n9_t0do" name="InputBtn" src="s336b" fileName="PVP/组件/ComInputBtn.xml" xy="282,39"/>
+    <loader id="n1_t0do" name="Icon" xy="6,117" size="57,43"/>
+    <richtext id="n6_t0do" name="number" xy="76,128" size="280,26" fontSize="18" color="#ffffff" autoSize="none" text=""/>
+    <image id="n14_726q" name="n14" src="y19sn2q6" fileName="Bag/Data/OMG_MobileMini.Pak/Bag_00009.png" xy="9,121"/>
+  </displayList>
+</component>

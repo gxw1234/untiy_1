@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="us2ut3jf">
+  <resources>
+    <component id="r7r83" name="ScheduleProg.xml" path="/Brogress/组件/" exported="true"/>
+    <image id="r7r81g" name="Login_yinsibg.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="r7r81h" name="Login_yinsiset.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <component id="r7r81i" name="DBtnOK.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81j" name="DBtnFaill.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81k" name="DBtnCPOK.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81l" name="DServerGreen.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81m" name="DServerRed.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81n" name="DA2ESimpleButton2.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81o" name="DA2ESimpleButton3.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81p" name="DWinOpendAn.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81q" name="DA2ESimpleButton1.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81r" name="DA2ESimpleButton4.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81s" name="SelectServerCloseBtn.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81t" name="DBtnSwitchAccount.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81u" name="DBtnGameNotice.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81v" name="DBtnGameRepair.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81w" name="DBtnInGame.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81x" name="DBtnSwitchServer.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81y" name="DBtnBackToFlutter.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r81z" name="DBtnLoginUIClose.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r820" name="DBtnLoginOK.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r821" name="DBtnNewUser.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r822" name="DBtnChangPasswd.xml" path="/LoginUI/组件/" exported="true"/>
+    <sound id="r7r823" name="Game_over2.wav" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r825" name="DChPCBtn.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r826" name="DDpiBtn.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r827" name="DBtnCPFaill.xml" path="/LoginUI/组件/" exported="true"/>
+    <component id="r7r82a" name="DComs.xml" path="/LoginUI/" exported="true"/>
+    <component id="r7r82b" name="DLoginBg.xml" path="/LoginUI/" exported="true"/>
+    <component id="r7r82f" name="SelectAreaItem.xml" path="/LoginUI/" exported="true"/>
+    <component id="r7r82g" name="SelectGroupItem.xml" path="/LoginUI/" exported="true"/>
+    <component id="r7r839" name="DressBtn.xml" path="/Tips/组件/" exported="true"/>
+    <component id="r7r83a" name="SplitBtn.xml" path="/Tips/组件/" exported="true"/>
+    <component id="r7r83b" name="ContainerItem.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83c" name="ContainerTips.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83d" name="DA2EMOVIECLIP1.xml" path="/Tips/"/>
+    <component id="r7r83e" name="Img.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83f" name="Item.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83g" name="LiteContainer.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83h" name="LiteMsg.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83i" name="LiteMsgSys.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83j" name="Progress.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83k" name="StarItem.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83l" name="Tips.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83m" name="TipsMsg.xml" path="/Tips/" exported="true"/>
+    <component id="r7r83n" name="TxtIrem.xml" path="/Tips/" exported="true"/>
+    <component id="k2h33v" name="ConfirmBtn.xml" path="/Notice/组件/" exported="true"/>
+    <component id="k2h33w" name="ActivityBtn1.xml" path="/Notice/" exported="true"/>
+    <image id="vmwk3y" name="Login_00047.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk3z" name="Login_00034.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk40" name="Login_00035.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk41" name="Login_00375.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk42" name="Login_00376.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk43" name="Login_00048.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk44" name="Login_00386.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk45" name="Login_00387.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk46" name="Login_00394.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk47" name="Login_00395.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk48" name="Login_00392.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk49" name="Login_00393.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4a" name="Login_00390.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4b" name="Login_00391.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4c" name="Login_00012.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4d" name="Login_00049.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4e" name="Login_00050.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4f" name="Login_00051.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4g" name="Login_00052.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4h" name="Login_00053.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4i" name="Login_00054.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4j" name="Login_00055.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4k" name="Login_00056.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4l" name="Login_00057.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4m" name="Login_00389.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4n" name="Login_00388.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4o" name="Login_00000.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4p" name="Login_00001.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4q" name="Login_00378.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4r" name="Login_00379.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4s" name="Login_00380.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4t" name="Login_00381.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4u" name="Login_00382.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4v" name="Login_00383.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4w" name="Login_00384.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4x" name="Login_00385.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4y" name="Login_00440.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk4z" name="Login_00377.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk50" name="Login_00265.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk51" name="Login_00266.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk52" name="Login_00892.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk53" name="Login_00893.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk54" name="Login_00368.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk55" name="Login_00373.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk56" name="Login_00374.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk57" name="Login_00371.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk58" name="Login_00372.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk59" name="Login_00369.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5a" name="Login_00370.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5b" name="Login_00938.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="vmwk5c" name="Login_00939.png" path="/LoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="vmwk5i" name="Tips_00467.png" path="/Tips/Data/OMG_MobileMini.Pak/" exported="true" scale="9grid" scale9grid="15,15,30,30" disableTrim="true"/>
+    <image id="vmwk5j" name="Tips_00568.png" path="/Tips/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5k" name="Tips_00569.png" path="/Tips/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5l" name="Tips_00465.png" path="/Tips/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5m" name="Tips_00886.png" path="/Tips/Data/OMG_MobileMini.Pak/" exported="true" scale="9grid" scale9grid="60,6,137,20" disableTrim="true"/>
+    <image id="vmwk5p" name="Notice_00496.png" path="/Notice/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5q" name="Notice_00396.png" path="/Notice/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5r" name="Notice_00397.png" path="/Notice/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5s" name="Notice_00498.png" path="/Notice/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5t" name="Notice_00497.png" path="/Notice/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5u" name="Notice_00494.png" path="/Notice/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5v" name="Notice_00495.png" path="/Notice/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <component id="vmwk5w" name="NoticeWinItem.xml" path="/Notice/" exported="true"/>
+    <image id="vmwk5x" name="Brogress_000551.png" path="/Brogress/Data/OMG_MobileMini.Pak/" exported="true" scale9grid="72,56,996,528" disableTrim="true"/>
+    <image id="vmwk5y" name="Brogress_000417.png" path="/Brogress/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="vmwk5z" name="Brogress_000418.png" path="/Brogress/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <component id="s5ye60" name="Mulipicitem.xml" path="/Tips/" exported="true"/>
+    <component id="s5ye61" name="MulipicitemPic.xml" path="/Tips/" exported="true"/>
+    <component id="s5ye62" name="MulipicitemTxt.xml" path="/Tips/" exported="true"/>
+    <component id="u5b64" name="UseBtn.xml" path="/Tips/组件/" exported="true"/>
+    <component id="ps2xy" name="RegisterButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <component id="ps2xz" name="LoginButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <component id="ps2x10" name="ModifyButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <component id="ps2x11" name="ResetPasswordButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <component id="ps2x12" name="BindPhoneButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <component id="ps2x13" name="ResetPhoneButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <component id="ps2x14" name="RealNameButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <component id="ps2x15" name="PhoneLoginButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <component id="ps2x1a" name="SubmitButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <component id="ps2x1c" name="ObtainButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <image id="ps2xf" name="resetphone1.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xg" name="bindphone1.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xh" name="resetpassword1.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xi" name="modify1.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xj" name="login1.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xk" name="register1.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xl" name="background.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xm" name="title.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xn" name="phonelogin2.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xo" name="realname2.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xp" name="resetphone2.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xq" name="bindphone2.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xr" name="resetpassword2.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xs" name="modify2.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xt" name="login2.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xu" name="register2.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xv" name="realname1.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2xw" name="phonelogin1.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2x16" name="obtain1.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2x17" name="obtain2.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2x18" name="submit1.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="ps2x19" name="submit2.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="eguh66" name="accountlogin1.jpg" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <image id="eguh67" name="accountlogin2.jpg" path="/PCLoginUI/Data/OMG_MobileMini.Pak/" exported="true"/>
+    <component id="eguh68" name="AccountLoginButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+    <image id="pz626d" name="ScanLogin.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/"/>
+    <component id="pz626e" name="ScanLoginButton.xml" path="/PCLoginUI/组件/" exported="true"/>
+  </resources>
+  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+</packageDescription>

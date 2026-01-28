@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="56,56" scroll="both">
+  <displayList>
+    <component name="BottFriendAniBtn" id="pxr1n" src="v9b11s" fileName="BottFriendAniBtn.xml" xy="28,28">
+      <Button/>
+    </component>
+  </displayList>
+  <transition name="select" frameRate="60" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="pxr1n" value="1"/>
+    <item time="6" type="Alpha" target="pxr1n" value="0.85"/>
+    <item time="12" type="Alpha" target="pxr1n" value="0.7"/>
+    <item time="18" type="Alpha" target="pxr1n" value="0.55"/>
+    <item time="24" type="Alpha" target="pxr1n" value="0.4"/>
+    <item time="30" type="Alpha" target="pxr1n" value="0.25"/>
+    <item time="36" type="Alpha" target="pxr1n" value="0.1"/>
+  </transition>
+</component>

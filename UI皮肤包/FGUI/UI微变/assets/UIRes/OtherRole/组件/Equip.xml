@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="177,153" opaque="false" scroll="both">
+  <displayList>
+    <loader id="ry8o2" name="role" xy="7,-44" size="50,50" url="ui://jk0io98jhr3gn1vf" clearOnPublish="true"/>
+    <component id="j6722" name="EquipCell0" src="j3e21hg" fileName="组件/EquipCell0.xml" xy="66,25">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="0224k" name="EquipCell1" src="j3e21hj" fileName="组件/EquipCell1.xml" xy="13,-5">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="7n777" name="EquipCell16" src="j3e21hk" fileName="组件/EquipCell16.xml" xy="120,34">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n0_ma14" name="EquipCell4" src="j3e21hh" fileName="组件/EquipCell4.xml" xy="-54,-144">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n1_ma14" name="EquipCell13" src="j3e21hi" fileName="组件/EquipCell13.xml" xy="-54,-144">
+      <relation target="" sidePair=""/>
+    </component>
+  </displayList>
+</component>

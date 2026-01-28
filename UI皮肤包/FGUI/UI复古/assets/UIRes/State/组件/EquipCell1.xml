@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="47,116" scroll="both">
+  <displayList>
+    <loader id="07q7a" name="Eff21" xy="0,0" size="47,116" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="2y3c6" name="Eff11" xy="0,0" size="47,116" touchable="false" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="727l5" name="item" xy="0,0" size="47,116" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="25kbw" name="title" xy="0,0" size="47,116" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="right" leading="0" autoSize="none" autoClearText="true" text=""/>
+    <loader id="441i0" name="Eff22" xy="0,0" size="47,116" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="w3dj5" name="Eff12" xy="0,0" size="47,116" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="5kt52" name="Eff23" xy="0,0" size="47,116" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="51h25" name="Eff13" xy="0,0" size="47,116" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <loader id="7t8y2" name="bagsLod" xy="0,0" size="47,116" touchable="false" align="center" vAlign="middle" fill="scaleFree" clearOnPublish="true"/>
+    <text id="n0_tj03" name="IconXY" xy="0,0" size="357,32" visible="false" fontSize="22" color="#ffffff" autoClearText="true" text="对应PC的图标偏移 修改上面位置X,Y"/>
+    <text id="n1_jcc1" name="EffectXY" xy="0,0" size="357,32" visible="false" fontSize="22" color="#ffffff" autoClearText="true" text="对应PC的特效偏移 修改上面位置X,Y"/>
+    <text id="n2_jcc1" name="StarLevel" xy="2,24" size="61,32" font="ui://5615522tpm542" fontSize="14" color="#ffffff" autoSize="none" autoClearText="true" text=""/>
+  </displayList>
+</component>

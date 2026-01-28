@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="760,569" scroll="both">
+  <displayList>
+    <image id="6p5m5" src="ruoyn2qc" fileName="00236.PNG" xy="0,0" name="DBigMapWindowUI" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="uxdn2" src="ruoyn2qv" fileName="frame.xml" xy="0,0" pkg="jk0io98j"/>
+    <component name="DBigMinMapCom" id="1mq2e" src="ruoyn2qw" fileName="DBigMinMapCom.xml" xy="23,54" pkg="jk0io98j"/>
+    <image id="l38cw" src="ruoyn2qd" fileName="00241.PNG" xy="23,54" size="682,490" name="DA2EIMAGE3" alpha="1.0" pkg="jk0io98j"/>
+    <image id="5tjy8" src="ruoyn2qe" fileName="00235.PNG" xy="477,442" size="229,94" name="DMinMapBG2" alpha="1.0" pkg="jk0io98j"/>
+    <image id="8hyn0" src="ruoyn2qf" fileName="00234.PNG" xy="23,54" size="177,35" name="DMinMapBG1" alpha="1.0" pkg="jk0io98j"/>
+    <text name="DMapName" id="720jt" xy="23,54" size="130,35" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DA2ESimpleButton2" id="n3a21" src="ruoyn2qx" fileName="DA2ESimpleButton2.xml" xy="617,450" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DA2ESimpleButton1" id="275v3" src="ruoyn2qy" fileName="DA2ESimpleButton1.xml" xy="531,450" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <loader id="dn0g0" name="DItemLoader1" size="43,43" touchable="false" fill="scaleNoBorder" xy="547,468"/>
+    <loader id="k3hel" name="DItemLoader2" size="43,43" touchable="false" fill="scaleNoBorder" xy="635,468"/>
+    <component name="DBigMinMapColse" id="gh6br" src="ruoyn2qz" fileName="DBigMinMapColse.xml" xy="730,0" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="02667" src="ruoyn2qm" fileName="00554.PNG" xy="16,12" size="53,29" name="MapFontImg" alpha="1.0" pkg="jk0io98j"/>
+  </displayList>
+</component>

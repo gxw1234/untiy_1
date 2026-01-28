@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="1280,720" mask="e8cyw" reversedMask="true" scroll="both">
+  <displayList>
+    <graph size="1280,720" id="c76om" name="n0" xy="0,0" lineSize="0" type="rect" fillColor="#66000000" lineColor=""/>
+    <graph size="91,77" id="e8cyw" name="window" xy="672,286" lineSize="0" touchable="false" type="eclipse" fillColor="#FFFFFF" lineColor="#000000"/>
+    <component name="txtComLeft" id="r8071" sidePair="" src="r7r83y" fileName="txtComLeft.xml" xy="437,302">
+      <relation target="e8cyw" sidePair="middle-middle,left-left"/>
+    </component>
+    <component name="txtComRight" id="4y44d" sidePair="" src="r7r83z" fileName="txtComRight.xml" xy="807,302">
+      <relation target="e8cyw" sidePair="middle-middle,right-right"/>
+    </component>
+    <component name="c0" id="2xl46" sidePair="" src="r7r840" fileName="c0.xml" xy="642,256">
+      <relation target="e8cyw" sidePair="left-left,top-top"/>
+    </component>
+    <component name="c1" id="c2cf7" sidePair="" src="r7r841" fileName="c1.xml" xy="673,256">
+      <relation target="e8cyw" sidePair="center-center,top-top"/>
+    </component>
+    <component name="c2" id="l1a81" sidePair="" src="r7r842" fileName="c2.xml" xy="764,256">
+      <relation target="e8cyw" sidePair="right-right,top-top"/>
+    </component>
+    <component name="c3" id="3swrl" sidePair="" src="r7r843" fileName="c3.xml" xy="642,286">
+      <relation target="e8cyw" sidePair="middle-middle,left-left"/>
+    </component>
+    <component name="c4" id="388gp" sidePair="" src="r7r844" fileName="c4.xml" xy="703,311">
+      <relation target="e8cyw" sidePair="center-center,middle-middle"/>
+    </component>
+    <component name="c5" id="4jh1x" sidePair="" src="r7r845" fileName="c5.xml" xy="764,286">
+      <relation target="e8cyw" sidePair="middle-middle,right-right"/>
+    </component>
+    <component name="c6" id="uqj88" sidePair="" src="r7r846" fileName="c6.xml" xy="642,364">
+      <relation target="e8cyw" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component name="c7" id="40823" sidePair="" src="r7r847" fileName="c7.xml" xy="673,364">
+      <relation target="e8cyw" sidePair="center-center,bottom-bottom"/>
+    </component>
+    <component name="c8" id="g7j57" sidePair="" src="r7r848" fileName="c8.xml" xy="764,364">
+      <relation target="e8cyw" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component name="txtComHides" id="8cn1j" sidePair="" src="r7r84a" fileName="txtComHides.xml" visible="false" xy="421,518">
+      <relation target="e8cyw" sidePair="middle-middle,left-left"/>
+    </component>
+  </displayList>
+</component>

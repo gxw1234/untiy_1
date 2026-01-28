@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="324,350" opaque="false">
+  <displayList>
+    <image id="n0_hdg7" name="box_bg" src="hdg7gvn2vc" fileName="BoxView/boxview_bg.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_hdg7" name="frame" src="hdg7vn2sm" fileName="宝箱/frame.xml" xy="0,0" size="324,347" pkg="jk0io98j">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <component id="n2_hdg7" name="ItemBox0" src="hdg7vn2sq" fileName="宝箱/ItemBox.xml" xy="132,132" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n3_hdg7" name="ItemBox1" src="hdg7vn2sq" fileName="宝箱/ItemBox.xml" xy="132,41" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n4_hdg7" name="ItemBox2" src="hdg7vn2sq" fileName="宝箱/ItemBox.xml" xy="220,41" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n5_hdg7" name="ItemBox3" src="hdg7vn2sq" fileName="宝箱/ItemBox.xml" xy="220,131" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n6_hdg7" name="ItemBox4" src="hdg7vn2sq" fileName="宝箱/ItemBox.xml" xy="220,223" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n7_hdg7" name="ItemBox5" src="hdg7vn2sq" fileName="宝箱/ItemBox.xml" xy="132,223" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n8_hdg7" name="ItemBox6" src="hdg7vn2sq" fileName="宝箱/ItemBox.xml" xy="43,223" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n9_hdg7" name="ItemBox7" src="hdg7vn2sq" fileName="宝箱/ItemBox.xml" xy="43,131" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n10_hdg7" name="ItemBox8" src="hdg7vn2sq" fileName="宝箱/ItemBox.xml" xy="43,41" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+    <component id="n11_hdg7" name="CloseButton" src="hdg7vn2sn" fileName="宝箱/CloseButton.xml" xy="323,0" pkg="jk0io98j">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n12_hdg7" name="DGetBoxItemFlash" src="hdg7vn2so" fileName="宝箱/DGetBoxItemFlash.xml" xy="114,315" size="94,34" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <Button title="再开一次" titleColor="#ffffff" titleFontSize="18"/>
+    </component>
+    <component id="n13_hdg7" name="DItemBox" src="hdg7vn2sp" fileName="宝箱/DItemBox.xml" xy="92,70" pkg="jk0io98j">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="380,269" scroll="both">
+  <displayList>
+    <component name="frame" id="5n352" src="j3e21jg" fileName="frame1.xml" xy="0,0" pkg="jk0io98j"/>
+    <image id="6k8pu" src="ldxan2n8" fileName="00209.PNG" xy="0,0" size="352,268" name="JewelryBoxUIBG" alpha="1.0" pkg="jk0io98j"/>
+    <component name="DBtnBoxClose" id="14d4b" src="j3e21jh" fileName="DBtnBoxClose.xml" xy="349,0" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="EquipCell30" id="o32ur" src="j3e21ji" fileName="EquipCell30.xml" xy="34,29" pkg="jk0io98j"/>
+    <component name="EquipCell31" id="lqa87" src="j3e21jj" fileName="EquipCell31.xml" xy="109,29" pkg="jk0io98j"/>
+    <component name="EquipCell32" id="02b1n" src="j3e21jk" fileName="EquipCell32.xml" xy="184,29" pkg="jk0io98j"/>
+    <component name="EquipCell33" id="wx2op" src="j3e21jl" fileName="EquipCell33.xml" xy="259,29" pkg="jk0io98j"/>
+    <component name="EquipCell34" id="4686i" src="j3e21jm" fileName="EquipCell34.xml" xy="34,102" pkg="jk0io98j"/>
+    <component name="EquipCell35" id="5guyw" src="j3e21jn" fileName="EquipCell35.xml" xy="109,102" pkg="jk0io98j"/>
+    <component name="EquipCell36" id="56sl1" src="j3e21jo" fileName="EquipCell36.xml" xy="184,102" pkg="jk0io98j"/>
+    <component name="EquipCell37" id="gv13j" src="j3e21jp" fileName="EquipCell37.xml" xy="259,102" pkg="jk0io98j"/>
+    <component name="EquipCell38" id="crt8b" src="j3e21jq" fileName="EquipCell38.xml" xy="34,175" pkg="jk0io98j"/>
+    <component name="EquipCell39" id="1exs3" src="j3e21jr" fileName="EquipCell39.xml" xy="109,175" pkg="jk0io98j"/>
+    <component name="EquipCell40" id="0r7v0" src="j3e21js" fileName="EquipCell40.xml" xy="185,175" pkg="jk0io98j"/>
+    <component name="EquipCell41" id="v35oo" src="j3e21jt" fileName="EquipCell41.xml" xy="259,175" pkg="jk0io98j"/>
+  </displayList>
+</component>

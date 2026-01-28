@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,32" scroll="both">
+  <displayList>
+    <graph size="80,32" id="l464r" name="bg" xy="0,0" lineSize="0" type="rect" fillColor="#000000" lineColor="#000000">
+      <relation sidePair="width-width,height-height"/>
+    </graph>
+    <text name="title" id="0l4s3" xy="0,-34" size="80,29" font="Microsoft YaHei" fontSize="20" leading="0" autoSize="none" text="参数8" color="#FFFFFF" align="center" vAlign="middle" anchor="false"/>
+    <text name="input" id="gs8of" xy="0,0" size="80,32" font="Microsoft YaHei" fontSize="22" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+</component>

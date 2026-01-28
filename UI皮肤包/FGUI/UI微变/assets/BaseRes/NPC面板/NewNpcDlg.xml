@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="529,189" remark="0:0:0" scroll="both">
+  <displayList>
+    <image id="ru3ap" src="hr3g4w" fileName="00859.PNG" xy="0,0" name="NewNpcDlg">
+      <relation sidePair=""/>
+    </image>
+    <text name="NewNpcDlgt1" id="0raeg" xy="30,19" size="100,25" font="Microsoft YaHei" fontSize="16" leading="0" text="" color="#DFD71B" ubb="true" autoClearText="true" anchor="false"/>
+    <text name="NewNpcDlgt2" id="0i36n" xy="30,54" size="100,25" font="Microsoft YaHei" fontSize="14" leading="6" text="" color="#FFFFFF" ubb="true" autoClearText="true" anchor="false"/>
+    <graph size="476,167" id="i5r77" name="NewNpcDlgGr" xy="12,11" lineSize="0" type="rect" fillColor="#00ffffff" lineColor=""/>
+    <component name="NewNpcDCloseBtn" id="38fl5" src="r7r81q" fileName="NewNpcDCloseBtn.xml" xy="498,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://d0jh323mwjs6i"/>
+    </component>
+    <richtext name="NewNpcDlgt3" id="bp64c" xy="30,139" size="212,25" font="Microsoft YaHei" fontSize="14" leading="0" text="" color="#DFD71B" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

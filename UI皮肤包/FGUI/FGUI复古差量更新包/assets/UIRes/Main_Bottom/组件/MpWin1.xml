@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="42,84" scroll="both">
+  <displayList>
+    <loader id="gh588" name="DMPBall" xy="0,0" size="42,84" fillMethod="vt" fillOrigin="1"/>
+  </displayList>
+  <transition name="select" autoPlay="true">
+    <item time="0" type="Icon" target="gh588" value="ui://jk0io98juxwigvn2xd"/>
+  </transition>
+</component>

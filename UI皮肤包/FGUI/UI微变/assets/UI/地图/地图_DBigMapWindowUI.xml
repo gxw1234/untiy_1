@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="760,569" opaque="false" scroll="both">
+  <displayList>
+    <image id="6tqhc" name="DBigMapWindowUI" src="kn5zmg" fileName="Data/OMG_MobileMini.Pak/00236.PNG" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="kgfa2" name="frame" src="kn5zmz" fileName="组件/frame.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="k5m78" name="DBigMinMapCom" src="kn5zn0" fileName="组件/DBigMinMapCom.xml" xy="23,54" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="7qlwo" name="DA2EIMAGE3" src="kn5zmh" fileName="Data/OMG_MobileMini.Pak/00241.PNG" xy="23,54" size="682,490" pkg="jk0io98j"/>
+    <image id="ax8p6" name="DMinMapBG2" src="kn5zmi" fileName="Data/OMG_MobileMini.Pak/00235.PNG" xy="477,442" size="229,94" pkg="jk0io98j"/>
+    <image id="8c47t" name="DMinMapBG1" src="kn5zmj" fileName="Data/OMG_MobileMini.Pak/00234.PNG" xy="23,54" size="177,35" pkg="jk0io98j"/>
+    <text id="ikanw" name="DMapName" xy="23,54" size="130,35" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text=""/>
+    <component id="66qst" name="DA2ESimpleButton2" src="kn5zn1" fileName="组件/DA2ESimpleButton2.xml" xy="617,450" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="wsk37" name="DA2ESimpleButton1" src="kn5zn2" fileName="组件/DA2ESimpleButton1.xml" xy="531,450" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <loader id="t88d2" name="DItemLoader1" xy="547,468" size="43,43" touchable="false" fill="scaleNoBorder"/>
+    <loader id="juct2" name="DItemLoader2" xy="635,468" size="43,43" touchable="false" fill="scaleNoBorder"/>
+    <component id="xaiju" name="DBigMinMapColse" src="kn5zn3" fileName="组件/DBigMinMapColse.xml" xy="730,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <image id="8h2ia" name="MapFontImg" src="kn5zmq" fileName="Data/OMG_MobileMini.Pak/00554.PNG" xy="54,12" size="53,29" pkg="jk0io98j"/>
+  </displayList>
+</component>

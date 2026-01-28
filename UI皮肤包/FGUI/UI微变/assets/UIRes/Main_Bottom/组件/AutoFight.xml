@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="243,82" scroll="both">
+  <displayList>
+    <loader id="78sl5" name="AutoFightAni" size="243,82" align="center" vAlign="middle" xy="0,0"/>
+    <component name="BtnAutoFight" id="61msb" src="v9b11h" fileName="BtnAutoFight.xml" xy="196,19">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+  <transition name="select" frameRate="60" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Icon" target="78sl5" value="ui://jk0io98jv9b1by"/>
+    <item time="6" type="Icon" target="78sl5" value="ui://jk0io98jv9b1bz"/>
+    <item time="12" type="Icon" target="78sl5" value="ui://jk0io98jv9b1c0"/>
+    <item time="18" type="Icon" target="78sl5" value="ui://jk0io98jv9b1c1"/>
+    <item time="24" type="Icon" target="78sl5" value="ui://jk0io98jv9b1c2"/>
+    <item time="30" type="Icon" target="78sl5" value="ui://jk0io98jv9b1c3"/>
+    <item time="36" type="Icon" target="78sl5" value="ui://jk0io98jv9b1c4"/>
+    <item time="42" type="Icon" target="78sl5" value="ui://jk0io98jv9b1c5"/>
+    <item time="48" type="Icon" target="78sl5" value="ui://jk0io98jv9b1c6"/>
+    <item time="54" type="Icon" target="78sl5" value="ui://jk0io98jv9b1c7"/>
+    <item time="60" type="Icon" target="78sl5" value="ui://jk0io98jv9b1c8"/>
+    <item time="66" type="Icon" target="78sl5" value="ui://jk0io98jv9b1c9"/>
+    <item time="72" type="Icon" target="78sl5" value="ui://jk0io98jv9b1ca"/>
+    <item time="78" type="Icon" target="78sl5" value="ui://jk0io98jv9b1cb"/>
+    <item time="84" type="Icon" target="78sl5" value="ui://jk0io98jv9b1cc"/>
+    <item time="90" type="Icon" target="78sl5" value="ui://jk0io98jv9b1cd"/>
+    <item time="96" type="Icon" target="78sl5" value="ui://jk0io98jv9b1ce"/>
+    <item time="102" type="Icon" target="78sl5" value="ui://jk0io98jv9b1cf"/>
+    <item time="108" type="Icon" target="78sl5" value="ui://jk0io98jv9b1cg"/>
+    <item time="114" type="Icon" target="78sl5" value="ui://jk0io98jv9b1ch"/>
+  </transition>
+</component>

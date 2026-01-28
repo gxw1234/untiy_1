@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="889,593" scroll="both">
+  <displayList>
+    <image id="3po68" name="DA2EIMAGE1" src="kn5z16u" fileName="Data/OMG_MobileMini.Pak/00242.PNG" xy="23,54" size="840,44"/>
+    <text id="6ma8y" name="ChatEdit3" xy="27,55" size="198,37" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="玩家名字"/>
+    <text id="7017e" name="ChatEdit4" xy="235,55" size="199,37" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="等级"/>
+    <text id="k0sck" name="ChatEdit5" xy="439,55" size="163,37" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="职业"/>
+    <text id="1dyng" name="ChatEdit36" xy="607,55" size="256,37" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="操作"/>
+    <list id="068i5" name="DA2EGrid5" xy="24,96" size="839,302" overflow="scroll" scrollBarFlags="128" defaultItem="ui://jk0io98jkn5z18h" autoClearItems="true">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="ay4c3" name="BtnAllAree" src="kn5z17z" fileName="组件/BtnAllAree.xml" xy="720,511">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="p7l26" name="ChatEdit1" xy="83,513" size="110,41" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="禁止入会申请"/>
+    <text id="5ub03" name="ChatEdit2" xy="262,513" size="115,41" font="Microsoft YaHei" fontSize="16" color="#ffffff" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="开启自动审批"/>
+    <component id="haj5k" name="CheckBoxBan" src="kn5z180" fileName="组件/CheckBoxBan.xml" xy="41,514">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="b8673" name="CheckBoxOpen" src="kn5z181" fileName="组件/CheckBoxOpen.xml" xy="220,514">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="515xe" name="BtnAllRefuse" src="kn5z182" fileName="组件/BtnAllRefuse.xml" xy="582,511">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <component id="1cu00" name="BtnApplyCon" src="kn5z183" fileName="组件/BtnApplyCon.xml" xy="444,510">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

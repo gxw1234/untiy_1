@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="135,100" scroll="both">
+  <displayList>
+    <loader id="n52id" name="load" xy="0,0" size="135,100"/>
+    <richtext id="23vuk" name="title0" xy="0,0" size="10,19" touchable="false" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text=""/>
+    <richtext id="7m5q0" name="title1" xy="17,24" size="10,19" touchable="false" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text=""/>
+    <richtext id="588so" name="title2" xy="8,8" size="10,19" touchable="false" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text=""/>
+    <richtext id="k63lt" name="title3" xy="25,32" size="10,19" touchable="false" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text=""/>
+    <graph id="55mlb" name="Stroke" xy="-1,-1" size="137,102" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff663300" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <relation target="n52id" sidePair="width-width,height-height"/>
+</component>

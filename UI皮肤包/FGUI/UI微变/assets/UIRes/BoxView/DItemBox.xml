@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="140,140" initName="DItemBox">
+  <displayList>
+    <loader id="n0_hv7o" name="ItemBoxCell" xy="0,0" size="140,140" touchable="false"/>
+    <loader id="n1_hv7o" name="ItemBoxCell1" xy="0,0" size="140,140" touchable="false" clearOnPublish="true"/>
+  </displayList>
+</component>

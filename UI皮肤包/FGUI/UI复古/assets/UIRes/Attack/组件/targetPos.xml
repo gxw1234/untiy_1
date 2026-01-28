@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="204,90">
+  <displayList>
+    <image id="n0_lfc4" name="n0" src="s336d" fileName="Attack/Data/Attack_targetbg.png" xy="0,0"/>
+    <richtext id="n2_lfc4" name="text" xy="22,33" size="159,32" fontSize="18" color="#7c6751" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="置入优先目标"/>
+    <component id="n7_lfc4" name="ComInfo" src="s336gvn2w7" fileName="Attack/组件/ComInfo.xml" xy="0,0" visible="false"/>
+  </displayList>
+</component>

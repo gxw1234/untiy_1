@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="65,65" scroll="both" extention="Button">
+  <displayList>
+    <loader id="t3x40" name="DItemLoader" xy="32,33" pivot="0.5,0.5" anchor="true" size="60,61" url="ui://jk0io98jldxan2fq" align="center" vAlign="middle" fill="scale"/>
+    <text id="e5o40" name="DItemTexl" xy="3,42" size="60,22" font="SimSun" fontSize="14" color="#ffffff" align="right" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="n0_gkao" name="StarLevel" xy="2,40" size="60,22" font="ui://5615522tpm542" fontSize="14" color="#ffffff" align="right" leading="0" autoSize="none" strokeColor="#000000" text=""/>
+  </displayList>
+  <Button volume="0"/>
+</component>

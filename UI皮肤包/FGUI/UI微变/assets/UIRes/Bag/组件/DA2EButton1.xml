@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="55,35" scroll="both" extention="Button">
+  <displayList>
+    <image id="tf5bu" src="v9b14a" fileName="00009.PNG" xy="0,0" name="Img977c">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="6q2fa" src="v9b14a" fileName="00009.PNG" xy="0,0" name="Img9o31">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <loader id="x350l" name="icon" size="55,35" url="ui://jk0io98jv9b14a" xy="0,0"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

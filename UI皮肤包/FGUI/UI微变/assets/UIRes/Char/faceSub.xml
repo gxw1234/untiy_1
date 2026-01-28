@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" scroll="both">
+  <displayList>
+    <loader id="5y45d" name="icon" size="100,100" fill="scale" xy="0,0"/>
+  </displayList>
+  <relation target="5y45d" sidePair="width-width,height-height"/>
+</component>

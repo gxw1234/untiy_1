@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="597,406" scroll="both">
+  <displayList>
+    <loader id="f8h7m" name="DOpenAni" size="595,405" align="center" vAlign="middle" xy="1,0"/>
+  </displayList>
+  <transition name="select" frameRate="60" autoPlay="false" autoPlayRepeat="1">
+    <item time="0" type="Icon" target="f8h7m" value="ui://us2ut3jfvmwk4d"/>
+    <item time="6" type="Icon" target="f8h7m" value="ui://us2ut3jfvmwk4e"/>
+    <item time="12" type="Icon" target="f8h7m" value="ui://us2ut3jfvmwk4f"/>
+    <item time="18" type="Icon" target="f8h7m" value="ui://us2ut3jfvmwk4g"/>
+    <item time="24" type="Icon" target="f8h7m" value="ui://us2ut3jfvmwk4h"/>
+    <item time="30" type="Icon" target="f8h7m" value="ui://us2ut3jfvmwk4i"/>
+    <item time="36" type="Icon" target="f8h7m" value="ui://us2ut3jfvmwk4j"/>
+    <item time="42" type="Icon" target="f8h7m" value="ui://us2ut3jfvmwk4k"/>
+    <item time="48" type="Icon" target="f8h7m" value="ui://us2ut3jfvmwk4l"/>
+  </transition>
+</component>

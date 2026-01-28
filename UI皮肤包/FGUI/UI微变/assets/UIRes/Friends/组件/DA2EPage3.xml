@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="918,604" scroll="both">
+  <displayList>
+    <component name="DFDRecentTitle" id="24i41" src="kn5z152" fileName="DFDRecentTitle.xml" xy="192,54">
+      <relation target="" sidePair=""/>
+    </component>
+    <list id="f8sp1" name="DFDRecentList" xy="195,97" size="666,366" treeView="false" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="1" lineItemCount2="5" defaultItem="ui://jk0io98jkn5z15r">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="DBtnClearContact" id="awlr7" src="kn5z153" fileName="DBtnClearContact.xml" xy="712,512">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

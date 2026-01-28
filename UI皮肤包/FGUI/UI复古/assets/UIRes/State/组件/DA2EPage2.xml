@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="383,537" opaque="false" scroll="both">
+  <displayList>
+    <image id="5e701" name="DA2EIMAGE1" src="ldxan2f0" fileName="State/Data/OMG_MobileMini.Pak/State_00200.png" xy="26,97" size="304,365" visible="false"/>
+    <component id="42w13" name="DA2ECheckBox1" src="d5cvs" fileName="State/组件/DA2ECheckBox1.xml" xy="131,473">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <text id="hnu37" name="ChatEdit44" xy="166,477" size="90,31" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="外显时装"/>
+    <component id="d31n6" name="role" src="6spp6" fileName="State/组件/role.xml" xy="87,269">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n0_10bjg" name="FashionShowHintWin" src="10bjgvn2ud" fileName="State/组件/FashionShowHintWin.xml" xy="33,126"/>
+  </displayList>
+</component>

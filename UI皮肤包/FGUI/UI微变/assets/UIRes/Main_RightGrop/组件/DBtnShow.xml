@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="76,70" scroll="both" extention="Button">
+  <displayList>
+    <image id="fyqyw" src="k02tn1tq" fileName="00089.PNG" xy="0,0" name="Img8900n">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="4q4d3" src="k02tn1tr" fileName="00090.PNG" xy="0,0" name="Img90eyc">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="uoa0n" src="k02tn1ts" fileName="00598.PNG" xy="53,0" size="24,24" visible="false" name="DBtnShowRHot" alpha="1.0"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Check"/>
+</component>

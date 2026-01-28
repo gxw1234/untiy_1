@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="226,70" scroll="both" extention="Button">
+  <displayList>
+    <image id="72333" src="vmwk4a" fileName="00390.PNG" xy="0,0" name="Img3905lu">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="10vn1" src="vmwk4b" fileName="00391.PNG" xy="0,0" name="Img391842">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text name="EditText" id="53176" xy="12,9" size="197,49" font="SimHei" fontSize="18" leading="0" letterSpacing="1" autoSize="none" text="各种活动" color="#DFCFB4" touchable="false" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#DFCFB4|#DFCFB4|#DFCFB4" default="#DFCFB4"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

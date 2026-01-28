@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="402,516" scroll="both">
+  <displayList>
+    <image id="t380p" name="PutAwayGoodUI" src="kn5z10u" fileName="AuctionGuild/Data/OMG_MobileMini.Pak/AuctionGuild_00621.png" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <component id="066u5" name="frame" src="kn5z12b" fileName="AuctionGuild/组件/frame1.xml" pkg="jk0io98j" xy="0,0">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="emcu3" name="DA2EIMAGE1" src="kn5z10v" fileName="AuctionGuild/Data/OMG_MobileMini.Pak/AuctionGuild_00619.png" pkg="jk0io98j" xy="127,26" size="151,33"/>
+    <image id="8p1m5" name="DA2EIMAGE2" src="kn5z10w" fileName="AuctionGuild/Data/OMG_MobileMini.Pak/AuctionGuild_00612.png" pkg="jk0io98j" xy="40,70" size="321,3"/>
+    <text id="h5au0" name="PutAwayGoodNames" xy="126,80" size="153,33" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" text="物品名字七个字"/>
+    <text id="p0y65" name="ChatEdit35" xy="62,198" size="75,33" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="出售货币:"/>
+    <text id="p47bb" name="ChatEdit39" xy="62,249" size="75,33" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="起拍价:"/>
+    <text id="l5s74" name="ChatEdit40" xy="62,307" size="75,33" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="一口价:"/>
+    <component id="my2gu" name="PutAwayStPriWin" src="kn5z12c" fileName="AuctionGuild/组件/PutAwayStPriWin.xml" pkg="jk0io98j" xy="160,248">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="6v1p0" name="PutAwayMoPriWin" src="kn5z12d" fileName="AuctionGuild/组件/PutAwayMoPriWin.xml" pkg="jk0io98j" xy="159,306">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="2w8k6" name="PutAwayCancleBtn" src="kn5z12e" fileName="AuctionGuild/组件/PutAwayCancleBtn.xml" pkg="jk0io98j" xy="32,424">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="mxsyt" name="PutAwayBuyBtn" src="kn5z12f" fileName="AuctionGuild/组件/PutAwayBuyBtn.xml" pkg="jk0io98j" xy="216,424">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="ijh8r" name="PutAwayStartPriceBtn" src="kn5z12g" fileName="AuctionGuild/组件/PutAwayStartPriceBtn.xml" pkg="jk0io98j" xy="329,249">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="24875" name="PutAwayMouseBtn" src="kn5z12h" fileName="AuctionGuild/组件/PutAwayMouseBtn.xml" pkg="jk0io98j" xy="329,308">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="6jnbn" name="PutAwayGoodWin" src="kn5z12i" fileName="AuctionGuild/组件/PutAwayGoodWin.xml" pkg="jk0io98j" xy="172,119">
+      <relation target="" sidePair=""/>
+    </component>
+    <text id="n0_prs3" name="ChatEdit40" xy="62,364" size="75,33" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="上架时间:"/>
+    <component id="n8_prs3" name="ComDownBox" src="prs30" fileName="AuctionGuild/组件/ComDownBox.xml" pkg="jk0io98j" xy="156,362"/>
+    <component id="n9_prs3" name="ComDownBox1" src="prs30" fileName="AuctionGuild/组件/ComDownBox.xml" pkg="jk0io98j" xy="156,197"/>
+  </displayList>
+</component>

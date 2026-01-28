@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="858,594">
+  <displayList>
+    <image id="n0_wfya" name="bg" src="ceyqgvn2w3" fileName="Common/common_bg.png" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_wfya" name="frame" src="m9og2" fileName="GameShop/组件/frame.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair="width-width,height-height"/>
+    </component>
+    <text id="n2_wfya" name="Title" xy="35,14" size="90,26" fontSize="18" color="#fbf3d3" letterSpacing="2" autoSize="none" bold="true" strokeColor="#000000" text="我的店铺"/>
+    <component id="n65_kn95" name="cs1" src="tybd1e" fileName="GameShop/组件/ShopButton3.xml" xy="35,70" pkg="jk0io98j"/>
+    <component id="n66_kn95" name="cs2" src="tybd1f" fileName="GameShop/组件/ShopButton4.xml" xy="150,71" pkg="jk0io98j"/>
+    <component id="n67_kn95" name="cs3" src="tybd1g" fileName="GameShop/组件/ShopButton5.xml" xy="265,71" pkg="jk0io98j"/>
+    <component id="n68_kn95" name="cs4" src="tybd1h" fileName="GameShop/组件/ShopButton6.xml" xy="380,71" pkg="jk0io98j"/>
+    <component id="n69_kn95" name="cs5" src="tybd1i" fileName="GameShop/组件/ShopButton7.xml" xy="495,71" pkg="jk0io98j"/>
+    <component id="n11_wfya" name="Stall" src="m9og1f" fileName="GameShop/组件/SearchButton2.xml" xy="739,75" pkg="jk0io98j">
+      <Button title="出摊" titleColor="#e1db39" titleFontSize="18" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n13_wfya" name="Page1" src="m9og1g" fileName="GameShop/组件/cs1.xml" xy="23,114" visible="false" pkg="jk0io98j"/>
+    <component id="n59_wfya" name="Page2" src="m9og1k" fileName="GameShop/组件/Page2.xml" xy="23,114" visible="false" pkg="jk0io98j"/>
+    <component id="n60_wfya" name="Page3" src="m9og1n" fileName="GameShop/组件/Page3.xml" xy="23,114" pkg="jk0io98j"/>
+    <component id="n62_wfya" name="Page4" src="m9og1p" fileName="GameShop/组件/Page4.xml" xy="23,114" pkg="jk0io98j"/>
+    <component id="n63_wfya" name="Page5" src="m9og1r" fileName="GameShop/组件/Page5.xml" xy="23,114" pkg="jk0io98j"/>
+    <component id="n14_wfya" name="LeftButton" src="m9ogl" fileName="GameShop/组件/LeftButton.xml" xy="635,372" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n15_wfya" name="RightButton" src="m9ogo" fileName="GameShop/组件/RightButton.xml" xy="738,372" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n16_wfya" name="EndButton" src="m9ogr" fileName="GameShop/组件/EndButton.xml" xy="779,372" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n17_wfya" name="StartButton" src="m9ogu" fileName="GameShop/组件/StartButton.xml" xy="581,372" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="n18_wfya" name="page_bg" src="m9ogx" fileName="GameShop/Data/gs_page_bg.png" xy="674,372" pkg="jk0io98j"/>
+    <text id="n19_wfya" name="pageNum" xy="678,375" size="51,26" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" autoSize="none" text="1/3"/>
+    <component id="n20_wfya" name="FirstButton" src="m9ogy" fileName="GameShop/组件/FirstButton.xml" xy="472,370" visible="false" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <image id="n28_wfya" name="input_bg" src="m9oge" fileName="GameShop/Data/gs_di.png" xy="227,419" size="165,32" pkg="jk0io98j"/>
+    <text id="n29_wfya" name="input_search" xy="233,421" size="157,28" fontSize="18" color="#ffffff" vAlign="middle" autoSize="none" autoClearText="true" text="" input="true" prompt="请输入关键字" maxLength="10"/>
+    <component id="n30_wfya" name="SearchButton" src="m9ogf" fileName="GameShop/组件/SearchButton.xml" xy="393,418" pkg="jk0io98j">
+      <Button title="搜索" titleColor="#e1db39" titleFontSize="18" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n31_wfya" name="point_L" src="m9og1a" fileName="GameShop/下拉框/Gateroty3.xml" xy="78,420" pkg="jk0io98j">
+      <ComboBox title="正在出售" titleColor="#ffffff" visibleItemCount="10">
+        <item title="正在出售"/>
+        <item title="已经出售"/>
+        <item title="我的仓库"/>
+      </ComboBox>
+    </component>
+    <text id="n32_wfya" name="pointTxt" xy="34,423" size="40,26" fontSize="18" color="#ffffff" text="位置"/>
+    <text id="n34_wfya" name="serchTxt" xy="34,466" size="76,26" fontSize="18" color="#ffffff" text="搜索类别"/>
+    <text id="n35_wfya" name="priceTxt" xy="220,508" size="76,26" fontSize="18" color="#ffffff" text="价格范围"/>
+    <text id="n36_wfya" name="GoldTxt" xy="34,511" size="76,26" fontSize="18" color="#ffffff" text="货币类型"/>
+    <component id="n37_wfya" name="huobi" src="m9og15" fileName="GameShop/下拉框/Gategory2.xml" xy="115,508" pkg="jk0io98j">
+      <ComboBox title="不限" titleColor="#ffffff" visibleItemCount="10">
+        <item title="不限"/>
+        <item title="元宝"/>
+      </ComboBox>
+    </component>
+    <component id="n38_wfya" name="leibie" src="m9og15" fileName="GameShop/下拉框/Gategory2.xml" xy="115,463" pkg="jk0io98j">
+      <ComboBox title="所有" titleColor="#ffffff" visibleItemCount="10">
+        <item title="所有"/>
+        <item title="装饰"/>
+        <item title="补给"/>
+        <item title="强化"/>
+        <item title="好友"/>
+        <item title="限量"/>
+        <item title="奇珍"/>
+      </ComboBox>
+    </component>
+    <image id="n39_wfya" name="price2_bg" src="m9og19" fileName="GameShop/Data/gs_price2.png" xy="301,507" pkg="jk0io98j"/>
+    <text id="n40_wfya" name="price1" xy="304,511" size="71,26" fontSize="18" color="#ffffff" autoSize="none" text="0" input="true" maxLength="10" restrict="[0-9]" keyboardType="4"/>
+    <text id="n41_wfya" name="price2" xy="407,510" size="71,26" fontSize="18" color="#ffffff" autoSize="none" text="0" input="true" maxLength="10" restrict="[0-9]" keyboardType="4"/>
+    <component id="n42_wfya" name="Sort_L" src="m9og1a" fileName="GameShop/下拉框/Gateroty3.xml" xy="337,463" pkg="jk0io98j">
+      <ComboBox title="价格从低到高" titleColor="#ffffff" visibleItemCount="10">
+        <item title="价格从低到高"/>
+        <item title="价格从高到低"/>
+      </ComboBox>
+    </component>
+    <text id="n43_wfya" name="sortTxt" xy="217,468" size="76,26" fontSize="18" color="#ffffff" text="价格排序"/>
+    <component id="n45_wfya" name="ItemType" src="m9og15" fileName="GameShop/下拉框/Gategory2.xml" xy="746,457" pkg="jk0io98j">
+      <ComboBox title="装饰" titleColor="#ffffff" visibleItemCount="10">
+        <item title="装饰"/>
+        <item title="补给"/>
+        <item title="强化"/>
+        <item title="好友"/>
+        <item title="限量"/>
+        <item title="奇珍"/>
+      </ComboBox>
+    </component>
+    <component id="n46_wfya" name="weizhi_L" src="m9og15" fileName="GameShop/下拉框/Gategory2.xml" xy="746,419" pkg="jk0io98j">
+      <ComboBox title="店铺" titleColor="#ffffff" visibleItemCount="10">
+        <item title="店铺"/>
+        <item title="仓库"/>
+      </ComboBox>
+    </component>
+    <text id="n47_wfya" name="weizhi1" xy="701,422" size="40,26" fontSize="18" color="#ffffff" text="位置"/>
+    <text id="n48_wfya" name="leibie2" xy="699,460" size="40,26" fontSize="18" color="#ffffff" text="类别"/>
+    <component id="n49_wfya" name="leixing_L" src="m9og15" fileName="GameShop/下拉框/Gategory2.xml" xy="747,495" pkg="jk0io98j">
+      <ComboBox title="元宝" titleColor="#ffffff" visibleItemCount="10">
+        <item title="元宝"/>
+      </ComboBox>
+    </component>
+    <text id="n50_wfya" name="leixing" xy="700,498" size="40,26" fontSize="18" color="#ffffff" text="类型"/>
+    <text id="n51_wfya" name="jiage" xy="701,535" size="40,26" fontSize="18" color="#ffffff" text="价格"/>
+    <text id="n58_wfya" name="Desc" xy="501,521" size="85,50" fontSize="18" color="#e1db39" bold="true" strokeColor="#000000" text="拖拽/双击&#xA;道具上架"/>
+    <image id="n52_wfya" name="jiage_bg" src="m9og16" fileName="GameShop/Data/gs_xialad.png" xy="747,533" pkg="jk0io98j"/>
+    <text id="n53_wfya" name="input_jiage" xy="749,534" size="75,28" fontSize="18" color="#ffffff" autoSize="none" strokeColor="#000000" text="10" input="true" maxLength="10" restrict="[0-9]" keyboardType="4"/>
+    <image id="n54_wfya" name="itembg" src="m9og1s" fileName="GameShop/Data/gs_iten_bg.png" xy="477,409" pkg="jk0io98j"/>
+    <component id="n56_wfya" name="EquipCell" src="m9og1t" fileName="GameShop/组件/EquipCell.xml" xy="511,442" pkg="jk0io98j"/>
+    <component id="n57_wfya" name="jishou" src="m9og1f" fileName="GameShop/组件/SearchButton2.xml" xy="598,528" pkg="jk0io98j">
+      <Button title="寄售" titleColor="#e1db39" titleFontSize="18" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component id="n64_takl" name="CloseButton" src="np3ugvn2w2" fileName="Common/CloseButton.xml" xy="857,0" pkg="jk0io98j"/>
+  </displayList>
+</component>

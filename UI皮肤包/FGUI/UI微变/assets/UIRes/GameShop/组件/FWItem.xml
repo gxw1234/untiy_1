@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="808,64">
+  <displayList>
+    <graph id="n0_wfya" name="bg" xy="12,2" size="60,60" type="rect" lineColor="#ff66cc00" fillColor="#ff000000" corner="5"/>
+    <loader id="n2_wfya" name="item" xy="42,32" pivot="0.5,0.5" anchor="true" size="60,60" align="center" vAlign="middle" clearOnPublish="true"/>
+    <text id="n1_wfya" name="itemTxt" xy="92,22" size="158,26" fontSize="18" color="#ffffff" align="center" autoSize="none" text="物品名称七个字"/>
+    <text id="n3_wfya" name="Price" xy="253,22" size="156,26" fontSize="18" color="#ffffff" align="center" autoSize="none" text="10000000金刚石"/>
+    <text id="n4_wfya" name="leibie" xy="428,22" size="82,26" fontSize="18" color="#ffffff" align="center" autoSize="none" text="装饰"/>
+    <text id="n5_wfya" name="time" xy="530,22" size="197,26" fontSize="18" color="#ffffff" align="center" autoSize="none" text="2022-12-12 10:10:56"/>
+    <component id="n7_takl" name="BuyButton" src="okopgvn32g" fileName="GameShop/组件/BuyButton.xml" xy="735,19"/>
+  </displayList>
+</component>

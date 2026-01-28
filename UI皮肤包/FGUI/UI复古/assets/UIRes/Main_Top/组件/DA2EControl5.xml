@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="36,30" scroll="both">
+  <displayList>
+    <image id="100rd" src="ldxan2m9" fileName="00634.PNG" xy="0,0" name="DA2EControl5">
+      <relation sidePair=""/>
+    </image>
+  </displayList>
+</component>

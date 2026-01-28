@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,84">
+  <displayList>
+    <loader id="n0_k77n" name="DMPBall" xy="0,0" size="50,84" align="center" vAlign="middle" fill="scaleFree" fillMethod="vt" fillOrigin="1"/>
+  </displayList>
+  <transition name="select" autoPlay="true" autoPlayRepeat="-1" frameRate="60">
+    <item time="0" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1e6"/>
+    <item time="6" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1e7"/>
+    <item time="12" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1e8"/>
+    <item time="18" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1e9"/>
+    <item time="24" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1ea"/>
+    <item time="30" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1eb"/>
+    <item time="36" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1ec"/>
+    <item time="42" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1ed"/>
+    <item time="48" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1ee"/>
+    <item time="54" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1ef"/>
+    <item time="60" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1eg"/>
+    <item time="66" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1eh"/>
+    <item time="72" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1ei"/>
+    <item time="78" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1ej"/>
+    <item time="84" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1ek"/>
+    <item time="90" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1el"/>
+    <item time="96" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1em"/>
+    <item time="102" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1en"/>
+    <item time="108" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1eo"/>
+    <item time="114" type="Icon" target="n0_k77n" value="ui://jk0io98jv9b1ep"/>
+  </transition>
+</component>

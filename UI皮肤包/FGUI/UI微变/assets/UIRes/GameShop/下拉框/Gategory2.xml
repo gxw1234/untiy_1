@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="79,32" extention="ComboBox">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n3_wfya" name="bg" src="wfyagvn31j" fileName="GameShop/gs_xialad.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n4_wfya" name="n0" src="wfyagvn2zz" fileName="GameShop/gs_dian.png" xy="51,3">
+      <gearDisplay controller="button" pages="0,2"/>
+    </image>
+    <image id="n5_wfya" name="n1" src="wfyagvn2zz" fileName="GameShop/gs_dian.png" xy="51,4">
+      <gearDisplay controller="button" pages="1,3"/>
+    </image>
+    <text id="n2_wfya" name="title" xy="0,0" size="59,32" fontSize="18" vAlign="middle" autoSize="none" singleLine="true" text="">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <ComboBox dropdown="ui://jk0io98jwfyagvn31l"/>
+</component>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="460,400" scroll="both">
+  <displayList>
+    <image id="hsr70" src="vmwk54" fileName="00368.PNG" xy="0,0" name="LoginUI" pkg="us2ut3jf">
+      <relation sidePair=""/>
+    </image>
+    <text name="DEditPasswd" id="u7b24" xy="156,199" size="211,26" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false" password="true" maxLength="15" restrict="[a-z]|[A-Z]|[0-9]" strokeSize="1" strokeColor="#000000"/>
+    <text name="DEditAccount" id="ei6h7" xy="156,142" size="211,32" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" singleLine="true" autoClearText="true" anchor="false" maxLength="21" strokeSize="1" strokeColor="#000000"/>
+    <component name="DBtnLoginUIClose" id="j4i25" src="r7r81z" fileName="DBtnLoginUIClose.xml" xy="379,55" pkg="us2ut3jf">
+      <Button sound="ui://v8024m780ns77"/>
+    </component>
+    <component name="DBtnLoginOK" id="oif0t" src="r7r820" fileName="DBtnLoginOK.xml" xy="264,238" pkg="us2ut3jf">
+      <Button sound="ui://v8024m780ns77"/>
+    </component>
+    <component name="DBtnNewUser" id="e243u" src="r7r821" fileName="DBtnNewUser.xml" xy="50,303" pkg="us2ut3jf">
+      <Button sound="ui://v8024m780ns77"/>
+    </component>
+    <component name="DBtnChangPasswd" id="c1700" src="r7r822" fileName="DBtnChangPasswd.xml" xy="210,303" pkg="us2ut3jf">
+      <Button sound="ui://v8024m780ns77"/>
+    </component>
+  </displayList>
+</component>

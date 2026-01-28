@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="248,165" scroll="both">
+  <displayList>
+    <component id="n2_sr8q" name="n2" src="sr8qgvn30x" fileName="Main_RightGrop/组件/SmallExet.xml" xy="-2,39" size="41,60"/>
+    <component id="n1_sr8q" name="n1" src="sr8qgvn30u" fileName="Main_RightGrop/组件/Exit.xml" xy="-2,103" size="41,60"/>
+    <image id="wlg5o" name="DMinMapBG" src="ruoyn2qn" fileName="Main_MinMap/Data/OMG_MobileMini.Pak/MinMap_00059.png" xy="36,0" size="211,163"/>
+    <graph id="eqh64" name="MiniMapGraph1" xy="40,32" size="203,101" type="rect" lineSize="0" lineColor="#00000000" fillColor="#ff000000"/>
+    <loader id="f3g4w" name="MinisMapBg" xy="40,31" size="203,128" url="ui://jk0io98jruoyn2qo" fill="scaleFree"/>
+    <component id="jaq08" name="DMap" src="ruoyn2r0" fileName="Main_MinMap/组件/DMap.xml" xy="41,31"/>
+    <component id="3u4v4" name="DBtnMinMap" src="ruoyn2r1" fileName="Main_MinMap/组件/DBtnMinMap.xml" xy="1,0"/>
+    <text id="0j3om" name="DMinMapName" xy="41,3" size="203,25" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="3618e" name="DMinMapInfo" xy="40,133" size="203,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" text=""/>
+    <text id="nh4vp" name="PosX" xy="40,133" size="98,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" align="right" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" text=""/>
+    <text id="87ahe" name="PosY" xy="144,133" size="99,26" font="Microsoft YaHei" fontSize="18" color="#ffffff" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" text=""/>
+  </displayList>
+</component>

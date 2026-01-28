@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="342,429" scroll="both">
+  <displayList>
+    <image id="y5r06" src="ldxan28e" fileName="00039.PNG" xy="0,0" name="DCharRecover" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="DCharRecoverClose" id="17j8a" src="y15i8" fileName="DCharRecoverClose.xml" xy="277,25" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <list id="u4ang" name="DRecoverItemList" xy="25,104" size="265,245" treeView="false" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="0" lineItemCount2="0" defaultItem="ui://jk0io98jhi8p0">
+      <relation target="" sidePair=""/>
+    </list>
+    <component name="DBtnRecover" id="14xo2" src="q33o8" fileName="DBtnRecover.xml" xy="182,363" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

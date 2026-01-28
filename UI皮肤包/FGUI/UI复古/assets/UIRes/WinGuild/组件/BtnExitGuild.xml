@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="87,36" scroll="both" extention="Button">
+  <displayList>
+    <image id="v4htr" src="ldxan2ko" fileName="00191.PNG" xy="0,0" name="Img191q71">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="s88d1" src="ldxan2kp" fileName="00192.PNG" xy="0,0" name="Img1920b8">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text name="EditText" id="5kfr7" xy="0,0" size="87,36" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="退出行会" color="#DFCFB4" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#837155|#DFCFB4|#837155" default="#DFCFB4"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

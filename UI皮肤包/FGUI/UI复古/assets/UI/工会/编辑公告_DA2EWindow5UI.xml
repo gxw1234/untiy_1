@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="549,349" scroll="both">
+  <displayList>
+    <image id="rmfd6" src="ldxan2kt" fileName="00261.PNG" xy="0,0" name="DA2EWindow5" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <text name="ChatEdit25" id="40040" xy="156,3" size="233,39" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="编辑公告" color="#FFFFFF" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="BtnNoticeSave" id="84x48" src="kn5z175" fileName="BtnNoticeSave.xml" xy="298,295" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnNoticeCancle" id="i30p3" src="kn5z176" fileName="BtnNoticeCancle.xml" xy="436,295" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <text name="EditNoticeTxt" id="mwg7m" xy="19,44" size="509,229" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

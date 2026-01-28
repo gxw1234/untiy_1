@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="402,178" scroll="both">
+  <displayList>
+    <graph size="402,178" id="473la" name="dragArea" xy="0,0" lineSize="0" fillColor="" lineColor="">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </graph>
+  </displayList>
+</component>

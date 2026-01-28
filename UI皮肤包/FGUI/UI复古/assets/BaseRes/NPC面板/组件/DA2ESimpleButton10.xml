@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="89,36" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="5h23v" name="Img106ks" src="qgn26d" fileName="NPC面板/Data/OMG_MobileMini.Pak/Npc_00010.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="wof04" name="Img11756" src="qgn26e" fileName="NPC面板/Data/OMG_MobileMini.Pak/Npc_00011.png" xy="0,0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="j1tqm" name="ChatEdit139" xy="5,5" size="80,26" font="Microsoft YaHei" fontSize="16" color="#e2c502" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" text="Layout">
+      <gearColor controller="button" pages="1,2,3" values="#6d4006,#000000|#e2c502,#000000|#6d4006,#000000" default="#e2c502,#000000"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

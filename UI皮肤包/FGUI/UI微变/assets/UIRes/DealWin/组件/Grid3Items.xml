@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,40">
+  <displayList>
+    <text id="n0_js02" name="n0" xy="5,4" size="75,32" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="英雄点"/>
+    <text id="n1_js02" name="n1" xy="114,3" size="75,32" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="英雄点"/>
+    <text id="n2_js02" name="n2" xy="230,2" size="75,32" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="英雄点"/>
+    <text id="n3_js02" name="n3" xy="344,3" size="75,32" font="Microsoft YaHei" fontSize="16" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="英雄点"/>
+    <component id="n4_js02" name="n4" src="j3e21bs" fileName="Data/Button4.xml" xy="499,0"/>
+  </displayList>
+</component>

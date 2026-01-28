@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="84,34" scroll="both" extention="Button">
+  <displayList>
+    <image id="kepb2" src="kn5z14t" fileName="00286.PNG" xy="0,0" name="Img286c80">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="1x625" src="kn5z14u" fileName="00287.PNG" xy="0,0" name="Img28778d">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text name="EditText" id="8304u" xy="6,4" size="73,24" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="删除" color="#E2C502" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#6D4006|#E2C502|#6D4006" default="#E2C502"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

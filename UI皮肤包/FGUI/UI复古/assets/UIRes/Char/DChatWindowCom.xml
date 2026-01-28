@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="10,41" scroll="both">
+  <displayList>
+    <graph size="6,34" id="il0iq" name="Graph" xy="2,1" lineSize="0" type="rect" fillColor="#FFFFFF" lineColor="">
+      <relation target="kflw0" sidePair="width-width,height-height"/>
+    </graph>
+    <richtext name="Text" id="kflw0" xy="0,0" size="10,36" font="ui://5615522t6d772" faceDilate="1" fontSize="18" leading="0" autoSize="none" text="" color="#080000" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <relation target="il0iq" sidePair="width-width,height-height"/>
+</component>

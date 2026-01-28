@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="147,166" scroll="both" extention="Button">
+  <displayList>
+    <image id="ujt63" src="kn5z199" fileName="00604.PNG" xy="0,0" name="Img60401w"/>
+    <image id="7ln23" src="kn5z198" fileName="00639.PNG" xy="0,0" name="Img639a11">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair="width,height"/>
+    </image>
+    <component name="FaHzCom" id="s083w" src="kn5z19g" fileName="FaHzCom.xml" xy="8,5">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="dhm8x" src="kn5z19a" fileName="00605.PNG" xy="0,0" size="60,55" name="SelectLoader" alpha="1.0"/>
+    <loader id="81q8m" name="icon" size="133,100" align="center" vAlign="middle" fill="scale" xy="7,45"/>
+    <image id="2mbwr" src="kn5z19b" fileName="00640.PNG" xy="7,131" size="133,28" name="SelectImg2" alpha="1.0"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

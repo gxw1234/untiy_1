@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="405,25" scroll="both" extention="Button">
+  <displayList>
+    <image id="2b624" src="v9b18i" fileName="00186.PNG" xy="0,0" name="Img186130">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text name="EditItemInfo" id="oy7do" xy="0,0" size="159,25" font="Microsoft YaHei" fontSize="12" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="EditCostInfo" id="3ufo6" xy="164,0" size="141,25" font="Microsoft YaHei" fontSize="12" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="EditLastingInfo" id="q5436" xy="307,0" size="96,25" font="Microsoft YaHei" fontSize="12" leading="0" autoSize="none" text="" color="#FFFFFF" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button mode="Radio"/>
+</component>

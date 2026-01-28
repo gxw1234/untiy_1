@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="390,217" scroll="both">
+  <controller name="CRadios" exported="true" selected="0" pages="0,Radio1,1,Radio2"/>
+  <displayList>
+    <image id="83840" src="ldxan2ou" fileName="00175.PNG" xy="0,0" name="Pricewind" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <text name="ChatEdit1" id="3jket" xy="22,15" size="318,36" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" vAlign="middle" anchor="false"/>
+    <text name="VclEditPrice" id="7gt3l" xy="123,66" size="199,29" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" vAlign="middle" anchor="false" keyboardType="4" prompt="请输入价格..."/>
+    <component name="BtnDePresident" id="r405r" src="j3e21ga" fileName="BtnDePresident.xml" xy="212,108" pkg="jk0io98j">
+      <Button controller="CRadios" page="0"/>
+    </component>
+    <component name="BtnPresident" id="j884i" src="j3e21gb" fileName="BtnPresident.xml" xy="39,108" pkg="jk0io98j">
+      <Button controller="CRadios" page="1"/>
+    </component>
+    <text name="EditText1" id="514ew" xy="73,108" size="90,33" font="Microsoft YaHei" fontSize="20" leading="0" autoSize="none" text="元宝出售" color="#FFFFFF" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <text name="EditText" id="lqq7k" xy="246,108" size="90,33" font="Microsoft YaHei" fontSize="20" leading="0" autoSize="none" text="金币出售" color="#FFFFFF" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="BtnAffirm" id="642h7" src="j3e21gc" fileName="BtnAffirm.xml" xy="39,157" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="BtnItemCancle" id="87148" src="j3e21gd" fileName="BtnItemCancle.xml" xy="212,157" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBagClose" id="23mof" src="j3e21ge" fileName="DBagClose.xml" xy="359,0" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

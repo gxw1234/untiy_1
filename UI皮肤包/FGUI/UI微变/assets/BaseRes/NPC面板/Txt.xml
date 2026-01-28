@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="124,19" opaque="false" scroll="both">
+  <displayList>
+    <richtext id="nno20" name="Txt" xy="0,0" size="124,19" font="ui://t1h1280lvns0d" fontSize="12" color="#ffffff" leading="0" ubb="true" strokeColor="#000000" faceDilate="1" autoClearText="true" text="22222222222222222222"/>
+    <graph id="n2_uq8y" name="Stroke" xy="-1,-1" size="126,21" visible="false" touchable="false" type="rect" lineSize="2" lineColor="#ff663300" fillColor="#00ffffff">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+  </displayList>
+  <relation target="nno20" sidePair="width-width,height-height"/>
+</component>

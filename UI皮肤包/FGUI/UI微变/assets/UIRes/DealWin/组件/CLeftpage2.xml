@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="839,520">
+  <controller name="Radbtn" pages="0,,1,,2," selected="0"/>
+  <displayList>
+    <text id="n0_js02" name="n0" xy="26,26" size="87,34" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" align="center" vAlign="middle" autoSize="none" text="售卖类型:">
+      <gearDisplay controller="Radbtn" pages="0,1"/>
+    </text>
+    <text id="n1_js02" name="n1" xy="201,26" size="51,34" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" align="center" vAlign="middle" autoSize="none" text="角色">
+      <gearDisplay controller="Radbtn" pages="0,1"/>
+    </text>
+    <text id="n2_js02" name="n2" xy="336,26" size="51,34" font="Microsoft YaHei" fontSize="18" color="#e9ddcd" align="center" vAlign="middle" autoSize="none" text="货币">
+      <gearDisplay controller="Radbtn" pages="0,1"/>
+    </text>
+    <component id="n3_js02" name="RadBtnMoney1" src="j3e21c2" fileName="组件/RadBtnMoney1.xml" xy="148,27">
+      <gearDisplay controller="Radbtn" pages="0,1"/>
+      <Button checked="true" controller="Radbtn" page="0"/>
+    </component>
+    <component id="n4_js02" name="RadBtnMoney2" src="j3e21c3" fileName="组件/RadBtnMoney2.xml" xy="289,29">
+      <gearDisplay controller="Radbtn" pages="0,1"/>
+      <Button controller="Radbtn" page="1"/>
+    </component>
+    <component id="n5_js02" name="DealRolePage1" src="j3e21c4" fileName="组件/DealRolePage1.xml" xy="0,76" size="825,443">
+      <gearDisplay controller="Radbtn" pages="0"/>
+    </component>
+    <component id="n6_js02" name="DealRolePage2" src="j3e21c6" fileName="组件/DealRolePage2.xml" xy="0,76">
+      <gearDisplay controller="Radbtn" pages="1"/>
+    </component>
+    <component id="n7_t0m7" name="CreatImgComp" src="j3e21c9" fileName="组件/CreatImgComp.xml" xy="0,0" size="839,520">
+      <gearDisplay controller="Radbtn" pages="2"/>
+    </component>
+  </displayList>
+</component>

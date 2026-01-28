@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="530,269">
+  <displayList>
+    <image id="n0_js02" name="n0" src="hr3gn1ya" fileName="Data/00916.png" xy="0,0" pkg="jk0io98j"/>
+    <text id="n2_js02" name="n2" xy="34,18" size="458,187" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" text="寄售成功，角色已被冻结，不可继续进行游戏&#xA;如需下架，请返回角色登录界面或盒子操作"/>
+    <component id="n11_pj95" name="ConsignSBtn" src="11icn1pe" fileName="组件/ConsignSBtn.xml" xy="191,205" pkg="jk0io98j"/>
+  </displayList>
+</component>

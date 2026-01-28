@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="926,593" scroll="both">
+  <controller name="CPages" exported="true" selected="14" pages="0,page1,1,page2,2,page3,3,page4,4,page5"/>
+  <displayList>
+    <image id="26nc7" src="ldxan2l4" fileName="00413.PNG" xy="0,0" name="WinGuildUI" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="yc577" src="kn5z179" fileName="frame.xml" xy="0,0" pkg="jk0io98j"/>
+    <image id="66137" src="ldxan2l5" fileName="00404.PNG" xy="21,6" size="68,39" name="ImgGuild" alpha="1.0" pkg="jk0io98j"/>
+    <component name="BtnClose" id="307yf" src="kn5z17a" fileName="BtnClose.xml" xy="887,0" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="TabBtnGuild" id="y60oo" src="kn5z17b" fileName="TabBtnGuild.xml" xy="886,65" pkg="jk0io98j">
+      <Button controller="CPages" page="0" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="TabBtnMember" id="nb44n" src="kn5z17c" fileName="TabBtnMember.xml" xy="886,158" pkg="jk0io98j">
+      <Button controller="CPages" page="1" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="TabBtnDiplomacy" id="242f4" src="kn5z17d" fileName="TabBtnDiplomacy.xml" xy="886,251" pkg="jk0io98j">
+      <Button controller="CPages" page="2" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="TabBtnApply" id="upmnw" src="kn5z17e" fileName="TabBtnApply.xml" xy="886,344" pkg="jk0io98j">
+      <Button controller="CPages" page="3" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="TabBtnLog" id="44lf6" src="kn5z17f" fileName="TabBtnLog.xml" visible="false" xy="886,437" pkg="jk0io98j">
+      <Button controller="CPages" page="4" sound="ui://a1qeklvh3272i"/>
+    </component>
+    <graph size="2,2" id="osy61" name="ModalLayer" xy="0,0" lineSize="0" touchable="false" type="rect" fillColor="#00ffffff" lineColor=""/>
+    <component name="DA2EPage1" id="t8x61" src="kn5z17m" fileName="DA2EPage1.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="0"/>
+    </component>
+    <component name="DA2EPage2" id="lehcs" src="kn5z17p" fileName="DA2EPage2.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="1"/>
+    </component>
+    <component name="DA2EPage3" id="0tbdf" src="kn5z17t" fileName="DA2EPage3.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="2"/>
+    </component>
+    <component name="DA2EPage4" id="56x5s" src="kn5z185" fileName="DA2EPage4.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="3"/>
+    </component>
+    <component name="DA2EPage5" id="8joi5" src="kn5z188" fileName="DA2EPage5.xml" xy="0,0" pkg="jk0io98j">
+      <gearDisplay controller="CPages" pages="4"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="290,96" scroll="both" extention="Button">
+  <displayList>
+    <image id="7t275" src="r7r813" fileName="00384.PNG" xy="0,0" name="Img384210">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="dv6dj" src="r7r814" fileName="00385.PNG" xy="0,0" name="Img3855q0">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

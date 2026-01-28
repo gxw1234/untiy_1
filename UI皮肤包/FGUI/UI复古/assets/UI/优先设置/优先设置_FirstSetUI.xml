@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="857,594">
+  <displayList>
+    <image id="n0_jibn" name="n0" src="ceyqgvn2w3" fileName="Common/common_bg.png" pkg="jk0io98j" xy="0,0"/>
+    <image id="n24_lfc4" name="n24" src="s336gvn2w9" fileName="Attack/Data/Attack_bg.png" pkg="jk0io98j" xy="322,102"/>
+    <richtext id="n14_lfc4" name="tilte" xy="41,10" size="98,32" fontSize="22" color="#ece4c5" letterSpacing="2" bold="true" strokeColor="#000000" strokeSize="2" text="优先设置"/>
+    <image id="n17_lfc4" name="n17" src="s336gvn2wa" fileName="Attack/Data/Attack_line3.png" pkg="jk0io98j" xy="25,93"/>
+    <image id="n15_lfc4" name="n15" src="s336gvn2wb" fileName="Attack/Data/Attack_line1.png" pkg="jk0io98j" xy="191,48"/>
+    <richtext id="n16_lfc4" name="n16" xy="40,59" size="135,32" fontSize="18" color="#fbf3d3" align="center" vAlign="middle" autoSize="none" strokeColor="#3b362b" text="可选中玩家名称"/>
+    <list id="n2_jibn" name="PalyerList" xy="25,97" size="165,460" overflow="scroll" defaultItem="ui://jk0io98js336gvn2w5" align="center">
+      <item/>
+      <item/>
+    </list>
+    <component id="n12_lfc4" name="CloseButton" src="np3ugvn2w2" fileName="Common/CloseButton.xml" pkg="jk0io98j" xy="857,0"/>
+    <component id="n18_lfc4" name="targetPos0" src="s336gvn2w6" fileName="Attack/组件/targetPos.xml" pkg="jk0io98j" xy="519,151"/>
+    <component id="n19_lfc4" name="targetPos1" src="s336gvn2w6" fileName="Attack/组件/targetPos.xml" pkg="jk0io98j" xy="363,228"/>
+    <component id="n20_lfc4" name="targetPos2" src="s336gvn2w6" fileName="Attack/组件/targetPos.xml" pkg="jk0io98j" xy="269,310"/>
+    <component id="n22_lfc4" name="BtnRestKey" src="s336gvn2w8" fileName="Attack/组件/BtnRestKey.xml" pkg="jk0io98j" xy="554,484"/>
+    <component id="n23_lfc4" name="BtnResetFirst" src="s336k" fileName="Attack/组件/BtnResetFirst.xml" pkg="jk0io98j" xy="334,482"/>
+    <component id="n25_dwef" name="BtnHelp" src="s336l" fileName="Attack/组件/BtnHelp.xml" pkg="jk0io98j" xy="777,67"/>
+    <richtext id="n26_opnp" name="n26" xy="201,58" size="399,32" fontSize="18" color="#03bd1a" vAlign="middle" autoSize="none" text="左侧选择，右侧置入，即可设置"/>
+  </displayList>
+</component>

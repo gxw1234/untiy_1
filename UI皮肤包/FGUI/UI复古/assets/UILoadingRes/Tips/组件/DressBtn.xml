@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,40" scroll="both" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="1f435" name="Img568qbj" src="vmwk5j" fileName="Tips/Data/OMG_MobileMini.Pak/Tips_00568.png" xy="0,0" size="80,40">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="u6sxv" name="Img569j4r" src="vmwk5k" fileName="Tips/Data/OMG_MobileMini.Pak/Tips_00569.png" xy="0,0" size="80,40">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text id="8pxjt" name="ChatEdit2" xy="9,3" size="63,32" font="Microsoft YaHei" fontSize="18" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" text="穿戴"/>
+  </displayList>
+  <Button/>
+</component>

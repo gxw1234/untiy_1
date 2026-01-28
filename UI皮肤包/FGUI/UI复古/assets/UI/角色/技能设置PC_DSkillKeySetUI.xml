@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="376,179">
+  <controller name="CRadios" pages="0,Radio1,1,Radio2,2,Radio3,3,Radio4,4,Radio5,5,Radio6,6,Radio7,7,Radio8,8,Radio9,9,Radio10,10,Radio11,11,Radio12,12,Radio13,13,Radio14,14,Radio15,15,Radio16" selected="0"/>
+  <displayList>
+    <image id="n0_s73a" name="n0" src="s73a1g" fileName="Data/Prguse3.wil/00126.PNG" xy="0,0" pkg="jk0io98j"/>
+    <component id="n1_s73a" name="DCtrlF1" src="s73a22" fileName="组件/DCtrlF1.xml" xy="24,119" pkg="jk0io98j">
+      <Button checked="true" controller="CRadios" page="0"/>
+    </component>
+    <component id="n2_s73a" name="DCtrlF2" src="s73a23" fileName="组件/DCtrlF2.xml" xy="56,119" pkg="jk0io98j">
+      <Button controller="CRadios" page="1"/>
+    </component>
+    <component id="n3_s73a" name="DCtrlF3" src="s73a24" fileName="组件/DCtrlF3.xml" xy="88,119" pkg="jk0io98j">
+      <Button controller="CRadios" page="2"/>
+    </component>
+    <component id="n4_s73a" name="DCtrlF4" src="s73a25" fileName="组件/DCtrlF4.xml" xy="120,119" pkg="jk0io98j">
+      <Button controller="CRadios" page="3"/>
+    </component>
+    <component id="n5_s73a" name="DCtrlF5" src="s73a26" fileName="组件/DCtrlF5.xml" xy="159,119" pkg="jk0io98j">
+      <Button controller="CRadios" page="4"/>
+    </component>
+    <component id="n6_s73a" name="DCtrlF6" src="s73a27" fileName="组件/DCtrlF6.xml" xy="191,119" pkg="jk0io98j">
+      <Button controller="CRadios" page="5"/>
+    </component>
+    <component id="n7_s73a" name="DCtrlF7" src="s73a28" fileName="组件/DCtrlF7.xml" xy="223,119" pkg="jk0io98j">
+      <Button controller="CRadios" page="6"/>
+    </component>
+    <component id="n8_s73a" name="DCtrlF8" src="s73a29" fileName="组件/DCtrlF8.xml" xy="255,119" pkg="jk0io98j">
+      <Button controller="CRadios" page="7"/>
+    </component>
+    <component id="n9_s73a" name="DF1" src="s73a2a" fileName="组件/DF1.xml" xy="24,77" pkg="jk0io98j">
+      <Button controller="CRadios" page="8"/>
+    </component>
+    <component id="n10_s73a" name="DF2" src="s73a2b" fileName="组件/DF2.xml" xy="56,77" pkg="jk0io98j">
+      <Button controller="CRadios" page="9"/>
+    </component>
+    <component id="n11_s73a" name="DF3" src="s73a2c" fileName="组件/DF3.xml" xy="88,77" pkg="jk0io98j">
+      <Button controller="CRadios" page="10"/>
+    </component>
+    <component id="n12_s73a" name="DF4" src="s73a2d" fileName="组件/DF4.xml" xy="120,77" pkg="jk0io98j">
+      <Button controller="CRadios" page="11"/>
+    </component>
+    <component id="n13_s73a" name="DF5" src="s73a2e" fileName="组件/DF5.xml" xy="159,77" pkg="jk0io98j">
+      <Button controller="CRadios" page="12"/>
+    </component>
+    <component id="n14_s73a" name="DF6" src="s73a2f" fileName="组件/DF6.xml" xy="191,77" pkg="jk0io98j">
+      <Button controller="CRadios" page="13"/>
+    </component>
+    <component id="n15_s73a" name="DF7" src="s73a2g" fileName="组件/DF7.xml" xy="223,77" pkg="jk0io98j">
+      <Button controller="CRadios" page="14"/>
+    </component>
+    <component id="n16_s73a" name="DF8" src="s73a2h" fileName="组件/DF8.xml" xy="255,77" pkg="jk0io98j">
+      <Button controller="CRadios" page="15"/>
+    </component>
+    <component id="n17_s73a" name="DNone" src="s73a2i" fileName="组件/DNone.xml" xy="294,76" pkg="jk0io98j"/>
+    <component id="n18_s73a" name="DBtnNo" src="s73a21" fileName="组件/DBtnNo.xml" xy="294,118" pkg="jk0io98j"/>
+    <text id="n19_s73a" name="ChatEdit88" xy="84,30" size="88,32" font="Microsoft YaHei" fontSize="12" color="#ffffff" vAlign="middle" autoSize="none" strokeColor="#000000" autoClearText="true" text="是的范德萨发的"/>
+    <loader id="n20_s73a" name="GameSkillCell1" xy="51,30" size="28,32" fill="scale"/>
+  </displayList>
+</component>

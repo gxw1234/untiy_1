@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="163,36" scroll="both">
+  <displayList>
+    <image id="r03jc" src="ldxan2bn" fileName="00617.PNG" xy="0,0" name="PutAwayMoPriWin">
+      <relation sidePair=""/>
+    </image>
+    <text name="PutAwayMPVclEdits" id="pf507" xy="40,3" size="119,30" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#F5D462" input="true" align="center" vAlign="middle" anchor="false" restrict="[0-9]" strokeSize="1" strokeColor="#000000"/>
+    <loader id="070j6" name="DA2ELoader66" size="36,30" url="ui://jk0io98jldxan2b7" xy="2,3"/>
+  </displayList>
+</component>

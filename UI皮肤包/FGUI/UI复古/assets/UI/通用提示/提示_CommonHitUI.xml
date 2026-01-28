@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="569,241" scroll="both">
+  <displayList>
+    <image id="vo6y8" src="ldxan29p" fileName="00189.PNG" xy="0,0" name="CommonHitUI" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <richtext name="DTips" id="6q2tb" xy="24,16" size="513,40" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="height" text="" color="#FFFFFF" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="DBtnConfirm" id="36626" src="j3e21l4" fileName="DBtnConfirm.xml" xy="270,155" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <component name="DBtnCancel" id="i2sxa" src="j3e21l5" fileName="DBtnCancel.xml" xy="411,155" pkg="jk0io98j">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+    <graph size="374,35" id="l21s0" name="DlgEditTextLine" xy="95,92" lineSize="1" touchable="false" type="rect" fillColor="#00000000" lineColor="#FFFFFF"/>
+    <text name="DlgEditText" id="g5liy" xy="98,94" size="368,30" font="SimSun" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" input="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

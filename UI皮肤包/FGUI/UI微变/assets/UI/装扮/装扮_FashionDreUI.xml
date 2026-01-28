@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="916,595" scroll="both">
+  <displayList>
+    <image id="i1qb1" src="kn5z191" fileName="00413.PNG" xy="0,0" name="FashionDreUI" pkg="jk0io98j">
+      <relation sidePair=""/>
+    </image>
+    <component name="frame" id="j0157" src="kn5z19d" fileName="frame.xml" xy="0,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <image id="gad31" src="kn5z192" fileName="00603.PNG" xy="23,54" size="839,517" name="DA2EIMAGE1" alpha="1.0" pkg="jk0io98j"/>
+    <list id="0slsy" name="DA2EGrid1" xy="23,54" size="138,513" treeView="false" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="0" lineItemCount="0" lineItemCount2="0" defaultItem="ui://jk0io98jkn5z19i"/>
+    <list id="15p0k" name="DServerRightList" xy="560,54" size="298,426" treeView="false" autoClearItems="true" layout="flow_hz" overflow="scroll" scrollBarFlags="128" lineGap="0" colGap="3" lineItemCount="2" lineItemCount2="2" defaultItem="ui://jk0io98jkn5z19j">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component name="role" id="i8a27" scale="1.3,1.3" src="kn5z19e" fileName="role.xml" xy="243,238" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+    </component>
+    <component name="FashionDreCloseBtn" id="6l7r5" src="kn5z19f" fileName="FashionDreCloseBtn.xml" xy="886,0" pkg="jk0io98j">
+      <relation target="" sidePair=""/>
+      <Button/>
+    </component>
+    <richtext name="MemoFaShowInfo" id="6f7ka" xy="166,485" size="386,84" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <richtext name="IntroduceText" id="b4pe5" xy="557,485" size="305,84" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+  </displayList>
+</component>

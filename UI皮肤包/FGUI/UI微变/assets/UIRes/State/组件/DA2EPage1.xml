@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="384,537" opaque="false" scroll="both">
+  <displayList>
+    <richtext id="n57_kk8r" name="GuildName" xy="63,90" size="225,32" font="Microsoft YaHei" fontSize="15" color="#ffffff" align="center" vAlign="middle" leading="0" ubb="true" autoSize="none" strokeColor="#000000" autoClearText="true" text=""/>
+    <loader id="b8ob0" name="role" xy="60,181" size="235,294" visible="false" touchable="false" url="ui://jk0io98jhr3gn1ws" align="center" vAlign="middle" fill="scale"/>
+    <component id="jqk55" name="DBtnOpenJewelryBox" src="4etcn" fileName="State/组件/DBtnOpenJewelryBox.xml" xy="264,126">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+    <image id="1rc6v" name="RoleFashionsImg" src="hr3gn1x5" fileName="State/Data/OMG_MobileMini.Pak/State_00816.png" xy="120,219" size="1,1" visible="false"/>
+    <component id="n0_v7ci" name="EquipCell3" src="h46sb" fileName="State/组件/EquipCell3.xml" xy="256,190">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n1_v7ci" name="EquipCell2" src="20mm0" fileName="State/组件/EquipCell2.xml" xy="31,255">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n2_v7ci" name="EquipCell14" src="484s6" fileName="State/组件/EquipCell14.xml" xy="256,255">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n3_v7ci" name="EquipCell6" src="qjod5" fileName="State/组件/EquipCell6.xml" xy="256,320">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n4_v7ci" name="EquipCell8" src="tn4br" fileName="State/组件/EquipCell8.xml" xy="256,385">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n5_v7ci" name="EquipCell12" src="q0n13" fileName="State/组件/EquipCell12.xml" xy="256,450">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n6_v7ci" name="EquipCell11" src="7a16s" fileName="State/组件/EquipCell11.xml" xy="181,450">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n7_v7ci" name="EquipCell10" src="u481h" fileName="State/组件/EquipCell10.xml" xy="106,453">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n8_v7ci" name="EquipCell9" src="k50ea" fileName="State/组件/EquipCell9.xml" xy="31,453">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n9_v7ci" name="EquipCell7" src="3cbro" fileName="State/组件/EquipCell7.xml" xy="31,385">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n10_v7ci" name="EquipCell5" src="3717i" fileName="State/组件/EquipCell5.xml" xy="31,320">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n11_v7ci" name="EquipCell15" src="d04y5" fileName="State/组件/EquipCell15.xml" xy="31,190">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n14_v7ci" name="EquipCell18" src="3mi04" fileName="State/组件/EquipCell18.xml" xy="465,6" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n15_v7ci" name="EquipCell19" src="0j80q" fileName="State/组件/EquipCell19.xml" xy="533,6" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n16_v7ci" name="EquipCell20" src="3i406" fileName="State/组件/EquipCell20.xml" xy="615,6" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n17_v7ci" name="EquipCell21" src="4485a" fileName="State/组件/EquipCell21.xml" xy="686,10" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n18_v7ci" name="EquipCell22" src="trkvh" fileName="State/组件/EquipCell22.xml" xy="758,6" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n19_v7ci" name="EquipCell23" src="5s06f" fileName="State/组件/EquipCell23.xml" xy="396,63" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n20_v7ci" name="EquipCell24" src="2yggv" fileName="State/组件/EquipCell24.xml" xy="467,63" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n21_v7ci" name="EquipCell25" src="jvgmt" fileName="State/组件/EquipCell25.xml" xy="535,62" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n22_v7ci" name="EquipCell26" src="4f0c0" fileName="State/组件/EquipCell26.xml" xy="606,62" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n23_v7ci" name="EquipCell27" src="0284o" fileName="State/组件/EquipCell27.xml" xy="683,63" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n24_v7ci" name="EquipCell28" src="0r8ap" fileName="State/组件/EquipCell28.xml" xy="757,65" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n25_v7ci" name="EquipCell29" src="4q270" fileName="State/组件/EquipCell29.xml" xy="396,124" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n26_v7ci" name="EquipCell42" src="6ya68" fileName="State/组件/EquipCell42.xml" xy="467,123" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n27_v7ci" name="EquipCell43" src="qpvp2" fileName="State/组件/EquipCell43.xml" xy="546,127" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n28_v7ci" name="EquipCell44" src="w64c0" fileName="State/组件/EquipCell44.xml" xy="616,127" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n29_v7ci" name="EquipCell45" src="oy6sv" fileName="State/组件/EquipCell45.xml" xy="687,127" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n30_v7ci" name="EquipCell46" src="5unal" fileName="State/组件/EquipCell46.xml" xy="755,126" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n31_v7ci" name="EquipCell47" src="k2v2m" fileName="State/组件/EquipCell47.xml" xy="404,188" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n32_v7ci" name="EquipCell48" src="e8ibq" fileName="State/组件/EquipCell48.xml" xy="472,188" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n33_v7ci" name="EquipCell49" src="2uy16" fileName="State/组件/EquipCell49.xml" xy="542,185" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n34_v7ci" name="EquipCell50" src="3y61j" fileName="State/组件/EquipCell50.xml" xy="611,187" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n35_v7ci" name="EquipCell51" src="x03mq" fileName="State/组件/EquipCell51.xml" xy="683,186" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n36_v7ci" name="EquipCell52" src="88dpl" fileName="State/组件/EquipCell52.xml" xy="754,184" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n37_v7ci" name="EquipCell53" src="74lb7" fileName="State/组件/EquipCell53.xml" xy="403,249" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n38_v7ci" name="EquipCell54" src="klw73" fileName="State/组件/EquipCell54.xml" xy="472,247" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n39_v7ci" name="EquipCell55" src="37787" fileName="State/组件/EquipCell55.xml" xy="542,247" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n40_v7ci" name="EquipCell56" src="oo8o2" fileName="State/组件/EquipCell56.xml" xy="611,246" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n41_v7ci" name="EquipCell57" src="vyqpi" fileName="State/组件/EquipCell57.xml" xy="683,246" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n42_v7ci" name="EquipCell58" src="211h3" fileName="State/组件/EquipCell58.xml" xy="758,245" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n43_v7ci" name="EquipCell59" src="eij20" fileName="State/组件/EquipCell59.xml" xy="401,308" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n44_v7ci" name="EquipCell60" src="08f6k" fileName="State/组件/EquipCell60.xml" xy="472,308" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n45_v7ci" name="EquipCell61" src="32ce8" fileName="State/组件/EquipCell61.xml" xy="542,308" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n46_v7ci" name="EquipCell62" src="j881g" fileName="State/组件/EquipCell62.xml" xy="613,308" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n47_v7ci" name="EquipCell63" src="51qd2" fileName="State/组件/EquipCell63.xml" xy="683,307" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n48_v7ci" name="EquipCell65" src="8n0e6" fileName="State/组件/EquipCell65.xml" xy="758,307" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n49_v7ci" name="EquipCell66" src="02808" fileName="State/组件/EquipCell66.xml" xy="401,367" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n50_v7ci" name="EquipCell67" src="rd2mh" fileName="State/组件/EquipCell67.xml" xy="472,367" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n51_v7ci" name="EquipCell68" src="vh0g5" fileName="State/组件/EquipCell68.xml" xy="543,368" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n52_v7ci" name="EquipCell69" src="upk4t" fileName="State/组件/EquipCell69.xml" xy="615,368" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n53_v7ci" name="EquipCell70" src="3q51r" fileName="State/组件/EquipCell70.xml" xy="683,368" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n54_l4nq" name="EquipCell64" src="00cxa" fileName="State/组件/EquipCell64.xml" xy="493,476" visible="false">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="wk05d" name="Equip" src="32021" fileName="State/组件/Equip.xml" xy="87,269">
+      <relation target="" sidePair=""/>
+    </component>
+    <component id="n59_rgmu" name="ShowHintWin" src="rgmun21w" fileName="State/组件/ShowHintWin.xml" xy="33,126"/>
+    <component id="n60_amtu" name="StateWindowsButtonClick1" src="amtugvn2we" fileName="State/组件/StateWindowsButtonClick1.xml" xy="-125,32" visible="false" customData="[@StateWindowsButtonClick1]"/>
+    <component id="n61_amtu" name="StateWindowsButtonClick2" src="amtugvn2wd" fileName="State/组件/StateWindowsButtonClick2.xml" xy="-124,101" visible="false" customData="[@StateWindowsButtonClick2]"/>
+    <component id="n62_amtu" name="StateWindowsButtonClick3" src="amtugvn2wf" fileName="State/组件/StateWindowsButtonClick3.xml" xy="-124,174" visible="false" customData="[@StateWindowsButtonClick3]"/>
+    <component id="n63_amtu" name="StateWindowsButtonClick4" src="amtugvn2wg" fileName="State/组件/StateWindowsButtonClick4.xml" xy="-125,246" visible="false" customData="[@StateWindowsButtonClick4]"/>
+    <component id="n64_amtu" name="StateWindowsButtonClick5" src="amtugvn2wh" fileName="State/组件/StateWindowsButtonClick5.xml" xy="-126,318" visible="false" customData="[@StateWindowsButtonClick5]"/>
+  </displayList>
+</component>

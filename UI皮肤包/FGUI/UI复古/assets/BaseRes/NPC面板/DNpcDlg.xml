@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component opaque="false" size="552,232" scroll="both">
+  <displayList>
+    <image id="s73t1" src="qgn264" fileName="00190.PNG" xy="0,0" size="522,230" name="DA2EIMAGE1" alpha="1.0"/>
+    <richtext name="DTips" id="5my26" xy="7,44" size="615,32" font="ui://5615522tw56a8" faceDilate="1" fontSize="16" leading="0" text="" color="#FFFFFF" ubb="true" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <component name="Btn" id="m12ru" src="qgn28e" fileName="Btn.xml" xy="-132,93"/>
+    <loader id="j0586" name="PlayImgEx" size="50,50" xy="-163,154"/>
+    <component name="DBtnCommonHitUIClose" id="a3bpx" src="qgn26v" fileName="DBtnCommonHitUIClose.xml" xy="521,0">
+      <Button sound="ui://a1qeklvh3272i"/>
+    </component>
+  </displayList>
+</component>

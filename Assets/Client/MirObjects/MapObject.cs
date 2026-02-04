@@ -265,7 +265,12 @@ namespace Client.MirObjects
                     Effects.Add(new BuffEffect(Libraries.Magic3, 230, 6, 1200, this, true, type) { Repeat = true });
                     break;
 				case BuffType.GameMaster:
-					Effects.Add(new BuffEffect(Libraries.CHumEffect[5], 0, 1, 1200, this, true, type) { Repeat = true });
+					Libraries.EnsureCHumEffectIndex(5);
+					if (Libraries.CHumEffect != null && Libraries.CHumEffect.Length > 5 && Libraries.CHumEffect[5] != null)
+					{
+						Libraries.CHumEffect[5].Initialize();
+						Effects.Add(new BuffEffect(Libraries.CHumEffect[5], 0, 1, 1200, this, true, type) { Repeat = true });
+					}
 					break;
                 case BuffType.GeneralMeowMeowShield:
                     Effects.Add(new BuffEffect(Libraries.Monsters[(ushort)Monster.GeneralMeowMeow], 529, 7, 700, this, true, type) { Repeat = true, Light = 1 });

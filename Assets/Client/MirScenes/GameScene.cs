@@ -248,14 +248,15 @@ namespace Client.MirScenes
 
             KeyDown += GameScene_KeyDown;
 
-            MainDialog = new MainDialog { Parent = this };
-            ChatDialog = new ChatDialog { Parent = this };
-            ChatControl = new ChatControlBar { Parent = this };
-            InventoryDialog = new InventoryDialog { Parent = this };
-            BeltDialog = new BeltDialog { Parent = this };
+            // ========== 老的 MirControl UI - 设为不可见，但保留创建避免空引用 ==========
+            MainDialog = new MainDialog { Parent = this, Visible = false };
+            ChatDialog = new ChatDialog { Parent = this, Visible = false };
+            ChatControl = new ChatControlBar { Parent = this, Visible = false };
+            InventoryDialog = new InventoryDialog { Parent = this, Visible = false };
+            BeltDialog = new BeltDialog { Parent = this, Visible = false };
             StorageDialog = new StorageDialog { Parent = this, Visible = false };
             CraftDialog = new CraftDialog { Parent = this, Visible = false };
-            MiniMapDialog = new MiniMapDialog { Parent = this };
+            MiniMapDialog = new MiniMapDialog { Parent = this, Visible = false };
             InspectDialog = new InspectDialog { Parent = this, Visible = false };
             OptionDialog = new OptionDialog { Parent = this, Visible = false };
             MenuDialog = new MenuDialog { Parent = this, Visible = false };
@@ -297,7 +298,7 @@ namespace Client.MirScenes
             BigMapDialog = new BigMapDialog { Parent = this, Visible = false };
             TrustMerchantDialog = new TrustMerchantDialog { Parent = this, Visible = false };
             CharacterDuraPanel = new CharacterDuraPanel { Parent = this, Visible = false };
-            DuraStatusPanel = new DuraStatusDialog { Parent = this, Visible = true };
+            DuraStatusPanel = new DuraStatusDialog { Parent = this, Visible = false };
             TradeDialog = new TradeDialog { Parent = this, Visible = false };
             GuestTradeDialog = new GuestTradeDialog { Parent = this, Visible = false };
 
@@ -368,6 +369,7 @@ namespace Client.MirScenes
 
             if (MapInfoList.Count > 0)
                 RecreateBigMapButtons();
+            // ========== 老的 MirControl UI 全部设为不可见，FairyGUI 会覆盖显示 ==========
         }
 
         private void UpdateMouseCursor()
@@ -512,26 +514,35 @@ namespace Client.MirScenes
                     case KeybindOptions.HeroSkill8: UseSpell(24); break;
                     case KeybindOptions.Inventory:
                     case KeybindOptions.Inventory2:
-                        if (!InventoryDialog.Visible) InventoryDialog.Show();
-                        else InventoryDialog.Hide();
+                        // 使用 FairyGUI 背包
+                        FguiGameUI.Instance?.ToggleInventory();
+                        // 老的代码注释掉，方便后续参考
+                        // if (!InventoryDialog.Visible) InventoryDialog.Show();
+                        // else InventoryDialog.Hide();
                         break;
                     case KeybindOptions.Equipment:
                     case KeybindOptions.Equipment2:
-                        if (!CharacterDialog.Visible || !CharacterDialog.CharacterPage.Visible)
-                        {
-                            CharacterDialog.Show();
-                            CharacterDialog.ShowCharacterPage();
-                        }
-                        else CharacterDialog.Hide();
+                        // 使用 FairyGUI 角色面板
+                        FguiGameUI.Instance?.ToggleCharacter();
+                        // 老的代码注释掉，方便后续参考
+                        // if (!CharacterDialog.Visible || !CharacterDialog.CharacterPage.Visible)
+                        // {
+                        //     CharacterDialog.Show();
+                        //     CharacterDialog.ShowCharacterPage();
+                        // }
+                        // else CharacterDialog.Hide();
                         break;
                     case KeybindOptions.Skills:
                     case KeybindOptions.Skills2:
-                        if (!CharacterDialog.Visible || !CharacterDialog.SkillPage.Visible)
-                        {
-                            CharacterDialog.Show();
-                            CharacterDialog.ShowSkillPage();
-                        }
-                        else CharacterDialog.Hide();
+                        // 使用 FairyGUI 技能面板
+                        FguiGameUI.Instance?.ToggleSkill();
+                        // 老的代码注释掉，方便后续参考
+                        // if (!CharacterDialog.Visible || !CharacterDialog.SkillPage.Visible)
+                        // {
+                        //     CharacterDialog.Show();
+                        //     CharacterDialog.ShowSkillPage();
+                        // }
+                        // else CharacterDialog.Hide();
                         break;
                     case KeybindOptions.HeroInventory:
                         if (Hero == null)
@@ -569,8 +580,11 @@ namespace Client.MirScenes
                         break;
 
                     case KeybindOptions.GameShop:
-                        if (!GameShopDialog.Visible) GameShopDialog.Show();
-                        else GameShopDialog.Hide();
+                        // 使用 FairyGUI 商店面板
+                        FguiGameUI.Instance?.ToggleShop();
+                        // 老的代码注释掉
+                        // if (!GameShopDialog.Visible) GameShopDialog.Show();
+                        // else GameShopDialog.Hide();
                         break;
                     case KeybindOptions.Fishing:
                         if (!FishingDialog.Visible) FishingDialog.Show();
@@ -597,24 +611,36 @@ namespace Client.MirScenes
                         else RelationshipDialog.Hide();
                         break;
                     case KeybindOptions.Friends:
-                        if (!FriendDialog.Visible) FriendDialog.Show();
-                        else FriendDialog.Hide();
+                        // 使用 FairyGUI 好友面板
+                        FguiGameUI.Instance?.ToggleFriend();
+                        // 老的代码注释掉
+                        // if (!FriendDialog.Visible) FriendDialog.Show();
+                        // else FriendDialog.Hide();
                         break;
                     case KeybindOptions.Guilds:
-                        if (!GuildDialog.Visible) GuildDialog.Show();
-                        else
-                        {
-                            GuildDialog.Hide();
-                        }
+                        // 使用 FairyGUI 工会面板
+                        FguiGameUI.Instance?.ToggleGuild();
+                        // 老的代码注释掉
+                        // if (!GuildDialog.Visible) GuildDialog.Show();
+                        // else
+                        // {
+                        //     GuildDialog.Hide();
+                        // }
                         break;
 
                     case KeybindOptions.Ranking:
-                        if (!RankingDialog.Visible) RankingDialog.Show();
-                        else RankingDialog.Hide();
+                        // 使用 FairyGUI 排行面板
+                        FguiGameUI.Instance?.ToggleRank();
+                        // 老的代码注释掉
+                        // if (!RankingDialog.Visible) RankingDialog.Show();
+                        // else RankingDialog.Hide();
                         break;
                     case KeybindOptions.Quests:
-                        if (!QuestLogDialog.Visible) QuestLogDialog.Show();
-                        else QuestLogDialog.Hide();
+                        // 使用 FairyGUI 任务面板
+                        FguiGameUI.Instance?.ToggleQuest();
+                        // 老的代码注释掉
+                        // if (!QuestLogDialog.Visible) QuestLogDialog.Show();
+                        // else QuestLogDialog.Hide();
                         break;
                     case KeybindOptions.Exit:
                         QuitGame();
@@ -2122,7 +2148,7 @@ namespace Client.MirScenes
             if (MapControl != null && !MapControl.IsDisposed)
                 MapControl.Dispose();
             MapControl = new MapControl { Index = p.MapIndex, FileName = Path.Combine(Settings.MapPath, p.FileName + ".map"), Title = p.Title, MiniMap = p.MiniMap, BigMap = p.BigMap, Lights = p.Lights, Lightning = p.Lightning, Fire = p.Fire, MapDarkLight = p.MapDarkLight, Music = p.Music };
-            MapControl.Weather = p.WeatherParticles;
+            MapControl.Weather = WeatherSetting.None;
             MapControl.LoadMap();
             InsertControl(0, MapControl);
         }
@@ -4020,7 +4046,7 @@ namespace Client.MirScenes
                 MapControl.Lights = p.Lights;
                 MapControl.MapDarkLight = p.MapDarkLight;
                 MapControl.Music = p.Music;
-                MapControl.Weather = p.Weather;
+                MapControl.Weather = WeatherSetting.None;
                 MapControl.LoadMap();
             }
 
@@ -10604,10 +10630,45 @@ namespace Client.MirScenes
             MapObject.TargetObjectID = 0;
             MapObject.MagicObjectID = 0;
 
-            MapReader Map = new MapReader(FileName);
-            M2CellInfo = Map.MapCells;
-            Width = Map.Width;
-            Height = Map.Height;
+            if (!string.IsNullOrWhiteSpace(FileName) && !File.Exists(FileName))
+            {
+                try
+                {
+                    var root = Path.GetFullPath(Settings.resRootPath);
+                    var full = Path.GetFullPath(FileName);
+
+                    if (full.StartsWith(root, StringComparison.OrdinalIgnoreCase))
+                    {
+                        var relative = full.Substring(root.Length)
+                            .TrimStart(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar)
+                            .Replace(Path.DirectorySeparatorChar, '/');
+
+                        HotResourceManager.Instance?.RequestFile(relative, ok =>
+                        {
+                            if (ok)
+                                LoadMap();
+                        });
+                    }
+                }
+                catch
+                {
+                    // Ignore invalid paths.
+                }
+
+                Width = 1000;
+                Height = 1000;
+                M2CellInfo = new CellInfo[Width, Height];
+                for (int x = 0; x < Width; x++)
+                    for (int y = 0; y < Height; y++)
+                        M2CellInfo[x, y] = new CellInfo();
+            }
+            else
+            {
+                MapReader Map = new MapReader(FileName);
+                M2CellInfo = Map.MapCells;
+                Width = Map.Width;
+                Height = Map.Height;
+            }
 
             PathFinder = new PathFinder(this);
 
@@ -10759,12 +10820,7 @@ namespace Client.MirScenes
 
             //Render Death, 
 
-            LightSetting setting = Lights == LightSetting.Normal ? GameScene.Scene.Lights : Lights;
-
-            if (setting != LightSetting.Day || GameScene.User.Poison.HasFlag(PoisonType.Blindness))
-            {
-                DrawAmbientLight(setting);
-            }
+            LightSetting setting = LightSetting.Day;
 
             if (Settings.DropView || GameScene.DropViewTime > CMain.Time)
             {
@@ -12779,6 +12835,9 @@ namespace Client.MirScenes
                 GameScene.Scene.ParticleEngines[i].Dispose();
 
             GameScene.Scene.ParticleEngines.Clear();
+
+            return;
+
             List<ParticleImageInfo> textures = new List<ParticleImageInfo>();
             foreach (WeatherSetting itemWeather in Enum.GetValues(typeof(WeatherSetting)).Cast<object>().ToArray())
             {
@@ -12947,19 +13006,44 @@ namespace Client.MirScenes
 
         public void RemoveObject(MapObject ob)
         {
-            M2CellInfo[ob.MapLocation.X, ob.MapLocation.Y].RemoveObject(ob);
+            if (ob == null) return;
+            if (M2CellInfo == null) return;
+            if (ob.MapLocation.X < 0 || ob.MapLocation.Y < 0) return;
+            if (ob.MapLocation.X >= Width || ob.MapLocation.Y >= Height) return;
+
+            var cell = M2CellInfo[ob.MapLocation.X, ob.MapLocation.Y];
+            if (cell == null) return;
+            cell.RemoveObject(ob);
         }
         public void AddObject(MapObject ob)
         {
-            M2CellInfo[ob.MapLocation.X, ob.MapLocation.Y].AddObject(ob);
+            if (ob == null) return;
+            if (M2CellInfo == null) return;
+            if (ob.MapLocation.X < 0 || ob.MapLocation.Y < 0) return;
+            if (ob.MapLocation.X >= Width || ob.MapLocation.Y >= Height) return;
+
+            var cell = M2CellInfo[ob.MapLocation.X, ob.MapLocation.Y];
+            if (cell == null) return;
+            cell.AddObject(ob);
         }
         public MapObject FindObject(uint ObjectID, int x, int y)
         {
-            return M2CellInfo[x, y].FindObject(ObjectID);
+            if (M2CellInfo == null) return null;
+            if (x < 0 || y < 0) return null;
+            if (x >= Width || y >= Height) return null;
+
+            var cell = M2CellInfo[x, y];
+            return cell?.FindObject(ObjectID);
         }
         public void SortObject(MapObject ob)
         {
-            M2CellInfo[ob.MapLocation.X, ob.MapLocation.Y].Sort();
+            if (ob == null) return;
+            if (M2CellInfo == null) return;
+            if (ob.MapLocation.X < 0 || ob.MapLocation.Y < 0) return;
+            if (ob.MapLocation.X >= Width || ob.MapLocation.Y >= Height) return;
+
+            var cell = M2CellInfo[ob.MapLocation.X, ob.MapLocation.Y];
+            cell?.Sort();
         }
 
         public Door GetDoor(byte Index)

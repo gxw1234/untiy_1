@@ -4,6 +4,7 @@ using System.Linq;
 using Client.MirControls;
 using Client.MirGraphics;
 using Client.MirScenes;
+using Client.Utils;
 using Shared.Unity;
 using S = ServerPackets;
 
@@ -68,7 +69,7 @@ namespace Client.MirObjects
 
             LoadLibrary();
 
-            Frames = BodyLibrary.Frames ?? FrameSet.DefaultNPC;
+            Frames = BodyLibrary?.Frames ?? FrameSet.DefaultNPC;
 
             Light = 10;
             BaseIndex = 0;
@@ -78,15 +79,39 @@ namespace Client.MirObjects
 
         public void LoadLibrary()
         {
-            if (Image < Libraries.NPCs.Length)
-                BodyLibrary = Libraries.NPCs[Image];
-            else if (Image >= 1000 && Image < 1100)
+            BodyLibrary = null;
+
+            if (Image < 1000)
+            {
+                var index = (int)Image;
+                Libraries.EnsureNPCIndex(index);
+                if (index >= 0 && index < Libraries.NPCs.Length)
+                    BodyLibrary = Libraries.NPCs[index];
+
+                if (BodyLibrary == null || !System.IO.File.Exists(BodyLibrary.FileName))
+                    HotResourceManager.Instance?.RequestNPCLib(index);
+
+                return;
+            }
+
+            if (Image >= 1000 && Image < 1100)
                 BodyLibrary = Libraries.Flags[Image - 1000];
         }
 
         public override void Process()
         {
             bool update = CMain.Time >= NextMotion || GameScene.CanMove;
+
+            if (Frames == FrameSet.DefaultNPC && BodyLibrary != null && System.IO.File.Exists(BodyLibrary.FileName))
+            {
+                BodyLibrary.EnsureInitialized();
+
+                if (BodyLibrary.Frames != null)
+                {
+                    Frames = BodyLibrary.Frames;
+                    SetAction(true);
+                }
+            }
 
             ProcessFrames();
 

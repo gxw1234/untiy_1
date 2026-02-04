@@ -7,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System;
 using Shared.Unity;
+using Client.Utils;
 
 namespace Client.MirGraphics
 {
@@ -14,6 +15,85 @@ namespace Client.MirGraphics
     {
         public static bool Loaded;
         public static int Count, Progress;
+
+        public static void EnsureCHumEffectIndex(int index)
+        {
+            if (index < 0) return;
+            if (CHumEffect == null) return;
+
+            if (index < CHumEffect.Length) return;
+
+            var newLength = CHumEffect.Length;
+            while (index >= newLength) newLength *= 2;
+
+            var resized = new MLibrary[newLength];
+            Array.Copy(CHumEffect, resized, CHumEffect.Length);
+
+            for (int i = CHumEffect.Length; i < resized.Length; i++)
+            {
+                resized[i] = new MLibrary(Settings.CHumEffectPath + i.ToString("00"));
+            }
+
+            CHumEffect = resized;
+        }
+
+        public static void EnsureMonsterIndex(int index)
+        {
+            if (index < 0) return;
+            if (Monsters == null) return;
+
+            if (index < Monsters.Length) return;
+
+            var newLength = Monsters.Length;
+            while (index >= newLength) newLength *= 2;
+
+            var resized = new MLibrary[newLength];
+            Array.Copy(Monsters, resized, Monsters.Length);
+
+            for (int i = Monsters.Length; i < resized.Length; i++)
+            {
+                resized[i] = new MLibrary(Settings.MonsterPath + i.ToString("000"));
+            }
+
+            Monsters = resized;
+        }
+
+        public static void EnsureNPCIndex(int index)
+        {
+            if (index < 0) return;
+            if (NPCs == null) return;
+
+            if (index < NPCs.Length) return;
+
+            var newLength = NPCs.Length;
+            while (index >= newLength) newLength *= 2;
+
+            var resized = new MLibrary[newLength];
+            Array.Copy(NPCs, resized, NPCs.Length);
+
+            for (int i = NPCs.Length; i < resized.Length; i++)
+            {
+                resized[i] = new MLibrary(Settings.NPCPath + i.ToString("00"));
+            }
+
+            NPCs = resized;
+        }
+
+        public static void ReloadMonster(int index)
+        {
+            EnsureMonsterIndex(index);
+            if (index < 0 || index >= Monsters.Length) return;
+
+            Monsters[index]?.Reload();
+        }
+
+        public static void ReloadNPC(int index)
+        {
+            EnsureNPCIndex(index);
+            if (index < 0 || index >= NPCs.Length) return;
+
+            NPCs[index]?.Reload();
+        }
 
         public static readonly MLibrary
             ChrSel = new MLibrary(Settings.DataPath + "ChrSel"),
@@ -295,8 +375,6 @@ namespace Client.MirGraphics
             {
                 if (MapLibs[i] == null)
                     MapLibs[i] = new MLibrary("");
-                else
-                    MapLibs[i].Initialize();
                 Progress++;
             }
 
@@ -474,6 +552,8 @@ namespace Client.MirGraphics
         public const string Extention = ".Lib";
         public const int LibVersion = 3;
 
+        private const long MissingRetryDelay = 1000;
+
         private readonly string _fileName;
 
         private MImage[] _images;
@@ -481,6 +561,9 @@ namespace Client.MirGraphics
         private int[] _indexList;
         private int _count;
         private bool _initialized;
+
+        private long _nextInitializeAttempt;
+        private bool _downloadRequested;
 
         private BinaryReader _reader;
         private FileStream _fStream;
@@ -490,6 +573,11 @@ namespace Client.MirGraphics
             get { return _frames; }
         }
 
+        public string FileName
+        {
+            get { return _fileName; }
+        }
+
         public MLibrary(string filename)
         {
             _fileName = Path.ChangeExtension(filename, Extention);
@@ -497,10 +585,23 @@ namespace Client.MirGraphics
 
         public void Initialize()
         {
-            _initialized = true;
+            if (CMain.Time < _nextInitializeAttempt) return;
 
             if (!File.Exists(_fileName))
+            {
+                if (!_downloadRequested)
+                {
+                    HotResourceManager.Instance?.RequestLibrary(this);
+                    _downloadRequested = true;
+                }
+
+                _nextInitializeAttempt = long.MaxValue;
+                _initialized = false;
                 return;
+            }
+
+            _downloadRequested = false;
+            _nextInitializeAttempt = 0;
 
             try
             {
@@ -509,6 +610,8 @@ namespace Client.MirGraphics
                 int currentVersion = _reader.ReadInt32();
                 if (currentVersion < 2)
                 {
+                    _nextInitializeAttempt = long.MaxValue;
+                    _initialized = false;
                     return;
                 }
                 _count = _reader.ReadInt32();
@@ -540,12 +643,45 @@ namespace Client.MirGraphics
                         }
                     }
                 }
+
+                _initialized = true;
             }
             catch (Exception)
             {
                 _initialized = false;
                 throw;
             }
+        }
+
+        public void Reload()
+        {
+            try
+            {
+                _reader?.Close();
+                _reader = null;
+
+                _fStream?.Close();
+                _fStream = null;
+            }
+            catch
+            {
+                // Ignore cleanup issues; we'll attempt to re-open on next Initialize.
+            }
+
+            _images = null;
+            _frames = null;
+            _indexList = null;
+            _count = 0;
+            _initialized = false;
+
+            _downloadRequested = false;
+            _nextInitializeAttempt = 0;
+        }
+
+        public void EnsureInitialized()
+        {
+            if (_initialized) return;
+            Initialize();
         }
 
         private bool CheckImage(int index)

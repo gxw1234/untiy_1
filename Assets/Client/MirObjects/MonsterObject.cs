@@ -3,6 +3,7 @@ using Client.MirScenes;
 using Client.MirSounds;
 using S = ServerPackets;
 using Client.MirControls;
+using Client.Utils;
 using Shared.Unity;
 using System;
 using System.Linq;
@@ -195,7 +196,20 @@ namespace Client.MirObjects
                     BodyLibrary = Libraries.Monsters[(ushort)Monster.CaveStatue];
                     break;
                 default:
-                    BodyLibrary = Libraries.Monsters[(ushort)BaseImage];
+                    {
+                        var index = (int)(ushort)BaseImage;
+                        Libraries.EnsureMonsterIndex(index);
+
+                        if (index >= 0 && index < Libraries.Monsters.Length)
+                            BodyLibrary = Libraries.Monsters[index];
+                        else
+                            BodyLibrary = null;
+
+                        if (BodyLibrary == null || !System.IO.File.Exists(BodyLibrary.FileName))
+                        {
+                            HotResourceManager.Instance?.RequestMonsterLib(index);
+                        }
+                    }
                     break;
             }
 
@@ -334,6 +348,17 @@ namespace Client.MirObjects
         {
             bool update = CMain.Time >= NextMotion || GameScene.CanMove;
             SkipFrames = ActionFeed.Count > 1;
+
+            if (Frames == FrameSet.DefaultMonster && BodyLibrary != null && System.IO.File.Exists(BodyLibrary.FileName))
+            {
+                BodyLibrary.EnsureInitialized();
+
+                if (BodyLibrary.Frames != null)
+                {
+                    Frames = BodyLibrary.Frames;
+                    SetAction();
+                }
+            }
 
             ProcessFrames();
 

@@ -15,7 +15,7 @@ namespace Client
 
         public static string resRootPath = Application.persistentDataPath;//C:/Users/admin/AppData/LocalLow/DefaultCompany/Crystal_Unity
 
-        private static InIReader Reader = new InIReader(resRootPath+"/Mir2Config.ini");
+        private static InIReader Reader;
         private static InIReader QuestTrackingReader = new InIReader(resRootPath+"/QuestTracking.ini");
 
         private static bool _useTestConfig;
@@ -211,8 +211,75 @@ namespace Client
         public static bool P_AutoStart = false;
         public static int P_Concurrency = 1;
 
+        public static string HotUpdateBaseUrl = "http://127.0.0.1:8090/";
+
+        private static void EnsureConfigExistsFromTemplate()
+        {
+            try
+            {
+                var configPath = Path.Combine(resRootPath, "Mir2Config.ini");
+                if (File.Exists(configPath))
+                {
+                    try
+                    {
+                        var existing = File.ReadAllText(configPath);
+                        if (!string.IsNullOrWhiteSpace(existing) && existing.Contains("IPAddress=") && existing.Contains("[HotUpdate]"))
+                            return;
+                    }
+                    catch
+                    {
+                        return;
+                    }
+                }
+
+                if (!Directory.Exists(resRootPath)) Directory.CreateDirectory(resRootPath);
+
+                string templateText = null;
+
+                // Editor/Standalone: Assets/cfg.ini (Application.dataPath points to Assets)
+                try
+                {
+                    var templatePath = Path.Combine(Application.dataPath, "cfg.ini");
+                    if (File.Exists(templatePath))
+                        templateText = File.ReadAllText(templatePath);
+                }
+                catch
+                {
+                }
+
+                // Android/iOS: read from Resources/cfg (TextAsset)
+                if (string.IsNullOrWhiteSpace(templateText))
+                {
+                    try
+                    {
+                        var textAsset = Resources.Load<TextAsset>("cfg");
+                        if (textAsset != null)
+                            templateText = textAsset.text;
+                    }
+                    catch
+                    {
+                    }
+                }
+
+                if (string.IsNullOrWhiteSpace(templateText)) return;
+
+                File.WriteAllText(configPath, templateText);
+            }
+            catch
+            {
+            }
+        }
+
         public static void Load()
         {
+            EnsureConfigExistsFromTemplate();
+
+            // Important: re-create reader after EnsureConfigExistsFromTemplate, otherwise it may cache old/default values.
+            if (UseTestConfig)
+                Reader = new InIReader(resRootPath+"/Mir2Test.ini");
+            else
+                Reader = new InIReader(resRootPath+"/Mir2Config.ini");
+
             GameLanguage.LoadClientLanguage(resRootPath+"/Language.ini");
 
             if (!Directory.Exists(DataPath)) Directory.CreateDirectory(DataPath);
@@ -310,6 +377,9 @@ namespace Client
             P_ServerName = Reader.ReadString("Launcher", "ServerName", P_ServerName);
             P_BrowserAddress = Reader.ReadString("Launcher", "Browser", P_BrowserAddress);
             P_Concurrency = Reader.ReadInt32("Launcher", "ConcurrentDownloads", P_Concurrency);
+
+            HotUpdateBaseUrl = Reader.ReadString("HotUpdate", "BaseUrl", HotUpdateBaseUrl);
+            if (!string.IsNullOrEmpty(HotUpdateBaseUrl) && !HotUpdateBaseUrl.EndsWith("/")) HotUpdateBaseUrl += "/";
             
 
             if (!P_Host.EndsWith("/")) P_Host += "/";

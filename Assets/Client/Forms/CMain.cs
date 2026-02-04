@@ -21,6 +21,8 @@ namespace Client
     {
         private static GUIStyle cachedStyle;
 
+        public static bool DisableLegacyMirSceneDraw = true;
+
         public static Size GetTextSize(string text, Shared.Unity.Font font)
         {
             //参数一 ： text
@@ -57,6 +59,8 @@ namespace Client
         }
         public static MirControl DebugBaseLabel, HintBaseLabel;
         public static MirLabel DebugTextLabel, HintTextLabel, ScreenshotTextLabel;
+        public static MirControl DownloadBaseLabel;
+        public static MirLabel DownloadTextLabel;
         public static Graphics Graphics;
         public static Point MPoint;
         public Camera StageCamera; 
@@ -164,6 +168,18 @@ namespace Client
             Deactivate += CMain_Deactivate;
             MouseWheel += CMain_MouseWheel;
 
+            if (UnityEngine.Object.FindObjectOfType<FguiBootstrap>() == null)
+            {
+                var go = new GameObject("FguiBootstrap");
+                go.AddComponent<FguiBootstrap>();
+            }
+
+            if (UnityEngine.Object.FindObjectOfType<Client.Utils.HotResourceManager>() == null)
+            {
+                var go = new GameObject("HotResourceManager");
+                go.AddComponent<Client.Utils.HotResourceManager>();
+            }
+
         }
         
 
@@ -182,6 +198,9 @@ namespace Client
             UpdateTime();
             UpdateFrameTime();
             UpdateEnviroment();
+
+            // 更新 FairyGUI 游戏内 UI
+            FguiGameUI.Instance?.UpdateUI();
 
 #if UNITY_ANDROID
             HandleTouchInput();// 处理触摸输入
@@ -234,6 +253,9 @@ namespace Client
 
         void OnGUI()
         {
+            if (DisableLegacyMirSceneDraw)
+                return;
+
             if(Event.current.type == EventType.Repaint)
             {
                 GL.PushMatrix();
@@ -254,7 +276,7 @@ namespace Client
 
             GL.PopMatrix();
 //最后读取相机
-            if(StageCamera!=null)
+            if (!DisableLegacyMirSceneDraw && StageCamera != null)
             {
                 StageCamera.Render();
             }
@@ -603,6 +625,7 @@ namespace Client
                 MirAnimatedButton.Animations[i].UpdateOffSet();
 
             CreateHintLabel();
+            CreateDownloadLabel();
 
             if (Settings.DebugMode)
             {
@@ -626,8 +649,11 @@ namespace Client
             //     DXManager.Sprite.Begin(SpriteFlags.AlphaBlend);
             DXManager.SetSurface(DXManager.MainSurface);
 
-            if (MirScene.ActiveScene != null)
-                MirScene.ActiveScene.Draw();
+            if (!DisableLegacyMirSceneDraw)
+            {
+                if (MirScene.ActiveScene != null)
+                    MirScene.ActiveScene.Draw();
+            }
 
             //     DXManager.Sprite.End();
             //     DXManager.Device.EndScene();
@@ -748,6 +774,59 @@ namespace Client
                 point.Y = 0;
 
             HintBaseLabel.Location = point;
+        }
+
+        private static void CreateDownloadLabel()
+        {
+            if (DownloadBaseLabel == null || DownloadBaseLabel.IsDisposed)
+            {
+                DownloadBaseLabel = new MirControl
+                {
+                    BackColour = Shared.Unity.Color.FromArgb(255, 0, 0, 0),
+                    Border = true,
+                    DrawControlTexture = true,
+                    BorderColour = Shared.Unity.Color.FromArgb(255, 144, 144, 0),
+                    ForeColour = Shared.Unity.Color.Yellow,
+                    Parent = MirScene.ActiveScene,
+                    NotControl = true,
+                    Opacity = 0.5F
+                };
+            }
+            else
+            {
+                if (DownloadBaseLabel.Parent != MirScene.ActiveScene)
+                    DownloadBaseLabel.Parent = MirScene.ActiveScene;
+            }
+
+            if (DownloadTextLabel == null || DownloadTextLabel.IsDisposed)
+            {
+                DownloadTextLabel = new MirLabel
+                {
+                    AutoSize = true,
+                    BackColour = Shared.Unity.Color.Transparent,
+                    ForeColour = Shared.Unity.Color.Yellow,
+                    Parent = DownloadBaseLabel,
+                };
+
+                DownloadTextLabel.SizeChanged += (o, e) => DownloadBaseLabel.Size = DownloadTextLabel.Size;
+            }
+
+            bool show = false;
+            var mgr = Client.Utils.HotResourceManager.Instance;
+            if (mgr != null)
+            {
+                show = mgr.IsDownloading;
+            }
+
+            if (!show)
+            {
+                DownloadBaseLabel.Visible = false;
+                return;
+            }
+
+            DownloadBaseLabel.Visible = true;
+            DownloadTextLabel.Text = "正在下载...";
+            DownloadBaseLabel.Location = new Point(5, Settings.ScreenHeight - DownloadBaseLabel.Size.Height - 5);
         }
 
         private static void ToggleFullScreen()
@@ -984,6 +1063,10 @@ namespace Client
         {
             if (MirScene.ActiveScene != null)
             {
+                // 如果 FairyGUI 拦截了点击，不传递给游戏世界
+                if (FairyGUI.Stage.isTouchOnUI)
+                    return;
+
                 if (Input.GetMouseButtonDown(0))
                 {
                     MouseEventArgs _tmp = new MouseEventArgs(MouseButtons.Left, 1, (int)mousePosition.x, (int)mousePosition.y, 1);
@@ -1032,6 +1115,10 @@ namespace Client
             // 检测触摸屏幕
             if (Input.touchCount > 0 && MirScene.ActiveScene != null)
             {
+                // 如果 FairyGUI 拦截了点击，不传递给游戏世界
+                if (FairyGUI.Stage.isTouchOnUI)
+                    return;
+
                 for (int i = 0; i < Input.touchCount; i++)
                 {
                     Touch touch = Input.GetTouch(i);

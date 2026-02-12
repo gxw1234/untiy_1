@@ -264,17 +264,23 @@ public sealed class FguiBootstrap : MonoBehaviour
         {
             Debug.Log("[FguiBootstrap] TryShowFairyGuiCharacterSelect called");
 
-            // Try new UI_1 character select first
-            GObject view = UIPackage.CreateObject("Login", "Select _character");
+            // Try new UI_1 character select first - try Select _character_1 first, then fallback to Select _character
+            GObject view = UIPackage.CreateObject("Login", "Select _character_1");
             if (view == null)
             {
-                Debug.LogWarning("[FguiBootstrap] Failed to create 'Select _character' from Login package, trying old UI");
-                // Fallback to old UI if exists
-                view = UIPackage.CreateObject("UI", "选角_CharSelectUI");
+                Debug.LogWarning("[FguiBootstrap] Failed to create 'Select _character_1', trying Select _character");
+                view = UIPackage.CreateObject("Login", "Select _character");
             }
             else
             {
-                Debug.Log("[FguiBootstrap] Successfully created 'Select _character' from Login package");
+                Debug.Log("[FguiBootstrap] Successfully created 'Select _character_1' from Login package");
+            }
+
+            if (view == null)
+            {
+                Debug.LogWarning("[FguiBootstrap] Failed to create any Select _character component, trying old UI");
+                // Fallback to old UI if exists
+                view = UIPackage.CreateObject("UI", "选角_CharSelectUI");
             }
 
             if (view == null)
@@ -372,6 +378,60 @@ public sealed class FguiBootstrap : MonoBehaviour
         }
     }
 
+    private static void LoadCharacterPortrait(GComponent panel, SelectInfo character)
+    {
+        try
+        {
+            if (character == null)
+                return;
+
+            GLoader portraitLoader = panel.GetChild("n9")?.asLoader;
+            if (portraitLoader == null)
+                return;
+
+            // 根据职业和性别确定肖像图片名称
+            // fs = 法师, ws = 战士, ds = 道士
+            // _1 = 男, _2 = 女
+            string portraitName = "";
+            string classPrefix = "";
+
+            switch (character.Class)
+            {
+                case MirClass.Warrior:
+                    classPrefix = "ws";
+                    break;
+                case MirClass.Wizard:
+                    classPrefix = "fs";
+                    break;
+                case MirClass.Taoist:
+                    classPrefix = "ds";
+                    break;
+                default:
+                    classPrefix = "ws";
+                    break;
+            }
+
+            string genderSuffix = character.Gender == MirGender.Male ? "1" : "2";
+            portraitName = $"{classPrefix}_{genderSuffix}";
+
+            // 从 Login 包加载肖像图片
+            string url = UIPackage.GetItemURL("Login", portraitName);
+            if (!string.IsNullOrEmpty(url))
+            {
+                portraitLoader.url = url;
+                Debug.Log($"[FguiBootstrap] Loaded character portrait: {portraitName}");
+            }
+            else
+            {
+                Debug.LogWarning($"[FguiBootstrap] Failed to load character portrait: {portraitName}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to load character portrait: {ex.Message}");
+        }
+    }
+
     private static void RefreshFairyGuiCharacterSelect(GComponent panel)
     {
         try
@@ -393,10 +453,11 @@ public sealed class FguiBootstrap : MonoBehaviour
                 currentChar = _characters[_selectedCharacterIndex];
             }
 
-            // Try new UI_1 field names first (name_1=名字, Level_1=等级, Occupation_1=职业)
+            // Try new UI_1 field names first (name_1=名字, Level_1=等级, Occupation_1=职业, Gender_1=性别)
             GObject nameField = panel.GetChild("name_1");
             GObject levelField = panel.GetChild("Level_1");
             GObject classField = panel.GetChild("Occupation_1");
+            GObject genderField = panel.GetChild("Gender_1");
 
             if (nameField != null || levelField != null || classField != null)
             {
@@ -404,7 +465,18 @@ public sealed class FguiBootstrap : MonoBehaviour
                 SetText("name_1", currentChar?.Name);
                 SetText("Level_1", currentChar != null ? $"Lv.{currentChar.Level}" : string.Empty);
                 SetText("Occupation_1", currentChar != null ? currentChar.Class.ToString() : string.Empty);
-                Debug.Log($"[FguiBootstrap] Character select refreshed (UI_1): {currentChar?.Name} Lv.{currentChar?.Level} {currentChar?.Class}");
+
+                // 显示性别
+                if (genderField != null && currentChar != null)
+                {
+                    string genderText = currentChar.Gender == MirGender.Male ? "男" : "女";
+                    SetText("Gender_1", genderText);
+                }
+
+                // 加载角色肖像
+                LoadCharacterPortrait(panel, currentChar);
+
+                Debug.Log($"[FguiBootstrap] Character select refreshed (UI_1): {currentChar?.Name} Lv.{currentChar?.Level} {currentChar?.Class} {currentChar?.Gender}");
             }
             else
             {

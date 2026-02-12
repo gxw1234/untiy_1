@@ -25,6 +25,9 @@ public sealed class FguiBootstrap : MonoBehaviour
     private static GGraph _characterSelectBackdrop;
     private static List<SelectInfo> _characters;
     private static int _selectedCharacterIndex;
+    private static GComponent _createCharacter;
+    private static MirClass _newCharClass = MirClass.Warrior;
+    private static MirGender _newCharGender = MirGender.Male;
 
     [SerializeField] private string packageName = "Login";
     [SerializeField] private string componentName = "logint_ui";
@@ -349,6 +352,57 @@ public sealed class FguiBootstrap : MonoBehaviour
                 Debug.Log("[FguiBootstrap] Bound start_Game button for character select");
             }
 
+            // Bind Create_characters button (创建人物)
+            GObject createBtn = panel.GetChild("Create_characters");
+            if (createBtn != null)
+            {
+                createBtn.onClick.Clear();
+                createBtn.onClick.Add(() =>
+                {
+                    ShowCreateCharacterDialog();
+                });
+                Debug.Log("[FguiBootstrap] Bound Create_characters button");
+            }
+
+            // Bind Person_1 and Person_2 selection buttons (人物1和人物2选择按钮)
+            GObject person1Btn = panel.GetChild("Person_1");
+            if (person1Btn != null)
+            {
+                person1Btn.onClick.Clear();
+                person1Btn.onClick.Add(() =>
+                {
+                    _selectedCharacterIndex = 0;
+                    RefreshFairyGuiCharacterSelect(panel);
+                    Debug.Log("[FguiBootstrap] Selected character 1");
+                });
+                Debug.Log("[FguiBootstrap] Bound Person_1 button");
+            }
+
+            GObject person2Btn = panel.GetChild("Person_2");
+            if (person2Btn != null)
+            {
+                person2Btn.onClick.Clear();
+                person2Btn.onClick.Add(() =>
+                {
+                    _selectedCharacterIndex = 1;
+                    RefreshFairyGuiCharacterSelect(panel);
+                    Debug.Log("[FguiBootstrap] Selected character 2");
+                });
+                Debug.Log("[FguiBootstrap] Bound Person_2 button");
+            }
+
+            // Bind Delete_character button (删除人物按钮)
+            GObject deleteBtn = panel.GetChild("Delete_character");
+            if (deleteBtn != null)
+            {
+                deleteBtn.onClick.Clear();
+                deleteBtn.onClick.Add(() =>
+                {
+                    DeleteCharacter();
+                });
+                Debug.Log("[FguiBootstrap] Bound Delete_character button");
+            }
+
             // Old UI had selection buttons, new UI_1 doesn't need them (only shows one character)
             GButton sel1 = panel.GetChild("DBtnSel1")?.asButton;
             if (sel1 != null)
@@ -461,22 +515,98 @@ public sealed class FguiBootstrap : MonoBehaviour
 
             if (nameField != null || levelField != null || classField != null)
             {
-                // New UI_1 layout (uses GTextInput fields)
-                SetText("name_1", currentChar?.Name);
-                SetText("Level_1", currentChar != null ? $"Lv.{currentChar.Level}" : string.Empty);
-                SetText("Occupation_1", currentChar != null ? currentChar.Class.ToString() : string.Empty);
+                // New UI_1 layout - supports two character slots (人物1 and 人物2)
+                SelectInfo char1 = _characters != null && _characters.Count > 0 ? _characters[0] : null;
+                SelectInfo char2 = _characters != null && _characters.Count > 1 ? _characters[1] : null;
 
-                // 显示性别
-                if (genderField != null && currentChar != null)
+                // 人物1 (Character slot 1)
+                SetText("name_1", char1?.Name);
+                SetText("Level_1", char1 != null ? $"Lv.{char1.Level}" : string.Empty);
+                SetText("Occupation_1", char1 != null ? GetClassNameChinese(char1.Class) : string.Empty);
+                if (char1 != null)
                 {
-                    string genderText = currentChar.Gender == MirGender.Male ? "男" : "女";
+                    string genderText = char1.Gender == MirGender.Male ? "男" : "女";
                     SetText("Gender_1", genderText);
+                }
+                else
+                {
+                    SetText("Gender_1", string.Empty);
+                }
+
+                // 人物2 (Character slot 2) - check if these fields exist
+                GObject nameField2 = panel.GetChild("name_2");
+                if (nameField2 != null)
+                {
+                    SetText("name_2", char2?.Name);
+                    SetText("Level_2", char2 != null ? $"Lv.{char2.Level}" : string.Empty);
+                    SetText("Occupation_2", char2 != null ? GetClassNameChinese(char2.Class) : string.Empty);
+                    if (char2 != null)
+                    {
+                        string genderText = char2.Gender == MirGender.Male ? "男" : "女";
+                        SetText("Gender_2", genderText);
+                    }
+                    else
+                    {
+                        SetText("Gender_2", string.Empty);
+                    }
                 }
 
                 // 加载角色肖像
-                LoadCharacterPortrait(panel, currentChar);
+                // n9: 人物1的肖像, n30: 人物2的肖像
+                GLoader portrait1 = panel.GetChild("n9")?.asLoader;
+                if (portrait1 != null && char1 != null)
+                {
+                    string classPrefix = char1.Class == MirClass.Warrior ? "ws" :
+                                        char1.Class == MirClass.Wizard ? "fs" : "ds";
+                    string genderSuffix = char1.Gender == MirGender.Male ? "1" : "2";
+                    string portraitName = $"{classPrefix}_{genderSuffix}";
+                    string url = UIPackage.GetItemURL("Login", portraitName);
+                    if (!string.IsNullOrEmpty(url))
+                    {
+                        portrait1.url = url;
+                    }
+                }
+                else if (portrait1 != null)
+                {
+                    portrait1.url = null;  // Clear if no character
+                }
 
-                Debug.Log($"[FguiBootstrap] Character select refreshed (UI_1): {currentChar?.Name} Lv.{currentChar?.Level} {currentChar?.Class} {currentChar?.Gender}");
+                GLoader portrait2 = panel.GetChild("n30")?.asLoader;
+                if (portrait2 != null && char2 != null)
+                {
+                    string classPrefix = char2.Class == MirClass.Warrior ? "ws" :
+                                        char2.Class == MirClass.Wizard ? "fs" : "ds";
+                    string genderSuffix = char2.Gender == MirGender.Male ? "1" : "2";
+                    string portraitName = $"{classPrefix}_{genderSuffix}";
+                    string url = UIPackage.GetItemURL("Login", portraitName);
+                    if (!string.IsNullOrEmpty(url))
+                    {
+                        portrait2.url = url;
+                    }
+                }
+                else if (portrait2 != null)
+                {
+                    portrait2.url = null;  // Clear if no character
+                }
+
+                // 高亮选中的角色按钮 (Highlight selected character button)
+                GObject person1Btn = panel.GetChild("Person_1");
+                if (person1Btn != null)
+                {
+                    // 选中状态：高亮 + 放大，未选中状态：变暗 + 正常大小
+                    person1Btn.alpha = _selectedCharacterIndex == 0 ? 1f : 0.5f;
+                    person1Btn.SetScale(_selectedCharacterIndex == 0 ? 1.1f : 1f, _selectedCharacterIndex == 0 ? 1.1f : 1f);
+                }
+
+                GObject person2Btn = panel.GetChild("Person_2");
+                if (person2Btn != null)
+                {
+                    // 选中状态：高亮 + 放大，未选中状态：变暗 + 正常大小
+                    person2Btn.alpha = _selectedCharacterIndex == 1 ? 1f : 0.5f;
+                    person2Btn.SetScale(_selectedCharacterIndex == 1 ? 1.1f : 1f, _selectedCharacterIndex == 1 ? 1.1f : 1f);
+                }
+
+                Debug.Log($"[FguiBootstrap] Character select refreshed (UI_1): Char1={char1?.Name}, Char2={char2?.Name}, Selected={_selectedCharacterIndex}");
             }
             else
             {
@@ -486,11 +616,11 @@ public sealed class FguiBootstrap : MonoBehaviour
 
                 SetText("DName1", c1?.Name);
                 SetText("DLevel1", c1 != null ? $"Lv.{c1.Level}" : string.Empty);
-                SetText("DJob1", c1 != null ? c1.Class.ToString() : string.Empty);
+                SetText("DJob1", c1 != null ? GetClassNameChinese(c1.Class) : string.Empty);
 
                 SetText("DName2", c2?.Name);
                 SetText("DLevel2", c2 != null ? $"Lv.{c2.Level}" : string.Empty);
-                SetText("DJob2", c2 != null ? c2.Class.ToString() : string.Empty);
+                SetText("DJob2", c2 != null ? GetClassNameChinese(c2.Class) : string.Empty);
 
                 // Subtle highlight via button alpha if buttons exist.
                 GButton sel1 = panel.GetChild("DBtnSel1")?.asButton;
@@ -543,7 +673,7 @@ public sealed class FguiBootstrap : MonoBehaviour
                 RefreshCharacterSelect(panel);
             });
 
-            GTextField rowText = new GTextField { text = $"{ch.Name}   Lv.{ch.Level}   {ch.Class}" };
+            GTextField rowText = new GTextField { text = $"{ch.Name}   Lv.{ch.Level}   {GetClassNameChinese(ch.Class)}" };
             var rowFmt = rowText.textFormat;
             rowFmt.size = 22;
             rowFmt.color = Color.white;
@@ -1270,6 +1400,332 @@ public sealed class FguiBootstrap : MonoBehaviour
         catch (Exception ex)
         {
             Debug.LogError($"[FguiBootstrap] Failed to list components in package '{packageName}': {ex.Message}");
+        }
+    }
+
+    private static string GetClassNameChinese(MirClass mirClass)
+    {
+        switch (mirClass)
+        {
+            case MirClass.Warrior:
+                return "战士";
+            case MirClass.Wizard:
+                return "法师";
+            case MirClass.Taoist:
+                return "道士";
+            default:
+                return mirClass.ToString();
+        }
+    }
+
+    private static void ShowCreateCharacterDialog()
+    {
+        try
+        {
+            Debug.Log("[FguiBootstrap] ShowCreateCharacterDialog called");
+
+            // Check if already have 2 characters (maximum)
+            if (_characters != null && _characters.Count >= 2)
+            {
+                ShowToast("最多只能创建2个角色");
+                Debug.Log("[FguiBootstrap] Cannot create more characters - already have 2 characters");
+                return;
+            }
+
+            // Use URL directly from UI_Create_characters.URL to avoid name conflicts
+            string url = "ui://6zme3ysjkk2em";  // UI_Create_characters.URL
+
+            GObject view = UIPackage.CreateObjectFromURL(url);
+
+            if (view == null)
+            {
+                Debug.LogError("[FguiBootstrap] Failed to create Create_characters component from URL");
+                ShowToast("无法打开创建人物界面");
+                LogPackageComponents("Login");
+                return;
+            }
+
+            Debug.Log($"[FguiBootstrap] Created object type: {view.GetType().Name} from URL: {url}");
+
+            GComponent panel = view.asCom;
+            if (panel == null)
+            {
+                Debug.LogError($"[FguiBootstrap] Component is not a GComponent. Type: {view.GetType().Name}");
+                view.Dispose();
+                return;
+            }
+
+            _createCharacter = panel;
+
+            // Reset to default values
+            _newCharClass = MirClass.Warrior;
+            _newCharGender = MirGender.Male;
+
+            // Add to root
+            GRoot.inst.AddChild(_createCharacter);
+
+            // Scale and center the dialog to fit screen better (similar to character select)
+            FitToScreenWithScale(_createCharacter, 0.8f);  // Scale to 80% of screen size
+
+            // Bind all buttons
+            BindCreateCharacterDialog(panel);
+            RefreshCreateCharacterDialog(panel);
+
+            Debug.Log("[FguiBootstrap] Create character dialog shown");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to show create character dialog: {ex.Message}\n{ex.StackTrace}");
+        }
+    }
+
+    private static void BindCreateCharacterDialog(GComponent panel)
+    {
+        try
+        {
+            // Bind class buttons (职业按钮)
+            GObject zsBtn = panel.GetChild("zs");  // 战士
+            if (zsBtn != null)
+            {
+                zsBtn.onClick.Clear();
+                zsBtn.onClick.Add(() =>
+                {
+                    _newCharClass = MirClass.Warrior;
+                    RefreshCreateCharacterDialog(panel);
+                });
+            }
+
+            GObject fsBtn = panel.GetChild("fs");  // 法师
+            if (fsBtn != null)
+            {
+                fsBtn.onClick.Clear();
+                fsBtn.onClick.Add(() =>
+                {
+                    _newCharClass = MirClass.Wizard;
+                    RefreshCreateCharacterDialog(panel);
+                });
+            }
+
+            GObject dsBtn = panel.GetChild("ds");  // 道士
+            if (dsBtn != null)
+            {
+                dsBtn.onClick.Clear();
+                dsBtn.onClick.Add(() =>
+                {
+                    _newCharClass = MirClass.Taoist;
+                    RefreshCreateCharacterDialog(panel);
+                });
+            }
+
+            // Bind gender buttons (性别按钮)
+            GObject manBtn = panel.GetChild("Man");  // 男
+            if (manBtn != null)
+            {
+                manBtn.onClick.Clear();
+                manBtn.onClick.Add(() =>
+                {
+                    _newCharGender = MirGender.Male;
+                    RefreshCreateCharacterDialog(panel);
+                });
+            }
+
+            GObject womanBtn = panel.GetChild("Woman");  // 女
+            if (womanBtn != null)
+            {
+                womanBtn.onClick.Clear();
+                womanBtn.onClick.Add(() =>
+                {
+                    _newCharGender = MirGender.Female;
+                    RefreshCreateCharacterDialog(panel);
+                });
+            }
+
+            // Bind Completed button (完成按钮)
+            GObject completedBtn = panel.GetChild("Completed");
+            if (completedBtn != null)
+            {
+                completedBtn.onClick.Clear();
+                completedBtn.onClick.Add(() =>
+                {
+                    CreateNewCharacter(panel);
+                });
+            }
+
+            // Bind Shut_down button (关闭按钮)
+            GObject shutdownBtn = panel.GetChild("Shut_down");
+            if (shutdownBtn != null)
+            {
+                shutdownBtn.onClick.Clear();
+                shutdownBtn.onClick.Add(() =>
+                {
+                    CloseCreateCharacterDialog();
+                });
+            }
+
+            Debug.Log("[FguiBootstrap] Create character dialog buttons bound");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to bind create character dialog: {ex.Message}");
+        }
+    }
+
+    private static void RefreshCreateCharacterDialog(GComponent panel)
+    {
+        try
+        {
+            // Load character portrait based on selected class and gender
+            GLoader portraitLoader = panel.GetChild("n10")?.asLoader;
+            if (portraitLoader != null)
+            {
+                string classPrefix = _newCharClass == MirClass.Warrior ? "ws" :
+                                    _newCharClass == MirClass.Wizard ? "fs" : "ds";
+                string genderSuffix = _newCharGender == MirGender.Male ? "1" : "2";
+                string portraitName = $"{classPrefix}_{genderSuffix}";
+
+                string url = UIPackage.GetItemURL("Login", portraitName);
+                if (!string.IsNullOrEmpty(url))
+                {
+                    portraitLoader.url = url;
+                    Debug.Log($"[FguiBootstrap] Loaded create character portrait: {portraitName}");
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to refresh create character dialog: {ex.Message}");
+        }
+    }
+
+    private static void CreateNewCharacter(GComponent panel)
+    {
+        try
+        {
+            // Get name from input field
+            GObject nameField = panel.GetChild("name");
+            string characterName = "";
+
+            if (nameField is GTextField tf)
+                characterName = tf.text;
+            else if (nameField is GTextInput ti)
+                characterName = ti.text;
+
+            // Validate name
+            if (string.IsNullOrWhiteSpace(characterName))
+            {
+                ShowToast("请输入角色名字");
+                return;
+            }
+
+            if (characterName.Length < 2 || characterName.Length > 15)
+            {
+                ShowToast("角色名字长度应为2-15个字符");
+                return;
+            }
+
+            // Send NewCharacter packet to server
+            Net.Enqueue(new C.NewCharacter
+            {
+                Name = characterName,
+                Class = _newCharClass,
+                Gender = _newCharGender
+            });
+
+            ShowToast($"正在创建角色: {characterName}");
+            Debug.Log($"[FguiBootstrap] Creating character: Name={characterName}, Class={_newCharClass}, Gender={_newCharGender}");
+
+            // Close the dialog
+            CloseCreateCharacterDialog();
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to create new character: {ex.Message}");
+            ShowToast("创建角色失败");
+        }
+    }
+
+    private static void CloseCreateCharacterDialog()
+    {
+        try
+        {
+            if (_createCharacter != null)
+            {
+                _createCharacter.RemoveFromParent();
+                _createCharacter.Dispose();
+                _createCharacter = null;
+                Debug.Log("[FguiBootstrap] Create character dialog closed");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to close create character dialog: {ex.Message}");
+        }
+    }
+
+    private static void DeleteCharacter()
+    {
+        try
+        {
+            // 检查是否有角色和是否选中了角色
+            if (_characters == null || _characters.Count == 0)
+            {
+                ShowToast("没有角色可删除");
+                Debug.Log("[FguiBootstrap] No characters to delete");
+                return;
+            }
+
+            if (_selectedCharacterIndex < 0 || _selectedCharacterIndex >= _characters.Count)
+            {
+                ShowToast("请先选择要删除的角色");
+                Debug.Log("[FguiBootstrap] No character selected");
+                return;
+            }
+
+            SelectInfo selectedChar = _characters[_selectedCharacterIndex];
+
+            // 使用 Common 包的 Dialog_box_z 对话框
+            Common.UI_Dialog_box_z dialog = Common.UI_Dialog_box_z.CreateInstance();
+
+            // 设置对话框消息文本 (n5 是文本框，index 3)
+            GTextField messageText = dialog.GetChildAt(3) as GTextField;
+            if (messageText != null)
+            {
+                messageText.text = $"确定要删除角色\n'{selectedChar.Name}' 吗？";
+            }
+
+            // 绑定 YES 按钮 - 直接删除
+            dialog.m_yes.onClick.Clear();
+            dialog.m_yes.onClick.Add(() =>
+            {
+                // 发送删除请求
+                Debug.Log($"[FguiBootstrap] Deleting character: {selectedChar.Name} (Index={selectedChar.Index})");
+                Net.Enqueue(new C.DeleteCharacter { CharacterIndex = selectedChar.Index });
+                ShowToast($"正在删除角色: {selectedChar.Name}");
+
+                // 关闭对话框
+                dialog.RemoveFromParent();
+                dialog.Dispose();
+            });
+
+            // 绑定 NO 按钮 - 取消删除
+            dialog.m_no.onClick.Clear();
+            dialog.m_no.onClick.Add(() =>
+            {
+                // 关闭对话框
+                dialog.RemoveFromParent();
+                dialog.Dispose();
+            });
+
+            // 显示对话框 - 居中
+            GRoot.inst.AddChild(dialog);
+            dialog.SetXY((GRoot.inst.width - dialog.width) / 2, (GRoot.inst.height - dialog.height) / 2);
+
+            Debug.Log($"[FguiBootstrap] Showing delete confirmation for character: {selectedChar.Name}");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to delete character: {ex.Message}\n{ex.StackTrace}");
+            ShowToast("删除角色失败");
         }
     }
 }

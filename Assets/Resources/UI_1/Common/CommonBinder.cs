@@ -8,6 +8,7 @@ namespace Common
     {
         public static void BindAll()
         {
+            UIObjectFactory.SetPackageItemExtension(UI_Dialog_box_z.URL, typeof(UI_Dialog_box_z));
         }
     }
 }

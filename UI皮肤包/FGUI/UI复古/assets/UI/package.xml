@@ -70,5 +70,5 @@
     <component id="orc80" name="充值平台币_TopUpWinUI.xml" path="/充值/" exported="true"/>
     <component id="mh4svn2sn" name="技能设置详情_InfoPageUI.xml" path="/设置/" exported="true"/>
   </resources>
-  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+  <publish name="" path="E:\UnityLegendGame_1\unity-frontend\Assets\Resources\UI" packageCount="2" genCode="true"/>
 </packageDescription>

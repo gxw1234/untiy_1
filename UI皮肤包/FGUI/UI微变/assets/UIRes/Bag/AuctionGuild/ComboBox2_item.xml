@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="150,47" scroll="both" extention="Button">
+  <displayList>
+    <text name="title" id="bn8pj" xy="5,0" size="143,47" font="Microsoft YaHei" fontSize="20" leading="0" autoSize="none" text="" color="#DFCFB4" singleLine="true" anchor="false">
+      <relation target="" sidePair="width-width,height-height,"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="153,35" scroll="both">
+  <displayList>
+    <image id="wsg11" src="kn5z108" fileName="00615.PNG" xy="0,0" name="Page1GoodsStySelect">
+      <relation sidePair=""/>
+    </image>
+    <component name="n2" id="e38j5" src="kn5z11h" fileName="n2.xml" xy="0,0">
+      <relation target="" sidePair=""/>
+      <Button sound="ui://b3xl678aui26b"/>
+    </component>
+  </displayList>
+</component>

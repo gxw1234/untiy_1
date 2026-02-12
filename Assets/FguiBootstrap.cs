@@ -17,17 +17,20 @@ public sealed class FguiBootstrap : MonoBehaviour
     private static GObject _currentPanel;
     private static GLoader _background;
     private static bool _currentPanelFullscreen;
+    private static bool _currentPanelFitToScreen;
+    private static float _currentPanelScaleMultiplier = 1.0f;
+    private static bool _loggedLoadingResItems;
     private static GComponent _characterSelect;
     private static bool _characterSelectIsPackagedUI;
     private static GGraph _characterSelectBackdrop;
     private static List<SelectInfo> _characters;
     private static int _selectedCharacterIndex;
 
-    [SerializeField] private string packageName = "UILoading";
-    [SerializeField] private string componentName = "PC登录_LoginUI";
+    [SerializeField] private string packageName = "Login";
+    [SerializeField] private string componentName = "logint_ui";
 
-    [SerializeField] private string firstPanelPackage = "UILoading";
-    [SerializeField] private string firstPanelComponent = "选服_DServerSelUI";
+    [SerializeField] private string firstPanelPackage = "Login";
+    [SerializeField] private string firstPanelComponent = "logint_ui";
 
     private static readonly string[] LoginKeywords =
     {
@@ -49,6 +52,7 @@ public sealed class FguiBootstrap : MonoBehaviour
 
     private static readonly string[] PreferredLoginComponents =
     {
+        "logint_ui",      // 新的登录界面（UI_1）
         "PC登录_LoginUI",
         "PC登录2_LoginUI2",
         "登录_LoginUI",
@@ -56,19 +60,14 @@ public sealed class FguiBootstrap : MonoBehaviour
 
     private static readonly string[] DefaultPackagePaths =
     {
-        "UI/BaseRes",
-        "UI/Font",
-        "UI/Sounds",
-        "UI/UILoadingRes",
-        "UI/UILoading",
-        "UI/UIRes",
-        "UI/UI",
-        "UI/FormId",
-        "UI/自定义组件",
+        "UI_1/common",   // 新的公共资源包
+        "UI_1/ui_2",     // 新的登录包（实际名称是 Login）
     };
 
     private static readonly string[] DefaultPackageNames =
     {
+        "common",        // 新的公共包
+        "ui_2",          // 新的登录包
         "BaseRes",
         "Font",
         "Sounds",
@@ -106,12 +105,15 @@ public sealed class FguiBootstrap : MonoBehaviour
                 try
                 {
                     UIPackage.AddPackage(DefaultPackagePaths[i]);
+                    Debug.Log($"[FguiBootstrap] ✓ Loaded package: {DefaultPackagePaths[i]}");
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    // ignore: package may not exist in Resources
+                    Debug.LogWarning($"[FguiBootstrap] ✗ Failed to load package: {DefaultPackagePaths[i]}, error: {ex.Message}");
                 }
             }
+
+            // UI_1 only - no legacy UI packages needed
 
             (string pkg, string comp) selected = FindFirstLoginComponent();
             if (!string.IsNullOrEmpty(selected.pkg) && !string.IsNullOrEmpty(selected.comp))
@@ -122,6 +124,12 @@ public sealed class FguiBootstrap : MonoBehaviour
 
             LogLoginCandidates();
 
+            // Debug: List all loaded packages
+            LogAllPackages();
+
+            // Debug: List all components in Login package
+            LogPackageComponents("Login");
+
             if (GRoot.inst != null)
                 GRoot.inst.RemoveChildren(0, -1, true);
 
@@ -131,8 +139,9 @@ public sealed class FguiBootstrap : MonoBehaviour
             MirScene.ActiveScene = new FguiBridgeScene();
             Net.Connect();
 
+            // Entry screen: directly show new login UI from UI_1
             ShowPanelCentered(firstPanelPackage, firstPanelComponent);
-            BindServerSelectHandlers();
+            BindLoginHandlers();
 
             Stage.inst.onStageResized.Remove(OnStageResized);
             Stage.inst.onStageResized.Add(OnStageResized);
@@ -212,15 +221,18 @@ public sealed class FguiBootstrap : MonoBehaviour
 
     public static void ShowCharacterSelect(List<SelectInfo> characters)
     {
+        Debug.Log($"[FguiBootstrap] ShowCharacterSelect called with {characters?.Count ?? 0} characters");
+
         _characters = characters ?? new List<SelectInfo>();
         _selectedCharacterIndex = 0;
 
         if (_background != null)
-            _background.visible = false;
+            _background.visible = false;  // 隐藏登录背景，使用选角界面自己的背景
 
         _characterSelectIsPackagedUI = false;
 
-        EnsureCharacterSelectBackdrop();
+        // 暂时不添加黑色背景层，等待看是否需要
+        // EnsureCharacterSelectBackdrop();
 
         if (_characterSelect != null)
         {
@@ -237,6 +249,9 @@ public sealed class FguiBootstrap : MonoBehaviour
         // Prefer the real FGUI character select UI if present in the loaded packages.
         if (!TryShowFairyGuiCharacterSelect())
         {
+            Debug.LogWarning("[FguiBootstrap] FairyGUI character select failed, using fallback UI");
+            // 旧的回退 UI 需要黑色背景
+            EnsureCharacterSelectBackdrop();
             _characterSelect = BuildCharacterSelectPanel();
             GRoot.inst.AddChild(_characterSelect);
             CenterPanel(_characterSelect);
@@ -247,15 +262,31 @@ public sealed class FguiBootstrap : MonoBehaviour
     {
         try
         {
-            // This component exists in both retro/micro skin sources. Runtime packages may differ,
-            // so we probe by creating it.
-            GObject view = UIPackage.CreateObject("UI", "选角_CharSelectUI");
+            Debug.Log("[FguiBootstrap] TryShowFairyGuiCharacterSelect called");
+
+            // Try new UI_1 character select first
+            GObject view = UIPackage.CreateObject("Login", "Select _character");
             if (view == null)
+            {
+                Debug.LogWarning("[FguiBootstrap] Failed to create 'Select _character' from Login package, trying old UI");
+                // Fallback to old UI if exists
+                view = UIPackage.CreateObject("UI", "选角_CharSelectUI");
+            }
+            else
+            {
+                Debug.Log("[FguiBootstrap] Successfully created 'Select _character' from Login package");
+            }
+
+            if (view == null)
+            {
+                Debug.LogError("[FguiBootstrap] Failed to create any character select UI");
                 return false;
+            }
 
             GComponent panel = view.asCom;
             if (panel == null)
             {
+                Debug.LogError("[FguiBootstrap] Character select view is not a GComponent");
                 view.Dispose();
                 return false;
             }
@@ -263,16 +294,20 @@ public sealed class FguiBootstrap : MonoBehaviour
             _characterSelect = panel;
             _characterSelectIsPackagedUI = true;
 
-            EnsureCharacterSelectBackdrop();
+            // 新 UI_1 有自己的背景，不需要额外的黑色背景层
+            // EnsureCharacterSelectBackdrop();
             GRoot.inst.AddChild(_characterSelect);
             FitCharacterSelectToScreen(_characterSelect);
+
+            Debug.Log($"[FguiBootstrap] Character select UI added to stage, size: {panel.width}x{panel.height}");
 
             BindFairyGuiCharacterSelect(panel);
             RefreshFairyGuiCharacterSelect(panel);
             return true;
         }
-        catch
+        catch (Exception ex)
         {
+            Debug.LogError($"[FguiBootstrap] Failed to show character select: {ex.Message}\n{ex.StackTrace}");
             return false;
         }
     }
@@ -281,11 +316,18 @@ public sealed class FguiBootstrap : MonoBehaviour
     {
         try
         {
-            GButton start = panel.GetChild("DStart")?.asButton;
-            if (start != null)
+            // Try new UI_1 button names first (start_Game)
+            GObject startBtn = panel.GetChild("start_Game");
+            if (startBtn == null)
             {
-                start.onClick.Clear();
-                start.onClick.Add(() =>
+                // Fallback to old UI button name
+                startBtn = panel.GetChild("DStart");
+            }
+
+            if (startBtn != null)
+            {
+                startBtn.onClick.Clear();
+                startBtn.onClick.Add(() =>
                 {
                     if (_characters == null || _characters.Count == 0)
                     {
@@ -298,8 +340,10 @@ public sealed class FguiBootstrap : MonoBehaviour
                     Net.Enqueue(new C.StartGame { CharacterIndex = _characters[_selectedCharacterIndex].Index });
                     ShowToast("正在进入游戏...");
                 });
+                Debug.Log("[FguiBootstrap] Bound start_Game button for character select");
             }
 
+            // Old UI had selection buttons, new UI_1 doesn't need them (only shows one character)
             GButton sel1 = panel.GetChild("DBtnSel1")?.asButton;
             if (sel1 != null)
             {
@@ -322,8 +366,9 @@ public sealed class FguiBootstrap : MonoBehaviour
                 });
             }
         }
-        catch
+        catch (Exception ex)
         {
+            Debug.LogError($"[FguiBootstrap] Failed to bind character select: {ex.Message}");
         }
     }
 
@@ -333,30 +378,58 @@ public sealed class FguiBootstrap : MonoBehaviour
         {
             void SetText(string childName, string value)
             {
-                GTextField tf = panel.GetChild(childName)?.asTextField;
-                if (tf != null)
+                GObject obj = panel.GetChild(childName);
+                if (obj is GTextField tf)
                     tf.text = value ?? string.Empty;
+                else if (obj is GTextInput ti)
+                    ti.text = value ?? string.Empty;
             }
 
-            SelectInfo c1 = _characters != null && _characters.Count > 0 ? _characters[0] : null;
-            SelectInfo c2 = _characters != null && _characters.Count > 1 ? _characters[1] : null;
+            SelectInfo currentChar = null;
+            if (_characters != null && _characters.Count > 0)
+            {
+                if (_selectedCharacterIndex < 0 || _selectedCharacterIndex >= _characters.Count)
+                    _selectedCharacterIndex = 0;
+                currentChar = _characters[_selectedCharacterIndex];
+            }
 
-            SetText("DName1", c1?.Name);
-            SetText("DLevel1", c1 != null ? $"Lv.{c1.Level}" : string.Empty);
-            SetText("DJob1", c1 != null ? c1.Class.ToString() : string.Empty);
+            // Try new UI_1 field names first (name_1=名字, Level_1=等级, Occupation_1=职业)
+            GObject nameField = panel.GetChild("name_1");
+            GObject levelField = panel.GetChild("Level_1");
+            GObject classField = panel.GetChild("Occupation_1");
 
-            SetText("DName2", c2?.Name);
-            SetText("DLevel2", c2 != null ? $"Lv.{c2.Level}" : string.Empty);
-            SetText("DJob2", c2 != null ? c2.Class.ToString() : string.Empty);
+            if (nameField != null || levelField != null || classField != null)
+            {
+                // New UI_1 layout (uses GTextInput fields)
+                SetText("name_1", currentChar?.Name);
+                SetText("Level_1", currentChar != null ? $"Lv.{currentChar.Level}" : string.Empty);
+                SetText("Occupation_1", currentChar != null ? currentChar.Class.ToString() : string.Empty);
+                Debug.Log($"[FguiBootstrap] Character select refreshed (UI_1): {currentChar?.Name} Lv.{currentChar?.Level} {currentChar?.Class}");
+            }
+            else
+            {
+                // Old UI layout (two characters side by side)
+                SelectInfo c1 = _characters != null && _characters.Count > 0 ? _characters[0] : null;
+                SelectInfo c2 = _characters != null && _characters.Count > 1 ? _characters[1] : null;
 
-            // Subtle highlight via button alpha if buttons exist.
-            GButton sel1 = panel.GetChild("DBtnSel1")?.asButton;
-            if (sel1 != null) sel1.alpha = _selectedCharacterIndex == 0 ? 1f : 0.65f;
-            GButton sel2 = panel.GetChild("DBtnSel2")?.asButton;
-            if (sel2 != null) sel2.alpha = _selectedCharacterIndex == 1 ? 1f : 0.65f;
+                SetText("DName1", c1?.Name);
+                SetText("DLevel1", c1 != null ? $"Lv.{c1.Level}" : string.Empty);
+                SetText("DJob1", c1 != null ? c1.Class.ToString() : string.Empty);
+
+                SetText("DName2", c2?.Name);
+                SetText("DLevel2", c2 != null ? $"Lv.{c2.Level}" : string.Empty);
+                SetText("DJob2", c2 != null ? c2.Class.ToString() : string.Empty);
+
+                // Subtle highlight via button alpha if buttons exist.
+                GButton sel1 = panel.GetChild("DBtnSel1")?.asButton;
+                if (sel1 != null) sel1.alpha = _selectedCharacterIndex == 0 ? 1f : 0.65f;
+                GButton sel2 = panel.GetChild("DBtnSel2")?.asButton;
+                if (sel2 != null) sel2.alpha = _selectedCharacterIndex == 1 ? 1f : 0.65f;
+            }
         }
-        catch
+        catch (Exception ex)
         {
+            Debug.LogError($"[FguiBootstrap] Failed to refresh character select: {ex.Message}");
         }
     }
 
@@ -468,11 +541,33 @@ public sealed class FguiBootstrap : MonoBehaviour
         if (_background != null)
             return;
 
-        // Fullscreen background from UILoadingRes package.
-        // Note: resource name is inferred from candidates list; adjust if you want another.
-        string url = UIPackage.GetItemURL("UILoadingRes", "DLoginBg");
+        // Try new UI_1 backgrounds first, then fallback to old UI
+        string url = null;
+        string[] newCandidates =
+        {
+            "home_ui_background",
+            "Login_Background",
+        };
+
+        // Try new UI_1 Common package first
+        for (int i = 0; i < newCandidates.Length; i++)
+        {
+            url = UIPackage.GetItemURL("Common", newCandidates[i]);
+            if (!string.IsNullOrEmpty(url))
+            {
+                Debug.Log($"[FguiBootstrap] Using new UI_1 background: {newCandidates[i]}");
+                break;
+            }
+        }
+
         if (string.IsNullOrEmpty(url))
+        {
+            Debug.LogError("[FguiBootstrap] Background url not found in Common package");
+            LogPackageImageItemsOnce("Common");
             return;
+        }
+
+        Debug.Log($"[FguiBootstrap] Background url: {url}");
 
         _background = new GLoader
         {
@@ -483,8 +578,43 @@ public sealed class FguiBootstrap : MonoBehaviour
             touchable = false
         };
 
-        GRoot.inst.AddChild(_background);
+        GRoot.inst.AddChildAt(_background, 0);
         _background.SetSize(GRoot.inst.width, GRoot.inst.height);
+    }
+
+    private static void LogPackageImageItemsOnce(string packageName)
+    {
+        if (_loggedLoadingResItems)
+            return;
+        _loggedLoadingResItems = true;
+
+        try
+        {
+            UIPackage pkg = UIPackage.GetByName(packageName);
+            if (pkg == null)
+            {
+                Debug.LogError($"[FguiBootstrap] Package not loaded: {packageName}");
+                return;
+            }
+
+            List<PackageItem> items = pkg.GetItems();
+            if (items == null)
+                return;
+
+            Debug.Log($"[FguiBootstrap] Dump exported image items in package '{packageName}':");
+            for (int i = 0; i < items.Count; i++)
+            {
+                var it = items[i];
+                if (it == null) continue;
+                if (!it.exported) continue;
+                if (it.type != PackageItemType.Image) continue;
+                Debug.Log($"[FguiBootstrap]   image: {it.name}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Dump package items failed: {packageName}, ex={ex.Message}");
+        }
     }
 
     private static void OnStageResized(EventContext context)
@@ -502,9 +632,46 @@ public sealed class FguiBootstrap : MonoBehaviour
         {
             if (_currentPanelFullscreen && _currentPanel is GComponent comp)
                 comp.SetSize(GRoot.inst.width, GRoot.inst.height);
+            else if (_currentPanelFitToScreen || _currentPanelScaleMultiplier != 1.0f)
+                FitToScreenWithScale(_currentPanel, _currentPanelScaleMultiplier);
             else
                 CenterPanel(_currentPanel);
         }
+    }
+
+    private static bool IsLoginPackage(string pkg)
+    {
+        return string.Equals(pkg, "UILoading", StringComparison.OrdinalIgnoreCase)
+               || string.Equals(pkg, "UILoadingRes", StringComparison.OrdinalIgnoreCase)
+               || string.Equals(pkg, "Login", StringComparison.OrdinalIgnoreCase);
+    }
+
+    private static void FitToScreen(GObject obj)
+    {
+        FitToScreenWithScale(obj, 1.0f);
+    }
+
+    private static void FitToScreenWithScale(GObject obj, float scaleMultiplier)
+    {
+        if (obj == null || GRoot.inst == null)
+            return;
+
+        float designW = obj.width;
+        float designH = obj.height;
+        if (designW <= 0 || designH <= 0)
+            return;
+
+        float sx = GRoot.inst.width / designW;
+        float sy = GRoot.inst.height / designH;
+        float scale = Mathf.Min(sx, sy) * scaleMultiplier;
+
+        obj.scaleX = scale;
+        obj.scaleY = scale;
+
+        float w = designW * scale;
+        float h = designH * scale;
+        obj.SetPivot(0, 0);
+        obj.SetXY((GRoot.inst.width - w) * 0.5f, (GRoot.inst.height - h) * 0.5f);
     }
 
     private static void FitCharacterSelectToScreen(GComponent panel)
@@ -589,6 +756,7 @@ public sealed class FguiBootstrap : MonoBehaviour
             _currentPanel = null;
         }
         _currentPanelFullscreen = true;
+        _currentPanelFitToScreen = false;
 
         GObject view = UIPackage.CreateObject(pkg, comp);
         if (view == null)
@@ -623,6 +791,7 @@ public sealed class FguiBootstrap : MonoBehaviour
             _currentPanel = null;
         }
         _currentPanelFullscreen = false;
+        _currentPanelFitToScreen = IsLoginPackage(pkg);
 
         GObject view = UIPackage.CreateObject(pkg, comp);
         if (view == null)
@@ -633,7 +802,23 @@ public sealed class FguiBootstrap : MonoBehaviour
 
         GRoot.inst.AddChild(view);
         _currentPanel = view;
-        CenterPanel(view);
+
+        // 新的 UI_1 Login 包使用相对缩放（屏幕尺寸的 35%），适配不同分辨率
+        if (string.Equals(pkg, "Login", StringComparison.OrdinalIgnoreCase))
+        {
+            _currentPanelScaleMultiplier = 0.35f; // 缩放到屏幕的 35%
+            FitToScreenWithScale(view, _currentPanelScaleMultiplier);
+        }
+        else if (_currentPanelFitToScreen)
+        {
+            _currentPanelScaleMultiplier = 1.0f;
+            FitToScreen(view);
+        }
+        else
+        {
+            _currentPanelScaleMultiplier = 1.0f;
+            CenterPanel(view);
+        }
     }
 
     private static void CenterPanel(GObject view)
@@ -641,6 +826,18 @@ public sealed class FguiBootstrap : MonoBehaviour
         if (view == null)
             return;
 
+        view.SetPivot(0.5f, 0.5f);
+        view.x = GRoot.inst.width * 0.5f;
+        view.y = GRoot.inst.height * 0.5f;
+    }
+
+    private static void ScaleAndCenterPanel(GObject view, float scale)
+    {
+        if (view == null)
+            return;
+
+        view.scaleX = scale;
+        view.scaleY = scale;
         view.SetPivot(0.5f, 0.5f);
         view.x = GRoot.inst.width * 0.5f;
         view.y = GRoot.inst.height * 0.5f;
@@ -658,9 +855,9 @@ public sealed class FguiBootstrap : MonoBehaviour
             inGame.onClick.Clear();
             inGame.onClick.Add(() =>
             {
-                ShowPanelCentered("UILoading", "PC登录_LoginUI");
+                ShowPanelCentered("UILoading", "登录_LoginUI");
                 BindLoginHandlers();
-                Debug.Log("[FguiBootstrap] Switch: ServerSel -> PC登录_LoginUI");
+                Debug.Log("[FguiBootstrap] Switch: ServerSel -> 登录_LoginUI");
             });
         }
     }
@@ -670,16 +867,17 @@ public sealed class FguiBootstrap : MonoBehaviour
         if (!(_currentPanel is GComponent panel))
             return;
 
-        // Input fields from UI skin XML
-        GTextInput idInput = panel.GetChild("UserIDInput") as GTextInput;
-        GTextInput pwdInput = panel.GetChild("UserPasswordInput") as GTextInput;
+        // Try old UI names first (登录_LoginUI.xml)
+        GTextInput idInput = panel.GetChild("DEditAccount") as GTextInput;
+        GTextInput pwdInput = panel.GetChild("DEditPasswd") as GTextInput;
+        GObject loginBtn = panel.GetChild("DBtnLoginOK");
+        GObject closeBtn = panel.GetChild("DBtnLoginUIClose");
 
-        // Buttons from UI skin XML
-        GObject loginBtn = panel.GetChild("LoginButton");
-        GObject registerBtn = panel.GetChild("RegisterButton");
-        GObject resetBtn = panel.GetChild("ResetPassword");
-        GObject phoneBtn = panel.GetChild("PhoneLogin");
-        GObject scanBtn = panel.GetChild("ScanLoginButton");
+        // New UI_1 (logint_ui.xml) uses generic names: n4=account, n5=password, n2=login button, n3=close button
+        if (idInput == null) idInput = panel.GetChild("n4") as GTextInput;
+        if (pwdInput == null) pwdInput = panel.GetChild("n5") as GTextInput;
+        if (loginBtn == null) loginBtn = panel.GetChild("n2");
+        if (closeBtn == null) closeBtn = panel.GetChild("n3");
 
         if (loginBtn != null)
         {
@@ -689,56 +887,33 @@ public sealed class FguiBootstrap : MonoBehaviour
                 string account = idInput?.text ?? string.Empty;
                 string password = pwdInput?.text ?? string.Empty;
 
-                // Persist to Settings (optional)
+                if (string.IsNullOrEmpty(account) || string.IsNullOrEmpty(password))
+                {
+                    ShowToast("请输入账号和密码");
+                    return;
+                }
+
+                // Persist to Settings
                 Settings.AccountID = account;
                 Settings.Password = password;
 
                 Net.Enqueue(new C.Login { AccountID = account, Password = password });
-                Debug.Log($"[FguiBootstrap] LoginButton clicked. AccountID={account}");
+                Debug.Log($"[FguiBootstrap] Login clicked. AccountID={account}");
+                ShowToast("正在登录...");
             });
         }
 
-        if (registerBtn != null)
+        if (closeBtn != null)
         {
-            registerBtn.onClick.Clear();
-            registerBtn.onClick.Add(() =>
+            closeBtn.onClick.Clear();
+            closeBtn.onClick.Add(() =>
             {
-                ShowPanelCentered("UILoading", "PC注册_Register");
-                Debug.Log("[FguiBootstrap] RegisterButton clicked.");
+                Debug.Log("[FguiBootstrap] Close button clicked");
+                Application.Quit();
             });
         }
 
-        if (resetBtn != null)
-        {
-            resetBtn.onClick.Clear();
-            resetBtn.onClick.Add(() =>
-            {
-                ShowPanelCentered("UILoading", "PC重置密码_ResetPassword");
-                Debug.Log("[FguiBootstrap] ResetPassword clicked.");
-            });
-        }
-
-        if (phoneBtn != null)
-        {
-            phoneBtn.onClick.Clear();
-            phoneBtn.onClick.Add(() =>
-            {
-                ShowPanelCentered("UILoading", "PC登录2_LoginUI2");
-                Debug.Log("[FguiBootstrap] PhoneLogin clicked.");
-            });
-        }
-
-        if (scanBtn != null)
-        {
-            scanBtn.onClick.Clear();
-            scanBtn.onClick.Add(() =>
-            {
-                ShowPanelCentered("UILoading", "PC扫码登录_ScanLogin");
-                Debug.Log("[FguiBootstrap] ScanLogin clicked.");
-            });
-        }
-
-        Debug.Log("[FguiBootstrap] Login handlers bound.");
+        Debug.Log($"[FguiBootstrap] Login handlers bound. idInput={idInput!=null}, pwdInput={pwdInput!=null}, loginBtn={loginBtn!=null}, closeBtn={closeBtn!=null}");
     }
 
     private System.Collections.IEnumerator DelayedDuplicateFix()
@@ -959,6 +1134,71 @@ public sealed class FguiBootstrap : MonoBehaviour
             lines.Add($"  - ({candidates[i].score}) {candidates[i].pkg}/{candidates[i].name}");
 
         Debug.Log("[FguiBootstrap] Login candidates (top):\n" + string.Join("\n", lines));
+    }
+
+    private static void LogAllPackages()
+    {
+        try
+        {
+            Debug.Log("[FguiBootstrap] === All loaded packages ===");
+            int count = UIPackage.GetPackages().Count;
+            for (int i = 0; i < count; i++)
+            {
+                UIPackage pkg = UIPackage.GetPackages()[i];
+                Debug.Log($"[FguiBootstrap]   Package #{i+1}: id={pkg.id}, name={pkg.name}, assetPath={pkg.assetPath}");
+            }
+            Debug.Log($"[FguiBootstrap] Total packages: {count}");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to list packages: {ex.Message}");
+        }
+    }
+
+    private static void LogPackageComponents(string packageName)
+    {
+        try
+        {
+            UIPackage pkg = UIPackage.GetByName(packageName);
+            if (pkg == null)
+            {
+                Debug.LogError($"[FguiBootstrap] Package not loaded: {packageName}");
+                return;
+            }
+
+            List<PackageItem> items = pkg.GetItems();
+            if (items == null)
+            {
+                Debug.LogWarning($"[FguiBootstrap] Package '{packageName}' has no items");
+                return;
+            }
+
+            Debug.Log($"[FguiBootstrap] === Components in package '{packageName}' ===");
+            int componentCount = 0;
+            for (int i = 0; i < items.Count; i++)
+            {
+                var it = items[i];
+                if (it == null) continue;
+                if (!it.exported) continue;
+                if (it.type != PackageItemType.Component) continue;
+
+                componentCount++;
+                Debug.Log($"[FguiBootstrap]   Component #{componentCount}: name='{it.name}', id={it.id}");
+            }
+
+            if (componentCount == 0)
+            {
+                Debug.LogWarning($"[FguiBootstrap] No exported components found in package '{packageName}'");
+            }
+            else
+            {
+                Debug.Log($"[FguiBootstrap] Total components: {componentCount}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to list components in package '{packageName}': {ex.Message}");
+        }
     }
 }
 

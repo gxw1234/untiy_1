@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="89,36" scroll="both" extention="Button">
+  <displayList>
+    <image id="86omr" src="kn5z10m" fileName="00010.PNG" xy="0,0" name="Img10351">
+      <gearDisplay controller="button" pages="0,2"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <image id="2dkrm" src="kn5z10n" fileName="00011.PNG" xy="0,0" name="Img11xyy">
+      <gearDisplay controller="button" pages="1,3"/>
+      <relation target="" sidePair=""/>
+    </image>
+    <text name="EditText" id="us07n" xy="5,4" size="81,29" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="竞拍" color="#F5D462" touchable="false" align="center" vAlign="middle" anchor="false" strokeSize="2" strokeColor="#000000">
+      <gearColor controller="button" pages="1,2,3" values="#6D4006|#F5D462|#6D4006" default="#F5D462"/>
+    </text>
+  </displayList>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver"/>
+  <Button/>
+</component>

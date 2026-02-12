@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="63,63" scroll="both">
+  <displayList>
+    <image id="525u6" name="Page2SellGoodWin" src="kn5z10l" fileName="AuctionGuild/Data/OMG_MobileMini.Pak/AuctionGuild_00622.png" xy="0,0">
+      <relation target="" sidePair=""/>
+    </image>
+    <loader id="w84b8" name="SellLoaderBg" xy="16,16" size="33,32" visible="false" url="ui://jk0io98jkn5z10r"/>
+    <loader id="657w8" name="Eff21" xy="32,32" pivot="0.5,0.5" anchor="true" size="61,61" fill="scale"/>
+    <loader id="27iu5" name="Eff11" xy="32,32" pivot="0.5,0.5" anchor="true" size="61,61" fill="scale"/>
+    <loader id="62lhh" name="icon" xy="32,32" pivot="0.5,0.5" anchor="true" size="61,61" align="center" vAlign="middle" fill="scale"/>
+    <text id="j00nj" name="title" xy="1,42" size="61,19" font="Microsoft YaHei" fontSize="14" color="#ffffff" align="right" leading="0" autoSize="none" text=""/>
+    <loader id="x05uk" name="Eff22" xy="32,32" pivot="0.5,0.5" anchor="true" size="61,61" fill="scale"/>
+    <loader id="ukh7u" name="Eff12" xy="32,32" pivot="0.5,0.5" anchor="true" size="61,61" fill="scale"/>
+    <loader id="77m8q" name="Eff23" xy="32,32" pivot="0.5,0.5" anchor="true" size="61,61" fill="scale"/>
+    <loader id="5w70s" name="Eff13" xy="32,32" pivot="0.5,0.5" anchor="true" size="61,61" fill="scale"/>
+    <loader id="nnv2n" name="bagsLod" xy="60,60" pivot="1,1" anchor="true" size="35,35" fill="scale"/>
+    <text id="n1_wsfz" name="StarLevel" xy="4,32" size="55,22" font="ui://t1h1280lz6xw16" fontSize="14" color="#ffffff" autoSize="none" autoClearText="true" text=""/>
+  </displayList>
+</component>

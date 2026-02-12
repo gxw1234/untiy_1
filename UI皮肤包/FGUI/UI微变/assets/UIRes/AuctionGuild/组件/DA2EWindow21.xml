@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="163,36" scroll="both">
-  <displayList>
-    <image id="86su7" src="kn5z10x" fileName="00617.PNG" xy="0,0" name="DA2EWindow21">
-      <relation sidePair=""/>
-    </image>
-    <text name="CompeteNowPriceEdit" id="wqq6t" xy="3,2" size="157,33" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="99999999" color="#F5D462" align="center" vAlign="middle" ubb="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
-  </displayList>
-</component>

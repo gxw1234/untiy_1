@@ -3,5 +3,5 @@
   <resources>
     <component id="6v5dj" name="FormIDListCom.xml" path="/" exported="true"/>
   </resources>
-  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+  <publish name="" path="E:\UnityLegendGame_1\unity-frontend\Assets\Client\FGUI" packageCount="2" genCode="true"/>
 </packageDescription>

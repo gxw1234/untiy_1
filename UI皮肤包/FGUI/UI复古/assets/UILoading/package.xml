@@ -15,5 +15,5 @@
     <component id="pfmg3z" name="PC实名认证_RealName.xml" path="/PC登录/"/>
     <component id="pfmg40" name="PC扫码登录_ScanLogin.xml" path="/PC登录/"/>
   </resources>
-  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+  <publish name="" path="E:\UnityLegendGame_1\unity-frontend\Assets\Resources\UI" packageCount="2" genCode="true"/>
 </packageDescription>

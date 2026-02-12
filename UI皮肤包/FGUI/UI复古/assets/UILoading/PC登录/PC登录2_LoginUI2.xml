@@ -9,9 +9,9 @@
     <text id="n37_ps2x" name="PhoneInput" xy="220,67" size="217,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true"/>
     <text id="n38_ps2x" name="CodeInput" xy="218,116" size="117,32" fontSize="22" color="#ffffff" autoSize="none" singleLine="true" text="" input="true"/>
     <component id="n39_ps2x" name="RegisterButton" src="ps2xy" fileName="PCLoginUI/组件/RegisterButton.xml" pkg="us2ut3jf" xy="105,194"/>
-    <component id="n40_ps2x" name="LoginButton" src="ps2xz" fileName="PCLoginUI/组件/LoginButton.xml" pkg="us2ut3jf" xy="313,194"/>
+    <component id="n40_ps2x" name="LoginButton" src="ps2xz" fileName="PCLoginUI/组件/LoginButton.xml" pkg="us2ut3jf" xy="371,194"/>
     <component id="n42_ps2x" name="ResetPasswordButton" src="ps2x11" fileName="PCLoginUI/组件/ResetPasswordButton.xml" pkg="us2ut3jf" xy="105,252"/>
-    <component id="n47_ps2x" name="ObtainButton" src="ps2x1c" fileName="PCLoginUI/组件/ObtainButton.xml" pkg="us2ut3jf" xy="343,111"/>
+    <component id="n47_ps2x" name="ObtainButton" src="ps2x1c" fileName="PCLoginUI/组件/ObtainButton.xml" pkg="us2ut3jf" xy="370,114"/>
     <component id="n48_eguh" name="AccountLoginButton" src="eguh68" fileName="PCLoginUI/组件/AccountLoginButton.xml" pkg="us2ut3jf" xy="314,252"/>
     <component id="n49_pz62" name="ScanLoginButton" src="pz626e" fileName="PCLoginUI/组件/ScanLoginButton.xml" pkg="us2ut3jf" xy="241,283" size="80,83"/>
   </displayList>

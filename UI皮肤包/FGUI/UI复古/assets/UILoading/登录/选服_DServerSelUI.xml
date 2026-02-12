@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1280,720" scroll="both">
   <displayList>
-    <component id="a3673" name="DBtnSwitchAccount" src="r7r81t" fileName="LoginUI/组件/DBtnSwitchAccount.xml" pkg="us2ut3jf" xy="129,32">
+    <component id="a3673" name="DBtnSwitchAccount" src="r7r81t" fileName="LoginUI/组件/DBtnSwitchAccount.xml" pkg="us2ut3jf" xy="1043,5">
       <Button sound="ui://v8024m780ns77"/>
     </component>
-    <component id="76hm0" name="DBtnGameNotice" src="r7r81u" fileName="LoginUI/组件/DBtnGameNotice.xml" pkg="us2ut3jf" xy="129,132">
+    <component id="76hm0" name="DBtnGameNotice" src="r7r81u" fileName="LoginUI/组件/DBtnGameNotice.xml" pkg="us2ut3jf" xy="1042,81">
       <Button sound="ui://v8024m780ns77"/>
     </component>
-    <component id="e61rt" name="DBtnGameRepair" src="r7r81v" fileName="LoginUI/组件/DBtnGameRepair.xml" pkg="us2ut3jf" xy="129,232"/>
+    <component id="e61rt" name="DBtnGameRepair" src="r7r81v" fileName="LoginUI/组件/DBtnGameRepair.xml" pkg="us2ut3jf" xy="1043,163"/>
     <component id="n41jx" name="DBtnInGame" src="r7r81w" fileName="LoginUI/组件/DBtnInGame.xml" pkg="us2ut3jf" xy="481,427">
       <Button sound="ui://v8024m780ns77"/>
     </component>
@@ -16,9 +16,6 @@
     </component>
     <text id="46eoi" name="DCurrServerName" xy="482,331" size="226,46" font="SimHei" fontSize="24" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" strokeColor="#000000" strokeSize="2" autoClearText="true" text=""/>
     <text id="7fap7" name="DCurrServerText" xy="702,331" size="112,46" font="SimHei" fontSize="24" color="#dfcfb4" align="center" vAlign="middle" leading="0" autoSize="none" underline="true" strokeColor="#000000" strokeSize="2" text="点击选服"/>
-    <component id="31vp3" name="DBtnBackToFlutter" src="r7r81y" fileName="LoginUI/组件/DBtnBackToFlutter.xml" pkg="us2ut3jf" xy="930,23">
-      <Button sound="ui://v8024m780ns77"/>
-    </component>
     <component id="g0g5m" name="DChPCBtn" src="r7r825" fileName="LoginUI/组件/DChPCBtn.xml" pkg="us2ut3jf" xy="90,450">
       <Button sound="ui://v8024m780ns77"/>
     </component>
@@ -31,7 +28,7 @@
     <richtext id="ss68m" name="prvicaytips_yinsi" xy="819,1000" size="100,34" font="Microsoft YaHei" fontSize="24" color="#00ff00" leading="0" text="隐私政策"/>
     <loader id="nap8a" name="yinsibg" xy="342,1000" size="29,27" url="ui://us2ut3jfvmwk52"/>
     <image id="70422" name="yinsiset" src="vmwk53" fileName="LoginUI/Data/OMG_MobileMini.Pak/Login_00893.png" pkg="us2ut3jf" xy="343,1000" size="29,27"/>
-    <richtext id="i36at" name="banhao" xy="3,575" size="1214,113" font="Microsoft YaHei" fontSize="22" color="#ffffff" align="center" vAlign="middle" leading="0" text="著作权人：哈尔滨展成世纪科技有限公司 软著等级号：2016SR233728 出版单位：杭州紫府网络科技有限公司   &#xA;审批文号：新广出审[2017]6386号 ISBN：ISBN 978-7-7979-9548-1&#xA;抵制不良游戏，拒绝盗版游戏。注意自我保护，慎防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排游戏，享受健康生活&#xA;适龄提示L适合18岁以上使用"/>
+    <richtext id="i36at" name="banhao" xy="504,617" size="251,32" font="Microsoft YaHei" fontSize="22" color="#ffffff" align="center" vAlign="middle" leading="0" text="1111111111111111111"/>
     <image id="n1_92m3" name="StateImg1" src="vmwk5b" fileName="LoginUI/Data/OMG_MobileMini.Pak/Login_00938.png" pkg="us2ut3jf" xy="444,340" visible="false"/>
     <image id="n2_92m3" name="StateImg2" src="vmwk46" fileName="LoginUI/Data/OMG_MobileMini.Pak/Login_00394.png" pkg="us2ut3jf" xy="444,341" visible="false"/>
     <image id="n3_92m3" name="StateImg3" src="vmwk47" fileName="LoginUI/Data/OMG_MobileMini.Pak/Login_00395.png" pkg="us2ut3jf" xy="444,340" visible="false"/>
@@ -40,6 +37,6 @@
     <component id="n6_pfmg" name="PC重置密码_ResetPassword" src="ps2x2" fileName="PC登录/PC重置密码_ResetPassword.xml" xy="376,134" visible="false"/>
     <component id="n7_pfmg" name="PC注册_Register" src="ps2x4" fileName="PC登录/PC注册_Register.xml" xy="376,134" visible="false"/>
     <component id="n8_pfmg" name="PC实名认证_RealName" src="pfmg3z" fileName="PC登录/PC实名认证_RealName.xml" xy="376,134" visible="false"/>
-    <component id="n9_pz62" name="PC扫码登录_ScanLogin" src="pfmg40" fileName="PC登录/PC扫码登录_ScanLogin.xml" xy="376,134" visible="false"/>
+    <component id="n9_pz62" name="PC扫码登录_ScanLogin" src="pfmg40" fileName="PC登录/PC扫码登录_ScanLogin.xml" xy="377,136" visible="false"/>
   </displayList>
 </component>

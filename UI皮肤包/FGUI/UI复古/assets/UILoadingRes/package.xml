@@ -159,5 +159,5 @@
     <image id="pz626d" name="ScanLogin.png" path="/PCLoginUI/Data/OMG_MobileMini.Pak/"/>
     <component id="pz626e" name="ScanLoginButton.xml" path="/PCLoginUI/组件/" exported="true"/>
   </resources>
-  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+  <publish name="" path="E:\UnityLegendGame_1\unity-frontend\Assets\Resources\UI" packageCount="2" genCode="true"/>
 </packageDescription>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="170,27" scroll="both">
-  <displayList>
-    <text name="DGold" id="o000a" xy="42,0" size="128,30" font="Microsoft YaHei" fontSize="18" leading="0" autoSize="none" text="" color="#FFFFFF" vAlign="middle" anchor="false"/>
-    <loader id="xak3a" name="AuctionGMoneyLoad" size="36,30" url="ui://jk0io98jkn5z10e" align="center" vAlign="middle" xy="0,0"/>
-  </displayList>
-</component>

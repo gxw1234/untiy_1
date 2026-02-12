@@ -5,5 +5,5 @@
     <sound id="g2d28" name="104.wav" path="/" exported="true"/>
     <sound id="w0d00" name="105.wav" path="/" exported="true"/>
   </resources>
-  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+  <publish name="" path=" E:\UnityLegendGame_1\unity-frontend\Assets\Resources\UI" packageCount="2" genCode="true"/>
 </packageDescription>

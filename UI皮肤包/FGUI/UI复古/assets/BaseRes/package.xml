@@ -192,5 +192,5 @@
     <component id="y2clgvn2x6" name="LeftTurnBtn1.xml" path="/NPC面板/组件/" exported="true"/>
     <component id="y2clgvn2x7" name="RightTurnBtn1.xml" path="/NPC面板/组件/" exported="true"/>
   </resources>
-  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+  <publish name="" path=" E:\UnityLegendGame_1\unity-frontend\Assets\Resources\UI" packageCount="2" genCode="true"/>
 </packageDescription>

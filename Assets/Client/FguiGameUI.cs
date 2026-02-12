@@ -5,6 +5,7 @@ using FairyGUI;
 using Client.MirScenes;
 using Client.MirObjects;
 using Client.MirNetwork;
+using Client.MirGraphics;
 using C = ClientPackets;
 
 namespace Client
@@ -317,58 +318,53 @@ namespace Client
         /// </summary>
         public void RefreshInventoryItems()
         {
-            if (_inventoryUI == null || GameScene.User == null)
+            if (_inventoryUI == null || MapObject.User == null)
                 return;
 
             // 获取背包物品列表
-            var inventory = GameScene.User.Inventory;
+            var inventory = MapObject.User.Inventory;
             if (inventory == null)
                 return;
 
-            // 遍历背包格子，更新物品显示
-            // 背包格子通常命名为 item0, item1, ... 或 slot0, slot1, ...
-            for (int i = 0; i < inventory.Length; i++)
+            // FairyGUI 背包 UI 使用 DBagGrid 列表来显示物品
+            GList bagGrid = _inventoryUI.GetChild("DBagGrid") as GList;
+            if (bagGrid != null)
             {
-                var item = inventory[i];
+                // 设置列表项数量
+                bagGrid.numItems = inventory.Length;
                 
-                // 尝试多种可能的格子命名
-                GObject slot = _inventoryUI.GetChild($"item{i}") 
-                    ?? _inventoryUI.GetChild($"slot{i}")
-                    ?? _inventoryUI.GetChild($"cell{i}")
-                    ?? _inventoryUI.GetChild($"grid{i}");
-
-                if (slot == null)
-                    continue;
-
-                // 获取格子中的图标加载器
-                GLoader icon = null;
-                if (slot is GComponent slotComp)
+                // 遍历列表项，更新物品显示
+                for (int i = 0; i < inventory.Length && i < bagGrid.numItems; i++)
                 {
-                    icon = slotComp.GetChild("icon") as GLoader 
-                        ?? slotComp.GetChild("item") as GLoader
-                        ?? slotComp.GetChild("image") as GLoader;
-                }
-                else if (slot is GLoader loader)
-                {
-                    icon = loader;
-                }
+                    var item = inventory[i];
+                    GComponent slot = bagGrid.GetChildAt(i) as GComponent;
+                    if (slot == null) continue;
 
-                if (icon == null)
-                    continue;
+                    SetInventorySlotItem(slot, item, i);
+                }
+                
+                Debug.Log($"[FguiGameUI] Refreshed inventory via DBagGrid, {inventory.Length} slots");
+            }
+            else
+            {
+                // 备用方案：尝试直接查找格子
+                for (int i = 0; i < inventory.Length; i++)
+                {
+                    var item = inventory[i];
+                    
+                    GObject slot = _inventoryUI.GetChild($"item{i}") 
+                        ?? _inventoryUI.GetChild($"slot{i}")
+                        ?? _inventoryUI.GetChild($"cell{i}");
 
-                if (item != null && item.Info != null)
-                {
-                    // 有物品，显示物品图标
-                    // 物品图标路径需要根据实际资源路径调整
-                    icon.url = $"ui://UIRes/item{item.Info.Image}";
-                    icon.visible = true;
+                    if (slot == null) continue;
+
+                    if (slot is GComponent slotComp)
+                    {
+                        SetInventorySlotItem(slotComp, item, i);
+                    }
                 }
-                else
-                {
-                    // 空格子
-                    icon.url = "";
-                    icon.visible = false;
-                }
+                
+                Debug.Log($"[FguiGameUI] Refreshed inventory via direct slots, {inventory.Length} slots");
             }
 
             // 更新金币显示
@@ -379,8 +375,148 @@ namespace Client
             {
                 goldLabel.text = GameScene.Gold.ToString("N0");
             }
+        }
 
-            Debug.Log($"[FguiGameUI] Refreshed inventory, {inventory.Length} slots");
+        /// <summary>
+        /// 设置背包格子的物品显示
+        /// </summary>
+        private void SetInventorySlotItem(GComponent slot, UserItem item, int slotIndex)
+        {
+            if (slot == null) return;
+
+            // 获取格子中的图标加载器
+            GLoader icon = slot.GetChild("icon") as GLoader 
+                ?? slot.GetChild("item") as GLoader
+                ?? slot.GetChild("image") as GLoader;
+
+            if (icon == null) return;
+
+            if (item != null && item.Info != null)
+            {
+                // 有物品，从 Libraries.Items 获取背包物品图标
+                var texture = MirGraphics.Libraries.Items.GetTexture(item.Info.Image);
+                if (texture != null)
+                {
+                    icon.url = null;
+                    NTexture nTex = new NTexture(texture);
+                    icon.texture = nTex;
+                    icon.visible = true;
+                }
+                else
+                {
+                    icon.texture = null;
+                    icon.visible = false;
+                }
+            }
+            else
+            {
+                // 空格子
+                icon.texture = null;
+                icon.visible = false;
+            }
+
+            // 绑定点击事件（双击装备物品）
+            BindInventorySlotClick(slot, slotIndex);
+        }
+
+        /// <summary>
+        /// 绑定背包格子点击事件（双击装备物品）
+        /// </summary>
+        private void BindInventorySlotClick(GComponent slot, int slotIndex)
+        {
+            if (slot == null) return;
+
+            slot.onClick.Clear();
+            slot.onClick.Add((EventContext ctx) =>
+            {
+                if (MapObject.User == null || MapObject.User.Inventory == null)
+                    return;
+
+                var item = MapObject.User.Inventory[slotIndex];
+                if (item == null || item.Info == null)
+                    return;
+
+                // 双击装备物品
+                if (ctx.inputEvent.isDoubleClick)
+                {
+                    UseInventoryItem(item, slotIndex);
+                }
+            });
+        }
+
+        /// <summary>
+        /// 使用背包物品（装备）
+        /// </summary>
+        private void UseInventoryItem(UserItem item, int slotIndex)
+        {
+            if (item == null || item.Info == null)
+                return;
+
+            // 根据物品类型发送装备请求
+            int equipSlot = -1;
+            switch (item.Info.Type)
+            {
+                case ItemType.Weapon:
+                    equipSlot = (int)EquipmentSlot.Weapon;
+                    break;
+                case ItemType.Armour:
+                    equipSlot = (int)EquipmentSlot.Armour;
+                    break;
+                case ItemType.Helmet:
+                    equipSlot = (int)EquipmentSlot.Helmet;
+                    break;
+                case ItemType.Necklace:
+                    equipSlot = (int)EquipmentSlot.Necklace;
+                    break;
+                case ItemType.Bracelet:
+                    // 手镯优先右手，如果右手有了就左手
+                    if (MapObject.User.Equipment[(int)EquipmentSlot.BraceletR] == null)
+                        equipSlot = (int)EquipmentSlot.BraceletR;
+                    else
+                        equipSlot = (int)EquipmentSlot.BraceletL;
+                    break;
+                case ItemType.Ring:
+                    // 戒指优先右手，如果右手有了就左手
+                    if (MapObject.User.Equipment[(int)EquipmentSlot.RingR] == null)
+                        equipSlot = (int)EquipmentSlot.RingR;
+                    else
+                        equipSlot = (int)EquipmentSlot.RingL;
+                    break;
+                case ItemType.Amulet:
+                    equipSlot = (int)EquipmentSlot.Amulet;
+                    break;
+                case ItemType.Belt:
+                    equipSlot = (int)EquipmentSlot.Belt;
+                    break;
+                case ItemType.Boots:
+                    equipSlot = (int)EquipmentSlot.Boots;
+                    break;
+                case ItemType.Stone:
+                    equipSlot = (int)EquipmentSlot.Stone;
+                    break;
+                case ItemType.Torch:
+                    equipSlot = (int)EquipmentSlot.Torch;
+                    break;
+                case ItemType.Mount:
+                    equipSlot = (int)EquipmentSlot.Mount;
+                    break;
+                case ItemType.Potion:
+                case ItemType.Scroll:
+                    // 药水和卷轴直接使用
+                    MirNetwork.Network.Enqueue(new C.UseItem { UniqueID = item.UniqueID, Grid = MirGridType.Inventory });
+                    Debug.Log($"[FguiGameUI] Use item: {item.Info.Name}");
+                    return;
+                default:
+                    Debug.Log($"[FguiGameUI] Cannot equip item type: {item.Info.Type}");
+                    return;
+            }
+
+            if (equipSlot >= 0)
+            {
+                // 发送装备请求
+                MirNetwork.Network.Enqueue(new C.EquipItem { Grid = MirGridType.Inventory, UniqueID = item.UniqueID, To = equipSlot });
+                Debug.Log($"[FguiGameUI] Equip item: {item.Info.Name} to slot {equipSlot}");
+            }
         }
 
         /// <summary>
@@ -452,54 +588,440 @@ namespace Client
         private void RefreshEquipment()
         {
             if (_characterUI == null || MapObject.User == null)
+            {
+                Debug.LogWarning("[FguiGameUI] RefreshEquipment: _characterUI or User is null");
                 return;
+            }
 
             var equipment = MapObject.User.Equipment;
             if (equipment == null)
+            {
+                Debug.LogWarning("[FguiGameUI] RefreshEquipment: Equipment is null");
                 return;
+            }
 
-            // 装备槽位名称映射
-            string[] slotNames = { "weapon", "armor", "helmet", "necklace", "braceletL", "braceletR", "ringL", "ringR", "amulet", "belt", "boots", "stone", "torch", "mount" };
+            Debug.Log($"[FguiGameUI] RefreshEquipment: Equipment count = {equipment.Length}");
 
-            for (int i = 0; i < equipment.Length && i < slotNames.Length; i++)
+            // 打印所有装备信息
+            for (int i = 0; i < equipment.Length; i++)
+            {
+                if (equipment[i] != null)
+                    Debug.Log($"[FguiGameUI] Equipment[{i}]: {equipment[i].Info?.Name}, Image={equipment[i].Info?.Image}");
+            }
+
+            // 获取第一页（装备页）DA2EPage1
+            GComponent page1 = _characterUI.GetChild("DA2EPage1") as GComponent;
+            if (page1 == null)
+            {
+                Debug.Log("[FguiGameUI] DA2EPage1 not found directly, searching in children...");
+                // 递归查找
+                page1 = FindChildComponent(_characterUI, "DA2EPage1");
+            }
+
+            if (page1 == null)
+            {
+                Debug.LogWarning("[FguiGameUI] DA2EPage1 not found!");
+                // 打印 _characterUI 的所有子节点
+                Debug.Log($"[FguiGameUI] _characterUI children count: {_characterUI.numChildren}");
+                for (int i = 0; i < _characterUI.numChildren; i++)
+                {
+                    var child = _characterUI.GetChildAt(i);
+                    Debug.Log($"[FguiGameUI] Child[{i}]: {child?.name} ({child?.GetType().Name})");
+                }
+                return;
+            }
+
+            Debug.Log($"[FguiGameUI] Found DA2EPage1, children count: {page1.numChildren}");
+
+            // 显示基础角色模型（DA2EPage1 中的 role loader）
+            // role loader 位置: xy="60,181" size="235,294"
+            GLoader roleLoader = page1.GetChild("role") as GLoader;
+            if (roleLoader != null)
+            {
+                roleLoader.visible = true;
+            }
+
+            // 隐藏 Equip 组件（我们用动态创建的 loader 来显示装备）
+            GComponent equipComp = page1.GetChild("Equip") as GComponent;
+            if (equipComp != null)
+            {
+                equipComp.visible = false;
+            }
+
+            // 动态创建 loader 来显示武器和衣服
+            // 需要手动调整位置和缩放比例来匹配角色模型
+            var user = MapObject.User;
+            
+            // 衣服 (equipment[1]) - 先绘制，在下层
+            if (equipment.Length > 1 && equipment[1] != null && equipment[1].Info != null)
+            {
+                ItemInfo realItem = Functions.GetRealItem(equipment[1].Info, user.Level, user.Class, GameScene.ItemInfoList);
+                DrawEquipmentOverlay(page1, roleLoader, realItem.Image, "armor", 1);
+            }
+            else
+            {
+                HideEquipmentOverlay("armor");
+            }
+            
+            // 武器 (equipment[0]) - 后绘制，在上层
+            if (equipment.Length > 0 && equipment[0] != null && equipment[0].Info != null)
+            {
+                ItemInfo realItem = Functions.GetRealItem(equipment[0].Info, user.Level, user.Class, GameScene.ItemInfoList);
+                DrawEquipmentOverlay(page1, roleLoader, realItem.Image, "weapon", 0);
+            }
+            else
+            {
+                HideEquipmentOverlay("weapon");
+            }
+
+            // EquipmentSlot 到 FairyGUI EquipCell 的映射
+            // EquipmentSlot 枚举: Weapon=0, Armour=1, Helmet=2, Torch=3, Necklace=4, BraceletL=5, BraceletR=6, RingL=7, RingR=8, Amulet=9, Belt=10, Boots=11, Stone=12, Mount=13
+            // FairyGUI DA2EPage1 中的 EquipCell:
+            //   武器和衣服(slot 0,1)显示在角色模型上(Equip组件)，不是独立槽位，用 -1 表示跳过
+            //   EquipCell2 = 头盔 (xy=31,255)
+            //   EquipCell3 = 项链 (xy=256,190)
+            //   EquipCell5 = 左手镯 (xy=31,320)
+            //   EquipCell6 = 右手镯 (xy=256,320)
+            //   EquipCell7 = 左戒指 (xy=31,385)
+            //   EquipCell8 = 右戒指 (xy=256,385)
+            //   EquipCell9 = 护身符 (xy=31,453)
+            //   EquipCell10 = 腰带 (xy=106,453)
+            //   EquipCell11 = 鞋子 (xy=181,450)
+            //   EquipCell12 = 宝石 (xy=256,450)
+            //   EquipCell14 = 火把 (xy=256,255)
+            //   EquipCell15 = 坐骑 (xy=31,190)
+            // 映射: slotToCell[EquipmentSlot] = EquipCell编号，-1 表示跳过
+            // Weapon=0->-1(跳过), Armour=1->-1(跳过), Helmet=2->2, Torch=3->14, Necklace=4->3, BraceletL=5->5, BraceletR=6->6, RingL=7->7, RingR=8->8, Amulet=9->9, Belt=10->10, Boots=11->11, Stone=12->12, Mount=13->15
+            int[] slotToCell = { -1, -1, 2, 14, 3, 5, 6, 7, 8, 9, 10, 11, 12, 15 };
+
+            for (int i = 0; i < equipment.Length && i < slotToCell.Length; i++)
             {
                 var item = equipment[i];
+                int cellIndex = slotToCell[i];
 
-                // 尝试多种可能的格子命名
-                GObject slot = _characterUI.GetChild(slotNames[i])
-                    ?? _characterUI.GetChild($"equip{i}")
-                    ?? _characterUI.GetChild($"slot{i}");
+                // 跳过武器和衣服（它们显示在角色模型上，不是独立槽位）
+                if (cellIndex < 0)
+                    continue;
+
+                // 查找装备格子（在 DA2EPage1 中，不在 Equip 子组件中）
+                GComponent slot = page1.GetChild($"EquipCell{cellIndex}") as GComponent;
 
                 if (slot == null)
+                {
+                    if (item != null)
+                        Debug.LogWarning($"[FguiGameUI] EquipCell{cellIndex} not found for slot {i} (has item: {item.Info?.Name})");
                     continue;
+                }
 
                 // 获取格子中的图标加载器
-                GLoader icon = null;
-                if (slot is GComponent slotComp)
-                {
-                    icon = slotComp.GetChild("icon") as GLoader
-                        ?? slotComp.GetChild("item") as GLoader
-                        ?? slotComp.GetChild("image") as GLoader;
-                }
-                else if (slot is GLoader loader)
-                {
-                    icon = loader;
-                }
+                GLoader icon = slot.GetChild("item") as GLoader;
+                if (icon == null)
+                    icon = slot.GetChild("icon") as GLoader;
 
                 if (icon == null)
+                {
+                    // 打印 slot 的所有子节点用于调试
+                    Debug.LogWarning($"[FguiGameUI] No icon loader found in EquipCell{cellIndex}, listing children:");
+                    for (int j = 0; j < slot.numChildren; j++)
+                    {
+                        var child = slot.GetChildAt(j);
+                        Debug.Log($"[FguiGameUI] EquipCell{cellIndex} child[{j}]: {child?.name} ({child?.GetType().Name})");
+                    }
                     continue;
+                }
 
                 if (item != null && item.Info != null)
                 {
-                    icon.url = $"ui://UIRes/item{item.Info.Image}";
-                    icon.visible = true;
+                    // 从 Libraries.StateItems 获取装备外观图标（不是 Libraries.Items 的背包小图标）
+                    var texture = MirGraphics.Libraries.StateItems.GetTexture(item.Info.Image);
+                    if (texture != null)
+                    {
+                        // 直接设置 url 为空，然后设置纹理
+                        icon.url = null;
+                        
+                        // 使用 NTexture 包装 Texture2D 并设置到 GLoader
+                        NTexture nTex = new NTexture(texture);
+                        
+                        // 保存原始大小
+                        float origWidth = icon.width;
+                        float origHeight = icon.height;
+                        
+                        icon.texture = nTex;
+                        
+                        // 恢复原始大小（防止被纹理大小覆盖）
+                        icon.SetSize(origWidth, origHeight);
+                        
+                        // 设置填充模式为 Scale（等比缩放）并居中
+                        icon.fill = FillType.Scale;
+                        icon.align = AlignType.Center;
+                        icon.verticalAlign = VertAlignType.Middle;
+                        
+                        // 确保图标可见
+                        icon.visible = true;
+                        
+                        Debug.Log($"[FguiGameUI] Set EquipCell{cellIndex} StateItem texture for: {item.Info.Name}, Image={item.Info.Image}, texSize={texture.width}x{texture.height}");
+                    }
+                    else
+                    {
+                        icon.texture = null;
+                        icon.visible = false;
+                        Debug.LogWarning($"[FguiGameUI] Failed to get StateItem texture for: {item.Info.Name}, Image={item.Info.Image}");
+                    }
                 }
                 else
                 {
-                    icon.url = "";
+                    icon.texture = null;
                     icon.visible = false;
                 }
+
+                // 绑定点击事件（卸下装备）
+                BindEquipSlotClick(slot, i);
             }
+
+            Debug.Log("[FguiGameUI] Refreshed equipment display");
+        }
+
+        /// <summary>
+        /// 设置装备格子的纹理
+        /// </summary>
+        private void SetEquipCellTexture(GComponent parent, string cellName, UserItem item, int slotIndex)
+        {
+            if (parent == null || item == null || item.Info == null)
+                return;
+
+            GComponent slot = parent.GetChild(cellName) as GComponent;
+            if (slot == null)
+            {
+                Debug.LogWarning($"[FguiGameUI] {cellName} not found in {parent.name}");
+                return;
+            }
+
+            GLoader icon = slot.GetChild("item") as GLoader;
+            if (icon == null)
+                icon = slot.GetChild("icon") as GLoader;
+
+            if (icon == null)
+            {
+                Debug.LogWarning($"[FguiGameUI] No icon loader found in {cellName}");
+                return;
+            }
+
+            var texture = MirGraphics.Libraries.StateItems.GetTexture(item.Info.Image);
+            if (texture != null)
+            {
+                icon.url = null;
+                NTexture nTex = new NTexture(texture);
+                float origWidth = icon.width;
+                float origHeight = icon.height;
+                icon.texture = nTex;
+                icon.SetSize(origWidth, origHeight);
+                icon.fill = FillType.Scale;
+                icon.align = AlignType.Center;
+                icon.verticalAlign = VertAlignType.Middle;
+                icon.visible = true;
+                Debug.Log($"[FguiGameUI] Set {cellName} texture for: {item.Info.Name}");
+            }
+
+            // 绑定点击事件
+            BindEquipSlotClick(slot, slotIndex);
+        }
+
+        // 存储动态创建的装备叠加 loader
+        private Dictionary<string, GLoader> _equipOverlayLoaders = new Dictionary<string, GLoader>();
+
+        /// <summary>
+        /// 在角色模型上绘制装备叠加图标
+        /// </summary>
+        private void DrawEquipmentOverlay(GComponent page, GLoader roleLoader, int imageIndex, string equipType, int slotIndex)
+        {
+            if (page == null || roleLoader == null)
+                return;
+
+            var texture = Libraries.StateItems.GetTexture(imageIndex);
+            if (texture == null)
+            {
+                Debug.LogWarning($"[FguiGameUI] Failed to get StateItems texture for imageIndex: {imageIndex}");
+                return;
+            }
+
+            string loaderName = $"_overlay_{equipType}";
+            GLoader loader;
+
+            // role loader 位置: xy="60,181" size="235,294"
+            // 计算装备图标的位置和大小
+            float roleW = roleLoader.width;
+            float roleH = roleLoader.height;
+            float roleX = roleLoader.x;
+            float roleY = roleLoader.y;
+            
+            float scale, posX, posY, texWidth, texHeight;
+            
+            if (equipType == "armor")
+            {
+                // 衣服：缩小到角色高度的 50%，居中显示，往下一点点
+                float targetHeight = roleH * 0.55f;
+                scale = targetHeight / texture.height;
+                texWidth = texture.width * scale;
+                texHeight = texture.height * scale;
+                posX = roleX + (roleW - texWidth) / 2;
+                posY = roleY + (roleH - texHeight) / 2 + roleH * 0.05f;
+            }
+            else if (equipType == "weapon")
+            {
+                // 武器：缩小到角色高度的 45%，放在角色手上位置
+                float targetHeight = roleH * 0.45f;
+                scale = targetHeight / texture.height;
+                texWidth = texture.width * scale;
+                texHeight = texture.height * scale;
+                // 武器位置：往左一点点
+                posX = roleX + roleW * 0.05f;
+                posY = roleY + roleH * 0.05f;
+            }
+            else
+            {
+                // 其他装备：默认居中
+                float targetHeight = roleH * 0.7f;
+                scale = targetHeight / texture.height;
+                texWidth = texture.width * scale;
+                texHeight = texture.height * scale;
+                posX = roleX + (roleW - texWidth) / 2;
+                posY = roleY + (roleH - texHeight) / 2;
+            }
+
+            if (_equipOverlayLoaders.TryGetValue(loaderName, out loader))
+            {
+                // 更新现有 loader
+                NTexture nTex = new NTexture(texture);
+                loader.texture = nTex;
+                loader.SetXY(posX, posY);
+                loader.SetSize(texWidth, texHeight);
+                loader.visible = true;
+            }
+            else
+            {
+                // 创建新的 loader
+                loader = new GLoader();
+                loader.name = loaderName;
+                loader.SetXY(posX, posY);
+                loader.SetSize(texWidth, texHeight);
+                
+                NTexture nTex = new NTexture(texture);
+                loader.texture = nTex;
+                loader.fill = FillType.ScaleFree;
+                loader.touchable = false;
+                loader.visible = true;
+
+                page.AddChild(loader);
+                _equipOverlayLoaders[loaderName] = loader;
+                
+                Debug.Log($"[FguiGameUI] Created overlay loader: {loaderName}, pos=({posX},{posY}), size=({texWidth},{texHeight}), scale={scale}");
+            }
+        }
+
+        /// <summary>
+        /// 隐藏装备叠加图标
+        /// </summary>
+        private void HideEquipmentOverlay(string equipType)
+        {
+            string loaderName = $"_overlay_{equipType}";
+            if (_equipOverlayLoaders.TryGetValue(loaderName, out GLoader loader))
+            {
+                loader.visible = false;
+            }
+        }
+
+        /// <summary>
+        /// 查找装备格子组件
+        /// </summary>
+        private GComponent FindEquipCell(GComponent parent, int cellIndex)
+        {
+            if (parent == null) return null;
+
+            string cellName = $"EquipCell{cellIndex}";
+
+            // 先在当前组件中查找
+            GComponent cell = parent.GetChild(cellName) as GComponent;
+            if (cell != null) return cell;
+
+            // 在 Equip 子组件中查找
+            GComponent equip = parent.GetChild("Equip") as GComponent;
+            if (equip != null)
+            {
+                cell = equip.GetChild(cellName) as GComponent;
+                if (cell != null) return cell;
+            }
+
+            // 递归查找
+            return FindChildComponent(parent, cellName);
+        }
+
+        /// <summary>
+        /// 递归查找子组件
+        /// </summary>
+        private GComponent FindChildComponent(GComponent parent, string name)
+        {
+            if (parent == null) return null;
+
+            for (int i = 0; i < parent.numChildren; i++)
+            {
+                GObject child = parent.GetChildAt(i);
+                if (child == null) continue;
+
+                if (child.name == name && child is GComponent comp)
+                    return comp;
+
+                if (child is GComponent childComp)
+                {
+                    GComponent found = FindChildComponent(childComp, name);
+                    if (found != null) return found;
+                }
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// 绑定装备槽点击事件（卸下装备到背包）
+        /// </summary>
+        private void BindEquipSlotClick(GComponent slot, int equipmentSlot)
+        {
+            if (slot == null) return;
+
+            slot.onClick.Clear();
+            slot.onClick.Add((EventContext ctx) =>
+            {
+                // 检查该槽位是否有装备
+                if (MapObject.User == null || MapObject.User.Equipment == null)
+                    return;
+
+                var item = MapObject.User.Equipment[equipmentSlot];
+                if (item == null)
+                {
+                    Debug.Log($"[FguiGameUI] Equipment slot {equipmentSlot} is empty");
+                    return;
+                }
+
+                // 发送卸下装备请求到服务器
+                // 老代码: Network.Enqueue(new C.RemoveItem { Grid = MirGridType.Inventory, UniqueID = Item.UniqueID, To = itemCell.ItemSlot });
+                // Grid 是目标位置（背包），不是源位置（装备）
+                MirNetwork.Network.Enqueue(new C.RemoveItem { Grid = MirGridType.Inventory, UniqueID = item.UniqueID, To = GetFirstEmptyInventorySlot() });
+                Debug.Log($"[FguiGameUI] Request to unequip item: {item.Info?.Name} from slot {equipmentSlot}");
+            });
+        }
+
+        /// <summary>
+        /// 获取背包中第一个空槽位
+        /// </summary>
+        private int GetFirstEmptyInventorySlot()
+        {
+            if (GameScene.User == null || GameScene.User.Inventory == null)
+                return 0;
+
+            for (int i = 0; i < GameScene.User.Inventory.Length; i++)
+            {
+                if (GameScene.User.Inventory[i] == null)
+                    return i;
+            }
+            return 0;
         }
 
         /// <summary>

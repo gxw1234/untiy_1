@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="88,34" overflow="scroll" scroll="horizontal">
-  <displayList>
-    <text name="Page1BuyMoPriEdit" id="62136" xy="0,5" size="85,24" font="Microsoft YaHei" fontSize="16" leading="0" text="123456879" color="#F5D462" align="center" vAlign="middle" autoClearText="true" anchor="false" strokeSize="1" strokeColor="#000000"/>
-  </displayList>
-</component>

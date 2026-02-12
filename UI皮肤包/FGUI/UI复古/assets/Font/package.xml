@@ -16,5 +16,5 @@
     <image id="pm54d" name="01119.PNG" path="/Font1/" exported="true"/>
     <font id="pm542" name="StrengthenNum.fnt" path="/Font1/" exported="true"/>
   </resources>
-  <publish name="" path="C:\test\My project\Assets\Resources\UI" packageCount="2" genCode="true"/>
+  <publish name="" path=" E:\UnityLegendGame_1\unity-frontend\Assets\Resources\UI" packageCount="2" genCode="true"/>
 </packageDescription>

@@ -902,134 +902,134 @@
     <component id="kn5zzx" name="DA2ERadioButton9.xml" path="/Ranking/组件/" exported="true"/>
     <component id="kn5zzy" name="DA2ERadioButton10.xml" path="/Ranking/组件/" exported="true"/>
     <component id="kn5z100" name="RankingGrideItem.xml" path="/Ranking/" exported="true"/>
-    <image id="kn5z101" name="AuctionGuild_00413.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z102" name="AuctionGuild_00192.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z103" name="AuctionGuild_00191.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z104" name="AuctionGuild_00000.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z105" name="AuctionGuild_00001.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z106" name="AuctionGuild_00630.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z107" name="AuctionGuild_00607.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z108" name="AuctionGuild_00615.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z109" name="AuctionGuild_00618.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10a" name="AuctionGuild_00631.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10b" name="AuctionGuild_00632.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10c" name="AuctionGuild_00633.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10d" name="AuctionGuild_00634.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10e" name="AuctionGuild_00635.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10f" name="AuctionGuild_00636.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10g" name="AuctionGuild_00637.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10h" name="AuctionGuild_00131.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10i" name="AuctionGuild_00128.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10j" name="AuctionGuild_00787.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10k" name="AuctionGuild_00614.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10l" name="AuctionGuild_00622.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10m" name="AuctionGuild_00010.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10n" name="AuctionGuild_00011.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10o" name="AuctionGuild_00426.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10p" name="AuctionGuild_00608.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10q" name="AuctionGuild_00616.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10r" name="AuctionGuild_00606.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10s" name="AuctionGuild_00609.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10t" name="AuctionGuild_00629.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10u" name="AuctionGuild_00621.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10v" name="AuctionGuild_00619.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10w" name="AuctionGuild_00612.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10x" name="AuctionGuild_00617.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10y" name="AuctionGuild_00265.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z10z" name="AuctionGuild_00266.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z110" name="AuctionGuild_00625.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z111" name="AuctionGuild_00623.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z112" name="AuctionGuild_00620.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z113" name="AuctionGuild_00624.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z114" name="AuctionGuild_00613.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z115" name="AuctionGuild_00626.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z116" name="AuctionGuild_00602.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z117" name="AuctionGuild_00601.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z118" name="AuctionGuild_00611.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="kn5z119" name="AuctionGuild_00610.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <component id="kn5z11a" name="frame.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11b" name="TabBtnBuy.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11c" name="BtnClose.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11d" name="TabBtnSell.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11e" name="TabBtnAuction.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11f" name="n1.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11g" name="Page1RoleStySelect.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11h" name="n2.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11i" name="Page1GoodsStySelect.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11j" name="JinGangShiWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11k" name="JinPiaoWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11l" name="LingFuWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11m" name="RongYuWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11n" name="ShengWangWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11o" name="XinYouXiDianWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11p" name="YouXiDianWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11q" name="YuanBaoWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11r" name="JinBiWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11s" name="Page1BuyWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11t" name="DA2EPage1.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11u" name="Page1BuyGoodsWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11v" name="Page1Rebtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11w" name="Page1Buybtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11x" name="DA2EWindow1.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11y" name="DA2EWindow2.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z11z" name="Page2SellGoodsUI.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z120" name="DA2EPage2.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z121" name="Page2SellGoodWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z122" name="DA2EWindow3.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z123" name="DA2EWindow4.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z124" name="DA2EWindow6.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z125" name="DA2EPage3.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z126" name="DA2ESimpleButton3.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z127" name="DA2ESimpleButton4.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z128" name="AuctionGoodsWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z129" name="DA2EWindow5.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12a" name="DA2EWindow7.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12b" name="frame1.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12c" name="PutAwayStPriWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12d" name="PutAwayMoPriWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12e" name="PutAwayCancleBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12f" name="PutAwayBuyBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12g" name="PutAwayStartPriceBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12h" name="PutAwayMouseBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12i" name="PutAwayGoodWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12j" name="frame2.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12k" name="SoldOutGoodsStWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12l" name="SoldOutGoodsMPWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12m" name="SoldOutGCancleBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12n" name="SoldOutGBuyBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12o" name="DA2ESimpleButton11.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12p" name="DA2ESimpleButton12.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12q" name="SoldOutGoodsNPWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12r" name="DA2ESimpleButton5.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12s" name="SoldOutGoodsWin.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12t" name="frame3.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12u" name="DA2EWindow19.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12v" name="DA2EWindow20.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12w" name="MousePriceCancleBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12x" name="MousePriceBuyBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12y" name="MousePriceGoods.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z12z" name="frame4.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z130" name="DA2EWindow21.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z131" name="DA2EWindow22.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z132" name="CompetePriceCancleBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z133" name="CompetePriceBuyBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z134" name="DA2EWindow15.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z135" name="CompeteAddPriceEditBtn.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z136" name="CompetePriceGoodsWins.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z137" name="DA2ECheckBox2.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z138" name="DA2ECheckBox1.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="kn5z139" name="AuctionGoodsItem.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13b" name="BagGoodsItem.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13c" name="ComboBox1_item.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13d" name="ComboBox1_popup.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13e" name="ComboBox2_item.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13f" name="ComboBox2_popup.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13h" name="DA2EMOVIECLIP1.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13i" name="DA2ERadioButtonPro1.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13j" name="EquipMemberItem.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13k" name="MemberItem.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13l" name="MonStyRadioBtn.xml" path="/AuctionGuild/" exported="true"/>
-    <component id="kn5z13o" name="SellNameItem.xml" path="/AuctionGuild/" exported="true"/>
+    <image id="kn5z101" name="AuctionGuild_00413.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z102" name="AuctionGuild_00192.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z103" name="AuctionGuild_00191.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z104" name="AuctionGuild_00000.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z105" name="AuctionGuild_00001.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z106" name="AuctionGuild_00630.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z107" name="AuctionGuild_00607.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z108" name="AuctionGuild_00615.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z109" name="AuctionGuild_00618.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10a" name="AuctionGuild_00631.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10b" name="AuctionGuild_00632.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10c" name="AuctionGuild_00633.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10d" name="AuctionGuild_00634.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10e" name="AuctionGuild_00635.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10f" name="AuctionGuild_00636.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10g" name="AuctionGuild_00637.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10h" name="AuctionGuild_00131.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10i" name="AuctionGuild_00128.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10j" name="AuctionGuild_00787.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10k" name="AuctionGuild_00614.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10l" name="AuctionGuild_00622.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10m" name="AuctionGuild_00010.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10n" name="AuctionGuild_00011.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10o" name="AuctionGuild_00426.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10p" name="AuctionGuild_00608.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10q" name="AuctionGuild_00616.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10r" name="AuctionGuild_00606.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10s" name="AuctionGuild_00609.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10t" name="AuctionGuild_00629.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10u" name="AuctionGuild_00621.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10v" name="AuctionGuild_00619.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10w" name="AuctionGuild_00612.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10x" name="AuctionGuild_00617.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10y" name="AuctionGuild_00265.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z10z" name="AuctionGuild_00266.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z110" name="AuctionGuild_00625.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z111" name="AuctionGuild_00623.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z112" name="AuctionGuild_00620.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z113" name="AuctionGuild_00624.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z114" name="AuctionGuild_00613.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z115" name="AuctionGuild_00626.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z116" name="AuctionGuild_00602.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z117" name="AuctionGuild_00601.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z118" name="AuctionGuild_00611.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="kn5z119" name="AuctionGuild_00610.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <component id="kn5z11a" name="frame.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11b" name="TabBtnBuy.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11c" name="BtnClose.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11d" name="TabBtnSell.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11e" name="TabBtnAuction.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11f" name="n1.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11g" name="Page1RoleStySelect.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11h" name="n2.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11i" name="Page1GoodsStySelect.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11j" name="JinGangShiWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11k" name="JinPiaoWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11l" name="LingFuWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11m" name="RongYuWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11n" name="ShengWangWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11o" name="XinYouXiDianWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11p" name="YouXiDianWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11q" name="YuanBaoWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11r" name="JinBiWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11s" name="Page1BuyWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11t" name="DA2EPage1.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11u" name="Page1BuyGoodsWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11v" name="Page1Rebtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11w" name="Page1Buybtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11x" name="DA2EWindow1.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11y" name="DA2EWindow2.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z11z" name="Page2SellGoodsUI.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z120" name="DA2EPage2.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z121" name="Page2SellGoodWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z122" name="DA2EWindow3.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z123" name="DA2EWindow4.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z124" name="DA2EWindow6.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z125" name="DA2EPage3.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z126" name="DA2ESimpleButton3.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z127" name="DA2ESimpleButton4.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z128" name="AuctionGoodsWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z129" name="DA2EWindow5.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12a" name="DA2EWindow7.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12b" name="frame1.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12c" name="PutAwayStPriWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12d" name="PutAwayMoPriWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12e" name="PutAwayCancleBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12f" name="PutAwayBuyBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12g" name="PutAwayStartPriceBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12h" name="PutAwayMouseBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12i" name="PutAwayGoodWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12j" name="frame2.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12k" name="SoldOutGoodsStWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12l" name="SoldOutGoodsMPWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12m" name="SoldOutGCancleBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12n" name="SoldOutGBuyBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12o" name="DA2ESimpleButton11.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12p" name="DA2ESimpleButton12.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12q" name="SoldOutGoodsNPWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12r" name="DA2ESimpleButton5.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12s" name="SoldOutGoodsWin.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12t" name="frame3.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12u" name="DA2EWindow19.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12v" name="DA2EWindow20.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12w" name="MousePriceCancleBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12x" name="MousePriceBuyBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12y" name="MousePriceGoods.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z12z" name="frame4.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z130" name="DA2EWindow21.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z131" name="DA2EWindow22.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z132" name="CompetePriceCancleBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z133" name="CompetePriceBuyBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z134" name="DA2EWindow15.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z135" name="CompeteAddPriceEditBtn.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z136" name="CompetePriceGoodsWins.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z137" name="DA2ECheckBox2.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z138" name="DA2ECheckBox1.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="kn5z139" name="AuctionGoodsItem.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13b" name="BagGoodsItem.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13c" name="ComboBox1_item.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13d" name="ComboBox1_popup.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13e" name="ComboBox2_item.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13f" name="ComboBox2_popup.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13h" name="DA2EMOVIECLIP1.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13i" name="DA2ERadioButtonPro1.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13j" name="EquipMemberItem.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13k" name="MemberItem.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13l" name="MonStyRadioBtn.xml" path="/Bag/AuctionGuild/" exported="true"/>
+    <component id="kn5z13o" name="SellNameItem.xml" path="/Bag/AuctionGuild/" exported="true"/>
     <image id="kn5z13q" name="Storage_00008.png" path="/Storage/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
     <image id="kn5z13r" name="Storage_00003.png" path="/Storage/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
     <image id="kn5z13s" name="Storage_00000.png" path="/Storage/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
@@ -2599,13 +2599,13 @@
     <component id="lyitgvn35a" name="BtnCancelWar.xml" path="/WinGuild/组件/" exported="true"/>
     <component id="a5rzgvn35c" name="ComSkillSetItem.xml" path="/Set/组件/" exported="true"/>
     <component id="a5rzgvn35d" name="ComSkillSet2Item.xml" path="/Set/组件/" exported="true"/>
-    <image id="prs33" name="AuctionGuild_00423.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="prs34" name="AuctionGuild_00424.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
-    <image id="prs31" name="AuctionGuild_00425.png" path="/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" scale="9grid" scale9grid="35,11,70,22" disableTrim="true"/>
-    <component id="prs37" name="ComDown_item.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="prs35" name="ComDown_popup.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="prs30" name="ComDownBox.xml" path="/AuctionGuild/组件/" exported="true"/>
-    <component id="prs32" name="ComDown.xml" path="/AuctionGuild/组件/" exported="true"/>
+    <image id="prs33" name="AuctionGuild_00423.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="prs34" name="AuctionGuild_00424.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" disableTrim="true"/>
+    <image id="prs31" name="AuctionGuild_00425.png" path="/Bag/AuctionGuild/Data/OMG_MobileMini.Pak/" exported="true" scale="9grid" scale9grid="35,11,70,22" disableTrim="true"/>
+    <component id="prs37" name="ComDown_item.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="prs35" name="ComDown_popup.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="prs30" name="ComDownBox.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
+    <component id="prs32" name="ComDown.xml" path="/Bag/AuctionGuild/组件/" exported="true"/>
     <component id="shgq0" name="DBtnExit.xml" path="/Main_RightGrop/组件/" exported="true"/>
     <image id="shgq1" name="RightGrop_00938.png" path="/Main_RightGrop/Data/OMG_MobileMini.Pak/" exported="true"/>
     <component id="p2q8gvn35e" name="DRAutoSendOpen.xml" path="/Char/组件/" exported="true"/>

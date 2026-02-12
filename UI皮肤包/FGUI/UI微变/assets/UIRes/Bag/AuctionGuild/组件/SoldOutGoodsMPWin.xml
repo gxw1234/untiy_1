@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="163,36" scroll="both">
+  <displayList>
+    <image id="d3k40" src="kn5z10x" fileName="00617.PNG" xy="0,0" name="SoldOutGoodsMPWin">
+      <relation sidePair=""/>
+    </image>
+    <text name="SoldOutGMousePriEdits" id="o1eww" xy="39,3" size="120,30" font="Microsoft YaHei" fontSize="16" leading="0" autoSize="none" text="" color="#F5D462" anchor="false" strokeSize="1" strokeColor="#000000"/>
+    <loader id="6v76t" name="DA2ELoader68" size="36,30" url="ui://jk0io98jkn5z10h" xy="2,3"/>
+  </displayList>
+</component>

@@ -110,7 +110,9 @@ namespace Client.MirScenes
 
         private static void LoginSuccess(S.LoginSuccess p)
         {
+            UnityEngine.Debug.Log($"[FguiBridgeScene] LoginSuccess received, Characters count: {p.Characters?.Count ?? 0}");
             SoundManager.PlaySound(SoundList.LoginEffect);
+            // 登录成功后直接显示选角界面（因为已经在登录前选择了服务器）
             FguiBootstrap.ShowCharacterSelect(p.Characters);
         }
 

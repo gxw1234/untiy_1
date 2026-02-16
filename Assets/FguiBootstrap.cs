@@ -65,6 +65,7 @@ public sealed class FguiBootstrap : MonoBehaviour
     {
         "UI_1/common",   // 新的公共资源包
         "UI_1/ui_2",     // 新的登录包（实际名称是 Login）
+        "UI_1/Select",   // 选服包（包含 Prefecture 和 Enlist）
     };
 
     private static readonly string[] DefaultPackageNames =
@@ -116,22 +117,19 @@ public sealed class FguiBootstrap : MonoBehaviour
                 }
             }
 
-            // UI_1 only - no legacy UI packages needed
-
-            (string pkg, string comp) selected = FindFirstLoginComponent();
-            if (!string.IsNullOrEmpty(selected.pkg) && !string.IsNullOrEmpty(selected.comp))
+            // 绑定 Select 包的自定义组件
+            try
             {
-                packageName = selected.pkg;
-                componentName = selected.comp;
+                Select.SelectBinder.BindAll();
+                Debug.Log("[FguiBootstrap] ✓ SelectBinder.BindAll() called");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarning($"[FguiBootstrap] ✗ Failed to bind Select components: {ex.Message}");
             }
 
-            LogLoginCandidates();
-
-            // Debug: List all loaded packages
-            LogAllPackages();
-
-            // Debug: List all components in Login package
-            LogPackageComponents("Login");
+            // UI_1 only - no legacy UI packages needed
+            // 注意：现在启动时直接显示选区界面，不需要查找登录组件
 
             if (GRoot.inst != null)
                 GRoot.inst.RemoveChildren(0, -1, true);
@@ -140,11 +138,9 @@ public sealed class FguiBootstrap : MonoBehaviour
 
             // Ensure network begins connecting even without legacy LoginScene.
             MirScene.ActiveScene = new FguiBridgeScene();
-            Net.Connect();
 
-            // Entry screen: directly show new login UI from UI_1
-            ShowPanelCentered(firstPanelPackage, firstPanelComponent);
-            BindLoginHandlers();
+            // 游戏启动时显示选区界面，不直接显示登录界面
+            ShowPrefectureUI();
 
             Stage.inst.onStageResized.Remove(OnStageResized);
             Stage.inst.onStageResized.Add(OnStageResized);
@@ -1726,6 +1722,205 @@ public sealed class FguiBootstrap : MonoBehaviour
         {
             Debug.LogError($"[FguiBootstrap] Failed to delete character: {ex.Message}\n{ex.StackTrace}");
             ShowToast("删除角色失败");
+        }
+    }
+
+    /// <summary>
+    /// 显示选区界面（游戏启动时调用）
+    /// </summary>
+    public static void ShowPrefectureUI()
+    {
+        try
+        {
+            Debug.Log("[FguiBootstrap] ShowPrefectureUI called");
+
+            // 移除当前面板
+            _currentPanel?.RemoveFromParent();
+            _currentPanel?.Dispose();
+            _currentPanel = null;
+
+            // 使用生成的 CreateInstance 方法创建选区界面
+            Select.UI_Prefecture prefecture = Select.UI_Prefecture.CreateInstance();
+            if (prefecture == null)
+            {
+                Debug.LogError("[FguiBootstrap] Failed to create Prefecture UI");
+                ShowToast("选区界面加载失败");
+                return;
+            }
+
+            _currentPanel = prefecture;
+            GRoot.inst.AddChild(_currentPanel);
+
+            // Prefecture 是 500x400，放大 2 倍到 1000x800 以便看清
+            float scale = 3.0f;
+            ScaleAndCenterPanel(_currentPanel, scale);
+
+            Debug.Log($"[FguiBootstrap] Prefecture UI created, size: {prefecture.width}x{prefecture.height}, scaled: {scale}x");
+
+            // 绑定按钮事件
+            prefecture.m_Electoral_district.onClick.Clear();
+            prefecture.m_Electoral_district.onClick.Add(() =>
+            {
+                Debug.Log("[FguiBootstrap] Electoral_district button clicked");
+                ShowEnlistUI();
+            });
+
+            prefecture.m_Enter_the_game.onClick.Clear();
+            prefecture.m_Enter_the_game.onClick.Add(() =>
+            {
+                Debug.Log("[FguiBootstrap] Enter_the_game button clicked");
+                ShowLoginUI();
+            });
+
+            Debug.Log("[FguiBootstrap] Prefecture handlers bound");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to show Prefecture UI: {ex.Message}\n{ex.StackTrace}");
+            ShowToast("选区界面显示失败");
+        }
+    }
+
+    /// <summary>
+    /// 显示选服界面（点击 Electoral_district 后调用）
+    /// </summary>
+    private static void ShowEnlistUI()
+    {
+        try
+        {
+            Debug.Log("[FguiBootstrap] ShowEnlistUI called");
+
+            // 移除当前面板
+            _currentPanel?.RemoveFromParent();
+            _currentPanel?.Dispose();
+            _currentPanel = null;
+
+            // 直接使用 URL 创建选服界面（避免名称冲突：Enlist.png 和 Enlist.xml）
+            string enlistURL = Select.UI_Enlist.URL;  // "ui://2q0aw32tldap1"
+            GObject obj = UIPackage.CreateObjectFromURL(enlistURL);
+            if (obj == null)
+            {
+                Debug.LogError($"[FguiBootstrap] Failed to create Enlist UI from URL: {enlistURL}");
+                ShowToast("选服界面加载失败");
+                return;
+            }
+
+            Select.UI_Enlist enlist = obj as Select.UI_Enlist;
+            if (enlist == null)
+            {
+                Debug.LogError($"[FguiBootstrap] Created object is not UI_Enlist, type: {obj.GetType().Name}");
+                obj.Dispose();
+                ShowToast("选服界面类型错误");
+                return;
+            }
+
+            _currentPanel = enlist;
+            GRoot.inst.AddChild(_currentPanel);
+            FitCharacterSelectToScreen(enlist);
+
+            Debug.Log($"[FguiBootstrap] Enlist UI created, size: {enlist.width}x{enlist.height}");
+
+            // 填充测试服务器数据
+            BindEnlistHandlers(enlist);
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to show Enlist UI: {ex.Message}\n{ex.StackTrace}");
+            ShowToast("选服界面显示失败");
+        }
+    }
+
+    /// <summary>
+    /// 绑定选服界面的事件
+    /// </summary>
+    private static void BindEnlistHandlers(Select.UI_Enlist enlist)
+    {
+        try
+        {
+            // 填充大区列表
+            if (enlist.m_Region != null)
+            {
+                enlist.m_Region.RemoveChildrenToPool();
+                for (int i = 0; i < 3; i++)
+                {
+                    GButton regionItem = enlist.m_Region.AddItemFromPool()?.asButton;
+                    if (regionItem != null)
+                    {
+                        regionItem.title = $"大区 {i + 1}";
+                        int regionIndex = i;
+                        regionItem.onClick.Clear();
+                        regionItem.onClick.Add(() =>
+                        {
+                            Debug.Log($"[FguiBootstrap] Region {regionIndex + 1} selected");
+                        });
+                    }
+                }
+                Debug.Log($"[FguiBootstrap] Region list populated with 3 items");
+            }
+
+            // 填充服务器列表
+            if (enlist.m_Neighborhood != null)
+            {
+                enlist.m_Neighborhood.RemoveChildrenToPool();
+                for (int i = 0; i < 5; i++)
+                {
+                    GButton serverItem = enlist.m_Neighborhood.AddItemFromPool()?.asButton;
+                    if (serverItem != null)
+                    {
+                        serverItem.title = $"服务器 {i + 1}";
+                        int serverIndex = i;
+                        serverItem.onClick.Clear();
+                        serverItem.onClick.Add(() =>
+                        {
+                            Debug.Log($"[FguiBootstrap] Server {serverIndex + 1} selected");
+                            ShowToast($"已选择服务器 {serverIndex + 1}");
+                            // 选择服务器后显示登录界面
+                            ShowLoginUI();
+                        });
+                    }
+                }
+                Debug.Log($"[FguiBootstrap] Neighborhood list populated with 5 items");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to bind Enlist handlers: {ex.Message}\n{ex.StackTrace}");
+        }
+    }
+
+    /// <summary>
+    /// 显示登录界面
+    /// </summary>
+    public static void ShowLoginUI()
+    {
+        try
+        {
+            Debug.Log("[FguiBootstrap] ShowLoginUI called");
+
+            // 移除当前面板
+            _currentPanel?.RemoveFromParent();
+            _currentPanel?.Dispose();
+            _currentPanel = null;
+
+            // 显示登录背景
+            if (_background != null)
+                _background.visible = true;
+
+            // 显示登录界面
+            ShowPanelCentered("Login", "logint_ui");
+            BindLoginHandlers();
+
+            // 连接到服务器
+            if (!Net.Connected)
+            {
+                Net.Connect();
+                Debug.Log("[FguiBootstrap] Connecting to server...");
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to show Login UI: {ex.Message}\n{ex.StackTrace}");
+            ShowToast("登录界面显示失败");
         }
     }
 }

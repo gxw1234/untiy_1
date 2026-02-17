@@ -146,6 +146,16 @@ public sealed class FguiBootstrap : MonoBehaviour
                 Debug.LogWarning($"[FguiBootstrap] ✗ Failed to bind Select components: {ex.Message}");
             }
 
+            try
+            {
+                Common.CommonBinder.BindAll();
+                Debug.Log("[FguiBootstrap] ✓ CommonBinder.BindAll() called");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarning($"[FguiBootstrap] ✗ Failed to bind Common components: {ex.Message}");
+            }
+
             // UI_1 only - no legacy UI packages needed
             // 注意：现在启动时直接显示选区界面，不需要查找登录组件
 
@@ -157,8 +167,8 @@ public sealed class FguiBootstrap : MonoBehaviour
             // Ensure network begins connecting even without legacy LoginScene.
             MirScene.ActiveScene = new FguiBridgeScene();
 
-            // 游戏启动时显示选区界面，不直接显示登录界面
-            ShowPrefectureUI();
+            // 游戏启动时直接显示登录界面
+            ShowLoginUI();
 
             Stage.inst.onStageResized.Remove(OnStageResized);
             Stage.inst.onStageResized.Add(OnStageResized);
@@ -234,6 +244,52 @@ public sealed class FguiBootstrap : MonoBehaviour
         catch
         {
         }
+    }
+
+    public static void ShowDialog(string message, System.Action onOk = null)
+    {
+        try
+        {
+            if (GRoot.inst == null) return;
+
+            // 用 URL 精确定位外层对话框，避免与同包内同名内部按钮冲突
+            // （CreateObject("Common","Button_Transparency") 会找到内部 GButton，不是对话框）
+            Common.UI_Button_Transparency dialog =
+                UIPackage.CreateObjectFromURL(Common.UI_Button_Transparency.URL) as Common.UI_Button_Transparency;
+
+            if (dialog == null) { ShowToast(message); return; }
+
+            if (dialog.m_test != null)
+                dialog.m_test.text = message;
+
+            const float dialogScale = 3.0f;
+            dialog.SetScale(dialogScale, dialogScale);
+
+            GRoot.inst.AddChild(dialog);
+            dialog.SetXY(
+                (GRoot.inst.width  - dialog.width  * dialogScale) / 2,
+                (GRoot.inst.height - dialog.height * dialogScale) / 2);
+
+            dialog.m_ok.onClick.Clear();
+            dialog.m_ok.onClick.Add(() =>
+            {
+                dialog.RemoveFromParent();
+                dialog.Dispose();
+                onOk?.Invoke();
+            });
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] ShowDialog failed: {ex.Message}\n{ex.StackTrace}");
+            ShowToast(message);
+        }
+    }
+
+    public static void AddCharacterAndRefresh(SelectInfo charInfo)
+    {
+        if (_characters == null) _characters = new List<SelectInfo>();
+        _characters.Insert(0, charInfo);
+        ShowCharacterSelect(_characters);
     }
 
     public static void ShowCharacterSelect(List<SelectInfo> characters)
@@ -1105,7 +1161,13 @@ public sealed class FguiBootstrap : MonoBehaviour
 
                 if (string.IsNullOrEmpty(account) || string.IsNullOrEmpty(password))
                 {
-                    ShowToast("请输入账号和密码");
+                    ShowDialog("请输入账号和密码");
+                    return;
+                }
+
+                if (_selectedServer == null)
+                {
+                    ShowDialog("请先选择区服");
                     return;
                 }
 
@@ -1134,6 +1196,17 @@ public sealed class FguiBootstrap : MonoBehaviour
         {
             registrationBtn.onClick.Clear();
             registrationBtn.onClick.Add(() => ShowRegisterUI());
+        }
+
+        GObject electoralBtn = panel.GetChild("Electoral_district");
+        if (electoralBtn != null)
+        {
+            // 如果已选过区服，把名字显示在按钮上
+            if (_selectedServer != null)
+                electoralBtn.text = _selectedServer.ServerName;
+
+            electoralBtn.onClick.Clear();
+            electoralBtn.onClick.Add(() => ShowEnlistUI());
         }
 
         Debug.Log($"[FguiBootstrap] Login handlers bound. idInput={idInput!=null}, pwdInput={pwdInput!=null}, loginBtn={loginBtn!=null}, closeBtn={closeBtn!=null}");
@@ -1634,13 +1707,13 @@ public sealed class FguiBootstrap : MonoBehaviour
             // Validate name
             if (string.IsNullOrWhiteSpace(characterName))
             {
-                ShowToast("请输入角色名字");
+                ShowDialog("请输入角色名字");
                 return;
             }
 
             if (characterName.Length < 2 || characterName.Length > 15)
             {
-                ShowToast("角色名字长度应为2-15个字符");
+                ShowDialog("角色名字长度应为2-15个字符");
                 return;
             }
 
@@ -1662,7 +1735,7 @@ public sealed class FguiBootstrap : MonoBehaviour
         catch (Exception ex)
         {
             Debug.LogError($"[FguiBootstrap] Failed to create new character: {ex.Message}");
-            ShowToast("创建角色失败");
+            ShowDialog("创建角色失败");
         }
     }
 
@@ -2022,8 +2095,8 @@ public sealed class FguiBootstrap : MonoBehaviour
                         _selectedServer = server;
                         Debug.Log($"[FguiBootstrap] Server selected: {server.ServerName} (ID={server.ServerID})");
 
-                        // 选择服务器后回到选区界面，按钮上显示已选服务器名
-                        ShowPrefectureUI();
+                        // 选择服务器后回到登录界面
+                        ShowLoginUI();
                     });
                 }
             }

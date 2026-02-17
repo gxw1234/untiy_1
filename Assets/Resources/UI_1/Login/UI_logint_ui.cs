@@ -9,6 +9,7 @@ namespace Login
     {
         public GButton m_Registration;
         public GButton m_Change_password;
+        public GButton m_Electoral_district;
         public const string URL = "ui://6zme3ysjmj8e1";
 
         public static UI_logint_ui CreateInstance()
@@ -22,6 +23,7 @@ namespace Login
 
             m_Registration = (GButton)GetChildAt(7);
             m_Change_password = (GButton)GetChildAt(8);
+            m_Electoral_district = (GButton)GetChildAt(9);
         }
     }
 }

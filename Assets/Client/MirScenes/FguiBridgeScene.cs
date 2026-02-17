@@ -43,6 +43,14 @@ namespace Client.MirScenes
                     LoginSuccess((S.LoginSuccess)p);
                     break;
 
+                case (short)ServerPacketIds.NewCharacter:
+                    NewCharacterFail((S.NewCharacter)p);
+                    break;
+
+                case (short)ServerPacketIds.NewCharacterSuccess:
+                    NewCharacterSuccess((S.NewCharacterSuccess)p);
+                    break;
+
                 case (short)ServerPacketIds.StartGame:
                     StartGame((S.StartGame)p);
                     break;
@@ -113,29 +121,29 @@ namespace Client.MirScenes
             switch (p.Result)
             {
                 case 0:
-                    FguiBootstrap.ShowToast("登录暂时关闭");
+                    FguiBootstrap.ShowDialog("登录暂时关闭");
                     break;
                 case 1:
-                    FguiBootstrap.ShowToast("账号不合法");
+                    FguiBootstrap.ShowDialog("账号不合法");
                     break;
                 case 2:
-                    FguiBootstrap.ShowToast("密码不合法");
+                    FguiBootstrap.ShowDialog("密码不合法");
                     break;
                 case 3:
-                    FguiBootstrap.ShowToast("请输入账号");
+                    FguiBootstrap.ShowDialog("请输入账号");
                     break;
                 case 4:
-                    FguiBootstrap.ShowToast("账号或密码错误");
+                    FguiBootstrap.ShowDialog("账号或密码错误");
                     break;
                 case 5:
-                    FguiBootstrap.ShowToast("需要先修改密码");
+                    FguiBootstrap.ShowDialog("需要先修改密码");
                     break;
             }
         }
 
         private static void LoginBanned(S.LoginBanned p)
         {
-            FguiBootstrap.ShowToast("账号已封禁");
+            FguiBootstrap.ShowDialog("账号已封禁");
         }
 
         private static void LoginSuccess(S.LoginSuccess p)
@@ -144,6 +152,36 @@ namespace Client.MirScenes
             SoundManager.PlaySound(SoundList.LoginEffect);
             // 登录成功后直接显示选角界面（因为已经在登录前选择了服务器）
             FguiBootstrap.ShowCharacterSelect(p.Characters);
+        }
+
+        private static void NewCharacterFail(S.NewCharacter p)
+        {
+            switch (p.Result)
+            {
+                case 0:
+                    FguiBootstrap.ShowDialog("创建角色功能已关闭");
+                    break;
+                case 1:
+                    FguiBootstrap.ShowDialog("角色名字不合法");
+                    break;
+                case 4:
+                    FguiBootstrap.ShowDialog("角色数量已达上限");
+                    break;
+                case 5:
+                    FguiBootstrap.ShowDialog("该名字已被使用");
+                    break;
+                default:
+                    FguiBootstrap.ShowDialog("创建角色失败");
+                    break;
+            }
+        }
+
+        private static void NewCharacterSuccess(S.NewCharacterSuccess p)
+        {
+            FguiBootstrap.ShowDialog("角色创建成功！", () =>
+            {
+                FguiBootstrap.AddCharacterAndRefresh(p.CharInfo);
+            });
         }
 
         private static void StartGameDelay(S.StartGameDelay p)

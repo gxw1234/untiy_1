@@ -96,7 +96,6 @@ namespace Client
         public static string IPAddress = "127.0.0.1";
         public static int Port = 7000;
         public const int TimeOut = 5000;
-
         //Sound
         public static int SoundOverLap = 3;
         private static byte _volume = 100;

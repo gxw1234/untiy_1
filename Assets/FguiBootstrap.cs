@@ -1,7 +1,9 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using FairyGUI;
 using UnityEngine;
+using UnityEngine.Networking;
 using Net = Client.MirNetwork.Network;
 using C = ClientPackets;
 using Client.MirControls;
@@ -107,6 +109,7 @@ public sealed class FguiBootstrap : MonoBehaviour
             SetStageCameraBackgroundBlack();
 
             StartCoroutine(DelayedDuplicateFix());
+            StartCoroutine(FetchServerListCoroutine());
 
             for (int i = 0; i < DefaultPackagePaths.Length; i++)
             {
@@ -1811,29 +1814,50 @@ public sealed class FguiBootstrap : MonoBehaviour
     }
 
     /// <summary>
-    /// 加载服务器配置
+    /// 点击选服按钮时列表尚未就绪：重新拉取，成功后自动打开选服界面。
     /// </summary>
-    private static void LoadServerConfig()
+    private static IEnumerator FetchThenOpenEnlistCoroutine()
     {
-        try
+        yield return _instance.StartCoroutine(FetchServerListCoroutine());
+        if (_serverConfig != null)
+            ShowEnlistUI();
+        else
+            ShowToast("无法获取区服列表，请检查网络或联系管理员");
+    }
+
+    /// <summary>
+    /// 后台协程：从列表服务器拉取区服列表。
+    /// 拉取失败则保持 _serverConfig = null，打开选服界面时再提示用户。
+    /// </summary>
+    private static IEnumerator FetchServerListCoroutine()
+    {
+        // 从 cfg.ini [HotUpdate] BaseUrl 拼接，与热更新用同一个 HTTP 服务
+        string url = Settings.HotUpdateBaseUrl + "serverlist.json";
+        Debug.Log($"[FguiBootstrap] Fetching server list from: {url}");
+
+        using (UnityWebRequest req = UnityWebRequest.Get(url))
         {
-            // 尝试从 Resources 加载 JSON 配置
-            TextAsset jsonFile = Resources.Load<TextAsset>("ServerList");
-            if (jsonFile != null)
+            req.timeout = 5;
+            yield return req.SendWebRequest();
+
+            if (req.result == UnityWebRequest.Result.Success)
             {
-                _serverConfig = JsonUtility.FromJson<ServerConfig>(jsonFile.text);
-                Debug.Log($"[FguiBootstrap] Loaded server config: {_serverConfig.Regions.Count} regions");
+                try
+                {
+                    _serverConfig = JsonUtility.FromJson<ServerConfig>(req.downloadHandler.text);
+                    Debug.Log($"[FguiBootstrap] Server list fetched OK: {_serverConfig.Regions.Count} regions");
+                }
+                catch (Exception ex)
+                {
+                    Debug.LogWarning($"[FguiBootstrap] Server list parse error: {ex.Message}");
+                    _serverConfig = null;
+                }
             }
             else
             {
-                Debug.LogWarning("[FguiBootstrap] ServerList.json not found, using default config");
-                _serverConfig = ServerConfig.CreateDefault();
+                Debug.LogWarning($"[FguiBootstrap] Server list fetch failed: {req.error}");
+                _serverConfig = null;
             }
-        }
-        catch (Exception ex)
-        {
-            Debug.LogError($"[FguiBootstrap] Failed to load server config: {ex.Message}");
-            _serverConfig = ServerConfig.CreateDefault();
         }
     }
 
@@ -1846,10 +1870,12 @@ public sealed class FguiBootstrap : MonoBehaviour
         {
             Debug.Log("[FguiBootstrap] ShowEnlistUI called");
 
-            // 加载服务器配置（如果还没加载）
+            // 列表未就绪：现场重新拉取，拉到后自动打开
             if (_serverConfig == null)
             {
-                LoadServerConfig();
+                ShowToast("正在获取区服列表...");
+                _instance?.StartCoroutine(FetchThenOpenEnlistCoroutine());
+                return;
             }
 
             // 移除当前面板
@@ -2129,7 +2155,7 @@ public sealed class FguiBootstrap : MonoBehaviour
             ShowPanelCentered("Login", "logint_ui");
             BindLoginHandlers();
 
-            // 连接到服务器
+            // 连接地址由 cfg.ini 控制（IPAddress/Port），直接连
             if (!Net.Connected)
             {
                 Net.Connect();

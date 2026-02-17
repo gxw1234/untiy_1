@@ -15,7 +15,7 @@ namespace Client
     }
 
     /// <summary>
-    /// 服务器信息
+    /// 服务器信息（区服逻辑元数据，连接地址由 cfg.ini 控制）
     /// </summary>
     [Serializable]
     public class ServerInfo
@@ -92,33 +92,15 @@ namespace Client
         public List<RegionInfo> Regions = new List<RegionInfo>();
 
         /// <summary>
-        /// 创建默认配置
+        /// 创建默认配置（内置 fallback，仅当网络拉取失败时使用）
         /// </summary>
         public static ServerConfig CreateDefault()
         {
             var config = new ServerConfig();
 
-            // 华南区
-            var region1 = new RegionInfo(1, "华南区");
-            region1.Servers.Add(new ServerInfo(101, "电信一区", ServerStatus.Smooth, true, false));
-            region1.Servers.Add(new ServerInfo(102, "电信二区", ServerStatus.Busy, false, false));
-            region1.Servers.Add(new ServerInfo(103, "联通一区", ServerStatus.Smooth, false, false));
-            region1.Servers.Add(new ServerInfo(104, "双线一区", ServerStatus.Smooth, false, true));
+            var region1 = new RegionInfo(1, "测试区");
+            region1.Servers.Add(new ServerInfo(101, "本地测试服", ServerStatus.Smooth, true, false));
             config.Regions.Add(region1);
-
-            // 华北区
-            var region2 = new RegionInfo(2, "华北区");
-            region2.Servers.Add(new ServerInfo(201, "电信一区", ServerStatus.Smooth, false, false));
-            region2.Servers.Add(new ServerInfo(202, "电信二区", ServerStatus.Full, false, false));
-            region2.Servers.Add(new ServerInfo(203, "联通一区", ServerStatus.Busy, false, false));
-            config.Regions.Add(region2);
-
-            // 华东区
-            var region3 = new RegionInfo(3, "华东区");
-            region3.Servers.Add(new ServerInfo(301, "电信一区", ServerStatus.Smooth, false, false));
-            region3.Servers.Add(new ServerInfo(302, "联通一区", ServerStatus.Smooth, false, false));
-            region3.Servers.Add(new ServerInfo(303, "双线一区", ServerStatus.Maintenance, false, false));
-            config.Regions.Add(region3);
 
             return config;
         }

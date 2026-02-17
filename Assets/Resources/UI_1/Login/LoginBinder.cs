@@ -8,7 +8,9 @@ namespace Login
     {
         public static void BindAll()
         {
+            UIObjectFactory.SetPackageItemExtension(UI_Register_account.URL, typeof(UI_Register_account));
             UIObjectFactory.SetPackageItemExtension(UI_Create_characters.URL, typeof(UI_Create_characters));
+            UIObjectFactory.SetPackageItemExtension(UI_logint_ui.URL, typeof(UI_logint_ui));
             UIObjectFactory.SetPackageItemExtension(UI_Select__character_1.URL, typeof(UI_Select__character_1));
         }
     }

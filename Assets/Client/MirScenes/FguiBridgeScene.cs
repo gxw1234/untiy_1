@@ -31,6 +31,10 @@ namespace Client.MirScenes
                     Login((S.Login)p);
                     break;
 
+                case (short)ServerPacketIds.NewAccount:
+                    NewAccount((S.NewAccount)p);
+                    break;
+
                 case (short)ServerPacketIds.LoginBanned:
                     LoginBanned((S.LoginBanned)p);
                     break;
@@ -75,6 +79,32 @@ namespace Client.MirScenes
             {
                 Network.Disconnect();
                 return;
+            }
+        }
+
+        private static void NewAccount(S.NewAccount p)
+        {
+            switch (p.Result)
+            {
+                case 8:
+                    FguiBootstrap.ShowToast("注册成功！请登录");
+                    FguiBootstrap.ShowLoginUI();
+                    break;
+                case 7:
+                    FguiBootstrap.ShowToast("该账号已存在");
+                    break;
+                case 0:
+                    FguiBootstrap.ShowToast("注册功能已关闭");
+                    break;
+                case 1:
+                    FguiBootstrap.ShowToast("账号不合法");
+                    break;
+                case 2:
+                    FguiBootstrap.ShowToast("密码不合法");
+                    break;
+                default:
+                    FguiBootstrap.ShowToast("注册失败，请重试");
+                    break;
             }
         }
 

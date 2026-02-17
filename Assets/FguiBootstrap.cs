@@ -29,6 +29,10 @@ public sealed class FguiBootstrap : MonoBehaviour
     private static MirClass _newCharClass = MirClass.Warrior;
     private static MirGender _newCharGender = MirGender.Male;
 
+    // 服务器配置
+    private static ServerConfig _serverConfig;
+    private static ServerInfo _selectedServer;
+
     [SerializeField] private string packageName = "Login";
     [SerializeField] private string componentName = "logint_ui";
 
@@ -115,6 +119,17 @@ public sealed class FguiBootstrap : MonoBehaviour
                 {
                     Debug.LogWarning($"[FguiBootstrap] ✗ Failed to load package: {DefaultPackagePaths[i]}, error: {ex.Message}");
                 }
+            }
+
+            // 绑定 Login 包的自定义组件
+            try
+            {
+                Login.LoginBinder.BindAll();
+                Debug.Log("[FguiBootstrap] ✓ LoginBinder.BindAll() called");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarning($"[FguiBootstrap] ✗ Failed to bind Login components: {ex.Message}");
             }
 
             // 绑定 Select 包的自定义组件
@@ -1095,8 +1110,8 @@ public sealed class FguiBootstrap : MonoBehaviour
                 Settings.AccountID = account;
                 Settings.Password = password;
 
-                Net.Enqueue(new C.Login { AccountID = account, Password = password });
-                Debug.Log($"[FguiBootstrap] Login clicked. AccountID={account}");
+                Net.Enqueue(new C.Login { AccountID = account, Password = password, ServerID = _selectedServer?.ServerID ?? 0 });
+                Debug.Log($"[FguiBootstrap] Login clicked. AccountID={account}, ServerID={_selectedServer?.ServerID ?? 0}");
                 ShowToast("正在登录...");
             });
         }
@@ -1109,6 +1124,13 @@ public sealed class FguiBootstrap : MonoBehaviour
                 Debug.Log("[FguiBootstrap] Close button clicked");
                 Application.Quit();
             });
+        }
+
+        GObject registrationBtn = panel.GetChild("Registration");
+        if (registrationBtn != null)
+        {
+            registrationBtn.onClick.Clear();
+            registrationBtn.onClick.Add(() => ShowRegisterUI());
         }
 
         Debug.Log($"[FguiBootstrap] Login handlers bound. idInput={idInput!=null}, pwdInput={pwdInput!=null}, loginBtn={loginBtn!=null}, closeBtn={closeBtn!=null}");
@@ -1624,7 +1646,8 @@ public sealed class FguiBootstrap : MonoBehaviour
             {
                 Name = characterName,
                 Class = _newCharClass,
-                Gender = _newCharGender
+                Gender = _newCharGender,
+                ServerID = _selectedServer?.ServerID ?? 0
             });
 
             ShowToast($"正在创建角色: {characterName}");
@@ -1757,6 +1780,12 @@ public sealed class FguiBootstrap : MonoBehaviour
 
             Debug.Log($"[FguiBootstrap] Prefecture UI created, size: {prefecture.width}x{prefecture.height}, scaled: {scale}x");
 
+            // 如果已选服务器，在按钮上显示服务器名
+            if (_selectedServer != null)
+            {
+                prefecture.m_Electoral_district.title = _selectedServer.ServerName;
+            }
+
             // 绑定按钮事件
             prefecture.m_Electoral_district.onClick.Clear();
             prefecture.m_Electoral_district.onClick.Add(() =>
@@ -1782,6 +1811,33 @@ public sealed class FguiBootstrap : MonoBehaviour
     }
 
     /// <summary>
+    /// 加载服务器配置
+    /// </summary>
+    private static void LoadServerConfig()
+    {
+        try
+        {
+            // 尝试从 Resources 加载 JSON 配置
+            TextAsset jsonFile = Resources.Load<TextAsset>("ServerList");
+            if (jsonFile != null)
+            {
+                _serverConfig = JsonUtility.FromJson<ServerConfig>(jsonFile.text);
+                Debug.Log($"[FguiBootstrap] Loaded server config: {_serverConfig.Regions.Count} regions");
+            }
+            else
+            {
+                Debug.LogWarning("[FguiBootstrap] ServerList.json not found, using default config");
+                _serverConfig = ServerConfig.CreateDefault();
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to load server config: {ex.Message}");
+            _serverConfig = ServerConfig.CreateDefault();
+        }
+    }
+
+    /// <summary>
     /// 显示选服界面（点击 Electoral_district 后调用）
     /// </summary>
     private static void ShowEnlistUI()
@@ -1789,6 +1845,12 @@ public sealed class FguiBootstrap : MonoBehaviour
         try
         {
             Debug.Log("[FguiBootstrap] ShowEnlistUI called");
+
+            // 加载服务器配置（如果还没加载）
+            if (_serverConfig == null)
+            {
+                LoadServerConfig();
+            }
 
             // 移除当前面板
             _currentPanel?.RemoveFromParent();
@@ -1837,55 +1899,205 @@ public sealed class FguiBootstrap : MonoBehaviour
     {
         try
         {
+            if (_serverConfig == null || _serverConfig.Regions.Count == 0)
+            {
+                Debug.LogError("[FguiBootstrap] Server config is empty");
+                ShowToast("服务器配置加载失败");
+                return;
+            }
+
+            // 默认选择第一个大区
+            int selectedRegionIndex = 0;
+
             // 填充大区列表
             if (enlist.m_Region != null)
             {
                 enlist.m_Region.RemoveChildrenToPool();
-                for (int i = 0; i < 3; i++)
+
+                for (int i = 0; i < _serverConfig.Regions.Count; i++)
                 {
+                    RegionInfo region = _serverConfig.Regions[i];
                     GButton regionItem = enlist.m_Region.AddItemFromPool()?.asButton;
                     if (regionItem != null)
                     {
-                        regionItem.title = $"大区 {i + 1}";
+                        regionItem.title = region.RegionName;
                         int regionIndex = i;
                         regionItem.onClick.Clear();
                         regionItem.onClick.Add(() =>
                         {
-                            Debug.Log($"[FguiBootstrap] Region {regionIndex + 1} selected");
+                            Debug.Log($"[FguiBootstrap] Region selected: {region.RegionName}");
+                            selectedRegionIndex = regionIndex;
+                            // 刷新服务器列表
+                            RefreshServerList(enlist, regionIndex);
                         });
                     }
                 }
-                Debug.Log($"[FguiBootstrap] Region list populated with 3 items");
+                Debug.Log($"[FguiBootstrap] Region list populated with {_serverConfig.Regions.Count} items");
             }
 
-            // 填充服务器列表
-            if (enlist.m_Neighborhood != null)
-            {
-                enlist.m_Neighborhood.RemoveChildrenToPool();
-                for (int i = 0; i < 5; i++)
-                {
-                    GButton serverItem = enlist.m_Neighborhood.AddItemFromPool()?.asButton;
-                    if (serverItem != null)
-                    {
-                        serverItem.title = $"服务器 {i + 1}";
-                        int serverIndex = i;
-                        serverItem.onClick.Clear();
-                        serverItem.onClick.Add(() =>
-                        {
-                            Debug.Log($"[FguiBootstrap] Server {serverIndex + 1} selected");
-                            ShowToast($"已选择服务器 {serverIndex + 1}");
-                            // 选择服务器后显示登录界面
-                            ShowLoginUI();
-                        });
-                    }
-                }
-                Debug.Log($"[FguiBootstrap] Neighborhood list populated with 5 items");
-            }
+            // 初始显示第一个大区的服务器列表
+            RefreshServerList(enlist, selectedRegionIndex);
         }
         catch (Exception ex)
         {
             Debug.LogError($"[FguiBootstrap] Failed to bind Enlist handlers: {ex.Message}\n{ex.StackTrace}");
         }
+    }
+
+    /// <summary>
+    /// 刷新服务器列表
+    /// </summary>
+    private static void RefreshServerList(Select.UI_Enlist enlist, int regionIndex)
+    {
+        try
+        {
+            if (enlist.m_Neighborhood == null) return;
+
+            enlist.m_Neighborhood.RemoveChildrenToPool();
+
+            if (regionIndex < 0 || regionIndex >= _serverConfig.Regions.Count)
+            {
+                Debug.LogError($"[FguiBootstrap] Invalid region index: {regionIndex}");
+                return;
+            }
+
+            RegionInfo region = _serverConfig.Regions[regionIndex];
+            Debug.Log($"[FguiBootstrap] Refreshing server list for region: {region.RegionName}");
+
+            for (int i = 0; i < region.Servers.Count; i++)
+            {
+                ServerInfo server = region.Servers[i];
+                GButton serverItem = enlist.m_Neighborhood.AddItemFromPool()?.asButton;
+                if (serverItem != null)
+                {
+                    // 设置服务器显示名称（带状态）
+                    string displayName = $"{server.GetDisplayName()} [{server.GetStatusText()}]";
+                    serverItem.title = displayName;
+
+                    // 根据状态设置颜色
+                    // serverItem.GetChild("title")?.asTextField?.color = GetStatusColor(server.Status);
+
+                    serverItem.onClick.Clear();
+                    serverItem.onClick.Add(() =>
+                    {
+                        // 维护中的服务器不能选择
+                        if (server.Status == ServerStatus.Maintenance)
+                        {
+                            ShowToast("该服务器维护中，请选择其他服务器");
+                            return;
+                        }
+
+                        // 爆满的服务器提示
+                        if (server.Status == ServerStatus.Full)
+                        {
+                            ShowToast("该服务器人数已满，可能无法进入");
+                        }
+
+                        _selectedServer = server;
+                        Debug.Log($"[FguiBootstrap] Server selected: {server.ServerName} (ID={server.ServerID})");
+
+                        // 选择服务器后回到选区界面，按钮上显示已选服务器名
+                        ShowPrefectureUI();
+                    });
+                }
+            }
+
+            Debug.Log($"[FguiBootstrap] Server list populated with {region.Servers.Count} servers");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to refresh server list: {ex.Message}\n{ex.StackTrace}");
+        }
+    }
+
+    /// <summary>
+    /// 显示注册界面
+    /// </summary>
+    public static void ShowRegisterUI()
+    {
+        try
+        {
+            _currentPanel?.RemoveFromParent();
+            _currentPanel?.Dispose();
+            _currentPanel = null;
+
+            if (_background != null)
+                _background.visible = true;
+
+            GObject obj = UIPackage.CreateObjectFromURL(Login.UI_Register_account.URL);
+            if (obj == null)
+            {
+                Debug.LogError("[FguiBootstrap] Failed to create Register_account UI");
+                ShowToast("注册界面加载失败");
+                return;
+            }
+
+            Login.UI_Register_account register = obj as Login.UI_Register_account;
+            if (register == null)
+            {
+                Debug.LogError($"[FguiBootstrap] Register_account cast failed, type: {obj.GetType().Name}");
+                obj.Dispose();
+                ShowToast("注册界面加载失败");
+                return;
+            }
+
+            _currentPanel = register;
+            GRoot.inst.AddChild(_currentPanel);
+            _currentPanelScaleMultiplier = 0.35f;
+            FitToScreenWithScale(register, _currentPanelScaleMultiplier);
+
+            BindRegisterHandlers(register);
+            Debug.Log("[FguiBootstrap] Register UI shown");
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[FguiBootstrap] Failed to show Register UI: {ex.Message}\n{ex.StackTrace}");
+            ShowToast("注册界面显示失败");
+        }
+    }
+
+    private static void BindRegisterHandlers(Login.UI_Register_account register)
+    {
+        register.m_return_Button.onClick.Clear();
+        register.m_return_Button.onClick.Add(() => ShowLoginUI());
+
+        register.m_Register_Button.onClick.Clear();
+        register.m_Register_Button.onClick.Add(() =>
+        {
+            string account = register.m_Account?.text ?? string.Empty;
+            string password = register.m_Password?.text ?? string.Empty;
+            string confirm = register.m_Password_1?.text ?? string.Empty;
+
+            if (string.IsNullOrEmpty(account))
+            {
+                ShowToast("请输入账号");
+                return;
+            }
+            if (string.IsNullOrEmpty(password))
+            {
+                ShowToast("请输入密码");
+                return;
+            }
+            if (password != confirm)
+            {
+                ShowToast("两次密码输入不一致");
+                return;
+            }
+
+            Net.Enqueue(new C.NewAccount
+            {
+                AccountID = account,
+                Password = password,
+                UserName = account,
+                BirthDate = new DateTime(1990, 1, 1),
+                SecretQuestion = string.Empty,
+                SecretAnswer = string.Empty,
+                EMailAddress = string.Empty
+            });
+
+            ShowToast("正在注册...");
+            Debug.Log($"[FguiBootstrap] Register clicked. AccountID={account}");
+        });
     }
 
     /// <summary>
@@ -1895,7 +2107,14 @@ public sealed class FguiBootstrap : MonoBehaviour
     {
         try
         {
-            Debug.Log("[FguiBootstrap] ShowLoginUI called");
+            if (_selectedServer != null)
+            {
+                Debug.Log($"[FguiBootstrap] ShowLoginUI called, selected server: {_selectedServer.ServerName} (ID={_selectedServer.ServerID})");
+            }
+            else
+            {
+                Debug.Log("[FguiBootstrap] ShowLoginUI called, no server selected (Enter_the_game clicked)");
+            }
 
             // 移除当前面板
             _currentPanel?.RemoveFromParent();

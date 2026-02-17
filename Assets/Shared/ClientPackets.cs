@@ -122,16 +122,19 @@ namespace ClientPackets
 
         public string AccountID = string.Empty;
         public string Password = string.Empty;
+        public int ServerID;
 
         protected override void ReadPacket(BinaryReader reader)
         {
             AccountID = reader.ReadString();
             Password = reader.ReadString();
+            ServerID = reader.ReadInt32();
         }
         protected override void WritePacket(BinaryWriter writer)
         {
             writer.Write(AccountID);
             writer.Write(Password);
+            writer.Write(ServerID);
         }
     }
     public sealed class NewCharacter : Packet
@@ -141,17 +144,20 @@ namespace ClientPackets
         public string Name = string.Empty;
         public MirGender Gender;
         public MirClass Class;
+        public int ServerID;
         protected override void ReadPacket(BinaryReader reader)
         {
             Name = reader.ReadString();
             Gender = (MirGender)reader.ReadByte();
             Class = (MirClass)reader.ReadByte();
+            ServerID = reader.ReadInt32();
         }
         protected override void WritePacket(BinaryWriter writer)
         {
             writer.Write(Name);
             writer.Write((byte)Gender);
             writer.Write((byte)Class);
+            writer.Write(ServerID);
         }
     }
     public sealed class DeleteCharacter : Packet

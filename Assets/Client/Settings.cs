@@ -149,6 +149,8 @@ namespace Client
         //Game
         public static string AccountID = "",
                              Password = "";
+        public static int LastServerID = 0;
+        public static string LastServerName = "";
 
         public static bool
             SkillMode = false,
@@ -319,6 +321,8 @@ namespace Client
             //Game
             AccountID = Reader.ReadString("Game", "AccountID", AccountID);
             Password = Reader.ReadString("Game", "Password", Password);
+            LastServerID = Reader.ReadInt32("Game", "LastServerID", LastServerID);
+            LastServerName = Reader.ReadString("Game", "LastServerName", LastServerName);
 
             SkillMode = Reader.ReadBoolean("Game", "SkillMode", SkillMode);
             SkillBar = Reader.ReadBoolean("Game", "SkillBar", SkillBar);
@@ -416,6 +420,8 @@ namespace Client
             //Game
             Reader.Write("Game", "AccountID", AccountID);
             Reader.Write("Game", "Password", Password);
+            Reader.Write("Game", "LastServerID", LastServerID);
+            Reader.Write("Game", "LastServerName", LastServerName);
             Reader.Write("Game", "SkillMode", SkillMode);
             Reader.Write("Game", "SkillBar", SkillBar);
             //Reader.Write("Game", "SkillSet", SkillSet);

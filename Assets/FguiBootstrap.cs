@@ -1151,6 +1151,21 @@ public sealed class FguiBootstrap : MonoBehaviour
         if (loginBtn == null) loginBtn = panel.GetChild("n2");
         if (closeBtn == null) closeBtn = panel.GetChild("n3");
 
+        // 自动填充上次的账号和密码
+        if (idInput != null && !string.IsNullOrEmpty(Settings.AccountID))
+            idInput.text = Settings.AccountID;
+        if (pwdInput != null && !string.IsNullOrEmpty(Settings.Password))
+            pwdInput.text = Settings.Password;
+
+        // 自动恢复上次选择的区服（服务器列表已加载时才能匹配）
+        if (_selectedServer == null && Settings.LastServerID > 0 && _serverConfig != null)
+        {
+            foreach (var region in _serverConfig.Regions)
+                foreach (var srv in region.Servers)
+                    if (srv.ServerID == Settings.LastServerID)
+                    { _selectedServer = srv; break; }
+        }
+
         if (loginBtn != null)
         {
             loginBtn.onClick.Clear();
@@ -1171,9 +1186,10 @@ public sealed class FguiBootstrap : MonoBehaviour
                     return;
                 }
 
-                // Persist to Settings
+                // 持久化账号密码
                 Settings.AccountID = account;
                 Settings.Password = password;
+                Settings.Save();
 
                 Net.Enqueue(new C.Login { AccountID = account, Password = password, ServerID = _selectedServer?.ServerID ?? 0 });
                 Debug.Log($"[FguiBootstrap] Login clicked. AccountID={account}, ServerID={_selectedServer?.ServerID ?? 0}");
@@ -1201,9 +1217,11 @@ public sealed class FguiBootstrap : MonoBehaviour
         GObject electoralBtn = panel.GetChild("Electoral_district");
         if (electoralBtn != null)
         {
-            // 如果已选过区服，把名字显示在按钮上
+            // 显示上次选择的区服名（优先用当前已选，其次用保存的记录）
             if (_selectedServer != null)
                 electoralBtn.text = _selectedServer.ServerName;
+            else if (!string.IsNullOrEmpty(Settings.LastServerName))
+                electoralBtn.text = Settings.LastServerName;
 
             electoralBtn.onClick.Clear();
             electoralBtn.onClick.Add(() => ShowEnlistUI());
@@ -2093,6 +2111,9 @@ public sealed class FguiBootstrap : MonoBehaviour
                         }
 
                         _selectedServer = server;
+                        Settings.LastServerID = server.ServerID;
+                        Settings.LastServerName = server.ServerName;
+                        Settings.Save();
                         Debug.Log($"[FguiBootstrap] Server selected: {server.ServerName} (ID={server.ServerID})");
 
                         // 选择服务器后回到登录界面

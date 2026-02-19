@@ -25,7 +25,8 @@ namespace Client
 
         // 主要 UI 组件
         private GComponent _mainUI;           // 主界面（血条、技能栏等）
-        private GComponent _inventoryUI;      // 背包
+        private GComponent _inventoryUI;      // 背包（老 UI 备用）
+        private home.UI_Component1 _bagUI;    // 新 FairyGUI 背包
         private GComponent _characterUI;      // 角色属性
         private GComponent _skillUI;          // 技能
         private GComponent _chatUI;           // 聊天
@@ -287,30 +288,75 @@ namespace Client
         }
 
         /// <summary>
-        /// 切换背包显示
+        /// 切换背包显示（使用新 FairyGUI home.Component1）
         /// </summary>
         public void ToggleInventory()
         {
-            if (_inventoryUI == null)
+            if (_bagUI == null)
             {
-                _inventoryUI = UIPackage.CreateObject(UI_PACKAGE, "背包_DBagUI")?.asCom;
-                if (_inventoryUI != null)
-                {
-                    GRoot.inst.AddChild(_inventoryUI);
-                    CenterComponent(_inventoryUI);
-                    MakeDraggable(_inventoryUI);
-                    BindCloseButton(_inventoryUI);
-                    BindInventoryEvents();
-                    RefreshInventoryItems();
-                    Debug.Log("[FguiGameUI] Created inventory UI: 背包_DBagUI");
-                }
+                _bagUI = UIPackage.CreateObjectFromURL(home.UI_Component1.URL) as home.UI_Component1;
+                if (_bagUI == null) { Debug.LogError("[FguiGameUI] Failed to create bag UI"); return; }
+
+                GRoot.inst.AddChild(_bagUI);
+                _bagUI.SetXY(100, 50);
+
+                // 关闭按钮
+                _bagUI.m_close.onClick.Add(() => _bagUI.visible = false);
+
+                // 格子渲染：8列 × 5行 = 40格
+                _bagUI.m_item_list.columnCount = 8;
+                _bagUI.m_item_list.itemRenderer = RenderInventorySlot;
+                _bagUI.m_item_list.numItems = 40;
+
+                Debug.Log("[FguiGameUI] Created new bag UI (Component1)");
             }
             else
             {
-                _inventoryUI.visible = !_inventoryUI.visible;
-                if (_inventoryUI.visible)
-                    RefreshInventoryItems();
+                _bagUI.visible = !_bagUI.visible;
             }
+
+            if (_bagUI.visible)
+                RefreshBagItems();
+        }
+
+        private void RenderInventorySlot(int index, GObject item)
+        {
+            var slot = item as GComponent;
+            if (slot == null) return;
+
+            var loader = slot.GetChild("n0") as GLoader;
+            if (loader == null) return;
+
+            var user = MapObject.User;
+            var inv = user?.Inventory;
+            // 背包格从 BeltIdx 开始，跳过腰带格
+            int realIndex = (user?.BeltIdx ?? 6) + index;
+
+            if (inv == null || realIndex >= inv.Length || inv[realIndex] == null || inv[realIndex].Info == null)
+            {
+                loader.texture = null;
+                loader.visible = false;
+                return;
+            }
+
+            var texture = Libraries.Items.GetTexture(inv[realIndex].Image);
+            if (texture != null)
+            {
+                loader.texture = new NTexture(texture);
+                loader.visible = true;
+            }
+            else
+            {
+                loader.texture = null;
+                loader.visible = false;
+            }
+        }
+
+        public void RefreshBagItems()
+        {
+            if (_bagUI == null) return;
+            _bagUI.m_item_list.numItems = 0;
+            _bagUI.m_item_list.numItems = 40;
         }
 
         /// <summary>

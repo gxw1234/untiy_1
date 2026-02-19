@@ -72,6 +72,8 @@ public sealed class FguiBootstrap : MonoBehaviour
         "UI_1/common",   // 新的公共资源包
         "UI_1/ui_2",     // 新的登录包（实际名称是 Login）
         "UI_1/Select",   // 选服包（包含 Prefecture 和 Enlist）
+        "UI_1/NPC",      // NPC 对话框
+        "UI_1/home",     // 背包、游戏内 UI
     };
 
     private static readonly string[] DefaultPackageNames =
@@ -154,6 +156,26 @@ public sealed class FguiBootstrap : MonoBehaviour
             catch (Exception ex)
             {
                 Debug.LogWarning($"[FguiBootstrap] ✗ Failed to bind Common components: {ex.Message}");
+            }
+
+            try
+            {
+                NPC.NPCBinder.BindAll();
+                Debug.Log("[FguiBootstrap] ✓ NPCBinder.BindAll() called");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarning($"[FguiBootstrap] ✗ Failed to bind NPC components: {ex.Message}");
+            }
+
+            try
+            {
+                home.homeBinder.BindAll();
+                Debug.Log("[FguiBootstrap] ✓ homeBinder.BindAll() called");
+            }
+            catch (Exception ex)
+            {
+                Debug.LogWarning($"[FguiBootstrap] ✗ Failed to bind home components: {ex.Message}");
             }
 
             // UI_1 only - no legacy UI packages needed
